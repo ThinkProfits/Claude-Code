@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "git pull --rebase --autostash --quiet || echo \"git pull failed. Check for conflicts before editing (run: git status).\""
+          }
+        ]
+      }
+    ]
+  }
+}

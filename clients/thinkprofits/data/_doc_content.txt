@@ -1,0 +1,1868 @@
+﻿# **Ã°ÂŸÂ“Â Notes**  
+
+ Aug 25, 2026
+
+## **Weekly Team Check-in**
+
+Invited [Shawn Moore](mailto:shawn@thinkprofits.com) [Francis Uy](mailto:francis@thinkprofits.com) [Andrew Silbernagel](mailto:andrew@thinkprofits.com)
+
+Attachments [Weekly Team Check-in](https://calendar.google.com/calendar/event?eid=N2Q5M2VmdWlyZXNjczUxbHU2ZW8zcHR2dDFfMjAyNjA4MjVUMTYwMDAwWiBhbmRyZXdAdGhpbmtwcm9maXRzLmNvbQ)
+
+Meeting records [Transcript](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?usp=drive_web&tab=t.9rzhrfl0vojw) 
+
+  
+  
+
+### **Summary**
+
+The team reviewed client strategy and analytics before initiating a technical website migration to improve search performance.  
+  
+**Client and Business Strategy**  
+Current pay-per-click and artificial experience optimization opportunities remain under review while addressing lead generation deficits. The team prioritized website optimization to restore business visibility and address declining click metrics.  
+  
+**Initial Website Migration Planning**  
+The team decided to migrate the artificial intelligence savvy site first to establish a less complex framework. Migration audits identified 3 technical bugs and missing content that impacted search performance.  
+  
+**Migration Execution and DNS**  
+Site rendering was verified by disabling JavaScript, ensuring critical content remains accessible to search bots. Domain name system records were updated to point the domain toward the new hosting environment.
+
+  
+  
+
+### **Decisions**
+
+## **Aligned**
+
+  - **AI Savvy site migration prioritized** The team established a risk mitigation strategy to migrate the lower-stakes AI Savvy website first to test the process before proceeding with the main Think Profits site.
+  - **Lost website content restoration strategy** The team will restore search traffic by identifying and re-publishing lost blog posts and testimonials on their original URLs, utilizing AI to rewrite content where necessary.
+  - **Site migration sequence established** The team decided to verify and publish the new site before disconnecting the legacy system to prevent potential downtime.
+  - **Automated project monitoring enabled** The team decided to enable automated project monitoring to ensure they are notified if the system breaks.
+  - **Project deployment sequence deferred** The team decided to postpone the Think Profits project migration until the current site deployment is successfully verified.
+
+  
+
+We've **updated the Decisions section** using your feedback.
+
+Let us know what you think: [Helpful](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?isHelpful=True&entryPoint=decisions&confid=9aBLoo_c39JR5EvEBHWNDxIUOAIIigIgABgDCA&isGoogler=False) or [Not Helpful](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?isHelpful=False&entryPoint=decisions&confid=9aBLoo_c39JR5EvEBHWNDxIUOAIIigIgABgDCA&isGoogler=False)
+
+  
+  
+
+### **Next steps**
+
+  - \[Andrew\] Follow up with paper click client: Contact the potential client to confirm their interest in starting services and verify the project launch timeline.
+  - \[Andrew\] Follow up with John Sadler: Reach out to John Sadler regarding AEO services and repair options to move forward with a decision.
+  - \[Andrew, Francis\] Migrate AI Savvy: Perform the site migration for AI Savvy following the established migration process.
+  - \[Andrew, Francis\] Migrate Think Profits: Execute the migration of the Think Profits site after ensuring the AI Savvy migration is successful.
+  - \[Shawn\] Follow up with Luke: Continue following up with Luke the electrician regarding his services until a final status or rejection is received.
+  - \[Andrew\] Email Dr. Yanz: Send an email to Dr. Yanz regarding outstanding payments that are 3 months overdue.
+  - \[Andrew, Francis\] Audit site and analytics: Perform a deep dive audit on the website and analytics data to identify the cause of the decline in lead generation.
+  - \[Francis\] Submit invoice: Submit the weekly invoice by the 25th to ensure timely processing and payment.
+  - \[Andrew\] Analyze blog data: Export blog and analytics data from the last 16 months and utilize Claude to analyze keyword performance and trends.
+  - \[Francis Uy\] Restore Missing Content: Identify and restore missing testimonials and blog content from the old site that resulted in dropped impressions and clicks.
+  - \[The group\] Verify Site Status: Review the site tomorrow to verify that the DNS changes are functioning correctly and that the site is fully operational.
+
+  
+  
+
+### **Details**
+
+*Did the screenshots in this section make your notes* [*better*](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?entryPoint=multimodal&isGoogler=False&isBetter=True&confid=9aBLoo_c39JR5EvEBHWNDxIUOAIIigIgABgDCA) *or* [*worse*](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?entryPoint=multimodal&isGoogler=False&isBetter=False&confid=9aBLoo_c39JR5EvEBHWNDxIUOAIIigIgABgDCA)*?*
+
+  - **Opening and Personal Updates**: Shawn Moore and Andrew Silbernagel began the meeting by checking in on each other, with Andrew Silbernagel discussing the ongoing wildfire smoke that has impacted their area for weeks ([00:02:04](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.8fp37ny1djb9)). Shawn Moore mentioned experiencing unusual weather patterns where they are located, noting significant temperature swings from 14Â° to 30Â° within a few days ([00:03:05](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.1eju5yrmck5t)).
+  - **Client Updates â€“ PPC and New Opportunities**: Andrew Silbernagel reported on a potential new pay-per-click client who has a one-page site and is currently building out more pages before a planned launch; Andrew intends to follow up with them regarding the September 15th timeline ([00:04:20](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.y2ihorbq3f6v)). Andrew also discussed a meeting with John Sadler regarding Artificial Experience Optimization (AEO), noting that while the client is interested, they have not reached a final decision, so Andrew will schedule a follow-up for later in September ([00:05:22](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.ujr60yspccdn)).
+  - **Client Updates â€“ Vision and Ongoing Work**: Andrew Silbernagel provided an update on the Vision account, explaining that they are finishing current work before introducing an upsell for AEO to avoid appearing pushy ([00:06:30](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.k3ayyfqu0rq0)). Andrew mentioned they would include a check-in about AEO when they present the revised page regarding wildfire smoke ([00:07:46](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.c2p460gx1w3m)).
+  - **Website Migration Planning**: Andrew Silbernagel and Francis Uy discussed the strategy for migrating their website to a new framework, agreeing to start with the AI Savvy site due to its lower complexity before tackling the Think Profits site. They planned to coordinate a time block after the meeting to perform the migration together ([00:07:46](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.c2p460gx1w3m)).
+  - **Lead Generation Concerns**: Shawn Moore emphasized that the lack of inbound leads over the past month is a primary concern and constitutes the team's top priority ([00:09:33](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.5jnydjefec8g)). Shawn stressed that the website must be made productive again to ensure the company is positioned correctly for business in September ([00:13:20](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.nzekdsnso31c)).
+  - **Account Management and Payments**: Shawn Moore requested an update on Dr. Yanz regarding overdue payments, as they are three months behind schedule. Andrew Silbernagel clarified that they have been in contact with a staff member named Stephanie regarding social media updates but have not heard directly from Dr. Yanz ([00:14:32](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.v6sg2bf6fvtz)).
+  - **Internal AI Tool Usage**: The team discussed their current use of artificial intelligence, with Shawn Moore using it for year-end accounting and marketing budgets, while Andrew Silbernagel and Francis Uy are utilizing it for site edits, ad strategies, and task management ([00:14:32](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.v6sg2bf6fvtz)). Francis Uy specifically noted that they are using Claude to organize tasks and emails buried in Slack ([00:16:12](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.at6813v8n25w)).
+  - **Website Analytics and Data Review**: Andrew Silbernagel reviewed performance data, highlighting a significant year-over-year drop in clicks, though some specific SEO keywords were showing improvement ([00:20:21](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.oh8mfagnbts3)). They discussed the possibility that past signals from their Google Business Profile might have negatively impacted their search ranking ([00:28:09](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.63fg832w9jbz)).
+
+  - **Industry Trends and AI in Search**: The team discussed the evolving landscape of AI in search, including ChatGPT's recent entry into pay-per-click advertising and Google's use of AI to filter ads. They expressed disappointment with the monetization strategies currently being adopted by these platforms ([00:24:49](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.se05d0v2gxac)).
+
+  - **Meeting Wrap-Up and Directives**: Shawn Moore concluded the formal meeting by reiterating that fixing the website is the most critical task for the company and encouraged Andrew Silbernagel and Francis Uy to prioritize this in their schedules ([00:30:59](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.d6r9cirff2df)) ([00:34:30](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.8lfgj3kcvsof)). Shawn also reminded Francis Uy to submit their invoice on time for the 25th of the month ([00:33:27](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.5ux62cvfpndo)).
+  - **Technical Website Migration Execution**: Following the formal meeting, Andrew Silbernagel and Francis Uy initiated the migration of the AI Savvy site using the Lovable platform ([00:36:01](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.4jsb99kucka5)) ([00:41:18](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.5k529wuae53u)). They confirmed that the migration would not go live until they manually hit publish and discussed methods for testing, such as using preview URLs and browser developer tools to disable JavaScript ([00:36:01](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.4jsb99kucka5)) ([00:44:14](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.e5qbysancqzd)).
+
+  - **Migration Progress and Technical Audits**: Andrew Silbernagel and Francis Uy observed that the migration process for AI Savvy was underway and would take between 10 to 35 credits ([00:46:11](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.vjc1ao5q0xnq)). They utilized the platform's migration tool, which automatically performed a technical review and fixed three bugs, specifically addressing two invalid nested link cards and a broken FAQ schema ([00:57:07](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.d8uv185ybva2)).
+
+  - **Blog and Content Performance Analysis**: Andrew Silbernagel and Francis Uy reviewed past blog performance, identifying a drop in impressions since mid-August that correlated with changes made to their bot-generated content ([00:48:20](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.5pt1u23kf5wv)). They discovered that several blog pages and testimonials had failed to migrate correctly from the old site, which contributed to the loss of traction ([00:52:41](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.kpk9bb94jdu4)) ([00:55:52](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.a2s3yxcmogwy)).
+
+  - **Restoring Migrated Content**: Andrew Silbernagel proposed recovering the missing blog content and testimonials by reviewing data from the old site hosted on Kinsta. They agreed to either republish the original content or rewrite it using Claude to ensure the relevant URLs are restored and optimized to regain lost impressions ([00:52:41](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.kpk9bb94jdu4)).
+  - **Website Preview and JavaScript Testing**: Andrew Silbernagel and Francis Uy verify the site preview and test its functionality by disabling JavaScript in the browser's developer tools to see how the site renders for bots ([00:58:19](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.ozp7ei6gq09)). They identify that initial animations were hiding content, leading to a fix that implements a no-JavaScript fallback for animations, ensuring that critical content remains visible even when JavaScript is disabled ([01:05:01](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.byyrh0eccwe2)). Andrew Silbernagel and Francis Uy confirm that while interactive tools like the ROI calculator still require JavaScript, the overall site structure remains accessible ([01:08:45](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.d42zl5ti9o53)).
+
+  - **SEO Optimization Audit**: Andrew Silbernagel leads an audit of the site to ensure compatibility with search bots, verifying that header dropdowns, mobile menus, and FAQ accordions now rely on CSS rather than JavaScript ([01:14:56](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.1suimp7gw6ly)). They confirm that the site architecture correctly utilizes server-side rendering for critical elements, including navigational links and structured web data ([01:17:26](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.j0c99qno41tp)). They perform a final check of buttons and site links, noting that the overall rendering is functioning as intended and that all external and internal links are operational ([01:22:05](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.bc90hne9dtlh)).
+  - **Publishing Strategy**: Andrew Silbernagel and Francis Uy agree to publish the site while maintaining the existing "incited" integration to ensure continuity. They decide to keep the current setup active during the transition to avoid potential downtime, noting that the live site will pre-render through the existing service until the new configuration is fully verified ([01:11:24](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.s898gkppooce)) ([01:24:41](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.eslh0ufjsriq)).
+
+  - **Project Monitoring and Redirect Configuration**: Andrew Silbernagel enables project monitoring to receive automatic notifications regarding site stability. They identify a need to address missing redirects for Lovable URLs and plan to rectify these configuration issues, noting that redirecting these URLs is necessary for a seamless user experience ([01:27:26](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.nkqy1puqlbgp)).
+
+  - **Domain and DNS Management**: Andrew Silbernagel and Francis Uy connect the AIVY.io domain to the new hosting environment, which requires accessing the GoDaddy account ([01:31:41](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.en517o1bskdo)) ([01:36:42](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.56x01abgh70i)). Andrew Silbernagel describes the challenges of managing various client accounts within the GoDaddy and Elepass interfaces, emphasizing the difficulty in identifying specific client assets ([01:34:09](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.8y6oj11uu1th)). They successfully update the DNS records by replacing the A records, though they note that future changes may require two-factor authentication ([01:36:42](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.56x01abgh70i)).
+
+  - **Future Planning and Next Steps**: The team decides to wait for the DNS propagation to complete before attempting to modify the Think Profits domain to avoid any unnecessary risks or downtime ([01:41:17](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.1jgrs2lxy26b)). Francis Uy is tasked with potentially restoring lost blog and testimonial content from Kinsta backups if they have time during the day, otherwise, they will prioritize client work ([01:43:11](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.b4od7mg51970)). The team plans to reconvene to review the site's status the following day ([01:42:09](https://docs.google.com/document/d/1bvz-8DakQq0McvRHyqaBeQNw8KaDgymvr6aPoaxw2vE/edit?ouid=101430256332128390110#heading=h.i4gzwjg23z92)).
+
+  
+  
+
+*You should review Gemini's notes to make sure they're accurate.* [*Get tips and learn how Gemini takes notes*](https://support.google.com/meet/answer/14754931)
+
+*How is the quality of* ***these specific notes?*** [*Take a short survey*](https://google.qualtrics.com/jfe/form/SV_5bXzKQfylMIhSXc?confid=9aBLoo_c39JR5EvEBHWNDxIUOAIIigIgABgDCA&detailLevel=standard&hasImages=True&entryPoint=footerMain&isGoogler=False) *to let us know your feedback, including how helpful the notes were for your needs.****  
+***
+
+# **Ã°ÂŸÂ“Â– Transcript***  
+*
+
+ Aug 25, 2026
+
+## **Weekly Team Check-in - Transcript**
+
+### **00:02:04**
+
+  
+
+**Shawn Moore:** Morning, guys.
+
+**Andrew Silbernagel:** Morning, Shawn.
+
+**Shawn Moore:** How's it going?
+
+**Andrew Silbernagel:** Good. How are
+
+**Shawn Moore:** Not bad.
+
+**Andrew Silbernagel:** you?
+
+**Shawn Moore:** I finally managed to get my uh connection to my cell phone here. So, hopefully that makes this meeting a little easier than the last
+
+**Andrew Silbernagel:** Awesome.
+
+**Shawn Moore:** one.
+
+**Andrew Silbernagel:** Awesome. I mean, you sound better already, so it sounds like it's working.
+
+**Shawn Moore:** Okay, good. Good.
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** Um,
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** we're still waiting for Francis or is he off today?
+
+**Andrew Silbernagel:** He messaged like two minutes ago that they had a power interruption. Says it should be a quick one since there's no ongoing storms.
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** So, he hopes it'll be back in time to hop in.
+
+**Shawn Moore:** How's the weather back home there, Andrew?
+
+**Andrew Silbernagel:** Uh, it's been better the last couple days. Better as in still really smoky, but I see the mountains for a good two or three weeks
+
+**Shawn Moore:** Right.
+
+**Andrew Silbernagel:** there. It was really bad.
+
+  
+  
+
+### **00:03:05**
+
+  
+
+**Shawn Moore:** Oh
+
+**Andrew Silbernagel:** So,
+
+**Shawn Moore:** s\*\*\*.
+
+**Andrew Silbernagel:** um, yeah. How's your weather? I imagine it's way
+
+**Shawn Moore:** Well,
+
+**Andrew Silbernagel:** nicer.
+
+**Shawn Moore:** we're in, you know, tiny little past. Uh, it's been uh, yeah, it's been nice, but it's been switching between super hot and today it's super cold. So, it's really really quite bizarre actually.
+
+**Andrew Silbernagel:** Okay.
+
+**Shawn Moore:** I mean, it's it's 20Â° here.
+
+**Andrew Silbernagel:** Huh.
+
+**Shawn Moore:** Um, and the low was 14 today.
+
+**Andrew Silbernagel:** Wow.
+
+**Shawn Moore:** So,
+
+**Andrew Silbernagel:** Huh.
+
+**Shawn Moore:** in two days from now, it's going to be 30.
+
+**Andrew Silbernagel:** But yeah,
+
+**Shawn Moore:** So yeah,
+
+**Andrew Silbernagel:** that is a twig.
+
+**Shawn Moore:** and last week it was, you know, 28 30 35. So that's pretty big uh swing. Yeah. So weird weird temperature, El Nino or El Nino or whatever the heck's going on.
+
+**Andrew Silbernagel:** Yeah. Something.
+
+**Shawn Moore:** You guys are living in smoke over there. That's Yeah,
+
+**Andrew Silbernagel:** Yeah. Not fun.
+
+**Shawn Moore:** after four and a half weeks of that, I'd had enough.
+
+  
+  
+
+### **00:04:20**
+
+  
+
+**Andrew Silbernagel:** Yeah, totally fair.
+
+**Shawn Moore:** Colon still got
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** it.
+
+**Andrew Silbernagel:** Yeah, it looks bad out
+
+**Shawn Moore:** Yeah,
+
+**Andrew Silbernagel:** there.
+
+**Shawn Moore:** my brother uh had a bunch of his buddies come in and they were going to go do a fishing thing and you know people have lung problems and this and that and long story short they can't stay so everybody has to take off.
+
+**Andrew Silbernagel:** That sucks.
+
+**Shawn Moore:** Yeah. So um so what's been happening? What's uh what's the latest update uh with the client? How did you make out last week with um the uh Oh, I saw you brought saw you brought on a tiny client for paper click.
+
+**Andrew Silbernagel:** Yeah, he hasn't replied to that,
+
+**Shawn Moore:** Congrat
+
+**Andrew Silbernagel:** so we need to follow up with him and see if he actually still wants to come on. Um, so we'll see. He seemed really interested.
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** His replies were positive. Um, but he didn't want to. He only has a one one page for all of his services.
+
+  
+  
+
+### **00:05:22**
+
+  
+
+**Andrew Silbernagel:** And I was like, you're going to need more pages. Like, we can build that out if you want to pay for that or whatever. Um, but he built the site himself. So, he wants to take a stab at building the pages and then having us optimize as part of the stuff
+
+**Shawn Moore:** That
+
+**Andrew Silbernagel:** and was looking for September 15th.
+
+**Shawn Moore:** was
+
+**Andrew Silbernagel:** That's I was like,"Okay, are you wanting September 15th launch or like we start our setup on the 15th?" because we need to get it a couple weeks before it launches. Um, he hasn't replied, so I'll I'll follow up with him and hopefully he's just slow.
+
+**Shawn Moore:** Yeah.
+
+**Andrew Silbernagel:** Um, What else? That That was really only the decent.
+
+**Shawn Moore:** You were meeting with John Sadler,
+
+**Andrew Silbernagel:** Yeah, I met with them.
+
+**Shawn Moore:** right?
+
+**Andrew Silbernagel:** They're interested in AEO, but they haven't fully made a decision yet. Um they Yeah, I'm I'm going to follow up with them again. they booked a meeting or want to book a meeting for later in September to review how things are going again.
+
+  
+  
+
+### **00:06:30**
+
+  
+
+**Andrew Silbernagel:** Um, what else did they do? They're now doing repairs was the big thing. They weren't doing repairs for AC and heat pump before. So, that was their big we're doing this now. um they seemed really really positive about AEO, so I'll follow up with them um again and see if we can make it happen. Um they just needed to think about
+
+**Shawn Moore:** What was the uh reservation?
+
+**Andrew Silbernagel:** it. So I was like, we can make it happen, we can do it. But um yeah, so I'll poke them again.
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** Um, yeah, that was really all the new
+
+**Shawn Moore:** The vision too,
+
+**Andrew Silbernagel:** client.
+
+**Shawn Moore:** right? Wasn't vision talking about it? Did you have that meeting or no?
+
+**Andrew Silbernagel:** Um, we had the I gave them the high level and they said they would read it and look at it more and we're doing some other work for them right now. So, I was gonna finish that work and then check in on it again so they're not annoyed about an upsell when we haven't finished something.
+
+  
+  
+
+### **00:07:46**
+
+  
+
+**Andrew Silbernagel:** They are all their wildfire smoke stuff. So, we're going to get that new page revised page up today and I'll include a check-in about about AO. Yeah. And that that was it.
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** there was anything else that came in that was noteworthy or useful about clients.
+
+**Shawn Moore:** Did you guys get any progress on redoing the site?
+
+**Andrew Silbernagel:** Um,
+
+**Shawn Moore:** Um, I saw you put that directive out to uh, Francis and um, but I guess that was pretty much on
+
+**Andrew Silbernagel:** yeah, not yet. Um, we wanted we were going to do it after this meeting if he's back.
+
+**Shawn Moore:** Friday.
+
+**Andrew Silbernagel:** I had a power outage yesterday morning. We pushed I was gone for an hour and then just swamped for the rest of the day. So, we were gonna do it yesterday. Um he wasn't didn't didn't feel 100% confident to take it on himself. So, we were just going to walk through it together in a meeting and figure it out. Um which yeah, great.
+
+  
+  
+
+### **00:08:47**
+
+  
+
+**Andrew Silbernagel:** We we both learn. So,
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** we're just trying to coordinate when we both have an hour block since Friday. So, it's really only been a day. But our our goal was after this meeting to do it. Otherwise, we'll get it done tomorrow for sure. Well, okay, we're we're starting with AI Savvy because there's way less to go wrong with that one. So,
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** we'll we'll migrate that one together and see how it goes. And then maybe we'll do Think Profits together. Maybe it's easy enough he can just do it. Maybe it's complex and I do it. I don't know. So, we'll we'll start with the the the lower stake AI savvy to start is is the plan.
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** Uh it sounds like it's going to be super easy to do.
+
+**Shawn Moore:** Sounds good.
+
+**Andrew Silbernagel:** Like all their documentation makes it easy, but who who knows in practice?
+
+**Shawn Moore:** Right. Well, I'm just hoping that we're going to start to get some leads again.
+
+  
+  
+
+### **00:09:33**
+
+  
+
+**Andrew Silbernagel:** Uh
+
+**Shawn Moore:** I mean, August is generally a slow month, but um it's never, you know, it's never been a stellar month. Um, but September is, so we need to get stuff rolling for that. So, I've always in the years past sort of panicked and worked my ass off to get the marketing up and the SEO back up so we're ready and positioned for September business. Um, always easier said than done, but I think that could be, you know, hopefully a good one because we we really dried up on the leads.
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** um I gain now I know more and more people are using uh AI to search but I don't know like Dsville do you see any
+
+**Andrew Silbernagel:** Nothing's coming through.
+
+**Shawn Moore:** bookings
+
+**Andrew Silbernagel:** No, not really.
+
+**Shawn Moore:** I was just starting to get optimistic again there with the leads coming in. I mean, they it has to be our positioning and it has to be where we're at. And I'm sure the whole world's feeling it, but hopefully you guys can fix that.
+
+**Andrew Silbernagel:** Yeah, I hope so too.
+
+  
+  
+
+### **00:11:08**
+
+  
+
+**Andrew Silbernagel:** I'll have to do a deep dive on across the site and see what's going on if there's some other issue too, but I don't
+
+**Shawn Moore:** Yeah,
+
+**Andrew Silbernagel:** know.
+
+**Shawn Moore:** that's that's got to be our top priority. That's our number one lead generation vehicle. You know, nothing is more important than that, getting it out the door and getting it, you know, working for us. If we can't get it working for us, then we're surely not going to have the confidence to recommend that to our clients. But uh so good luck this week. Hopefully that could make a difference.
+
+**Francis Uy:** Morning
+
+**Shawn Moore:** Again,
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** there's Francis.
+
+**Andrew Silbernagel:** Yeah.
+
+**Francis Uy:** sir. Yeah, finally back.
+
+**Andrew Silbernagel:** Hey, Francis.
+
+**Shawn Moore:** Good.
+
+**Francis Uy:** Good morning.
+
+**Shawn Moore:** Power back. gone. How's it going?
+
+**Francis Uy:** Sorry. Sorry.
+
+**Shawn Moore:** How's it
+
+**Francis Uy:** Um,
+
+**Shawn Moore:** going?
+
+**Francis Uy:** yeah, totally fine. I don't I don't know what caused it, but yeah, I'm glad it came back right away.
+
+  
+  
+
+### **00:12:17**
+
+  
+
+**Shawn Moore:** Good. Good. Well, we were just talking about, you know, how important it is to get our website to start generating leads again.
+
+**Francis Uy:** Yeah.
+
+**Shawn Moore:** Um it seems like it just completely stopped about a month ago, right? Um Andrew said that you guys were going to tackle it after this
+
+**Francis Uy:** Mhm.
+
+**Shawn Moore:** meeting and uh I'm just imploring again good luck this week because that's there's nothing more important than getting our website productive again.
+
+**Francis Uy:** Thank
+
+**Shawn Moore:** And it was I was getting excited because it was starting to produce um and now it's doing nothing for the last month.
+
+**Francis Uy:** you.
+
+**Shawn Moore:** So that something's wrong, right? Obviously on So hopefully you guys can figure out what it is and we can start to generate some leads going forward for September. Good luck.
+
+**Francis Uy:** Thank you,
+
+**Shawn Moore:** We need it.
+
+**Francis Uy:** sir.
+
+**Shawn Moore:** We need you. We need you. I need you guys to figure that out. Um I'm sure you will if you can block the time.
+
+  
+  
+
+### **00:13:20**
+
+  
+
+**Francis Uy:** Yeah.
+
+**Shawn Moore:** Just just block the time off and make please make that your your priorities. Help us get over this hump so we can start getting some appointments in because you know if we lose
+
+**Francis Uy:** Yeah.
+
+**Shawn Moore:** one client, a big one, it's going to be a problem, right? So we really need to fill our our salesunnel again. and um start to get some business. Lots of people have to spend on this and you know um we'll go from there. I I uh on that note, I have not heard a no from Luke um the electrician. Um I'm following up with him again after this meeting. So I'll be continuing to follow up with him until I get a no. Um and same thing with you on the other guys there,
+
+**Andrew Silbernagel:** Okay.
+
+**Shawn Moore:** Andrew. And you know, until you get a no, uh, you just keep following up and eventually it'll turn to a yes. Um, and, uh, you know, if you need my help in these meetings with these accounts to from the sales side, you know, you're better to get me in because I can have an impact on the conversation.
+
+  
+  
+
+### **00:14:32**
+
+  
+
+**Shawn Moore:** Um, um, have you guys heard from Dr. Yanz at all?
+
+**Andrew Silbernagel:** Um, not from her recently. I've heard from Stephanie. Um, or I think she's in the social media role or something for a couple things like adding Tik Tok to the site. a couple things in the last week, but not from Dr. as
+
+**Shawn Moore:** Okay,
+
+**Andrew Silbernagel:** herself.
+
+**Shawn Moore:** send her another email cuz she's three months behind in payments again, you know, drives me nuts.
+
+**Andrew Silbernagel:** Yeah,
+
+**Shawn Moore:** Maybe there's a check. I'll uh Yeah.
+
+**Andrew Silbernagel:** hopefully
+
+**Shawn Moore:** All right, what else is happening? Um, I had a pretty quiet week with AI, just mostly year-end stuff for me with um July 31st being the year end for multiple companies and working with accountants and bookkeepers. And that's kind of been my world. um finalizing some marketing budgets um for Mujo um and that's on my list for think profits but this lead thing is a real concern that it's dropped off a cliff. Um and like say I had gotten excited and hopefully we can uh get that back going again.
+
+  
+  
+
+### **00:16:12**
+
+  
+
+**Shawn Moore:** Um, rest of it's just projects. So,
+
+**Andrew Silbernagel:** Okay.
+
+**Shawn Moore:** how about you
+
+**Andrew Silbernagel:** Uh, with AI, nothing really new on my end.
+
+**Shawn Moore:** guys
+
+**Andrew Silbernagel:** just continually using it for site edits and ads and the ever useful meeting summaries and and and and strategizing that way. Um, but nothing new um per se with it this time.
+
+**Francis Uy:** Yeah,
+
+**Shawn Moore:** Um I Yeah.
+
+**Francis Uy:** on my end either. Sorry.
+
+**Shawn Moore:** How I have a Go ahead,
+
+**Francis Uy:** Y sorry.
+
+**Shawn Moore:** Francis.
+
+**Francis Uy:** Yeah, on my end either um just utilizing it to be more um organized with
+
+**Shawn Moore:** Yeah.
+
+**Francis Uy:** task, you know, I I I kept getting task, you know, hidden and buried between all other task in Slack. So, I just um I just ask help for Claude to um help me organize everything uh from Slack, from emails and everything. So, it's it's been very useful on my end using it. So that that's just it for the AI
+
+**Shawn Moore:** Yeah. Yeah. Same here.
+
+  
+  
+
+### **00:17:26**
+
+  
+
+**Francis Uy:** side.
+
+**Shawn Moore:** Um, so I'm going to be plowing ahead on this. Uh, next week I'm going to be in Italy, so I'm going to try to take a week or so off. Um um but we definitely have to get this website started. Um, should we why don't we spend some time looking at the analytics right now. So we can sort of like well I mean a lot of the problems could be caused just by the inongruency between the two platforms right
+
+**Andrew Silbernagel:** Yeah. Yeah. So hopefully getting that swapped will help.
+
+**Shawn Moore:** uh
+
+**Andrew Silbernagel:** Um yeah, I can grab some analytics.
+
+**Francis Uy:** So we're trying that migration today.
+
+**Andrew Silbernagel:** Yeah. Yeah, I think so. If we have time, we we do have time.
+
+**Francis Uy:** Sorry.
+
+**Andrew Silbernagel:** So after this, we can u spend the hour, half hour, 20 minutes, whatever it takes and figure that out for AI savvy. And then yeah, then we'll figure out if we just do think profits at the same time or if I we'll figure out how easy it is.
+
+  
+  
+
+### **00:18:51**
+
+  
+
+**Francis Uy:** Yeah, got
+
+**Shawn Moore:** Okay. Well, that'll cut that'll eliminate the cost for that,
+
+**Andrew Silbernagel:** Uh yeah.
+
+**Francis Uy:** it.
+
+**Shawn Moore:** too, right?
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** Yeah.
+
+**Andrew Silbernagel:** Once we get both sites because both sites are on the one.
+
+**Shawn Moore:** Okay.
+
+**Andrew Silbernagel:** So yeah. Um yeah.
+
+**Shawn Moore:** Okay. Um no progress for me on the course that I took. Um from that's again that's another project. Um I made some good strides but again it's stalled with my trip here. So I'll have to pick those project up. I've got the the CRM in lovable and uh the AI uh clone as a top
+
+**Francis Uy:** That'll be fine.
+
+**Shawn Moore:** two um top two projects that I have at think. Um,
+
+**Andrew Silbernagel:** Okay.
+
+**Shawn Moore:** and then again it's leads like how do we how do we gen start to generate leads again for that company for this company you know that has to be the top priority and we've got uh email uh social media or um SEO I don't want to do it in payclick I don't I don't even know that it works in payclick um maybe it does but I got to think between social media and SEO, we got to eat our own dog food.
+
+  
+  
+
+### **00:20:21**
+
+  
+
+**Shawn Moore:** And um this would be a determining factor. And it's just f\*\*\* it pisses me off because we we seem to turn the corner and we were getting leads again and bookings and engagement, you know, and now we're dead. So yeah, let let you guys uh spend some please spend whatever time you need on it. Like hour, two hours, three hours, four hour. Honestly, I whatever it takes to to get this moving again. Um,
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** Let's
+
+**Andrew Silbernagel:** Uh, this is last 28 days compared to 28 days, same 28 days year before. So, still a huge drop year-over-year. Um clickwise,
+
+**Shawn Moore:** go.
+
+**Andrew Silbernagel:** we're seeing very low clicks but improvements on like SEO agencies in Vancouver, SEO services in Vancouver, marketing agency Vancouver, SEO services, they're doing better, but one click and still nothing. Um the biggest drops seems to be our own brand name for clicks. I guess people just aren't searching for us. Um, and then a drop in Edmonton. Okay. Um, Google Ads agency Vancouver, SEO company in Vancouver, more Edmonton, Vancouver search optimization, and then a bunch of social media stuff.
+
+  
+  
+
+### **00:21:59**
+
+  
+
+**Andrew Silbernagel:** And it kind of continues largely on that trend with a lot of social media and things. Um,
+
+**Shawn Moore:** But our positioning is terrible,
+
+**Andrew Silbernagel:** but either way,
+
+**Shawn Moore:** right? So our position is terrible.
+
+**Andrew Silbernagel:** yeah.
+
+**Shawn Moore:** Um,
+
+**Andrew Silbernagel:** Um,
+
+**Shawn Moore:** can we compare it to like two months ago previous?
+
+**Andrew Silbernagel:** I could do three like last month to the month
+
+**Shawn Moore:** Sure. Perfect.
+
+**Andrew Silbernagel:** before or last three
+
+**Shawn Moore:** No, let's let's check.
+
+**Andrew Silbernagel:** months.
+
+**Shawn Moore:** No, last month to the previous month or the pre
+
+**Andrew Silbernagel:** Yeah,
+
+**Shawn Moore:** previous three
+
+**Andrew Silbernagel:** it's been about steady, slightly lower on clicks,
+
+**Shawn Moore:** months.
+
+**Andrew Silbernagel:** um, but more impressions. Um, basically the same keywords have improvements with AI SEO in Calgary. Um, and web development agency being different. PPC services and digital marketing agencies Vancouver. Down is brand name just basic SEO Vancouver creative agency. Anigo. Okay. Um, yeah. Other than the social media stuff and some Edmonton stuff dropping, I'm not seeing a immediate trend in the wording.
+
+  
+  
+
+### **00:23:30**
+
+  
+
+**Andrew Silbernagel:** Like, we're up on some SEO keywords and down on some other SEO ones. So, we'll have to look at that um
+
+**Shawn Moore:** What about uh what about um AI hits?
+
+**Andrew Silbernagel:** impression
+
+**Shawn Moore:** Where's that data?
+
+**Andrew Silbernagel:** um where AI is hitting our site or where we're being seen there.
+
+**Shawn Moore:** Yeah. Yeah.
+
+**Andrew Silbernagel:** We're we don't have um we're not really paying for anything that tracks that right now.
+
+**Shawn Moore:** We're
+
+**Andrew Silbernagel:** Um, I know they added something
+
+**Francis Uy:** in
+
+**Andrew Silbernagel:** here.
+
+**Francis Uy:** GSC.
+
+**Andrew Silbernagel:** Let's see what it it does. I think it tracks just impressions,
+
+**Francis Uy:** Okay. Yeah.
+
+**Andrew Silbernagel:** but it doesn't like to tell us which anything
+
+**Francis Uy:** Which which
+
+**Andrew Silbernagel:** where it is. But we're up.
+
+**Francis Uy:** varies
+
+**Andrew Silbernagel:** We're we're moving up in per um impressions from Google's whatever they include in generative AI features. Uh and it's our PPC page and the SEO Vancouver as the main two, but it doesn't give us any useful info on what we're actually being seen on there.
+
+  
+  
+
+### **00:24:49**
+
+  
+
+**Andrew Silbernagel:** Um,
+
+**Shawn Moore:** Well, I wonder if uh opening I wonder if Chhat GPT has data for this. Now, you've seen they introduced pay-per-click that's new. Did you see that?
+
+**Andrew Silbernagel:** yeah.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Yeah.
+
+**Shawn Moore:** which was really disappointing. Um, didn't take them long to Googleize themselves.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Right.
+
+**Shawn Moore:** Um,
+
+**Francis Uy:** Monetize
+
+**Shawn Moore:** yeah, you know, which is really,
+
+**Francis Uy:** everything.
+
+**Shawn Moore:** it's not like they're making enough money as it is now. They got to start going down that pathway. That's very disappointing for Chad GPT.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Yeah.
+
+**Francis Uy:** You can't trust them now.
+
+**Shawn Moore:** Yeah.
+
+**Francis Uy:** It's all about money anyways.
+
+**Shawn Moore:** Yeah.
+
+**Andrew Silbernagel:** Yeah, pretty much.
+
+**Shawn Moore:** control the world just like Google. But Google's got it pretty serious competitors now,
+
+**Andrew Silbernagel:** Yeah.
+
+**Francis Uy:** I mean, Google has released every tool they they have
+
+**Shawn Moore:** huh?
+
+**Francis Uy:** to they created
+
+**Andrew Silbernagel:** Heat.
+
+**Francis Uy:** a lot of AI tools for free, I guess, now Which one was it?
+
+  
+  
+
+### **00:26:13**
+
+  
+
+**Francis Uy:** They have Google Labs. Uh sticks. Yeah. I took it. Gemini canvas. I think this Gemini canvas is
+
+**Andrew Silbernagel:** and they mentioned they're um now going to use Gemini in search results to prefilter ads. So, it's going to go beyond just keywords and everything that you're setting up for your ads. are going to use AI not to not ads within their AI, but use their AI to determine which ads you see, which is one step closer to ads and AI. Uh,
+
+**Francis Uy:** I think I think it has Oh, no. It has been done.
+
+**Andrew Silbernagel:** Um
+
+**Francis Uy:** It started in JP where it suggests product
+
+**Andrew Silbernagel:** Yeah,
+
+**Shawn Moore:** H.
+
+**Andrew Silbernagel:** slowly responding now.
+
+**Shawn Moore:** Well,
+
+**Andrew Silbernagel:** Um,
+
+**Shawn Moore:** the what?
+
+**Andrew Silbernagel:** sorry, I was just being really slow. Yeah, last three months impressions are steady but clicks are down. Agency agency services in Vancouver.
+
+**Shawn Moore:** So, what was the topline data there? Can you scroll back up to the bar graph?
+
+  
+  
+
+### **00:28:09**
+
+  
+
+**Shawn Moore:** So, we're down
+
+**Andrew Silbernagel:** Yeah, impressions are down over the three months,
+
+**Shawn Moore:** 50%
+
+**Andrew Silbernagel:** but around day is that July 10th, it's flipped. And now impressions are significantly increasing year um compared to the previous month period where here they were way below, but clicks aren't rising, they're going down. Uh, I don't. Yeah, I can export way more of this data and throw it at Claude and see if it can find a trend, but looking at it like social media stuff is dropping because we don't do it and that makes sense. But I don't quite see a trend in why it's picking like SEO agency Vancouver to do better, but SEO agency in Vancouver to do worse.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Um, the SEO like Vancouver page is improving. So, like that's good. It needs to improve more. Uh, yeah. And then the homepage is doing worse. Uh, social media makes sense. and an about us, our team page, and the GBP. So, we'll review the GBP as well.
+
+  
+  
+
+### **00:29:41**
+
+  
+
+**Andrew Silbernagel:** Um,
+
+**Shawn Moore:** I'm wondering if that had something to do with it.
+
+**Andrew Silbernagel:** and
+
+**Shawn Moore:** Um, you know, I wonder if because that signal was turned on then turned off. Um, you know, did we kind of get flagged? Did they throw us in a sandbox? Um, you know that seemed to be generating some of the results were kind of timed with that change, right?
+
+**Andrew Silbernagel:** when the when we had the trial with that other with jumper or whatever.
+
+**Shawn Moore:** Yeah.
+
+**Andrew Silbernagel:** Yeah. Yeah, it did, I guess,
+
+**Shawn Moore:** Yeah.
+
+**Andrew Silbernagel:** line up with that. It didn't seem any of the leads came from our business profile. Um, but if it was signaling it around the same time, um, I can't remember the exact timing we did that. So, this is the last three months compared to four to six months ago. So, if they were in the last three months, the pages or the the links and stuff from that page have done from the GVP have done worse. But we were getting leads a couple months ago.
+
+  
+  
+
+### **00:30:59**
+
+  
+
+**Shawn Moore:** Yeah, we got to we got to solve this guys. It's um it's if we do one thing, this is the most important thing we do all year is to solve this. Um because we got inbound leads, we can continue. We can bring on new clients. we can grow, right? Um if we don't, then we can't. So, it's a big deal for us. So, like I say, every slot you have open, just carve more time into your calendars to go deep on this and help us uh resolve it. Um, it's there's nothing more important than this.
+
+**Andrew Silbernagel:** Okay, we'll dive into
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** it.
+
+**Shawn Moore:** Okay, fair enough. Yeah. Um, push everything back. Block this.
+
+**Francis Uy:** Heat.
+
+**Shawn Moore:** Move it forward. Um, on that note, with the time you've got allow allocated today, is there any other business that we can take care of when while the three of us are here, um, like I'm happy to join in on the analytics reviews of it.
+
+  
+  
+
+### **00:32:22**
+
+  
+
+**Shawn Moore:** um if you think that I if I can add value to it, but I guess really what's the best process here is to just kind of get the consolidation done and relaunch the new website first, right?
+
+**Andrew Silbernagel:** Yeah. Yeah, I think
+
+**Francis Uy:** Yeah.
+
+**Shawn Moore:** Yeah.
+
+**Andrew Silbernagel:** so.
+
+**Shawn Moore:** Okay. Well, why don't we just I'll let you guys carry on with that and please do the very best level that you can and
+
+**Francis Uy:** f\*\*\*.
+
+**Andrew Silbernagel:** Okay.
+
+**Shawn Moore:** uh you know, if it can't get any worse. So, if you're going to try it on Savvy, I understand that. But you know if it's risky to push it on think profits do it because it can't get any worse than we are now. We're not getting any leads. It hasn't We haven't got any leads in a month. So, okay, August is slow, Sean. It's been that way for 30 years. It's always a slow month. Um I think one year it wasn't. And I had to do the most crazy outbound work to change that, but it's never been this slow where we don't get a single lead.
+
+  
+  
+
+### **00:33:27**
+
+  
+
+**Shawn Moore:** Um, and so I would be willing to break it, push the envelope again, and do whatever we can to move it up because what we don't want to be doing is trying this like we got September next in a week and September we have to have our business ready to take, you know, the the uptick. And if our website's not coming up in search again, we've really screwed ourselves. So it can't get any worse than it than it is. So take the risk, be bold, find out what the problems are and um let me know um how you make out what the results are.
+
+**Andrew Silbernagel:** Okay,
+
+**Shawn Moore:** Okay. Do you have anything else?
+
+**Andrew Silbernagel:** we'll do nothing
+
+**Shawn Moore:** Do you have anything for me?
+
+**Andrew Silbernagel:** else. No,
+
+**Shawn Moore:** Okay,
+
+**Andrew Silbernagel:** not at this point.
+
+**Shawn Moore:** Francis, get your invoice in on time this week. Uh sir, it's the 25th.
+
+**Francis Uy:** Yes. Thank you so much.
+
+**Shawn Moore:** um so that I can make sure you get paid on time.
+
+  
+  
+
+### **00:34:30**
+
+  
+
+**Shawn Moore:** Um everything else is is a go. So, you know, once we get this sorted, I can push forward on the growth plans and changes that we've been considering and we should be able to do it. We should be we should be able to uh um to do it. Okay, guys. Let's uh roll up our sleeves, please, and uh let's get her done.
+
+**Andrew Silbernagel:** Sounds good.
+
+**Shawn Moore:** Okay.
+
+**Francis Uy:** Yes, sir.
+
+**Shawn Moore:** Thanks, guys. Have a good day.
+
+**Francis Uy:** Thank you,
+
+**Andrew Silbernagel:** Have a good
+
+**Francis Uy:** sir.
+
+**Shawn Moore:** Yeah. Okay. Bye.
+
+**Andrew Silbernagel:** one.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** Okay.
+
+**Francis Uy:** So,
+
+**Andrew Silbernagel:** Just asking Claude a quick question about this first. I'm like, do we need to The one thing I don't know is if we need to point the domain from incited back to lovable before we do this or we can do it after. Um, so I'm just reading Okay, the good news from what it's saying is we can migrate it, but it doesn't go live until we hit publish.
+
+  
+  
+
+### **00:36:01**
+
+  
+
+**Andrew Silbernagel:** So, it doesn't like immediately change the live site.
+
+**Francis Uy:** Okay. Nice.
+
+**Andrew Silbernagel:** So, it'll migrate it.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** We can make sure it seems to be working and not broken. And we can revert it,
+
+**Francis Uy:** Before Yeah.
+
+**Andrew Silbernagel:** I think, if Yeah. So, that that's good. Um, let's
+
+**Francis Uy:** Oops.
+
+**Andrew Silbernagel:** see. Yeah. So, it it's recommending don't point the domain away from lovable or away from incited
+
+**Francis Uy:** Oops.
+
+**Andrew Silbernagel:** yet because the whole thing won't go live until we hit publish.
+
+**Francis Uy:** Mhm.
+
+**Andrew Silbernagel:** So,
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** uh, make sure we're happy with it. Um,
+
+**Francis Uy:** Before we hit
+
+**Andrew Silbernagel:** yeah, before we hit publish and before we change the domain because insight,
+
+**Francis Uy:** publish,
+
+**Andrew Silbernagel:** it will stop working. Okay. Um, let's see. It says certain things could break, blah blah blah. Uh, just double check it. I don't think we're using it. It says browser only code libraries can break.
+
+  
+  
+
+### **00:37:21**
+
+  
+
+**Andrew Silbernagel:** I'm like, I don't I don't think we're using any of that. So, that doesn't matter. But, it's telling us to make sure we test the pages before we before we move it. Fair enough. Um, okay. Let me go find Lovable. Lovable. Let's get screen share. Oh, my computer seems to be freezing now. Of course. I'm back. Where' it go? What? Can you hear me or is it just frozen on my end?
+
+**Francis Uy:** Yeah, I can hear you, but the video is frozen.
+
+**Andrew Silbernagel:** Okay, because you're frozen,
+
+**Francis Uy:** I can hear you fine.
+
+**Andrew Silbernagel:** my computer's frozen, but I guess you can hear me and I can hear you. So,
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** okay.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** Uh, the hell is it doing? What is eating all everything? I'm gonna kill Chrome. I'll be right back.
+
+**Francis Uy:** Got it.
+
+**Andrew Silbernagel:** Hello again. I'm back. Seems to be actually moving on my end.
+
+  
+  
+
+### **00:41:18**
+
+  
+
+**Andrew Silbernagel:** And let's get AI savvy open. Introducing drafts. What does that do? Multiple versions side by side. Each draft keeps his changes separate so you can experiment freely. Except only what you want to keep. Okay. Neat. Sure. Um my screen that away that. Okay. Supposedly we just have to go slashmigrate and it gives us I guess a little popup. Ops. Whoops. Not that button. See, migrate. It's a web div framework. Renders it on the server. Yep. Yep. Runs as normal chat edits. Uses credits. Publish site. Doesn't change it until we publish. We can revert it if anything looks off. Actually, first thing I want to do, actually, no, the live site will be there. Perfect. So, we can just compare it that way. Good. Let's start. See what it does. You are muted if you're trying to speak.
+
+  
+  
+
+### **00:42:44**
+
+  
+
+**Francis Uy:** Oh god. Yeah. How how would we how would we know if it's successful
+
+**Andrew Silbernagel:** Um,
+
+**Francis Uy:** though
+
+**Andrew Silbernagel:** we're gonna try pointing um Huh. Yeah, because it's the it'll be in the pro it won't be
+
+**Francis Uy:** because we can't we we wouldn't be able to know if it's successful if you don't bring it to
+
+**Andrew Silbernagel:** live.
+
+**Francis Uy:** live, right? Since we can crawl the entire website as it
+
+**Andrew Silbernagel:** Yeah, that's exact. Yeah. Okay,
+
+**Francis Uy:** is.
+
+**Andrew Silbernagel:** let's see.
+
+**Francis Uy:** Well, well, it's it's the ASB one. So,
+
+**Andrew Silbernagel:** Yeah, so we that Yeah. So, we can end up pushing it. It'll be fine and and see what
+
+**Francis Uy:** yeah.
+
+**Andrew Silbernagel:** happens. I'll see if Claude has other suggestions. Yeah, because everything I would do would be on the live site of running it through some of the tools. Um,
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Claude says the preview URL that Lovable gives us is a real deployment, so we can test things.
+
+  
+  
+
+### **00:44:14**
+
+  
+
+**Andrew Silbernagel:** um with that URL
+
+**Francis Uy:** Oh, we can crawl the preview URL. Let's let's try
+
+**Andrew Silbernagel:** supposedly.
+
+**Francis Uy:** that.
+
+**Andrew Silbernagel:** Um it says all a couple other things. It gives a some code to try and run a site without JavaScript. Um says to view source and then see what it does. And it says just turn off JavaScript in your browser and then try to view the page and see what happens. Fair enough.
+
+**Francis Uy:** I didn't know we could do
+
+**Andrew Silbernagel:** Uh yeah,
+
+**Francis Uy:** that.
+
+**Andrew Silbernagel:** apparently Chrome Dev Tools 3M menu settings preferences debugger check disable JavaScript. Oh,
+
+**Francis Uy:** SK.
+
+**Andrew Silbernagel:** we'll find out. Um, and then it says use Lovable's built-in SEO tool, which should tell you now if it is working for that once it migrates. So, Claude says we'll see.
+
+**Francis Uy:** Okay, still working. Okay.
+
+**Andrew Silbernagel:** I guess what I don't know is how long this part takes. Okay. Migration pre-flight. Okay. Oh, my great take.
+
+  
+  
+
+### **00:46:11**
+
+  
+
+**Andrew Silbernagel:** There is no official timeline. It says it takes 10 to 35 credits depending on project size and may take several minutes.
+
+**Francis Uy:** several minutes. Okay.
+
+**Andrew Silbernagel:** That could be two minutes or 200. Who knows?
+
+**Francis Uy:** Yeah, for sure.
+
+**Andrew Silbernagel:** Um,
+
+**Francis Uy:** So that would mean it takes a lot of time for Think Profit since it has a lot of pages.
+
+**Andrew Silbernagel:** yeah, I would expect it to take much longer.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Um, I guess in the meantime, I guess we can chat think profits and try to strategize something something
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** there. Um, have you looked at like because it's you you have the whole bot set up pumping out blogs. Have you looked at if any of them are ranking or what they're doing or anything?
+
+**Francis Uy:** Oh, I could I could see. Wait, we could look at that. Um open search console performance digital
+
+**Andrew Silbernagel:** And I haven't used Semrush or Claude to really dive into our site and anything yet as a whole. like I've done mainly page by page when we're building like the lovable page and stuff, but we'll probably want to run a full full audit of the site and see see what's going what's going on.
+
+  
+  
+
+### **00:48:20**
+
+  
+
+**Andrew Silbernagel:** Looks like last three months
+
+**Francis Uy:** No.
+
+**Andrew Silbernagel:** to previous year All blogs have digital news in them, right? I think that's how that works.
+
+**Francis Uy:** Yeah. Yeah.
+
+**Andrew Silbernagel:** Yeah. Okay.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Looks like they're down, but there was a start of a big spike in impressions. Um yeah, start start of August it started ramping up impressions and then a huge drop off August 14th to 16th and then it's kind of been steady but before August impressions on blogs were super low for the last three months. Uh when did you set up the bot? Was that in August or before
+
+**Francis Uy:** Yeah,
+
+**Andrew Silbernagel:** or late
+
+**Francis Uy:** it was late July.
+
+**Andrew Silbernagel:** July? Okay.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Late July tracks with Okay.
+
+**Francis Uy:** Yeah. So,
+
+**Andrew Silbernagel:** Okay.
+
+**Francis Uy:** so that's it.
+
+**Andrew Silbernagel:** So, it was getting us impressions. Um and then something happened mid August, August 15th,
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** 14thish.
+
+**Francis Uy:** Uh that's weird because at at that time some of the some of the articles um that that that was the time where I was uh disapproving some of it suggestions.
+
+  
+  
+
+### **00:49:45**
+
+  
+
+**Francis Uy:** So that's where I start disapproving it and then I rebuilt it
+
+**Andrew Silbernagel:** Okay.
+
+**Francis Uy:** and then yeah I think it's it it maybe not getting much of the traction anymore I guess
+
+**Andrew Silbernagel:** Okay.
+
+**Francis Uy:** but
+
+**Andrew Silbernagel:** I guess it depends what the traction is too. It could be like if it if this drop was removing bad keywords because you
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** filtered it to be better blogs, that's fine. But if we lost something, yeah, we'll want to figure out what dropped.
+
+**Francis Uy:** Maybe from 28 days.
+
+**Andrew Silbernagel:** Uh
+
+**Francis Uy:** I would try to figure that out too.
+
+**Andrew Silbernagel:** question PPC for manufacturers. We had I don't I'm not sure which one this was, but CGBT kept giving us a lot of impressions even in the past. Um I don't think we ever got clicks from it and I don't even know what that wording is. Um. But for some reason, we had something driving results for that that we've lost. Nobody I don't think like we've had it for a couple years.
+
+  
+  
+
+### **00:51:07**
+
+  
+
+**Andrew Silbernagel:** I don't think anybody ever clicked through from it. So, it's not one I care about. It's interesting. Uh yeah, we'll probably want to export one of these um even just the blog ones for this view or last 16 months or something. export all that data and maybe feed it into Claude and just have it help analyze what it thinks is going on and if there's any keywords or blogs we need to edit or redo because I see like most of these don't matter like PPC for manufacturers I guess we could put out a blog about that global SEO Vancouver I don't really know what people are searching for with that term. It's a mix of global and local, so I don't know if it matters. We don't really care about Colombia. Um, refer spam. H don't don't care. SEO tools Vancouver is a good one. Digital marketing trends not to miss is a good one. See which pages are doing good or better. Choosing digital marketing agencies getting more impressions in a click.
+
+  
+  
+
+### **00:52:41**
+
+  
+
+**Andrew Silbernagel:** How to set Google analytics technical services. Okay. Whoops. Okay. Maybe a good thing to look at is looking at these pages
+
+**Francis Uy:** f\*\*\*.
+
+**Andrew Silbernagel:** and I guess does it exist? Okay. Okay. Okay. I think one thing we should do then is go through the list of these ones that had a big drop because it looks like they weren't migrated from the old site. So, we can look at the old site on Kinsta, which we still have. And if those blogs are useful the way they are, we can rep just republish them and use the same URL or um just feed the the URL into claude and be like write us something new that that we'll use that URL for. Um, and then we can restore at least at least these top four I think would be good like how do manufacturers and distributors do PPC? Sure. Um this one just talks about AI content SEO versus PPC and uh changes in PPC search engine. I don't know what that one would have been.
+
+  
+  
+
+### **00:54:18**
+
+  
+
+**Francis Uy:** That's
+
+**Andrew Silbernagel:** We'll have to maybe see it on the old one because I don't know what changes in PPC search engine positioning what
+
+**Francis Uy:** cool.
+
+**Andrew Silbernagel:** it means for you is broad useless sounding topic but uh Colia Academy I don't from a testimonial Google forwarding numbers yeah I think maybe a good approach um yeah is to feed the pages that dropped and it get something back on those URLs. So, remove the redirects we have on them. And whether it's the same content or just new content, um the old content wasn't getting clicks either. So, I'm totally in favor of just rewriting them and just trying to preserve the URL that was getting impressions. Um, yeah.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** See, how long should blog posts be? 2026,
+
+**Francis Uy:** Heat.
+
+**Andrew Silbernagel:** blah blah blah. How about Clarissa wasn't getting clicks. Digital news. You get what you pay for. testimonial. Okay. Yeah. And then maybe we look at the clicks that dropped. It looks like a bunch of testimonials didn't get moved over.
+
+  
+  
+
+### **00:55:52**
+
+  
+
+**Andrew Silbernagel:** And I don't know what those would have been. I don't recall having testimonials from some of these places like Fujia Foods and Mailatic and Toronto Honda. I don't recall those at all on the old site. Um so we should dig into whatever those were um and restore them if they're useful. Um, yeah, it seems to be the main thing that's dropped clicks is the testimonials and then impressions with some of those blogs all from within blogs. Anyway, so yeah, it looks like okay if the testimonials lived in blogs. Yeah. Okay. It looks like some blogs didn't get migrated over that have lost us some impressions and clicks. So, we should review that.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** Um, and now let's see if Lovable is still thinking.
+
+**Francis Uy:** Yeah. Still thinking.
+
+**Andrew Silbernagel:** Oh. Oh,
+
+**Francis Uy:** Oh,
+
+**Andrew Silbernagel:** look at that timing.
+
+**Francis Uy:** it's done. Okay.
+
+**Andrew Silbernagel:** Okay. Cool. Um, let's go back so we can view the page. Live preview stopped responding.
+
+  
+  
+
+### **00:57:07**
+
+  
+
+**Andrew Silbernagel:** Try again. Okay. Migration complete. I don't know what that means. Zero silence file. SSR service check 19 of 19 routes. 200 edge functions none present. Runtime check. No errors after hydration. It's a lot of words. I don't understand. Your page is now render on the server. titles, descriptions, canonicals, all that are in the HTML before JavaScript runs. Along the way, I also fixed three real bugs. Okay. Two invalid nested link cards and a broken FAQ schema on two service pages. I mean, that's a useful review. Cool. Uh, what's next in order? Check it over. Click through the app and preview. Check everything. Then go live then use it. Useful. Thank you, AI. Okay, let's open the preview. Maybe we'll open regular site. Preview has not been built. Well, that sure doesn't help.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** Refresh
+
+  
+  
+
+### **00:58:19**
+
+  
+
+**Francis Uy:** Oh, there we go.
+
+**Andrew Silbernagel:** preview. Interesting.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** I try to Okay, we'll fix it. I will open up in whatever tab I had it on to see if we have any um redirects for AI savvy. We'll need to move over. I don't think we do because it was so new. I don't think it's had time to need redirects. But maybe Okay. Yeah. No redirects for it yet. Okay, it reload itself. Fix a few preview blocks metadata crash verify the homepage ROI calculator and affected service pages now return 200 locally. Okay, prove it. Yay.
+
+**Francis Uy:** Okay,
+
+**Andrew Silbernagel:** Um,
+
+**Francis Uy:** the preview is there.
+
+**Andrew Silbernagel:** okay. Then let's see. That shows HTML, but I'm pretty sure we see it on the live site. It rendered it. So, there was a very quick delay. I think that Okay. Yeah.
+
+**Francis Uy:** I don't have any
+
+**Andrew Silbernagel:** So that that's that's the live site loading in from JavaScript.
+
+  
+  
+
+### **01:01:53**
+
+  
+
+**Francis Uy:** that
+
+**Andrew Silbernagel:** Does this one skip that step? Still loaded something slow. page. Sorry,
+
+**Francis Uy:** Perfect.
+
+**Andrew Silbernagel:** one more. Okay, so this one does load a lot of HTML way way faster, which is one good sign that is actually But okay, next test. It says try disabling JavaScript. It said no. Where was it? Yeah. Settings. Oh, dev tools do it. I see. I see. Setting preferences bugger disable JavaScript. Okay. Then reload the page. So far it's lying to us. Classic. Classic. What does it do on the live site? Out of curiosity. What was that? Dev tools settings. References. Debugger. Disable JavaScript.
+
+**Francis Uy:** Refresh.
+
+**Andrew Silbernagel:** refresh.
+
+**Francis Uy:** Same old. Same old.
+
+**Andrew Silbernagel:** Although I'm confused because shouldn't insighted make it work on the live site? Huh? Or is it because we're not a bot?
+
+  
+  
+
+### **01:05:01**
+
+  
+
+**Andrew Silbernagel:** I don't understand how that works, but Okay, I will ask. Loveable King prayer. Let's see what it says to us. It is showing more of the site with JavaScript disabled than the live site for whatever reason. But yeah, it's not showing any Oh, it shows the footer. Interesting. I'm curious if we've got like I wonder if those animations are JavaScript based and that's why it looks like all content does pop in with an animation. site was SSR rendering but framers motions initial opacity zero styles kept the hero invisible and JavaScript was disabled. The no JavaScript fallback now makes the rendered content visible. Okay, so it was the animations. Oh, let's see if it fixed the fallback. Dev Tools, Settings, Preferences, Debugger, Disable, Refresh. Reload page just in case. Preview tools settings preferences disable refresh. Oh, okay. Okay, we're we're having success. Oh, you're muted again.
+
+**Francis Uy:** Oh my god. Yeah. Yeah, we're getting
+
+  
+  
+
+### **01:08:45**
+
+  
+
+**Andrew Silbernagel:** Yeah. Okay,
+
+**Francis Uy:** there.
+
+**Andrew Silbernagel:** let's see that page. It's loading. It's loading. Cats. See? Okay. So, the drop down is JavaScript based. Okay. Okay. Better. Drop down stone. Okay, prompting it to fix the menu dropdown that didn't work. and then just tell it to try and look throughout the site for us. See if it finds things cuz it's fine if we have some stuff on the site that relies on JavaScript.
+
+**Francis Uy:** What?
+
+**Andrew Silbernagel:** Um, we just don't want it to hide the critical content that bots would need. But we can totally have animations and little things and other features for users. Um, and Google will run JavaScript eventually on sites. So, we want the initial what Google first sees to not have to render it and not AI, not all AI will run JavaScript. And the more JavaScript we have, the slower the site functions in general. So it could just avoid it for some stuff.
+
+  
+  
+
+### **01:11:24**
+
+  
+
+**Andrew Silbernagel:** Cool. Um, and usually it can set up fallbacks like it did with the animations. Like it uses JavaScript first and if JavaScript's not working, it falls back to doing some other approach is usually the best of both worlds. cuz I wanted to see if it would break any of the tools, but we can't get to them, so it doesn't matter.
+
+**Francis Uy:** Yeah. I'm only curious about if it's really giving what we wanted it to give, like, you know, fully rendering all the websites.
+
+**Andrew Silbernagel:** Yeah, it's better than it was. But we don't want better. We want good.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** It's testing Yeah. Heat. Yeah, Claude is still telling me um what if we get it verified and working, publish it before we disconnect insighted because it'll still work with incited in the meantime. So we don't have any downtime if we do it that way. Whereas if we try to swap it over first, we'll have a bit of downtime,
+
+**Francis Uy:** Yeah, for sure.
+
+**Andrew Silbernagel:** which makes sense.
+
+  
+  
+
+### **01:14:56**
+
+  
+
+**Francis Uy:** And then you Yeah. What?
+
+**Andrew Silbernagel:** Oh. Oh, it did some stuff. Oh, no. That's just older. Jump to the bottom. It did do some stuff. Okay. Uh, mobile JavaScript is correct. Everything checks out. Header dropdowns. Uh, now use always rendered sub menus revealed by CSS. Hover focus. So, they open without JavaScript. Their links are always in the HTML. Mobile menu is always in the DOM. Expands via CSS. JavaScript is off. FAQ answers. Um, move from Radex accordians to native details. Every answer is now in the server HTML and expandable without JavaScript. Okay. Animations have a no JavaScript fallback. ROI calculator genuinely needs R JavaScript to compute the nature script notice when all surrounding copy still renders. Okay, that makes sense. Refresh. Reopen de Java. profession. That loads menu is working. Okay, it did say that needs JavaScript, which just fine.
+
+  
+  
+
+### **01:17:26**
+
+  
+
+**Andrew Silbernagel:** Tools will. Um, okay. Then maybe we'll prompt it again. Do one more. Please view the entire site. JavaScript being used. Block anything critical SEO or a Giving it one more review, reminding it it's fine if we use JavaScript as long as it's not blocking anything critical uh that bots need to see. I'm just feeding everything it said back into Claude to see if it is like,"Yeah, this makes sense." Um, Yeah, it said that was a good reply from lovable and it agrees are the calculator and stuff are fine if they don't work without JavaScript as long as content renders without JavaScript interactive tools can use it. So cool. I wonder if I can just give Claude uh this page as well. And I'll give it this one. Okay, Claude can't access the preview links because they're behind some authentication which makes sense.
+
+**Francis Uy:** Yeah. Yeah. Yeah.
+
+**Andrew Silbernagel:** Um okay, what did it do now? Full site no JavaScript audit done across all the routes.
+
+  
+  
+
+### **01:22:05**
+
+  
+
+**Andrew Silbernagel:** Nothing critical depends on JavaScript. Uh verified one H1 unique title metad description self-ref spritzing canonical cool real body copy everywhere structured web data service server side navigational headers and footer links are plain tags FAQ answers are everywhere now moved into details uh internal links zero broken links all external links homepage hero image had empty alt now That's descriptive. Sure. Cool. Remaining JavaScript only is by design such as the calculators. Um, okay. Give it another refresh. Okay, that loaded really. It's It's the preview. It's fine. Let's see. Looks great. load slower than before. It's looking the same to me so
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** far.
+
+**Francis Uy:** What about the buttons though?
+
+**Andrew Silbernagel:** Sorry. What about which
+
+**Francis Uy:** The buttons.
+
+**Andrew Silbernagel:** download? Okay, download worked. Book a call worked. What other buttons do we have? Book a call. Explore. Okay, so far they seem to be working.
+
+  
+  
+
+### **01:24:41**
+
+  
+
+**Andrew Silbernagel:** Read links are working. Linked button is working. Okay. Any other thoughts on what we need to test? It's It's looking good, but I don't I don't
+
+**Francis Uy:** Hey, it's looking
+
+**Andrew Silbernagel:** know. Come on. Okay. So now the second animation is faster. Should be good. These preview was the I guess the actually we can just see that did it preserve a site Yeah. Yeah. HTML one. I'm guessing. Okay. Unless you can think of anything, I think we can publish it and D.
+
+**Francis Uy:** Yeah, I guess we And I mean, she's doing pretty good.
+
+**Andrew Silbernagel:** Yeah. Okay. Let's test it out. Publish
+
+**Francis Uy:** And let's see if it breaks or
+
+**Andrew Silbernagel:** right for now.
+
+**Francis Uy:** not.
+
+**Andrew Silbernagel:** It should it's still using incited. So, we won't have a full test, I guess, until we disable it there.
+
+**Francis Uy:** Mhm.
+
+**Andrew Silbernagel:** Um because the live link will probably just pre-render through that either way now.
+
+  
+  
+
+### **01:27:26**
+
+  
+
+**Andrew Silbernagel:** But wonder if this actually redirects. I meant to copy that. Not save that. Huh. Okay. Well, that doesn't redirect, which we need to set up. That's funny. There's a think profits one again profits. It's a security issue. We'll just fix that. Oh, hello. Turn on project monitoring and get notified when something breaks. Yes, please.
+
+**Francis Uy:** Wow, that's amazing.
+
+**Andrew Silbernagel:** Yes, we want that.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** Daily at six o'clock. It'll notify us if there's an issue. Monitor more projects. AI savvy. I mean, honestly, probably probably just all of them if there is an issue with it.
+
+**Francis Uy:** Aloha.
+
+**Andrew Silbernagel:** Oh. Oh, we can only pick so many. Okay, never mind.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** We don't care about all of them.
+
+**Francis Uy:** Maybe. Aloha.
+
+**Andrew Silbernagel:** Yeah, we want the Which one is it?
+
+**Francis Uy:** The pink one. I guess that's corporate. Yeah, corporate.
+
+  
+  
+
+### **01:29:15**
+
+  
+
+**Francis Uy:** Refresh.
+
+**Andrew Silbernagel:** As soon as it's that. Okay. Monitor. Cool. Well, that'll be helpful. Email update available. A newer version of email sending is available with minor fixes. Updating is free. uses no credits and nothing changes until you publish. Okay, we'll test that one later because it feels more intensive. Uh, and I did the other fix. I just wanted to see if we've missed redirecting the lovable URLs we have. That's funny. So, as part of this, we'll need to fix making sure these are actually redirected to this and this to that to to that. Um, but at least that works. Okay. So then we need to point the domain back now that it's here which lived under settings. No. Do you remember where at all to see the different domain settings? cloud connectors.
+
+**Francis Uy:** I totally forgot they change a lot with their UIs,
+
+**Andrew Silbernagel:** Yeah, they keep changing it.
+
+**Francis Uy:** too.
+
+  
+  
+
+### **01:31:41**
+
+  
+
+**Andrew Silbernagel:** Switch project. I swear it was under settings or something here before details. Rename. It's got to be search settings domain. Okay.
+
+**Francis Uy:** There you
+
+**Andrew Silbernagel:** Domains. Uh we need to connect an existing
+
+**Francis Uy:** go.
+
+**Andrew Silbernagel:** domain which is this one. Okay. We
+
+**Francis Uy:** Maybe without this.
+
+**Andrew Silbernagel:** put
+
+**Francis Uy:** Yeah. There we go.
+
+**Andrew Silbernagel:** we want to connect the root.
+
+**Francis Uy:** domain.
+
+**Andrew Silbernagel:** We want are we currently using www? No. Yes. So,
+
+**Francis Uy:** No.
+
+**Andrew Silbernagel:** we do want that redirected. Um, isn't using Cloudflare Connect.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** I need to get into GoDaddy is what I got to do. Please.
+
+**Francis Uy:** There we go.
+
+**Andrew Silbernagel:** Yeah. I was like
+
+**Francis Uy:** read stellar.
+
+**Andrew Silbernagel:** Daddy hold logged into the ROM GoDaddy. That's fine. Office. I think all of Sean's are in the store.thinkprofits.com. thinkprofits.com which we have an alass see if I can find it.
+
+  
+  
+
+### **01:34:09**
+
+  
+
+**Andrew Silbernagel:** Yes. Yes. Yes. We'll verify it's me text. 39. Okay. Believe it's strong. Usually just like to do it manually. Okay. Have you are you I guess I can do this. Are you familiar with using storethink and how to find clients and stuff in there or have you not really done
+
+**Francis Uy:** Yeah. Yeah.
+
+**Andrew Silbernagel:** it?
+
+**Francis Uy:** I think I think you told me about it one
+
+**Andrew Silbernagel:** Okay.
+
+**Francis Uy:** time.
+
+**Andrew Silbernagel:** Um we have the Alass password somewhere. It's store.thinkprofits.com. That's if they buy from us. if they don't buy from us but use GoDaddy, we do have just like a regular GoDaddy login as well. Um, that will also work. Um, and then we got to find the other delegate access and then you have to find the client. For some of them, it's hella frustrating. Um, I I hate GoDaddy. Um, but it doesn't list anything other than whatever they set their name as.
+
+  
+  
+
+### **01:35:46**
+
+  
+
+**Andrew Silbernagel:** So I have been trying as I figure out who is
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** who as I'm doing the work I I try to update Ellipass. So if you do go into the client, you can go into the client client's account and it'll be like I don't know labeled like I don't know Canada intercambio labeled I don't know who they are. Jamie Davis is Sherry though. So it was like I'll be like oh Jamie Davis.
+
+**Francis Uy:** Uh-huh.
+
+**Andrew Silbernagel:** I try to put it in their Eleass account so we know which one is who. Otherwise you have to go through them one at a time and try to figure out who is who and
+
+**Francis Uy:** Huh.
+
+**Andrew Silbernagel:** it sucks. Um Shawn has two accounts. I think the the Yeah.
+
+**Francis Uy:** more and the other. Yeah.
+
+**Andrew Silbernagel:** And the other Shawn Moore somewhere. Yeah. One has capitals, one doesn't. I think the lower case is where he has AI savvy,
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** but we'll find out.
+
+  
+  
+
+### **01:36:42**
+
+  
+
+**Andrew Silbernagel:** We have to access it. Yeah. Okay. And then the main one is AIVY.io. I guess we can just need to manage the DNS for that one. usually does not take that long to load. Why? There we go. Before I make changes, I usually like to take a screenshot or something of the page just in case. Something goes wrong and I have to put it back. Okay, we need to replace the A records. This one.
+
+**Francis Uy:** How do you know it's the A record though? Because it doesn't indicate.
+
+**Andrew Silbernagel:** Uh yeah,
+
+**Francis Uy:** It's not indicated there. Oh, yeah. A type A.
+
+**Andrew Silbernagel:** here it's saying type A and then a text.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** It looks like it just needs the two.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** Um usually like Kinstate usually has us also do the www, but the at should cover all of them. So we'll just remove that one because they just they're asking for one.
+
+  
+  
+
+### **01:38:37**
+
+  
+
+**Andrew Silbernagel:** Um,
+
+**Francis Uy:** in the text
+
+**Andrew Silbernagel:** yeah, the Google site. Oh, we have a we have lovable ones,
+
+**Francis Uy:** loable.
+
+**Andrew Silbernagel:** I think. Interesting.
+
+**Francis Uy:** Oops. I think the the I think the second
+
+**Andrew Silbernagel:** Interesting that sometimes has a WW. Um, it is just lovable not lovable dot dot dotw is this one I don't know if it's the same but we will just replace it
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** anyway save I don't know why this time it had a www and this time it didn't but we'll we'll add it.
+
+**Francis Uy:** Heat.
+
+**Andrew Silbernagel:** It'll take a look back. Oh, it's because the www is here, so we're going to have to just do the other one anyway.
+
+**Francis Uy:** set up.
+
+**Andrew Silbernagel:** Cool. Um,
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** Kinsta usually has you do both of those at once when you're connecting. Uh, I guess they just do it separately and you can go try and do it through the provider. Um, I find it's usually just easier to do it manually and just put these in. Okay.
+
+  
+  
+
+### **01:39:58**
+
+  
+
+**Andrew Silbernagel:** Yeah. So, now it's the one that I had deleted. We're just going to read it. It's an A. It's a www. It's that one. Save. And then lovable text.
+
+**Francis Uy:** WW. W
+
+**Andrew Silbernagel:** Lovable w. Get out of my way. E. And it's this. This one there.
+
+**Francis Uy:** please.
+
+**Andrew Silbernagel:** Save. Add it. We were lucky this time. LA. Every other time when I edit someone's in one of the GoDaddies, every time I hit save, it makes me do a 2FA. Um, I don't know why it didn't today.
+
+**Francis Uy:** Oh yeah,
+
+**Andrew Silbernagel:** Cool.
+
+**Francis Uy:** I I remembered that when I was trying to do something for the think profits if I'm not mistaken before it requires a 2FA
+
+**Andrew Silbernagel:** Yeah, it would make make sense.
+
+**Francis Uy:** whenever changing something the
+
+**Andrew Silbernagel:** Yeah.
+
+**Francis Uy:** DNS
+
+**Andrew Silbernagel:** Um, cool. It is thinking and working. Um, I'm hesitant personally to do think profits until we've confirmed this works.
+
+  
+  
+
+### **01:41:17**
+
+  
+
+**Francis Uy:** Yeah,
+
+**Andrew Silbernagel:** I know Sean wants to take risks,
+
+**Francis Uy:** me too.
+
+**Andrew Silbernagel:** but I Yeah.
+
+**Francis Uy:** We don't It's extra work
+
+**Andrew Silbernagel:** Yeah.
+
+**Francis Uy:** and
+
+**Andrew Silbernagel:** I think he is sometimes thinking we'll make changes to the website and see results faster than SEO works. So,
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** I don't want us to get set back. Um, so I I'm happy to wait for this if it's actually going to take 72 hours.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** It never does. Usually, it's like two hours,
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** but maybe if we're having to wait three days,
+
+**Francis Uy:** Yeah. For sure.
+
+**Andrew Silbernagel:** we move ahead and make that call. But I'm happy to at least wait and we can check in tomorrow and scrub and see What's
+
+**Francis Uy:** Yeah. At least. At least we can we could prove that it works and then we'll move on with the thing profits
+
+**Andrew Silbernagel:** up?
+
+**Francis Uy:** one.
+
+**Andrew Silbernagel:** Yeah.
+
+**Francis Uy:** We don't want to we don't want to waste a lot of time doing it and then fixing it again if
+
+  
+  
+
+### **01:42:09**
+
+  
+
+**Andrew Silbernagel:** No. Yeah, because if it doesn't work.
+
+**Francis Uy:** it doesn't
+
+**Andrew Silbernagel:** Yeah, exactly. So, I I don't think we have anything else we need to do for it.
+
+**Francis Uy:** work.
+
+**Andrew Silbernagel:** I I think we just wait. Um, I didn't disconnect it in insighted, but we shouldn't need to cuz it just like this is disconnecting insighted, so it should just stop
+
+**Francis Uy:** Yeah,
+
+**Andrew Silbernagel:** working.
+
+**Francis Uy:** when it's when it's working inside stop working when it's done it's
+
+**Andrew Silbernagel:** Yeah.
+
+**Francis Uy:** done it.
+
+**Andrew Silbernagel:** And then we can officially cancel it and everything once we've got both working, but until then we'll keep it. Um, yeah, if you have Oh, well, it already did one of them. That was fast. Uh, we'll let it finish with the rest.
+
+**Francis Uy:** Okay.
+
+**Andrew Silbernagel:** We can review it. I mean, if you're eager today and you have time later today, feel free to look into it. Otherwise, we can just chat about and scrum tomorrow. we'll we'll hop into this and look at it.
+
+  
+  
+
+### **01:43:11**
+
+  
+
+**Francis Uy:** Yeah. Yeah. Mhm.
+
+**Andrew Silbernagel:** Um,
+
+**Francis Uy:** I'm
+
+**Andrew Silbernagel:** if you've got time today to dive into why is think profits having problems,
+
+**Francis Uy:** done.
+
+**Andrew Silbernagel:** I think looking at the blogs that we had mentioned and kind of just restoring or rewriting but using the URLs of all those ones that had dropped, especially the testimonials, that's one. blogs. We can rewrite the testimonials that lived in blogs. We should go to Kin uh go to Kinsta and see what that content was
+
+**Francis Uy:** and get them.
+
+**Andrew Silbernagel:** because we don't want to make up a testimonial from a client.
+
+**Francis Uy:** Yeah.
+
+**Andrew Silbernagel:** But if they actually gave us some, then yeah, we should totally restore all of those. Um because I think that would be helpful. So if you have time to dive into that today, go for it. If you're swamped with clients, I think we spent a decent amount of time on all of it today and you can just deal with clients today. Um, but if you have time, dive into that.
+
+**Francis Uy:** Got it. Yeah, for
+
+**Andrew Silbernagel:** Um, other than that,
+
+**Francis Uy:** sure.
+
+**Andrew Silbernagel:** is there anything else you do need help with or any questions from anything even all this meeting stuff?
+
+**Francis Uy:** Um, I guess that's it.
+
+**Andrew Silbernagel:** Okay. Awesome. We'll check in on this tomorrow and and make sure it's all working.
+
+**Francis Uy:** Yeah,
+
+**Andrew Silbernagel:** Awesome.
+
+**Francis Uy:** cross fingers hopefully.
+
+**Andrew Silbernagel:** Yeah. Yeah. Cool. Well, enjoy the rest of your day and we'll chat later.
+
+**Francis Uy:** Yeah, you too, sir. Thank you so much.
+
+**Andrew Silbernagel:** Thanks. Bye.
+
+**Francis Uy:** Bye.
+
+  
+  
+
+### **Transcription ended after 01:44:52**
+
+  
+
+*This editable transcript was computer generated and might contain errors. People can also change the text after it was cre

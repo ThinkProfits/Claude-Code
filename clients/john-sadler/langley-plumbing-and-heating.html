@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plumber in Langley, BC | Plumbing, Heating & Gas | John Sadler</title>
+<meta name="description" content="Licensed plumber and heating company in Langley, BC. TSBC-licensed since 1976, same-day service, 24/7 emergency line. Call (604) 531-4355 for a free quote.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --red:#DD1515;
+    --charcoal:#252525;
+    --near-black:#2D2D2D;
+    --white:#FFFFFF;
+    --link-blue:#005394;
+    --teal:#005A78;
+    --navy:#005299;
+    --deep-navy:#001E38;
+    --gray-light:#D0D0D0;
+    --gray-mid:#CCCCCC;
+    --gray-muted:#AAAAAA;
+    --font-head:'Montserrat',Arial,sans-serif;
+    --font-body:'Roboto',Arial,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    font-family:var(--font-body);
+    color:var(--charcoal);
+    background:var(--white);
+    font-size:19.2px;
+    line-height:1.7;
+  }
+  a{color:var(--link-blue);}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 24px;}
+
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    background:var(--red);color:var(--white)!important;
+    font-family:var(--font-head);font-weight:700;font-size:15px;letter-spacing:.3px;
+    text-decoration:none;text-transform:uppercase;
+    padding:14px 30px;border-radius:6px;border:none;cursor:pointer;
+    box-shadow:0 2px 6px rgba(221,21,21,.35);
+    transition:background-color .15s ease, box-shadow .15s ease, transform .15s ease;
+  }
+  .btn:hover{background:#B81111;box-shadow:0 4px 10px rgba(221,21,21,.45);transform:translateY(-1px);}
+  .btn:active{transform:translateY(0);box-shadow:0 2px 4px rgba(221,21,21,.35);}
+  .btn:focus-visible{outline:3px solid var(--teal);outline-offset:2px;}
+  .btn::after{content:"→";font-weight:700;}
+
+  section{padding:48px 0;}
+  section.alt{background:#F7F7F7;}
+  h2{font-family:var(--font-head);font-weight:700;font-size:clamp(22px,3vw,32px);color:var(--charcoal);margin-bottom:20px;}
+
+  .direct-answer{background:#FFF9E8;border-left:4px solid var(--red);padding:20px 24px;font-size:18px;margin-bottom:8px;}
+  .direct-answer strong{font-family:var(--font-head);}
+
+  .trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:24px;}
+  .trust-item{display:flex;gap:14px;align-items:flex-start;}
+  .trust-item .num{
+    font-family:var(--font-head);font-weight:700;color:var(--white);background:var(--teal);
+    width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;font-size:16px;
+  }
+  .trust-item p{margin:0;font-size:17px;}
+  .trust-item strong{display:block;font-family:var(--font-head);margin-bottom:2px;}
+
+  table.services{width:100%;border-collapse:collapse;margin-top:20px;}
+  table.services th{font-family:var(--font-head);background:var(--charcoal);color:var(--white);text-align:left;padding:12px 16px;font-size:15px;}
+  table.services td{padding:12px 16px;border-bottom:1px solid var(--gray-mid);font-size:16px;}
+  table.services tr:nth-child(even) td{background:#FAFAFA;}
+
+  .checklist{list-style:none;counter-reset:step;margin-top:20px;}
+  .checklist li{counter-increment:step;padding:14px 0 14px 44px;position:relative;border-bottom:1px solid var(--gray-mid);}
+  .checklist li:last-child{border-bottom:none;}
+  .checklist li::before{
+    content:counter(step);position:absolute;left:0;top:12px;
+    background:var(--red);color:var(--white);width:28px;height:28px;border-radius:50%;
+    font-family:var(--font-head);font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;
+  }
+
+  .area-list{columns:2 200px;column-gap:24px;margin-top:16px;font-size:16px;}
+  .area-list span{display:block;padding:4px 0;}
+  @media (max-width:600px){.area-list{columns:1;}}
+
+  .faq details{border-bottom:1px solid var(--gray-mid);padding:16px 0;}
+  .faq summary{font-family:var(--font-head);font-weight:700;font-size:17px;cursor:pointer;color:var(--charcoal);}
+  .faq p{margin-top:10px;font-size:16px;}
+  .placeholder{background:#FFF3F3;border:1px dashed var(--red);padding:2px 8px;border-radius:3px;color:var(--red);font-size:14px;font-family:var(--font-body);}
+
+  .cta-band{background:var(--deep-navy);color:var(--white);text-align:center;padding:48px 0;}
+  .cta-band h2{color:var(--white);}
+  .cta-band a.btn{margin-top:16px;}
+
+  footer{background:var(--charcoal);color:var(--gray-light);padding:40px 0;font-size:14px;}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between;}
+  footer h3{font-family:var(--font-head);color:var(--white);font-size:15px;margin-bottom:10px;}
+  footer .licence{margin-top:20px;font-size:12px;color:var(--gray-muted);}
+  footer a{color:var(--white);text-decoration:underline;}
+  .area-list a{color:var(--link-blue);text-decoration:none;font-weight:500;}
+  .area-list a:hover{text-decoration:underline;}
+
+  .map-embed{position:relative;width:100%;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:6px;margin-top:16px;}
+  .map-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0;}
+</style>
+</head>
+<body>
+
+<section>
+  <div class="wrap">
+    <div class="direct-answer">
+      <strong>Quick answer:</strong> John Sadler Plumbing &amp; Heating is a TSBC-licensed plumbing and heating
+      company (Licence #LGA0092486, #LBP0207908) serving Langley, Fort Langley, Brookswood, Willoughby, Walnut
+      Grove, and Aldergrove since 1976. We handle plumbing, hot water tanks, furnaces, boilers, and gas fitting,
+      with same-day service and a 24/7 emergency line. Call (604) 531-4355 for a free quote.
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Why Langley Homeowners Choose John Sadler</h2>
+    <div class="trust-grid">
+      <div class="trust-item"><span class="num">1</span><p><strong>50 years locally owned</strong>Serving the Langley area since 1976 — not a franchise or call centre.</p></div>
+      <div class="trust-item"><span class="num">2</span><p><strong>TSBC-licensed &amp; Red Seal certified</strong>Every technician carries provincial gas fitter and plumber credentials; ask to see ID on arrival.</p></div>
+      <div class="trust-item"><span class="num">3</span><p><strong>Upfront pricing</strong>You get a clear estimate before work starts, not a surprise invoice after.</p></div>
+      <div class="trust-item"><span class="num">4</span><p><strong>All-brand service</strong>We repair and install all major hot water tank, boiler, and furnace brands, not just what we sell.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Plumbing &amp; Heating Services in Langley</h2>
+    <p style="margin-bottom:8px;">Whatever's going on with your plumbing, heating, or gas lines, one call covers it. Our licensed technicians show up with the tools and parts to handle most jobs in a single visit.</p>
+    <table class="services">
+      <thead><tr><th>Service</th><th>What's Included</th></tr></thead>
+      <tbody>
+        <tr><td><a href="/services/plumbing/hot-water-tanks/">Hot water tanks</a></td><td><a href="/services/plumbing/hot-water-tanks/">Repair</a>, <a href="/services/plumbing/hot-water-tanks-installs-replacement/">replacement</a>, and <a href="/services/plumbing/tankless-water-heaters/">tankless conversions</a> for gas and electric tanks — same-visit diagnosis in most cases</td></tr>
+        <tr><td><a href="/combi-boiler-installation-and-repair/">Boilers &amp; combi systems</a></td><td>New <a href="/boiler-installs-replacement/">installations</a>, <a href="/services/heating-cooling/boiler-repair/">repairs</a>, and <a href="/services/plumbing/radiant-in-floor-heating/">in-floor radiant heating</a> for both high-efficiency and conventional units</td></tr>
+        <tr><td><a href="/services/heating-cooling/furnace-repair/">Furnaces</a></td><td>Repair and <a href="/services/heating-cooling/furnace-installation/">replacement</a> for all major gas furnace brands, including diagnostics for no-heat and short-cycling issues</td></tr>
+        <tr><td><a href="/services/heating-cooling/air-conditioning/">Air conditioning</a> &amp; <a href="/services/heating-cooling/heat-pumps/">heat pumps</a></td><td>Installation and servicing for central AC and heat pump systems, sized to your home</td></tr>
+        <tr><td><a href="/services/gas-fitting/">Gas fitting</a></td><td>Gas line installation and repair for stoves, BBQs, fireplaces, and patio heaters — TSBC-licensed gas fitters only</td></tr>
+        <tr><td><a href="/services/plumbing/">Bathroom &amp; kitchen plumbing</a></td><td>Faucet and fixture installation, leak repair, toilet replacement, dishwasher hookups</td></tr>
+        <tr><td>Drains &amp; pipes</td><td>Clog clearing, pipe repair and replacement, and camera inspection for hard-to-find leaks</td></tr>
+        <tr><td><a href="/services/strata-maintenance/">Strata &amp; building maintenance</a></td><td>Ongoing plumbing and heating maintenance contracts for strata councils and multi-unit buildings</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:13px;color:#777;margin-top:10px;">Note: "Drains &amp; pipes" isn't linked — no dedicated page exists for it on the live site.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>How to Choose a Reliable Plumber in Langley</h2>
+    <p>Not everyone who shows up with a wrench is a licensed plumber. In BC, look for three things before hiring:</p>
+    <ol class="checklist">
+      <li><strong>A valid TSBC (Technical Safety BC) licence number</strong> — legally required to be displayed on the company's website and materials since 2023. Ours: #LGA0092486 and #LBP0207908.</li>
+      <li><strong>A written estimate before work starts</strong> — not just a verbal quote.</li>
+      <li><strong>Proof of insurance</strong> — ask directly; a licensed company will have it on hand.</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Areas We Serve in Langley</h2>
+    <div class="area-list">
+      <span>Fort Langley</span><span>Brookswood</span><span>Murrayville</span>
+      <span>Walnut Grove</span><span>Willoughby</span><span>Aldergrove</span><span>Clayton</span>
+    </div>
+    <p style="margin-top:16px;">Also serving <a href="/plumbers-near-me/">Surrey</a> and <a href="/white-rock-plumbing/">White Rock</a> directly.</p>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>Find Us</h2>
+    <div class="map-embed">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.651135051274!2d-122.79541019999998!3d49.0687599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485c362390230fb%3A0xe3a30911f284f1a2!2sJohn%20Sadler%20Plumbing%20%26%20Heating!5e1!3m2!1sen!2sph!4v1787919829946!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" title="John Sadler Plumbing & Heating location map"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <h2>Frequently Asked Questions</h2>
+    <details open>
+      <summary>Are your plumbers licensed?</summary>
+      <p>Yes. All John Sadler plumbers hold current TSBC licences (#LGA0092486, #LBP0207908) and are Red Seal certified.</p>
+    </details>
+    <details>
+      <summary>Do you serve Fort Langley and Willoughby specifically?</summary>
+      <p>Yes — our Langley service area covers Fort Langley, Brookswood, Murrayville, Walnut Grove, Willoughby, and Aldergrove.</p>
+    </details>
+    <details>
+      <summary>What's your typical response time for a service call?</summary>
+      <p>Most calls are handled same-day.</p>
+    </details>
+    <details>
+      <summary>Do you offer emergency or after-hours plumbing?</summary>
+      <p>Yes — we offer 24/7 emergency plumbing service for urgent issues like leaks, burst pipes, or no heat/hot water.</p>
+    </details>
+    <details>
+      <summary>Do you charge for estimates?</summary>
+      <p><span class="placeholder">Needs client confirmation — not stated on current site</span></p>
+    </details>
+    <details>
+      <summary>What brands do you work with?</summary>
+      <p>We service and install all major hot water tank, boiler, and furnace brands — including Rheem, AO Smith, Bradford White, Giant, John Wood, and Navien.</p>
+    </details>
+    <details>
+      <summary>Are you certified to work on Navien systems?</summary>
+      <p>Yes. John Sadler is a Certified Navien Service Specialist (NSS), factory-trained on Navien combi boilers and tankless water heaters.</p>
+    </details>
+  </div>
+</section>
+
+<div class="cta-band">
+  <div class="wrap">
+    <h2>Call Today and Book Your Langley Service</h2>
+    <a class="btn" href="tel:+16045314355">Call (604) 531-4355</a>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h3>John Sadler Plumbing &amp; Heating</h3>
+      <p>(604) 531-4355<br>service@johnsadler.ca<br>Office Hours: Monday – Friday 8:30 AM – 5:00 PM<br>24/7 Emergency Line Available</p>
+      <div class="licence">TSBC Licence #LGA0092486 &amp; TSBC Licence #LBP0207908<br>
+      Copyright © 2026 John Sadler Plumbing &amp; Heating. All Rights Reserved.</div>
+    </div>
+    <div>
+      <h3>Langley Service Area</h3>
+      <div class="area-list">
+        <span>Fort Langley</span><span>Brookswood</span><span>Murrayville</span>
+        <span>Walnut Grove</span><span>Willoughby</span><span>Aldergrove</span><span>Clayton</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "John Sadler Plumbing & Heating",
+  "url": "https://www.johnsadler.ca/langley-plumbing-and-heating/",
+  "telephone": "+1-604-531-4355",
+  "email": "service@johnsadler.ca",
+  "foundingDate": "1976",
+  "areaServed": ["Langley","Fort Langley","Brookswood","Murrayville","Walnut Grove","Willoughby","Aldergrove","Clayton","Surrey","White Rock"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:30",
+    "closes": "17:00"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are your plumbers licensed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All John Sadler plumbers hold current TSBC licences (#LGA0092486, #LBP0207908) and are Red Seal certified."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you serve Fort Langley and Willoughby specifically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — our Langley service area covers Fort Langley, Brookswood, Murrayville, Walnut Grove, Willoughby, and Aldergrove."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's your typical response time for a service call?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most calls are handled same-day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer emergency or after-hours plumbing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — we offer 24/7 emergency plumbing service for urgent issues like leaks, burst pipes, or no heat/hot water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What brands do you work with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We service and install all major hot water tank, boiler, and furnace brands — including Rheem, AO Smith, Bradford White, Giant, John Wood, and Navien."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you certified to work on Navien systems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. John Sadler is a Certified Navien Service Specialist (NSS), factory-trained on Navien combi boilers and tankless water heaters."
+      }
+    }
+  ]
+}
+</script>
+
+</body>
+</html>

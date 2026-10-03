@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "make-token": {
+      "type": "http",
+      "url": "https://us2.make.com/mcp/u/ea2d6237-42b6-4cc4-b28a-80c88ce074d3/stateless"
+    }
+  }
+}

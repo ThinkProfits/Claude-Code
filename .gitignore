@@ -1,0 +1,31 @@
+# Secrets: never commit. Each person authenticates their own MCP servers.
+client_secret*.json
+client_secrets.json
+credentials.json
+token*.json
+google-ads.yaml
+.env
+.env.*
+*.pem
+*.key
+.credentials*
+
+# Python / Node build and cache output
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# Large or temporary files
+*.seospider
+~$*
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local sync log
+scripts/logs/
+
+# Personal Claude settings
+.claude/settings.local.json
