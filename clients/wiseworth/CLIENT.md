@@ -144,6 +144,58 @@ Commercial terms get impressions but few clicks:
 
 **GBP:** Kelowna and Surrey website/call clicks are down sharply YoY (Aug 2026 report).
 
+### Keywords
+
+Full detail is in [keywords.md](keywords.md) (2026-10-06).
+
+**Tracking**
+- Semrush project 2049406 tracks 100 keywords: 64 rank in the top 100, 41 in the top 10 and 13 at #1.
+- The tracked location and device aren't returned by the API. The volumes look BC-local, so *confirm the settings in the Semrush UI*.
+
+**Wins this week**
+
+| Keyword | Position |
+|---|---|
+| "ingersoll rand canada" | 7 → 1 |
+| "ingersoll rand compressor parts" | 8 → 1 |
+| "ingersoll rand heated desiccant compressed air dryers" | 33 → 1 |
+
+**Losses this week**
+
+| Keyword | Position |
+|---|---|
+| "ingersoll rand air compressor" | 8 → 28 |
+| "ingersoll rand oil free air compressor" | 5 → 23 |
+| "two stage reciprocating air compressor" | 5 → 21 |
+| "industrial air compressor" | 5 → 13 |
+
+"ingersoll rand filters" and "ingersoll rand ultra coolant" don't rank at all.
+
+**Quick wins**
+
+GSC shows these on page 1–2 with roughly 0% CTR:
+
+| Query | Impressions (90 days) | Avg position |
+|---|---|---|
+| "ingersoll rand air compressor" | 1,124 | 8.4 |
+| "industrial air compressor(s)" | ~1,600 | ~10 |
+| "ingersoll rand compressor" | 460 | — |
+| "oil flooded air compressor" | 246 | — |
+
+Also:
+- IR blowers and "hibon blower distributors" show the same pattern.
+- "industrial air compressor supplier" ranks at 1.3 with 0 clicks.
+
+**Cannibalization:** "ingersoll rand canada" ranks with 10 different URLs.
+
+**Keyword rules**
+- No rental terms.
+- Use "lease" only in the financing sense.
+- No "buy online" language.
+- Never claim to be Ingersoll Rand or position against IR.
+
+**Confirm before targeting:** gas-powered compressors, Infinity piping and used blowers. It isn't confirmed that Wiseworth actually sells these.
+
 ## 6. Current marketing programme and scope
 
 - **SEO retainer:** about 6 hours a month (2024 plan):

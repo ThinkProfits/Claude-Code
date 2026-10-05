@@ -176,6 +176,53 @@
 - Cannibalization: boiler topics spread across 4 pages, hot water across 5
 - Langley has 3 pages; White Rock has 1
 
+### Keywords
+
+Full detail is in [keywords.md](keywords.md) (2026-10-06).
+
+**What's tracked:** Semrush project 2824033 tracks 113 keywords in a **single campaign**. The location split below comes from the town named in each keyword. That doesn't match the Briefing's 70 / 130 / 116 split, so *check in the Semrush UI whether there are separate campaigns per market*.
+
+| Location | Tracked | In top 100 | In top 10 |
+|---|---|---|---|
+| Surrey | 44 | 40 | 21 |
+| White Rock | 25 | 25 | 13 |
+| Langley | 37 | 21 | 4 |
+| Abbotsford | 6 | — | — |
+| No location ("fortis rebates") | 1 | — | — |
+
+**Movement, 09-29 to 10-05**
+
+| | Keyword | Position |
+|---|---|---|
+| Win | boiler repair langley | 40 → 13 |
+| Win | air conditioner surrey | 48 → 22 |
+| Win | plumbing and heating company surrey | 23 → 4 |
+| Loss | furnace repair surrey (590 searches/mo) | 13 → 31 |
+| Loss | hot water tank services white rock | 3 → 29 |
+
+We don't rank at all for "surrey plumbing" (1,300/mo) or "langley plumbing" (880/mo).
+
+**Clean-up**
+- Remove the 6 Abbotsford keywords.
+- Review "fortis rebates".
+- Hilltop outranks us on 34 tracked terms, mostly in White Rock, where it holds #1 on 18.
+- 8 terms record `http://johnsadler.ca/` as the ranking URL, so check the redirects.
+
+**Keyword rules**
+- **AC and heat pump repair are allowed as of 2026-08-20.** They were banned on 2024-07-06, so the Briefing's "drop AC/HP repair" note is out of date.
+- Track Navien at the category level only.
+- Never target:
+  - drains, faucets or toilets
+  - propane or oil
+  - new construction
+  - fire installations
+  - commercial
+  - mobile homes
+  - pools
+- Price and cost terms were removed from PPC in April 2024.
+
+**Ad copy is out of date.** The Repair campaign ads still say "40+ Years" and "Surrey's Best Hot Water Pros". Both break the "50 years" and no-superlatives rules.
+
 ## 6. Current marketing programme and scope
 
 **Recurring work**
@@ -352,6 +399,10 @@
 - [ ] Get GSC access to `sc-domain:johnsadler.ca`.
 - [ ] Verify GA4 and call tracking.
 - [ ] Confirm the new Teamwork project for September onward.
+- [ ] Remove the 6 Abbotsford keywords from Semrush tracking. Finish the 3-market tracked-keyword sheet (requested 2026-09-04, not found).
+- [ ] Update the Repair campaign ad copy: "40+ Years" and "Surrey's Best" break the rules.
+- [ ] Check the `http://johnsadler.ca/` redirect.
+- [ ] **Security:** the Website Audit sheet's "Citation" tab holds a directory login in plain text. Move it to a password manager.
 
 **Note:** #johnsadler has been quiet since 2026-09-07.
 
