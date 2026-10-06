@@ -324,7 +324,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-07).
 - [ ] Confirm every collection page has the agreed optimized H1 + 1–2 sentence intro. The live descriptions are empty (2026-09-18 / 09-29 requests).
 - [ ] Draft Google Doc rewrites: /pages/lacrosse-equipment (Box or Field?, Youth and First-Time Players, 6-question FAQ) and /pages/lacrosse-sticks ("Building a Stick") (2026-09-18).
 - [ ] Draft intros for the new sport-specific footwear collections once Andrew creates them (2026-09-29).
-- [ ] Reply to Andrew's homepage question: rankings, thin content, keyword headings (2026-08-01).
+- [ ] Reply to Andrew's homepage question: rankings, thin content, keyword headings (2026-08-01). Draft rewrite doc created 2026-10-07: `1bdhqlgV5Oh3E7xZrx681t9n8SftWDMrM4h5n6wOHg-c` (MVP Athletic Supplies Drive folder). Pending Francis review, then Andrew to the client.
 - [ ] Confirm the Jun, Jul and Aug 2026 Automated Report Review threads (follow-ups to Francis unanswered as of 2026-09-29).
 - [ ] Reconcile the GA4 vs GSC organic discrepancy and check contact_form / email_click event tagging (Jul/Aug reports).
 - [ ] Resolve Shopify access. Francis couldn't log in on 2026-09-16 ("is MVP shopify login changed recently?").
