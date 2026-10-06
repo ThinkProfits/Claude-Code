@@ -1,0 +1,178 @@
+CONTEXT ONLY: DO NOT CHANGE ANY FILES IN RESPONSE TO THIS MESSAGE.
+
+Below is our SEO audit of the industry service pages (/aeo-services/<industry>/ and /ppc-advertising/ppc-for-<industry>/). Read it for context. Its recommendations are NOT approved yet: do not build the hub, add redirects, delete pages or edit copy. Those steps will come later as separate, explicit instructions.
+
+The only task right now is the read-only inspection at the end of this message (Phase 0).
+
+===== AUDIT (for context) =====
+
+# thinkprofits.com: industry service page audit
+
+> **Status:** DRAFT v0.1, 2026-10-07. Prepared by Francis (with Claude) for Andrew and Shawn.
+> **Why:** Shawn flagged the garage door and auto repair pages as spam-like. Andrew's rule: quality over quantity, and every page we keep gets rewritten by hand (no re-running the AI).
+> **Scope:** the 31 industry pages Lovable generated: 21 under `/aeo-services/<industry>/` and 10 under `/ppc-advertising/ppc-for-<industry>/`. The 40 city pages (`/seo-company-<city>/`, `/ppc-agency-<city>/`) are out of scope and need their own pass.
+> **Sources:** live sitemap (300 URLs, 2026-10-07); GSC `sc-domain:thinkprofits.com`, 6 months (2026-04-07 to 2026-10-06); Google Ads Keyword Planner (Canada, avg monthly searches, 12 months to Aug 2026); page HTML fetched 2026-10-07; client list and case studies from `CLIENT.md`.
+> **Not used:** Semrush (API units at zero on 2026-10-07). People Also Ask questions haven't been pulled yet. Do that before writing the kept pages (see section 7).
+> **Companion file:** [lovable-brief-industry-pages-2026-10-07.md](lovable-brief-industry-pages-2026-10-07.md), the step-by-step instructions to paste into Lovable.
+
+## 1. Summary
+
+- **31 pages, 3 clicks in 6 months.** Across all 31 industry pages: 1,684 impressions, 3 clicks (AEO HVAC 1, AEO med spa 1, PPC auto repair 1). None of them bring in business, so cutting them costs almost nothing.
+- **Search intent is fine, but the copy reads like it's for consumers.** The queries Google shows these pages for are agency-intent ("garage door repair seo", "auto repair ppc company"). The problem is the body copy. Most of each page is written as homeowner and car-owner questions ("garage door won't close", "broken torsion spring cost", "can I open my garage door manually"). To Google and to a reader, a page full of those phrases looks like a garage door repair page with an agency logo on top. That's the spam signal Shawn picked up on.
+- **All 21 AEO pages share one template.** They have the same H2 skeleton, the same six "What We Do" blocks with the industry name swapped in, the same two "Related Reading" posts (about Lovable canonical QA, which is irrelevant to the industry) and the same FAQ pattern. Google treats a set like this as scaled, doorway-style content.
+- **Claims to fix wherever copy survives:** "converts at almost any offered price" (garage door, no source), "your brand is in its training and retrieval set" (overclaim), "we earn mentions in… Reddit threads" (reads as seeding forums, which is a reputational risk). Our standards say no guarantees and cite stats, so flag these.
+- **Technical:** the slash and no-slash versions of several pages are both indexed and split impressions. `/ppc-for-landscaping` (no slash) has 416 impressions and `/ppc-for-landscaping/` has 39. The same thing happens for dentists, auto repair, HVAC, plumbing, accountants, landscaping and cleaning.
+- **Recommendation:**
+  - Keep **6 verticals** (11 URLs) as separate pages and rewrite them by hand.
+  - Fold the other **15 verticals** (20 URLs) into the `/industries/` hub and 301 their URLs.
+  - Roofing and law firms stay only if we can show real proof (see section 4).
+
+## 2. How each page was judged
+
+Each page gets 4 checks, in order:
+
+1. **Audience:** is the page written for a business owner hiring an agency (keep), or does it mostly speak to that business's customers (rewrite or cut)?
+2. **Proof:** do we have a real client, case study or testimonial in this vertical? A page with no proof is a page that can only make claims.
+3. **Demand:** do people search for an agency in this vertical? (Keyword Planner, Canada, agency-intent terms such as "seo for dentists", not consumer terms.)
+4. **Current value:** GSC clicks and impressions. If the page earns anything, it needs a 301 rather than a plain removal.
+
+Verdicts:
+- **KEEP + REWRITE:** separate indexable page, rewritten by hand.
+- **HUB:** short honest section on `/industries/`, URL 301'd.
+- **CONFIRM:** keep only if Andrew or Shawn can name a real result.
+
+## 3. Page inventory
+
+GSC = 6 months to 2026-10-06, both slash variants combined. Volume = Keyword Planner, Canada, best agency-intent term.
+
+| Vertical | AEO page (impr / clicks) | PPC page (impr / clicks) | Our proof | Best agency-intent demand (CA/mo) | Verdict |
+|---|---|---|---|---|---|
+| Plumbing | 6 / 0 | 67 / 0 | John Sadler, Vision, Butler, Lone Star, McMullen (case studies + live clients) | plumbing seo 70, plumber marketing agency 40, google ads for plumbers 40 | **KEEP + REWRITE** (both) |
+| HVAC | 86 / 1 (pos 7.5) | 77 / 0 | Vision, ProWest, Waywest, CCD Energy | seo for hvac 140, hvac seo 110, hvac marketing 70 | **KEEP + REWRITE** (both) |
+| Dentists | 7 / 0 | 413 / 0 | Tsawwassen Family Dental case study | dental marketing 590, dental seo 480, seo for dentists 260, dental google ads 90 | **KEEP + REWRITE** (both) |
+| Electricians | 1 / 0 | 17 / 0 | PowerUp Electric (client channel) | seo for electricians 70, electrician marketing 40 | **KEEP + REWRITE** (both) |
+| Landscaping | 14 / 0 | 455 / 0 | Arbor Green Tree (client channel); *confirm* Hoogbruin / Ultimate Fence fit | landscaping marketing 70, landscaping marketing agency 40 | **KEEP PPC + REWRITE**; AEO → **HUB** |
+| Home services umbrella | none | none | All of the above | seo for contractors 260, trades marketing 170 | Covered by the hub (see section 5) |
+| Law firms | 29 / 0 | 14 / 0 | *Confirm*: Thomas Associates case study? Magellan Immigration is immigration, not law | lawyer seo 1,000, law firm seo 480, legal seo 320, law firm seo company 320 | **CONFIRM**: biggest demand on the list, but competitive and we need proof |
+| Roofing | 1 / 0 | 47 / 0 | None found | seo for roofers 320, roofing seo 320 | **CONFIRM**: demand is real; without a roofing result → HUB |
+| Cleaning | 15 / 0 | none | Anago of Vancouver case study, Cleaning 4 U (PPC client) | cleaning company seo 10 | **HUB** (feature the Anago case study in the hub section) |
+| Home remodeling | 2 / 0 | none | Merit Kitchens, Euro-Rite Cabinets case studies | renovation marketing 10 | **HUB** (feature both case studies) |
+| Accountants | 64 / 0 | none | None found | marketing for accountants 50 | **HUB** |
+| Moving companies | 86 / 0 | none | None | moving company seo 90 | **HUB** |
+| Restoration | 15 / 0 | none | *Confirm*: Drainage Pro? | restoration seo 10 | **HUB** |
+| Pest control | 3 / 0 | none | None | pest control seo 90 | **HUB** |
+| **Garage door** | 7 / 0 | none | None | garage door seo 10 | **HUB** (Shawn's flag) |
+| **Auto repair** | 17 / 0 | 113 / 1 | None | auto repair marketing 70 | **HUB** (Shawn's flag), both URLs |
+| Med spa | 19 / 1 | 31 / 0 | None | med spa marketing 50 | **HUB**, both URLs |
+| Dermatology | 23 / 0 | none | None | dermatology marketing 20 | **HUB** |
+| Chiropractors | 8 / 0 | none | None | chiropractic marketing 40 | **HUB** |
+| Physiotherapy | 21 / 0 | none | None | physiotherapy marketing 40 | **HUB** |
+| Veterinarians | 26 / 0 | none | None | veterinary marketing 20 | **HUB** |
+
+`/aeo-services/geo/` (476 impressions) isn't an industry page. It stays and is out of scope here.
+
+**Reading the volumes:** Keyword Planner rounds low-spend data, so treat 10–90 as "a handful of searches a month in all of Canada". No vertical page on its own will be a big traffic source. The point of a kept page is to convert the few agency searchers who land there and to give AI engines a credible, specific page to cite.
+
+## 4. Open question for Andrew: hub or separate pages?
+
+Andrew leaned towards a hub for sales plus separate pages for SEO and AI search. This audit supports a **tiered** version of that:
+
+- **Tier 1, separate indexable pages:** only where we have proof **and** measurable agency-intent demand: plumbing, HVAC, dentists, electricians, landscaping (PPC). Roofing and law firms move up only if we can point to a real result.
+- **Tier 2, hub only:** every other vertical gets a short, honest section on `/industries/` (2–4 sentences, plus a linked case study where we have one). No separate URL, so there are no thin pages to look spammy.
+- **Why not separate pages for everything?** 15 of the 21 verticals have no client proof and close to no demand. Rewriting them by hand would take roughly 15 × 2–3 hours for pages with no evidence they'll ever earn a click. That's the opposite of quality over quantity.
+- **Why not hub-only for everything?** For plumbing, HVAC and dental, a dedicated page is what an AI engine or a searcher expects to find, and we have real stories to put on it.
+
+**Decisions needed from Andrew before Lovable touches anything:**
+1. Approve the tiered model, or choose all-hub or all-separate.
+2. Roofing and law firms: is there a real result we can show? If not, they go to the hub.
+3. Keep the AEO/PPC split per vertical (2 URLs per kept vertical), or merge each kept vertical into one page covering SEO + AEO + PPC? Merging gives fewer, stronger pages but means more redirects. This audit assumes **keep the split for now** because it needs fewer redirects (see the warning below).
+
+> **Redirect cap warning:** CLIENT.md records that the Encited plan allowed 300 redirects against 672 in use (July 2026), and it isn't confirmed whether Lovable SSR or TanStack now serves real 301s. This plan adds up to 20 redirects. Check how redirects are actually served **before** removing any page (step 0 of the Lovable brief).
+
+## 5. Redirect map (only for pages going to the hub)
+
+Rules:
+- AEO URLs go to the hub, because the hub's industry section is the nearest match.
+- PPC URLs go to the PPC service page, because the searcher wanted PPC.
+- Redirect both the slash and no-slash versions.
+
+| From | To |
+|---|---|
+| /aeo-services/garage-door/ | /industries/ |
+| /aeo-services/auto-repair/ | /industries/ |
+| /ppc-advertising/ppc-for-auto-repair/ | /ppc-advertising/ |
+| /aeo-services/med-spa/ | /industries/ |
+| /ppc-advertising/ppc-for-med-spa/ | /ppc-advertising/ |
+| /aeo-services/moving-companies/ | /industries/ |
+| /aeo-services/pest-control/ | /industries/ |
+| /aeo-services/restoration/ | /industries/ |
+| /aeo-services/dermatology/ | /industries/ |
+| /aeo-services/chiropractors/ | /industries/ |
+| /aeo-services/physiotherapy/ | /industries/ |
+| /aeo-services/veterinarians/ | /industries/ |
+| /aeo-services/accountants/ | /industries/ |
+| /aeo-services/cleaning/ | /industries/ |
+| /aeo-services/home-remodeling/ | /industries/ |
+| /aeo-services/landscaping/ | /ppc-advertising/ppc-for-landscaping/ (our landscaping page that stays) |
+| /aeo-services/roofing/ + /ppc-advertising/ppc-for-roofing/ | **Only if roofing goes to the hub:** /industries/ and /ppc-advertising/ |
+| /aeo-services/law-firms/ + /ppc-advertising/ppc-for-law-firms/ | **Only if law goes to the hub:** /industries/ and /ppc-advertising/ |
+
+Pre-deletion GSC check: done in section 3. No page in the redirect list has more than 1 click in 6 months, so redirecting carries no meaningful traffic risk. Re-check the week before cut-over in case anything has changed.
+
+## 6. Rewrite spec for kept pages (written by hand)
+
+Every kept page drops the shared template and is written fresh from the brief below.
+
+**What each kept page must have:**
+- Written to the **owner** of the business. Customer search phrases may appear only as short, clearly labelled examples ("your customers ask things like…"), never as the bulk of the copy.
+- **One real proof block:** a named client, what we did and a sourced result from GSC/Ads/CallRail. No result → no claim.
+- **Specific to us:** what we actually run for this vertical (e.g. LSA for plumbers, rebate-season campaigns for HVAC), our pricing tier link, and who does the work.
+- **Unique FAQ** built from People Also Ask data for that vertical (see section 7), not the 6 shared questions.
+- **No guarantees** ("get cited in 60–90 days", "rank #1") and no unsourced stats.
+- Internal links: up to the service page (`/aeo-services/` or `/ppc-advertising/`), across to the sibling page for the same vertical, out to the relevant case study and the `/industries/` hub.
+- Remove the generic "Related Reading" block (Lovable canonical QA posts) unless the post is genuinely about that vertical.
+- Format: service-page conversion layout (hero, what we do, proof, process, pricing link, FAQ, CTA), not article prose.
+
+**Keyword targets (Keyword Planner, Canada; intent = commercial, someone hiring an agency):**
+
+| Page | Primary keyword | Secondary keywords | Notes |
+|---|---|---|---|
+| /aeo-services/plumbing/ | seo for plumbers (plumbing seo, 70) | plumber marketing agency (40), plumbing marketing (50) | Angle it as AI search *plus* local SEO for plumbers. "aeo for plumbers" has no measurable volume. |
+| /ppc-advertising/ppc-for-plumbing/ | google ads for plumbers (40) | ppc for plumbers (10), plumbing LSA | Ranks 17.4 now, closest to page 1 of any PPC page. |
+| /aeo-services/hvac/ | seo for hvac (140) | hvac seo (110), hvac marketing agency (50) | Already pos 7.5 and the only AEO page with a click. Rewrite carefully and keep the URL. |
+| /ppc-advertising/ppc-for-hvac/ | hvac marketing (70) | hvac google ads (10), hvac LSA | Low PPC-specific demand. Lean on "marketing". |
+| /aeo-services/dentists/ | seo for dentists (260) | dental seo (480), dental seo company (210), dental marketing company (90) | Highest demand among kept pages. Tsawwassen Family Dental is the proof. |
+| /ppc-advertising/ppc-for-dentists/ | dental google ads (90) | ppc for dentists (30), dental marketing (590) | 413 impressions at pos ~76: Google knows the page but doesn't trust it yet. |
+| /aeo-services/electricians/ | seo for electricians (70) | electrician seo (70), electrician marketing (40) | PowerUp Electric is the proof (confirm permission to name them). |
+| /ppc-advertising/ppc-for-electrician/ | electrician marketing (40) | electrician google ads (10) | |
+| /ppc-advertising/ppc-for-landscaping/ | landscaping marketing (70) | landscaping marketing agency (40), landscaping ppc (10) | Most-seen PPC page (455 impressions), pos ~36. |
+| *If kept:* /aeo-services/law-firms/ | law firm seo (480) | lawyer seo (1,000), legal seo (320), law firm seo company (320) | Very competitive nationally. Only worth it with a real law client story. |
+| *If kept:* /aeo-services/roofing/ | seo for roofers (320) | roofing seo (320), roofing seo company (70) | Same: only with proof. |
+
+Volumes are Canada-wide monthly averages from Keyword Planner, which rounds low figures. Use them to rank priorities, not as traffic forecasts.
+
+## 7. Still to do
+
+- [ ] Andrew decides the section 4 questions.
+- [ ] Pull **People Also Ask** questions for each kept vertical (standing rule). Semrush is out of units, so do it manually in an incognito browser or wait for the top-up.
+- [ ] Confirm how redirects are served now (Encited cap vs Lovable SSR/TanStack).
+- [ ] Get permission to name the clients used as proof on each kept page.
+- [ ] Hand-write the kept pages (Francis), Andrew reviews, then Lovable pastes the final copy in. Lovable doesn't write the copy.
+- [ ] After launch: request indexing for kept pages, and watch GSC for 4–6 weeks for 404s and redirect chains.
+- [ ] Next audit: the 40 city pages (same template risk).
+
+
+===== TASK: PHASE 0 (read-only) =====
+
+We are cleaning up the industry service pages on thinkprofits.com. Before changing anything, inspect the project and report back. Do NOT edit any files in this phase.
+
+1. REDIRECTS: Tell me exactly how redirects are served on this site today (Encited, a redirects file, TanStack/SSR route config, Cloudflare, or something else). Show me the file or config that holds them and count how many redirect rules exist. Tell me whether the site returns a real HTTP 301 status or a client-side redirect.
+2. INVENTORY: List every route/file that renders these pages, and whether each is a separate file or one shared template fed by data:
+   - /aeo-services/<industry>/ (21 industries)
+   - /ppc-advertising/ppc-for-<industry>/ (10 industries)
+   - /industries/
+3. REFERENCES: For each of the 31 industry URLs, list every place it is linked from: header/footer nav, /industries/, /aeo-services/, /ppc-advertising/, /services/, the HTML sitemap page (/sitemap/), sitemap.xml, llms.txt, blog posts, schema/JSON-LD.
+4. TRAILING SLASH: Fetch /ppc-advertising/ppc-for-landscaping and /ppc-advertising/ppc-for-landscaping/ (no slash and slash). Report the HTTP status and the <link rel="canonical"> of each. Do the same for /aeo-services/accountants and /aeo-services/accountants/.
+5. BACKUP: Confirm the current version is saved in Lovable history so we can roll back, and tell me the version/commit name.
+
+Report back with all five answers. Don't fix anything yet.
