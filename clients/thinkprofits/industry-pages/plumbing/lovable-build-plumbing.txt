@@ -1,0 +1,64 @@
+=====================================================================
+PROMPT A: BUILD THE SHELL (send once Andrew approves the page structure)
+=====================================================================
+
+Build a new page at /industries/plumbing/. Do NOT write any marketing copy. Use the placeholders below exactly as written; the final copy will be written by hand and sent to you later. Keep the page UNPUBLISHED (or noindex, out of sitemap.xml and out of nav) until I send the final copy.
+
+VISUAL STYLE: Reuse the exact visual components, spacing, colours, typography and section styling of the existing page /ppc-advertising/ppc-for-plumbing/ (hero with trust-badge row, lead-form card, stat strip, problem cards, channel grid, checklist, FAQ accordion, CTA band). Don't invent a new design.
+
+SECTIONS, in this order (H-tags as marked):
+1. HERO: eyebrow [[EYEBROW]], H1 [[H1]], subhead [[SUBHEAD]], a row of 6 trust badges [[BADGE 1]]…[[BADGE 6]], primary button [[BUTTON]] → /contact/, secondary button "Call 1-877-597-7888" → tel:+18775977888
+2. LEAD FORM CARD: H2 [[FORM H2]], [[FORM INTRO]]. Fields: Name, Company, Phone, Email, City/region, Monthly marketing budget (select: Under $2,000 / $2,000–$5,000 / $5,000–$15,000 / $15,000+), "What do you need most?" (select: More emergency calls / More high-ticket jobs / Better Google Maps ranking / Fix my Google Ads / Not sure). Submit button [[SUBMIT]]. Cloudflare Turnstile and the same form handling/notifications as the existing contact forms.
+3. STAT STRIP: 4 columns, each a big number plus a caption with a link [[STAT 1–4]].
+4. FAMILY HISTORY: H2 [[H2]], intro [[P]], horizontal timeline with 6 items [[YEAR + TEXT]] (stacks vertically on mobile), quote block [[SHAWN QUOTE]], short paragraph [[EXCLUSIVITY]], YouTube embed of video ID tnAZS76wims as a lightweight facade (thumbnail plus play button; load the iframe only on click; use youtube-nocookie.com).
+5. PROBLEMS: H2 [[H2]], 3 cards each with H3 [[H3]] + [[P]].
+6. CHANNELS: H2 [[H2]], 6-card grid each with H3 [[H3]] + [[P]], then a button [[BUTTON]] → /contact/.
+7. HOMEOWNER JOURNEY: H2 [[H2]], 4 numbered cards each with H3 [[H3]] + [[P]].
+8. RESULTS: H2 [[H2]], 4 case study cards (2×2) linking to /case-study/butler-plumbing-heating/, /case-study/john-sadler-plumbing-heating/, /case-study/lone-star-plumbing-heating/, /case-study/plugbusters/, each with [[CARD TEXT]] and an optional [[QUOTE]]. Button [[BUTTON]] → /portfolio/.
+9. INCLUDED: H2 [[H2]], two-column checklist with 10 items [[ITEM]].
+9a. WHY US: H2 [[H2]], icon list with 6 items [[BOLD LEAD + TEXT]].
+9b. TOOLS: H3 [[H3]], logo row (Housecall Pro, Jobber, ServiceTitan, CallRail, Google Ads, Google Business Profile). Use text labels if logos aren't licensed for use.
+9c. FREE PLAN BANNER: H2 [[H2]], [[P]], button [[BUTTON]]. HIDDEN by default; I'll tell you when to show it.
+10. PRICING: H2 [[H2]], [[P]], a box with 2 rows [[PRICING ROW 1–2]], [[P]], button [[BUTTON]] → /contact/. Link to the existing pricing sections on /seo-services/, /aeo-services/ and /ppc-advertising/. Don't create new prices.
+11. FAQ: H2 [[H2]], accordion with 10 items, each H3 [[QUESTION]] + [[ANSWER]].
+12. FINAL CTA BAND: H2 [[H2]], [[P]], primary and secondary buttons, small print [[SMALL PRINT]].
+
+Do NOT include the "Related Reading" block, the "Explore More" cards, or any testimonials other than the ones I supply.
+
+Breadcrumb: Home › Industries › Plumbing (Industries → /industries/).
+Schema now: BreadcrumbList and Service only. No FAQPage schema until the real FAQ text is in.
+
+Report back: a screenshot of the shell on desktop and mobile, and confirmation that it is not published or indexable.
+
+
+=====================================================================
+PROMPT B: PASTE FINAL COPY AND PUBLISH (send only after Andrew approves the copy)
+=====================================================================
+
+Here is the final, approved copy for /industries/plumbing/. Paste it into the placeholders exactly as written. Don't edit, shorten, expand or "improve" any wording. Keep the H-tags as marked. Links and buttons are given inline with their target URLs. If anything doesn't fit the layout, tell me instead of rewriting it.
+
+Then:
+1. Set the title tag and meta description exactly as given at the top of the copy.
+2. Add FAQPage schema built from the FAQ section (questions and answers verbatim), plus Service and BreadcrumbList.
+3. Make the page indexable with a self-referencing canonical https://thinkprofits.com/industries/plumbing/ and add it to sitemap.xml, llms.txt, the /industries/ hub and the nav "Industries" menu.
+4. Publish.
+
+[PASTE APPROVED COPY HERE]
+
+Report back: the live URL, the status code, the canonical, and confirmation that FAQPage schema is present.
+
+
+=====================================================================
+PROMPT C: REDIRECTS (only after Phase 0 confirms redirect capacity AND the page is live)
+=====================================================================
+
+Add server-side HTTP 301 redirects (not JavaScript or meta refresh) to https://thinkprofits.com/industries/plumbing/ from both the slash and no-slash versions of:
+/seo-services/local-seo/local-seo-plumbing/
+/aeo-services/plumbing/
+/ppc-advertising/ppc-for-plumbing/
+/seo-for-plumbers   (repoint the existing rule, which currently goes to /seo-services/)
+/plumbing-seo-company-toronto/   (repoint the existing rule, which currently goes to /seo-company-toronto/)
+
+Then update every internal link that points at those URLs (nav, /seo-services/local-seo/, /aeo-services/, /ppc-advertising/, /industries/, /sitemap/, sitemap.xml, llms.txt, blog posts, case studies) so it points straight to /industries/plumbing/. Remove the three old pages from rendering. Make sure no redirect chains remain.
+
+Report back: the rules added or changed, the total rule count, and the status code plus final URL for each old URL.
