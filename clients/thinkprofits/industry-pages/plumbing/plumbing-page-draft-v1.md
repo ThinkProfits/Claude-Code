@@ -34,7 +34,7 @@ Eyebrow: SEO · AI Search · Google Ads for Plumbing Contractors
 
 # H1: SEO for Plumbers, From a Family That's Been Plumbing Since 1906
 
-Subhead: More calls, more booked jobs, and fewer leads shared with four other shops. We've been plumbers' marketing team since 1996, and plumbing has been the family business for over 100 years.
+Subhead: More calls, more booked jobs, and fewer leads shared with four other shops. We've been doing SEO for plumbers, Google Ads and now AI search since 1996, and plumbing has been the family business for over 100 years.
 
 Trust badges: Since 1996 · 100+ years of plumbing in the family · Google Partner · Month-to-month · No ad-spend markup · Call tracking included
 
@@ -313,4 +313,4 @@ Small print: No long-term contracts · No ad-spend markup · Real people in Vanc
 - conversion-multiplier claims ("4–6×", "30× harder")
 - the "$35–$95 CPL" and "24–48 hours" benchmarks (re-add only as ranges from our own accounts, with assumptions stated)
 
-**Copy checks done:** Canadian spelling (neighbourhood, licence, centre). No ranking or result guarantees. The primary keyword is in the title, the H1 and the first FAQ. All numbers trace to our own case studies or published pricing.
+**Copy checks done:** Canadian spelling (neighbourhood, licence, centre). No ranking or result guarantees. The primary keyword is in the title, the H1, the hero subhead and the first FAQ. Body copy is about 2,300 words including form labels, a little above the 1,200–2,000 target, so trim during the hand rewrite (section 7 or 9a are the easiest cuts). All numbers trace to our own case studies or published pricing.

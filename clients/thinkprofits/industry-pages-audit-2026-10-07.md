@@ -317,6 +317,11 @@ Re-check against real People Also Ask results (Semrush or a manual incognito sea
 
 ## 12. Next steps
 
+**Pilot started (2026-10-07):** plumbing is being built first as the template, following the meeting that approved the look of `/ppc-advertising/ppc-for-plumbing/`.
+- Draft: [industry-pages/plumbing/plumbing-page-draft-v1.md](industry-pages/plumbing/plumbing-page-draft-v1.md)
+- Lovable prompts: [industry-pages/plumbing/lovable-build-plumbing.txt](industry-pages/plumbing/lovable-build-plumbing.txt)
+- Reusable template: [industry-pages/industry-page-template.md](industry-pages/industry-page-template.md)
+
 - [ ] Lovable Phase 0 report (inventory and redirect capacity), including the 20 local-seo pages and the old URLs (see the addendum message).
 - [ ] Andrew's decisions (section 11).
 - [ ] Fix the www 302 → 301 (independent; can go now if Andrew agrees).
