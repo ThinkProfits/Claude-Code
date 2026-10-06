@@ -97,7 +97,7 @@ Keyword Planner, agency-intent terms only ("seo for X", "X seo company", "X mark
 | **Plumbing** | 810 | 5,990 | plumber web design 170 / 480 · advertising for plumbers 110 / 480 · seo for plumbers 70 / 590 · digital marketing for plumbers 50 / 260 · plumber marketing agency 40 / 720 · local seo for plumbers 40 / 590 · google ads for plumbers 40 / 260 | **Strongest**: John Sadler (4x organic traffic), Lone Star (+730% PPC conversions), Butler (150+ calls/month); live Vision, McMullen | 3 templated pages + old `/seo-for-plumbers` |
 | Roofing | 740 | 7,740 | roofer seo 320 / 2,400 · seo for roofing companies 70 / 880 · marketing for roofers 30 / 590 | **None found** | 3 templated pages |
 | Accountants | about 300* | 3,780* | cpa marketing 210 / 1,300 (*mostly affiliate "CPA" marketing, not accountants*) · accounting marketing 50 / 390 · marketing for accountants 50 | None | 2 templated pages |
-| **Education** | about 300* | about 1,500* | seo for educational institutions (GSC shows 140 impressions to our old page) · higher education marketing 110 / 260 · digital marketing for schools 50 / 480 · higher ed marketing agencies 20 / 320 (*"education marketing" is mostly people looking for marketing courses*) | **Strong**: Sprott Shaw College (32+ page-1 placements), Mujo Learning Systems; live AANMC | Old `/seo-for-education/` (1,227 impressions) |
+| **Education** | about 390* | about 4,000* | higher education marketing 110 / 260 · marketing for colleges 40 / 880 · digital marketing for schools 50 / 480 · website design for schools 40 / 480 · higher ed marketing agencies 20 / 320 · advertising for colleges 20 / 320 · education marketing agency 10 / 390 · seo for educational institutions (GSC: 140 impressions to our old page) (*checked by hand after the Laya intent check, section 3a; "education marketing" (140 / 480) is mixed with course searches and isn't counted*) | **Strong**: Sprott Shaw College (32+ page-1 placements), Mujo Learning Systems; live AANMC | Old `/seo-for-education/` (1,227 impressions) |
 | Landscaping | 500 | 3,730 | landscaping marketing 70 / 390 · advertising for landscapers 50 / 480 · landscape marketing agency 40 / 260 | Weak: Arbor Green (live client, no case study) | 3 templated pages |
 | Electricians | 410 | 2,940 | advertising for electricians 70 / 320 · seo for electricians / electrician seo 70 / 720 · electrician marketing 40 / 320 | Weak: PowerUp Electric (live client, no case study) | 3 templated pages |
 | Auto repair | 350 | 2,410 | auto repair marketing 70 / 720 · seo for auto repair shops 20 / 320 | None | 3 templated pages |
@@ -115,6 +115,38 @@ Keyword Planner, agency-intent terms only ("seo for X", "X seo company", "X mark
 | Kitchens/cabinets, towing, fencing, drain/septic | 30–70 each | under 260 each | Too small to measure | Merit, Euro-Rite, Jamie Davis, Ultimate Fence, Clearset | None |
 
 **AI-search terms per industry:** every "aeo for <industry>" and "ai seo for <industry>" term returned **0** in both Canada and the US. Demand for AI search exists at the service level ("generative engine optimization" 590/month in Canada, "answer engine optimization" 320, "ai seo agency" 110), which `/aeo-services/` and `/aeo-services/geo/` already target. **Per-industry AEO pages have no search demand behind them.**
+
+### 3a. Intent check with Laya (local AI classifier)
+
+**What it is:** every keyword (the 1,774 in the matrix plus the Keyword Planner suggestions, 5,566 in total) was classified by **Laya**, a local, non-generative decision model that runs on Francis's PC, so no data leaves the machine. Each keyword was put in one of five buckets:
+- hiring an agency
+- do-it-yourself tips
+- consumer looking for the service itself
+- student or job seeker
+- unrelated
+
+Laya's labels were then compared with Claude's rule-based labels.
+
+**How accurate it was (32 hand-labelled test keywords):**
+
+| Method | Score | Notes |
+|---|---|---|
+| Laya, first format (one multiple-choice question) | 15 / 32 | Labelled almost everything "hiring an agency". |
+| Laya, yes/no question per bucket (honest version, no test examples in the prompt) | 21 / 32 (66%) | Good at spotting do-it-yourself searches (6/7) and school or degree searches (4/6). Missed every unrelated search (0/7): affiliate "CPA marketing" networks, brand campaigns, forex trading. Wrongly flagged "law firm seo company" as unrelated. |
+| Claude's rules, after adding Laya's catches | 32 / 32 | Not independent: the rules were tuned on these same test keywords. Treat as a consistency check, not a true accuracy figure. |
+
+**What Laya changed:**
+- **Laya caught a real error in the first pass.** Searches like "marketing for colleges", "digital marketing for schools", "website design for schools", "advertising for colleges" and "seo for schools" are **businesses hiring an agency**, not students. 31 keywords were relabelled; Laya agreed on 29.
+- **Education demand rises from about 300 to about 390 in Canada and from about 1,500 to about 4,000 in the US.** That moves Education from borderline to a clear Tier 1 page.
+- **Both methods were wrong on college program names** ("Humber advertising and marketing communications", "Seneca marketing management", "DECA") and those were removed by hand. The Keyword Planner suggestions from "trades marketing" also returned forex and stock-trading terms ("trades"); these were already excluded from the demand totals.
+- **No other industry changed meaningfully.** The demand totals in the table above were built only from agency-intent patterns ("seo for X", "X marketing agency"…), and Laya plus the rules confirmed them within ±1–2% (law firms −8% if Laya alone is trusted, but its misses there were clear errors such as "law firm seo company").
+
+**Verdict on Laya for this kind of task:**
+- Worth using as a **second opinion that finds blind spots in rules**: it found the schools and colleges error.
+- **Not reliable on its own** for search intent. Its confidence scores were flat (top answers often 0.3–0.4), and it can't tell when a keyword has nothing to do with marketing.
+- Recommended pattern: rules plus Laya, with every disagreement that carries search volume checked by hand.
+
+**Data:** `data/industry-research/laya_intent.csv` has Laya's label and probabilities, the rule label and the final label for every keyword. `vertical_totals_intent_checked.json` has the re-checked demand per industry.
 
 **Per-industry Google Ads terms are small:** for example "google ads for dentists" 90, "google ads for plumbers" 40, "law firm ppc" 70. That's too thin to justify separate PPC pages per industry. Each industry page should cover Google Ads as a section instead.
 
@@ -240,7 +272,7 @@ Intent for all of these is **commercial** (a business owner hiring an agency). V
 | Ecommerce | **ecommerce seo agency** (390 / 1,000) | ecommerce seo services (390 / 1,300) · shopify seo (210 / 1,600) · shopify seo agency (210 / 1,300) · ecommerce marketing (110 / 1,000) · shopify advertising (170 / 720) | Leave "ecommerce web design" terms to `/ecommerce-website-design/` and link across. |
 | Manufacturing & industrial | **b2b seo agency** (390 / 1,000) | b2b marketing agency (480 / 5,400) · manufacturing seo (50 / 390) · industrial marketing (30 / 390) · manufacturing website design (50 / 590) · b2b lead generation (170 / 1,900) | Six case studies to choose from. Name the sub-sectors: cabinetry, industrial supply, staging, energy services. |
 | Home services & trades | **seo for contractors** (260 / 590) | contractor seo (260 / 880) · trades marketing (170 / 1,300) · home services marketing agency (30 / 590) · contractor web design (90 / 1,000) · roofer seo (320 / 2,400) · seo for electricians (70 / 720) · landscaping marketing (70 / 390) · pest control seo (90 / 880) · moving company seo (90 / 1,000) | One H2 section per trade with its own term. Promote a trade to its own page once it has a case study. |
-| Education | **seo for educational institutions** (GSC-proven; Keyword Planner too small to measure) | higher education marketing (110 / 260) · higher ed marketing agencies (20 / 320) · digital marketing for schools (50 / 480) · website design for schools (40 / 480) | Avoid "education marketing" as the main term; those searchers mostly want marketing courses. |
+| Education | **higher education marketing** (110 / 260) | marketing for colleges (40 / 880) · digital marketing for schools (50 / 480) · website design for schools (40 / 480) · higher ed marketing agencies (20 / 320) · advertising for colleges (20 / 320) · education marketing agency (10 / 390) · seo for educational institutions (GSC-proven, 140 impressions) | Avoid "education marketing" as the main term; it's mixed with people looking for marketing courses. Laya intent check: section 3a. |
 
 ---
 

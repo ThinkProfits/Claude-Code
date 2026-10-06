@@ -1,0 +1,296 @@
+{
+ "law-firms": {
+  "CA_final": 4910,
+  "US_final": 34130,
+  "CA_laya": 4500,
+  "US_laya": 33260,
+  "CA_v1": 4910,
+  "US_v1": 34130,
+  "dropped": []
+ },
+ "dentists": {
+  "CA_final": 3040,
+  "US_final": 11360,
+  "CA_laya": 2870,
+  "US_laya": 10480,
+  "CA_v1": 3040,
+  "US_v1": 11370,
+  "dropped": []
+ },
+ "ecommerce": {
+  "CA_final": 2890,
+  "US_final": 15980,
+  "CA_laya": 2810,
+  "US_laya": 15100,
+  "CA_v1": 2890,
+  "US_v1": 15980,
+  "dropped": []
+ },
+ "home-services": {
+  "CA_final": 2880,
+  "US_final": 23770,
+  "CA_laya": 2880,
+  "US_laya": 23770,
+  "CA_v1": 2880,
+  "US_v1": 23780,
+  "dropped": []
+ },
+ "real-estate": {
+  "CA_final": 2820,
+  "US_final": 15360,
+  "CA_laya": 2820,
+  "US_laya": 15360,
+  "CA_v1": 2820,
+  "US_v1": 15360,
+  "dropped": []
+ },
+ "b2b": {
+  "CA_final": 2230,
+  "US_final": 15650,
+  "CA_laya": 2230,
+  "US_laya": 15650,
+  "CA_v1": 2230,
+  "US_v1": 15650,
+  "dropped": []
+ },
+ "home-remodeling": {
+  "CA_final": 1600,
+  "US_final": 8290,
+  "CA_laya": 1600,
+  "US_laya": 8290,
+  "CA_v1": 1600,
+  "US_v1": 8290,
+  "dropped": []
+ },
+ "hotels-hospitality": {
+  "CA_final": 1010,
+  "US_final": 7200,
+  "CA_laya": 1010,
+  "US_laya": 7200,
+  "CA_v1": 1010,
+  "US_v1": 7200,
+  "dropped": []
+ },
+ "hvac": {
+  "CA_final": 820,
+  "US_final": 7390,
+  "CA_laya": 820,
+  "US_laya": 7390,
+  "CA_v1": 820,
+  "US_v1": 7400,
+  "dropped": []
+ },
+ "plumbing": {
+  "CA_final": 810,
+  "US_final": 5990,
+  "CA_laya": 810,
+  "US_laya": 5990,
+  "CA_v1": 810,
+  "US_v1": 5990,
+  "dropped": []
+ },
+ "roofing": {
+  "CA_final": 740,
+  "US_final": 7740,
+  "CA_laya": 740,
+  "US_laya": 7740,
+  "CA_v1": 740,
+  "US_v1": 7740,
+  "dropped": []
+ },
+ "accountants": {
+  "CA_final": 720,
+  "US_final": 3760,
+  "CA_laya": 720,
+  "US_laya": 3760,
+  "CA_v1": 720,
+  "US_v1": 3780,
+  "dropped": []
+ },
+ "landscaping": {
+  "CA_final": 500,
+  "US_final": 3720,
+  "CA_laya": 500,
+  "US_laya": 3720,
+  "CA_v1": 500,
+  "US_v1": 3730,
+  "dropped": []
+ },
+ "manufacturing-industrial": {
+  "CA_final": 430,
+  "US_final": 4120,
+  "CA_laya": 430,
+  "US_laya": 4120,
+  "CA_v1": 430,
+  "US_v1": 4130,
+  "dropped": []
+ },
+ "electricians": {
+  "CA_final": 410,
+  "US_final": 2940,
+  "CA_laya": 410,
+  "US_laya": 2940,
+  "CA_v1": 410,
+  "US_v1": 2940,
+  "dropped": []
+ },
+ "auto-repair": {
+  "CA_final": 350,
+  "US_final": 2410,
+  "CA_laya": 350,
+  "US_laya": 2410,
+  "CA_v1": 350,
+  "US_v1": 2410,
+  "dropped": []
+ },
+ "cleaning": {
+  "CA_final": 340,
+  "US_final": 2270,
+  "CA_laya": 340,
+  "US_laya": 2270,
+  "CA_v1": 350,
+  "US_v1": 2300,
+  "dropped": []
+ },
+ "moving": {
+  "CA_final": 330,
+  "US_final": 2940,
+  "CA_laya": 330,
+  "US_laya": 2940,
+  "CA_v1": 340,
+  "US_v1": 2960,
+  "dropped": []
+ },
+ "physiotherapy": {
+  "CA_final": 310,
+  "US_final": 790,
+  "CA_laya": 310,
+  "US_laya": 790,
+  "CA_v1": 310,
+  "US_v1": 810,
+  "dropped": []
+ },
+ "pest-control": {
+  "CA_final": 300,
+  "US_final": 2980,
+  "CA_laya": 300,
+  "US_laya": 2980,
+  "CA_v1": 300,
+  "US_v1": 2990,
+  "dropped": []
+ },
+ "chiropractors": {
+  "CA_final": 230,
+  "US_final": 2230,
+  "CA_laya": 230,
+  "US_laya": 2230,
+  "CA_v1": 230,
+  "US_v1": 2230,
+  "dropped": []
+ },
+ "med-spa": {
+  "CA_final": 230,
+  "US_final": 2540,
+  "CA_laya": 230,
+  "US_laya": 2540,
+  "CA_v1": 230,
+  "US_v1": 2540,
+  "dropped": []
+ },
+ "restoration": {
+  "CA_final": 220,
+  "US_final": 910,
+  "CA_laya": 220,
+  "US_laya": 910,
+  "CA_v1": 220,
+  "US_v1": 910,
+  "dropped": []
+ },
+ "veterinarians": {
+  "CA_final": 180,
+  "US_final": 1250,
+  "CA_laya": 180,
+  "US_laya": 1250,
+  "CA_v1": 180,
+  "US_v1": 1250,
+  "dropped": []
+ },
+ "immigration": {
+  "CA_final": 150,
+  "US_final": 850,
+  "CA_laya": 150,
+  "US_laya": 850,
+  "CA_v1": 150,
+  "US_v1": 880,
+  "dropped": []
+ },
+ "garage-door": {
+  "CA_final": 140,
+  "US_final": 930,
+  "CA_laya": 140,
+  "US_laya": 930,
+  "CA_v1": 140,
+  "US_v1": 930,
+  "dropped": []
+ },
+ "education": {
+  "CA_final": 120,
+  "US_final": 1250,
+  "CA_laya": 440,
+  "US_laya": 4280,
+  "CA_v1": 600,
+  "US_v1": 4860,
+  "dropped": [
+   "advertising for colleges (20, education_career)",
+   "digital marketing for schools (50, education_career)",
+   "education marketing (140, ambiguous)",
+   "marketing for colleges (40, education_career)",
+   "website design for schools (40, education_career)"
+  ]
+ },
+ "dermatology": {
+  "CA_final": 100,
+  "US_final": 790,
+  "CA_laya": 100,
+  "US_laya": 790,
+  "CA_v1": 100,
+  "US_v1": 820,
+  "dropped": []
+ },
+ "kitchens-cabinets": {
+  "CA_final": 70,
+  "US_final": 250,
+  "CA_laya": 70,
+  "US_laya": 250,
+  "CA_v1": 70,
+  "US_v1": 250,
+  "dropped": []
+ },
+ "towing": {
+  "CA_final": 70,
+  "US_final": 240,
+  "CA_laya": 70,
+  "US_laya": 240,
+  "CA_v1": 70,
+  "US_v1": 240,
+  "dropped": []
+ },
+ "fencing": {
+  "CA_final": 50,
+  "US_final": 160,
+  "CA_laya": 50,
+  "US_laya": 160,
+  "CA_v1": 50,
+  "US_v1": 190,
+  "dropped": []
+ },
+ "septic-drain": {
+  "CA_final": 30,
+  "US_final": 30,
+  "CA_laya": 30,
+  "US_laya": 30,
+  "CA_v1": 30,
+  "US_v1": 30,
+  "dropped": []
+ }
+}
