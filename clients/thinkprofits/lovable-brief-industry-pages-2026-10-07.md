@@ -1,219 +1,205 @@
-# Lovable brief: industry page clean-up (thinkprofits.com)
+# Lovable brief: industry page rebuild (thinkprofits.com) (v2)
 
-> **Status:** DRAFT v0.1, 2026-10-07. **Don't paste into Lovable until Andrew has approved the decisions in section 4 of the audit.**
+> **Status:** DRAFT v2, 2026-10-07. Replaces v1. **Phase 0 and the Phase 0 addendum are read-only and safe to send now. Phases 1–8 wait for Andrew's decisions** (audit section 11).
 > **Project:** Lovable "Thinkprofits Rebuild" (`12fc0c4c-0a7a-4dbb-ae43-0ad0e1c21a17`).
-> **Based on:** [industry-pages-audit-2026-10-07.md](industry-pages-audit-2026-10-07.md). Keyword research is already done (Google Ads Keyword Planner + GSC), so Lovable doesn't need to do any.
-> **Reusable:** the prompt structure below (inventory → safety checks → hub → redirects → clean-up → slots for hand-written copy → verification) works for any Lovable site clean-up. Swap the tables to reuse it.
-> **How to use:** paste one phase at a time. Each phase ends with a "report back" step. Check the report before pasting the next phase.
+> **Based on:** [industry-pages-audit-2026-10-07.md](industry-pages-audit-2026-10-07.md) (v2). Keyword research is done (Google Ads Keyword Planner + GSC), so Lovable doesn't do any keyword research or write any copy.
+> **Reusable:** the phase pattern below (inspect → fix the redirect basics → build empty page shells → redirects → clean up links → canonicals → paste in hand-written copy → verify) works for any Lovable site clean-up. Swap the tables to reuse it.
+> **How to use:** paste one phase at a time and check the report before pasting the next. Messages already sent: v1 (audit + Phase 0) and the addendum (`lovable-message-phase0-addendum-2026-10-07.txt`).
 
 ---
 
-## Phase 0: check before you change anything (paste first)
+## Phase 1: www redirect fix (needs Andrew's OK; independent of the rest)
 
 ```
-We are cleaning up the industry service pages on thinkprofits.com. Before changing anything, inspect the project and report back. Do NOT edit any files in this phase.
-
-1. REDIRECTS: Tell me exactly how redirects are served on this site today (Encited, a redirects file, TanStack/SSR route config, Cloudflare, or something else). Show me the file or config that holds them and count how many redirect rules exist. Tell me whether the site returns a real HTTP 301 status or a client-side redirect.
-2. INVENTORY: List every route/file that renders these pages, and whether each is a separate file or one shared template fed by data:
-   - /aeo-services/<industry>/ (21 industries)
-   - /ppc-advertising/ppc-for-<industry>/ (10 industries)
-   - /industries/
-3. REFERENCES: For each of the 31 industry URLs, list every place it is linked from: header/footer nav, /industries/, /aeo-services/, /ppc-advertising/, /services/, the HTML sitemap page (/sitemap/), sitemap.xml, llms.txt, blog posts, schema/JSON-LD.
-4. TRAILING SLASH: Fetch /ppc-advertising/ppc-for-landscaping and /ppc-advertising/ppc-for-landscaping/ (no slash and slash). Report the HTTP status and the <link rel="canonical"> of each. Do the same for /aeo-services/accountants and /aeo-services/accountants/.
-5. BACKUP: Confirm the current version is saved in Lovable history so we can roll back, and tell me the version/commit name.
-
-Report back with all five answers. Don't fix anything yet.
+Change the redirect from https://www.thinkprofits.com/* to https://thinkprofits.com/* so it returns HTTP 301 (permanent) instead of 302, keeping the full path and query string. Do the same for http://www.thinkprofits.com/*. Report back with the status codes of https://www.thinkprofits.com/ and https://www.thinkprofits.com/seo-services/ after the change.
 ```
 
 ---
 
-## Phase 1: build the industries hub (paste after Phase 0 checks out)
+## Phase 2: build the industry page shells and the hub (empty slots for hand-written copy)
 
 ```
-Update the /industries/ page into the single hub for all industries. Keep the existing URL, header, footer and design system. Do NOT generate new marketing copy. Use the placeholder text exactly as written below so that a person can write the final copy by hand.
+Create 9 new industry pages under /industries/. Do NOT write marketing copy. Use the placeholders exactly as written; a person will write the final copy by hand. Do NOT publish any of these pages until I send the final copy (Phase 7). Keep them unpublished/draft, or noindex and out of the sitemap and nav, until then.
 
-Structure:
-- H1: "Industries We Work With" (placeholder; final H1 to be supplied)
-- Short intro paragraph: [[HUB INTRO: written by Francis]]
-- Section "Industries with dedicated pages". One card per industry below, linking to its pages:
-  - Plumbing: /aeo-services/plumbing/ and /ppc-advertising/ppc-for-plumbing/
-  - HVAC: /aeo-services/hvac/ and /ppc-advertising/ppc-for-hvac/
-  - Dentists: /aeo-services/dentists/ and /ppc-advertising/ppc-for-dentists/
-  - Electricians: /aeo-services/electricians/ and /ppc-advertising/ppc-for-electrician/
-  - Landscaping: /ppc-advertising/ppc-for-landscaping/
-  - [ROOFING and LAW FIRMS go here ONLY if I confirm they are kept. Otherwise they go in the next section.]
-- Section "Other industries we support". One short block per industry, each with its own H3 and an id anchor (e.g. id="garage-door"). Each block body is the placeholder [[2–4 SENTENCES: written by hand]] plus a link to the case study where one is listed:
-  - Cleaning (link /case-study/anago-of-vancouver/)
-  - Home Remodeling (link /case-study/merit-kitchens/ and /case-study/euro-rite-cabinets/)
-  - Accountants
-  - Moving Companies
-  - Restoration
-  - Pest Control
-  - Garage Door
-  - Auto Repair
-  - Med Spas
-  - Dermatology
-  - Chiropractors
-  - Physiotherapy
-  - Veterinarians
-- Each block links to /aeo-services/, /seo-services/ and /ppc-advertising/ with one line: "Ask us about SEO, AI search or PPC for your business" linking to /contact/.
-- Section "Don't see your industry?" Keep the existing section.
+Pages (URL, then working H1 placeholder):
+/industries/law-firms/ – [[H1: Law Firm SEO]]
+/industries/plumbing/ – [[H1: SEO for Plumbers]]
+/industries/hvac/ – [[H1: HVAC SEO]]
+/industries/dental/ – [[H1: Dental SEO]]
+/industries/hotels-hospitality/ – [[H1: Hotel & Hospitality Marketing]]
+/industries/ecommerce/ – [[H1: Ecommerce SEO]]
+/industries/manufacturing-industrial/ – [[H1: B2B, Manufacturing & Industrial SEO]]
+/industries/home-services/ – [[H1: SEO for Contractors & Home Services]]
+/industries/education/ – [[H1: SEO for Education]]
 
-Rules:
-- Do NOT reuse any sentences from the old /aeo-services/<industry>/ pages.
-- Do NOT add FAQ schema to the hub unless I supply real FAQ text.
-- Keep the existing Organization/ProfessionalService schema. Add a BreadcrumbList.
-- Make sure the hub is in sitemap.xml with a self-referencing canonical (with trailing slash).
+Each page uses this structure with placeholders:
+- Hero: H1, [[SUBHEAD]], CTA to /contact/
+- H2 [[What we do]]: three sub-sections: [[SEO]], [[AI search (AEO/GEO)]], [[Google Ads]]
+- H2 [[Results]]: a proof block linking the case studies listed below
+- H2 [[How we work]]: [[PROCESS]]
+- H2 Pricing: link to the published tiers on /seo-services/, /aeo-services/ and /ppc-advertising/ (no new prices)
+- H2 FAQ: [[FAQ]]
+- Final CTA, contact form with Cloudflare Turnstile
+- /industries/home-services/ only: add H2 sections with id anchors for #roofing, #electricians, #landscaping, #cleaning, #towing, #drainage, #fencing, #garage-door, #pest-control, #restoration, #moving, #auto-repair, each with a [[2–4 SENTENCES]] placeholder.
 
-Report back: a screenshot of the page and the list of anchors created.
-```
+Case studies to link per page:
+- law-firms: /case-study/thomas-associates/, /case-study/hoogbruin-company/
+- plumbing: /case-study/john-sadler-plumbing-heating/, /case-study/lone-star-plumbing-heating/, /case-study/butler-plumbing-heating/
+- hvac: /case-study/lone-star-plumbing-heating/, /case-study/butler-plumbing-heating/
+- dental: /case-study/tsawwassen-family-dental/
+- hotels-hospitality: /case-study/executive-hotels-resorts/, /case-study/liz-moore-destination-weddings/, /case-study/prestons-restaurant-lounge/
+- ecommerce: /case-study/golf-ball-planet/, /case-study/mvp-athletic-supplies/
+- manufacturing-industrial: /case-study/merit-kitchens/, /case-study/euro-rite-cabinets/, /case-study/qsd-inc/, /case-study/can-four-industrial/, /case-study/ccd-energy-services/
+- home-services: /case-study/ultimate-fence/, /case-study/anago-of-vancouver/
+- education: /case-study/sprott-shaw-college/, /case-study/mujo-learning-systems/
 
----
+Internal links on every industry page: /industries/, /seo-services/, /aeo-services/, /ppc-advertising/, /contact/. Plumbing and HVAC link to each other. Ecommerce links to /ecommerce-website-design/.
 
-## Phase 2: redirects (paste only after Phase 0 confirms how redirects work and that there's room)
+Schema: Service + BreadcrumbList now; FAQPage only once real FAQ text is in.
 
-```
-Add permanent (HTTP 301) redirects for the following URLs. Add BOTH the trailing-slash and no-trailing-slash version of each "from" URL. Use whatever redirect mechanism you identified in Phase 0. Do NOT use a client-side/JavaScript redirect or a meta refresh.
+Also rebuild /industries/ (keep URL, header, footer, design system) as the hub:
+- H1 placeholder [[HUB H1]], intro [[HUB INTRO]]
+- A card for each of the 9 industry pages (link + one-line placeholder)
+- Section "Healthcare & clinics" [[PLACEHOLDER]] linking /industries/dental/
+- Section "Professional services" [[PLACEHOLDER]] (accountants, immigration consultants)
+- Keep "Don't see your industry?" with a link to /contact/
+- Do not reuse any sentence from the old /aeo-services/<industry>/, /ppc-advertising/ppc-for-<industry>/ or /seo-services/local-seo/local-seo-<industry>/ pages.
 
-From → To
-/aeo-services/garage-door/ → /industries/
-/aeo-services/auto-repair/ → /industries/
-/ppc-advertising/ppc-for-auto-repair/ → /ppc-advertising/
-/aeo-services/med-spa/ → /industries/
-/ppc-advertising/ppc-for-med-spa/ → /ppc-advertising/
-/aeo-services/moving-companies/ → /industries/
-/aeo-services/pest-control/ → /industries/
-/aeo-services/restoration/ → /industries/
-/aeo-services/dermatology/ → /industries/
-/aeo-services/chiropractors/ → /industries/
-/aeo-services/physiotherapy/ → /industries/
-/aeo-services/veterinarians/ → /industries/
-/aeo-services/accountants/ → /industries/
-/aeo-services/cleaning/ → /industries/
-/aeo-services/home-remodeling/ → /industries/
-/aeo-services/landscaping/ → /ppc-advertising/ppc-for-landscaping/
-[ONLY IF I CONFIRM ROOFING GOES TO THE HUB]
-/aeo-services/roofing/ → /industries/
-/ppc-advertising/ppc-for-roofing/ → /ppc-advertising/
-[ONLY IF I CONFIRM LAW FIRMS GO TO THE HUB]
-/aeo-services/law-firms/ → /industries/
-/ppc-advertising/ppc-for-law-firms/ → /ppc-advertising/
-
-Then:
-1. Delete the page content/data entries for those industries so they no longer render at their old URLs. If one shared template is driven by a data list, remove those entries from the list. Don't delete the template, because the kept pages use it.
-2. Make sure no redirect points to another redirect (no chains). If an older redirect points TO any of these URLs, update it to point straight to the new destination.
-
-Report back: the redirect rules you added, the total redirect count before and after, and any chains you fixed.
+Report back: the list of created pages, confirmation that none are published or indexable yet, and a screenshot of one shell.
 ```
 
 ---
 
-## Phase 3: remove every reference to the removed pages
+## Phase 3: redirects (only once the new pages are live, and only if Phase 0 confirmed capacity)
 
 ```
-Using the reference list from Phase 0, remove or update every link to the URLs redirected in Phase 2:
-- Header and footer navigation: remove them.
-- /aeo-services/ and /ppc-advertising/ industry grids: remove the removed industries and keep only the kept ones. Add one link "See all industries we work with" pointing to /industries/.
-- /services/ and the HTML sitemap page (/sitemap/): remove them.
-- sitemap.xml: remove them. Kept pages must be listed with the trailing slash only.
-- llms.txt: remove them and add /industries/ if it's missing.
-- Blog posts: point any in-content link to the new destination from the Phase 2 table (don't leave links that go through a redirect).
-- Schema/JSON-LD: remove any OfferCatalog/Service entries for removed industries.
+Add permanent HTTP 301 server-side redirects (no JavaScript or meta refresh). Cover both the trailing-slash and no-slash versions of every "from" URL. Update existing rules in place where one already exists (marked "repoint"). After this, no redirect may point to another redirect.
 
-Report back: a list of every file changed and what changed in it.
+TO /industries/law-firms/
+/seo-services/local-seo/local-seo-law-firms/, /aeo-services/law-firms/, /ppc-advertising/ppc-for-law-firms/, /lawyer-seo/ (repoint)
+
+TO /industries/plumbing/
+/seo-services/local-seo/local-seo-plumbing/, /aeo-services/plumbing/, /ppc-advertising/ppc-for-plumbing/, /seo-for-plumbers (repoint), /plumbing-seo-company-toronto/ (repoint)
+
+TO /industries/hvac/
+/seo-services/local-seo/local-seo-hvac/, /aeo-services/hvac/, /ppc-advertising/ppc-for-hvac/
+
+TO /industries/dental/
+/seo-services/local-seo/local-seo-dentists/, /aeo-services/dentists/, /ppc-advertising/ppc-for-dentists/, /dentist-seo-services (repoint)
+
+TO /industries/hotels-hospitality/
+/seo-hotels-resorts/ (repoint)
+
+TO /industries/ecommerce/
+/seo-for-retail (repoint)
+
+TO /industries/manufacturing-industrial/
+/seo-for-manufacturing-companies/ (repoint)
+
+TO /industries/education/
+/seo-for-education/ (repoint)
+
+TO /industries/home-services/
+/seo-for-home-service-contractors/ (repoint)
+/seo-services/local-seo/local-seo-roofing/, /aeo-services/roofing/, /ppc-advertising/ppc-for-roofing/
+/seo-services/local-seo/local-seo-electricians/, /aeo-services/electricians/, /ppc-advertising/ppc-for-electrician/
+/seo-services/local-seo/local-seo-landscaping/, /aeo-services/landscaping/, /ppc-advertising/ppc-for-landscaping/
+/seo-services/local-seo/local-seo-cleaning/, /aeo-services/cleaning/
+/seo-services/local-seo/local-seo-garage-door/, /aeo-services/garage-door/
+/seo-services/local-seo/local-seo-pest-control/, /aeo-services/pest-control/
+/seo-services/local-seo/local-seo-restoration/, /aeo-services/restoration/
+/seo-services/local-seo/local-seo-home-remodeling/, /aeo-services/home-remodeling/
+/seo-services/local-seo/local-seo-moving-companies/, /aeo-services/moving-companies/
+/seo-services/local-seo/local-seo-auto-repair/, /aeo-services/auto-repair/, /ppc-advertising/ppc-for-auto-repair/
+
+TO /industries/
+/seo-services/local-seo/local-seo-med-spa/, /aeo-services/med-spa/, /ppc-advertising/ppc-for-med-spa/
+/seo-services/local-seo/local-seo-dermatology/, /aeo-services/dermatology/
+/seo-services/local-seo/local-seo-chiropractors/, /aeo-services/chiropractors/
+/seo-services/local-seo/local-seo-physiotherapy/, /aeo-services/physiotherapy/
+/seo-services/local-seo/local-seo-veterinarians/, /aeo-services/veterinarians/
+/seo-services/local-seo/local-seo-accountants/, /aeo-services/accountants/
+
+Then remove the old page entries/files for every redirected URL so they no longer render. If they share a template fed by a data list, remove the entries, not the template.
+
+Report back: the rules added/changed, the total rule count before and after, and any chains fixed.
+```
+
+**Fallback if Phase 0 shows too little redirect capacity:** skip the 30 `/aeo-services/<industry>/` and `/ppc-advertising/ppc-for-<industry>/` rules for Tier 3 industries. Return HTTP 410 (gone) for those URLs instead, since they've earned essentially no clicks. Keep all the repoints and Tier 1 rules.
+
+---
+
+## Phase 4: remove every reference to the old pages
+
+```
+Using the Phase 0 link list, update every link to a URL redirected in Phase 3 so it points straight to its new destination, or remove it:
+- Header/footer nav: add "Industries" → /industries/ (dropdown with the 9 industry pages if the design allows).
+- /seo-services/local-seo/, /aeo-services/, /ppc-advertising/, /services/: replace the industry grids with links to the 9 /industries/ pages plus "See all industries" → /industries/.
+- /sitemap/ (HTML) and sitemap.xml: remove old URLs; add /industries/ and the 9 industry pages (trailing slash).
+- llms.txt: remove old URLs; add /industries/ and the 9 pages.
+- Blog posts: update in-content links to point at the final destination.
+- Schema: remove Service/OfferCatalog entries for removed pages.
+Report back: every file changed and what changed.
 ```
 
 ---
 
-## Phase 4: trailing slash and canonicals (site-wide)
+## Phase 5: trailing slash and canonicals (site-wide)
 
 ```
-Make trailing slashes consistent across the whole site:
-1. Every page's canonical URL uses the trailing-slash version (e.g. https://thinkprofits.com/ppc-advertising/ppc-for-landscaping/).
-2. The no-slash version of every page returns a 301 to the slash version (not a 200 with the same content).
+1. Every page's canonical uses the trailing-slash URL.
+2. The no-slash version of every page returns 301 to the slash version (not a 200 duplicate).
 3. All internal links use the trailing-slash version.
-
-Test and report the status code and canonical for these:
-/ppc-advertising/ppc-for-landscaping
-/ppc-advertising/ppc-for-dentists
-/ppc-advertising/ppc-for-auto-repair
-/ppc-advertising/ppc-for-hvac
-/aeo-services/accountants
-/aeo-services/landscaping
-/aeo-services/cleaning
-/digital-news/how-long-should-blog-post-be-seo-ai-2026
+Test and report status + canonical for: /ppc-advertising, /aeo-services/geo, /industries/plumbing, /seo-services/local-seo, /digital-news/how-long-should-blog-post-be-seo-ai-2026
 ```
 
 ---
 
-## Phase 5: prepare the kept pages for hand-written copy
+## Phase 6: titles and meta descriptions (after Andrew approves)
 
-Kept pages (adjust if roofing/law are confirmed):
-`/aeo-services/plumbing/`, `/aeo-services/hvac/`, `/aeo-services/dentists/`, `/aeo-services/electricians/`, `/ppc-advertising/ppc-for-plumbing/`, `/ppc-advertising/ppc-for-hvac/`, `/ppc-advertising/ppc-for-dentists/`, `/ppc-advertising/ppc-for-electrician/`, `/ppc-advertising/ppc-for-landscaping/`.
+Primary keywords come from audit section 8. Nothing here promises a result.
 
-```
-For the kept industry pages listed below, convert each page from the shared template into an individual page that takes its own copy. Do NOT write or rewrite any marketing copy yourself. A person will write it by hand and send it to you.
-
-For each kept page:
-1. Keep the URL, design system, header, footer, contact form (with Cloudflare Turnstile) and pricing-tier link.
-2. Replace the body with this section structure, each with a placeholder:
-   - Hero: H1 [[H1]], subhead [[SUBHEAD]], CTA button to /contact/
-   - "What we do for <industry> businesses": [[WHAT WE DO]]
-   - "Proof": [[PROOF BLOCK: client, what we did, sourced result]]
-   - "How it works": [[PROCESS]]
-   - "Pricing": link to the relevant pricing section on /aeo-services/ or /ppc-advertising/
-   - FAQ: [[FAQ: unique questions per page]]
-   - Final CTA
-3. Remove from these pages: the shared "What We Do" six-block section, the shared FAQ, the "Related Reading" block (the Lovable canonical QA and entity checklist posts) and any text that mentions Reddit, "training set" or conversion claims.
-4. Internal links on each page: the parent service page (/aeo-services/ or /ppc-advertising/), the sibling page for the same industry (AEO↔PPC), /industries/, and the case study when I supply it.
-5. Set the title and meta description to the values below, exactly as given.
-6. FAQPage schema: only output it once real FAQ text is in place. No schema for placeholder text.
-7. Do not publish a page while it still shows placeholders. Keep the current live version until I send the final copy (Phase 6), then publish both changes together.
-
-Title / meta description values:
-[PASTE FROM THE TABLE BELOW AFTER ANDREW APPROVES]
-
-Report back: a screenshot of one converted page and confirmation that no template text remains on any kept page.
-```
-
-**Title and meta drafts (for Andrew to approve).** Primary keyword is from the audit's section 6; intent is commercial (hiring an agency).
-
-| Page | Title (≤60 chars) | Meta description (≤155 chars) |
+| URL | Title (≤60 chars) | Meta description (≤155 chars) |
 |---|---|---|
-| /aeo-services/plumbing/ | SEO & AI Search for Plumbers \| ThinkProfits | Local SEO and AI search for plumbing companies, from the Vancouver agency behind John Sadler and Vision Plumbing's marketing. Month-to-month. |
-| /ppc-advertising/ppc-for-plumbing/ | Google Ads for Plumbers \| ThinkProfits | Google Ads and Local Services Ads for plumbing companies. Calls tracked, no ad-spend markup, month-to-month. Vancouver agency since 1996. |
-| /aeo-services/hvac/ | SEO for HVAC Companies & AI Search \| ThinkProfits | SEO and AI search for HVAC contractors, built around heat-pump, furnace and rebate searches. Vancouver agency since 1996. Month-to-month. |
-| /ppc-advertising/ppc-for-hvac/ | HVAC Marketing: Google Ads & LSA \| ThinkProfits | Google Ads and LSA for HVAC companies, planned around seasonal demand. Calls tracked, no ad-spend markup. Vancouver agency since 1996. |
-| /aeo-services/dentists/ | SEO for Dentists & AI Search \| ThinkProfits | Dental SEO and AI search for clinics that want more new-patient calls. See our Tsawwassen Family Dental work. Vancouver agency since 1996. |
-| /ppc-advertising/ppc-for-dentists/ | Dental Google Ads Management \| ThinkProfits | Google Ads for dental clinics: new-patient campaigns, call tracking, no ad-spend markup. Month-to-month. Vancouver agency since 1996. |
-| /aeo-services/electricians/ | SEO for Electricians & AI Search \| ThinkProfits | SEO and AI search for electrical contractors. Local rankings, Google Business Profile and AI answers. Vancouver agency since 1996. |
-| /ppc-advertising/ppc-for-electrician/ | Electrician Marketing: Google Ads \| ThinkProfits | Google Ads and LSA for electrical contractors. Calls tracked, no ad-spend markup, month-to-month. Vancouver agency since 1996. |
-| /ppc-advertising/ppc-for-landscaping/ | Landscaping Marketing: Google Ads \| ThinkProfits | Google Ads for landscaping and hardscaping companies, planned around the season. Calls tracked, month-to-month. Vancouver agency since 1996. |
+| /industries/law-firms/ | Law Firm SEO & Marketing in Vancouver, BC \| ThinkProfits | SEO, AI search and Google Ads for Canadian law firms. See our family law and personal injury results. Month-to-month, Vancouver since 1996. |
+| /industries/plumbing/ | SEO for Plumbers & Plumbing Marketing \| ThinkProfits | SEO, Google Ads and AI search for plumbing companies. See our John Sadler, Lone Star and Butler results. Month-to-month, Vancouver since 1996. |
+| /industries/hvac/ | HVAC SEO & HVAC Marketing Agency \| ThinkProfits | HVAC SEO, Google Ads and AI search planned around heating and cooling seasons. Proven with plumbing & heating clients. Vancouver since 1996. |
+| /industries/dental/ | Dental SEO & Dental Marketing \| ThinkProfits | Dental SEO, Google Ads and AI search for clinics that want more new patients. See our Tsawwassen Family Dental work. Vancouver since 1996. |
+| /industries/hotels-hospitality/ | Hotel SEO & Hospitality Marketing \| ThinkProfits | SEO, Google Ads and AI search for hotels, resorts and restaurants. See our Executive Hotels & Resorts results. Vancouver agency since 1996. |
+| /industries/ecommerce/ | Ecommerce SEO Agency & Shopify SEO \| ThinkProfits | Ecommerce and Shopify SEO, Google Shopping and AI search. See our Golf Ball Planet and MVP Athletic results. Vancouver agency since 1996. |
+| /industries/manufacturing-industrial/ | B2B SEO for Manufacturers & Industrial \| ThinkProfits | SEO, Google Ads and AI search for manufacturers and industrial suppliers. See our Merit Kitchens and QSD results. Vancouver since 1996. |
+| /industries/home-services/ | SEO for Contractors & Home Services \| ThinkProfits | SEO, Google Ads and AI search for contractors and trades: roofing, electrical, landscaping and more. Month-to-month. Vancouver since 1996. |
+| /industries/education/ | SEO for Schools & Colleges \| ThinkProfits | SEO, Google Ads and AI search for colleges, schools and education providers. See our Sprott Shaw College results. Vancouver since 1996. |
 
-Before using these: confirm we may name John Sadler, Vision and Tsawwassen Family Dental. If not, swap in a generic proof line. No meta promises a result.
+Before using these: get permission to name each client. If permission isn't given, swap in a generic proof line.
+
+```
+Set these exact title tags and meta descriptions on the pages listed. Don't edit the wording.
+[PASTE TABLE]
+```
 
 ---
 
-## Phase 6: paste in the final copy (repeat once per page)
+## Phase 7: paste in the final copy (once per page)
 
 ```
-Here is the final, approved copy for <URL>. Paste it into the placeholders exactly as written. Don't edit, shorten, expand or "improve" the wording. Keep the H-tags I've marked. If anything doesn't fit the layout, tell me instead of rewriting it. Once it's in, output FAQPage schema from the FAQ section and publish.
+Here is the final approved copy for <URL>. Paste it into the placeholders exactly as written. Do not edit, shorten, expand or "improve" it, and keep the H-tags as marked. If something doesn't fit the layout, tell me instead of rewriting it. Then add FAQPage schema from the FAQ section, make the page indexable, add it to sitemap.xml and nav, and publish.
 
 [PASTE HAND-WRITTEN COPY]
 ```
 
 ---
 
-## Phase 7: final verification (paste last)
+## Phase 8: verification
 
 ```
-Run these checks and report a pass/fail table:
-1. Each redirected URL (slash and no-slash) returns HTTP 301 in one hop to its destination.
-2. Each kept page returns 200, has a self-referencing trailing-slash canonical, is indexable (no noindex), and appears in sitemap.xml.
-3. No removed URL appears in sitemap.xml, llms.txt, nav, footer, the /sitemap/ page or any internal link.
-4. No page on the site still contains the shared template phrases "Failure-Mode Answer Architecture", "Speakable Schema" blocks copied per industry, "training and retrieval set", or "Reddit threads".
-5. /industries/ renders every anchor from Phase 1.
-6. Contact forms on kept pages still submit (Turnstile present).
+Run and report a pass/fail table:
+1. Every Phase 3 "from" URL (slash and no-slash) returns 301 in one hop to its destination.
+2. Each published /industries/ page returns 200, has a self-referencing trailing-slash canonical, is indexable, and is in sitemap.xml.
+3. No redirected URL appears in sitemap.xml, llms.txt, nav, footer, /sitemap/ or any internal link.
+4. None of these phrases appear anywhere on the site: "Failure-Mode Answer Architecture", "training and retrieval set", "Reddit threads", "Q&A seeding", "368,000".
+5. https://www.thinkprofits.com/ returns 301.
+6. Contact forms on the new pages submit (Turnstile present).
 ```
 
-After Lovable reports a pass: request indexing for `/industries/` and each kept page in GSC, then check GSC Pages → "Not found (404)" and "Page with redirect" weekly for 4–6 weeks.
+After a pass: request indexing for `/industries/` and each published page in GSC. Then check GSC Pages ("Not found (404)", "Page with redirect", "Duplicate without user-selected canonical") weekly for 6 weeks.

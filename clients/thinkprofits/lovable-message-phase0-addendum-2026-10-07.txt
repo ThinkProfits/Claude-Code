@@ -1,0 +1,22 @@
+UPDATE TO MY EARLIER MESSAGE: STILL READ-ONLY. DO NOT CHANGE ANY FILES.
+
+The audit I sent earlier today (v1) is superseded. Our deeper research found more industry pages than v1 covered. Ignore v1's recommendations (the redirect table, the "keep 6 verticals" list and the title/meta drafts). Nothing is approved yet. The plan will come later as separate, explicit instructions.
+
+Please extend the Phase 0 inspection to cover all of the following, then report back. Do not fix anything.
+
+1. INVENTORY, ALL THREE INDUSTRY PAGE SETS. For each set, list every URL, the file/route/data entry that renders it, and whether it is in sitemap.xml:
+   a) /seo-services/local-seo/local-seo-<industry>/ (we found 20: accountants, auto-repair, chiropractors, cleaning, dentists, dermatology, electricians, garage-door, home-remodeling, hvac, landscaping, law-firms, med-spa, moving-companies, pest-control, physiotherapy, plumbing, restoration, roofing, veterinarians). These return 200 and are indexable but are NOT in sitemap.xml. Tell me why.
+   b) /aeo-services/<industry>/ (21 pages)
+   c) /ppc-advertising/ppc-for-<industry>/ (10 pages)
+   Tell me whether these are separate files or shared templates fed by a data list, and where that list lives.
+
+2. OLD URL REDIRECTS. Show me the exact redirect rule (and where it lives) for each of these old URLs. Today they all 301 to /seo-services/:
+   /lawyer-seo/  /seo-for-plumbers  /dentist-seo-services  /seo-hotels-resorts/  /seo-for-education/  /seo-for-home-service-contractors/  /seo-for-manufacturing-companies/  /seo-for-retail  /plumbing-seo-company-toronto/ (this one goes to /seo-company-toronto/)
+
+3. REDIRECT CAPACITY. We may need to add or change about 60 redirect rules (about 120 if slash and no-slash variants each need their own rule). Confirm whether the current redirect mechanism has a limit (the old Encited plan capped at 300) and how many rules exist today.
+
+4. WWW REDIRECT. https://www.thinkprofits.com/ currently returns HTTP 302 (temporary) to https://thinkprofits.com/. Tell me where that redirect is configured (Lovable, Cloudflare, DNS/host) and whether it can be changed to a 301. Don't change it yet.
+
+5. LINKS INTO THE INDUSTRY PAGES. For all three sets in item 1, list every place they are linked from (nav, footer, /industries/, /services/, /seo-services/, /seo-services/local-seo/, /aeo-services/, /ppc-advertising/, /sitemap/, llms.txt, blog posts, schema/JSON-LD).
+
+Report back with all five answers in one reply.

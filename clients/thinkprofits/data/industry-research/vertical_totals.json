@@ -1,0 +1,162 @@
+{
+ "accountants": {
+  "CA": 720,
+  "BC": 330,
+  "US": 3780
+ },
+ "law-firms": {
+  "CA": 4910,
+  "BC": 530,
+  "US": 34130
+ },
+ "auto-repair": {
+  "CA": 350,
+  "BC": 180,
+  "US": 2410
+ },
+ "chiropractors": {
+  "CA": 230,
+  "BC": 130,
+  "US": 2230
+ },
+ "education": {
+  "CA": 600,
+  "BC": 270,
+  "US": 4860
+ },
+ "home-remodeling": {
+  "CA": 1600,
+  "BC": 330,
+  "US": 8290
+ },
+ "dentists": {
+  "CA": 3040,
+  "BC": 240,
+  "US": 11370
+ },
+ "electricians": {
+  "CA": 410,
+  "BC": 190,
+  "US": 2940
+ },
+ "garage-door": {
+  "CA": 140,
+  "BC": 40,
+  "US": 930
+ },
+ "hotels-hospitality": {
+  "CA": 1010,
+  "BC": 250,
+  "US": 7200
+ },
+ "landscaping": {
+  "CA": 500,
+  "BC": 250,
+  "US": 3730
+ },
+ "moving": {
+  "CA": 340,
+  "BC": 90,
+  "US": 2960
+ },
+ "ecommerce": {
+  "CA": 2890,
+  "BC": 350,
+  "US": 15980
+ },
+ "plumbing": {
+  "CA": 810,
+  "BC": 240,
+  "US": 5990
+ },
+ "real-estate": {
+  "CA": 2820,
+  "BC": 440,
+  "US": 15360
+ },
+ "roofing": {
+  "CA": 740,
+  "BC": 210,
+  "US": 7740
+ },
+ "home-services": {
+  "CA": 2880,
+  "BC": 400,
+  "US": 23780
+ },
+ "veterinarians": {
+  "CA": 180,
+  "BC": 90,
+  "US": 1250
+ },
+ "b2b": {
+  "CA": 2230,
+  "BC": 200,
+  "US": 15650
+ },
+ "kitchens-cabinets": {
+  "CA": 70,
+  "BC": 50,
+  "US": 250
+ },
+ "cleaning": {
+  "CA": 350,
+  "BC": 150,
+  "US": 2300
+ },
+ "dermatology": {
+  "CA": 100,
+  "BC": 40,
+  "US": 820
+ },
+ "med-spa": {
+  "CA": 230,
+  "BC": 120,
+  "US": 2540
+ },
+ "hvac": {
+  "CA": 820,
+  "BC": 250,
+  "US": 7400
+ },
+ "immigration": {
+  "CA": 150,
+  "BC": 40,
+  "US": 880
+ },
+ "manufacturing-industrial": {
+  "CA": 430,
+  "BC": 150,
+  "US": 4130
+ },
+ "pest-control": {
+  "CA": 300,
+  "BC": 150,
+  "US": 2990
+ },
+ "physiotherapy": {
+  "CA": 310,
+  "BC": 140,
+  "US": 810
+ },
+ "septic-drain": {
+  "CA": 30,
+  "BC": 20,
+  "US": 30
+ },
+ "fencing": {
+  "CA": 50,
+  "BC": 20,
+  "US": 190
+ },
+ "restoration": {
+  "CA": 220,
+  "BC": 80,
+  "US": 910
+ },
+ "towing": {
+  "CA": 70,
+  "BC": 50,
+  "US": 240
+ }
+}

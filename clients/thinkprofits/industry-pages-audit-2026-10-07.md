@@ -1,154 +1,295 @@
-# thinkprofits.com: industry service page audit
+# thinkprofits.com: industry page audit and keyword research (v2)
 
-> **Status:** DRAFT v0.1, 2026-10-07. Prepared by Francis (with Claude) for Andrew and Shawn.
-> **Why:** Shawn flagged the garage door and auto repair pages as spam-like. Andrew's rule: quality over quantity, and every page we keep gets rewritten by hand (no re-running the AI).
-> **Scope:** the 31 industry pages Lovable generated: 21 under `/aeo-services/<industry>/` and 10 under `/ppc-advertising/ppc-for-<industry>/`. The 40 city pages (`/seo-company-<city>/`, `/ppc-agency-<city>/`) are out of scope and need their own pass.
-> **Sources:** live sitemap (300 URLs, 2026-10-07); GSC `sc-domain:thinkprofits.com`, 6 months (2026-04-07 to 2026-10-06); Google Ads Keyword Planner (Canada, avg monthly searches, 12 months to Aug 2026); page HTML fetched 2026-10-07; client list and case studies from `CLIENT.md`.
-> **Not used:** Semrush (API units at zero on 2026-10-07). People Also Ask questions haven't been pulled yet. Do that before writing the kept pages (see section 7).
-> **Companion file:** [lovable-brief-industry-pages-2026-10-07.md](lovable-brief-industry-pages-2026-10-07.md), the step-by-step instructions to paste into Lovable.
+> **Status:** DRAFT v2, 2026-10-07. Prepared by Francis (with Claude) for Andrew and Shawn. **v2 replaces v1** (sent to Lovable earlier today). v1 missed a third set of 20 industry pages and the old WordPress industry URLs, and its keyword research was too thin.
+> **Why:** Shawn flagged the garage door and auto repair pages as spam-like. Andrew's rule: quality over quantity, and every page we keep is rewritten by hand.
+> **Open question for Andrew:** one hub page for sales, or separate indexable pages? Answered with data in section 6.
+>
+> **Sources (all pulled 2026-10-07):**
+> - Live sitemap (300 URLs) and HTTP checks of every industry URL.
+> - Google Search Console `sc-domain:thinkprofits.com`, 6 months (2026-04-07 to 2026-10-06): 17,186 query/page rows, read in full.
+> - Google Ads Keyword Planner: 1,774 agency-intent keywords across 32 industries, for Canada, British Columbia and the US (12-month averages to Aug 2026). Plus Keyword Planner "ideas" from 41 seed terms across 14 industries (about 6,500 suggestions in Canada and the same in the US).
+> - All 22 case studies on our site, read for industry and real results.
+> - Ranking competitor pages and their FAQs (US-located web search; see the limits below).
+>
+> **Raw data:** `data/industry-research/`
+> - `keyword_matrix.csv`: every keyword with CA/BC/US volume, competition and top-of-page bid.
+> - `vertical_totals.json`, `keyword_ideas.json`, `ideas_digest.txt`.
+> - `gsc_industry_queries_sitewide.json`, `gsc_offsitemap_pages.json`, `local_seo_industry_pages.json`.
+>
+> **Limits:**
+> - Semrush wasn't used (API units at zero).
+> - Google and Bing blocked automated searches, so People Also Ask was replaced by the FAQs on the pages that rank (section 8).
+> - Keyword Planner rounds low volumes (10, 20, 30…) and groups close variants. "Lawyer seo", "attorney seo" and "seo for lawyers" share one figure.
+> - British Columbia figures are floored at 10 per keyword, so they're too noisy to rank industries. They're shown for reference only.
+
+---
 
 ## 1. Summary
 
-- **31 pages, 3 clicks in 6 months.** Across all 31 industry pages: 1,684 impressions, 3 clicks (AEO HVAC 1, AEO med spa 1, PPC auto repair 1). None of them bring in business, so cutting them costs almost nothing.
-- **Search intent is fine, but the copy reads like it's for consumers.** The queries Google shows these pages for are agency-intent ("garage door repair seo", "auto repair ppc company"). The problem is the body copy. Most of each page is written as homeowner and car-owner questions ("garage door won't close", "broken torsion spring cost", "can I open my garage door manually"). To Google and to a reader, a page full of those phrases looks like a garage door repair page with an agency logo on top. That's the spam signal Shawn picked up on.
-- **All 21 AEO pages share one template.** They have the same H2 skeleton, the same six "What We Do" blocks with the industry name swapped in, the same two "Related Reading" posts (about Lovable canonical QA, which is irrelevant to the industry) and the same FAQ pattern. Google treats a set like this as scaled, doorway-style content.
-- **Claims to fix wherever copy survives:** "converts at almost any offered price" (garage door, no source), "your brand is in its training and retrieval set" (overclaim), "we earn mentions in… Reddit threads" (reads as seeding forums, which is a reputational risk). Our standards say no guarantees and cite stats, so flag these.
-- **Technical:** the slash and no-slash versions of several pages are both indexed and split impressions. `/ppc-for-landscaping` (no slash) has 416 impressions and `/ppc-for-landscaping/` has 39. The same thing happens for dentists, auto repair, HVAC, plumbing, accountants, landscaping and cleaning.
-- **Recommendation:**
-  - Keep **6 verticals** (11 URLs) as separate pages and rewrite them by hand.
-  - Fold the other **15 verticals** (20 URLs) into the `/industries/` hub and 301 their URLs.
-  - Roofing and law firms stay only if we can show real proof (see section 4).
+1. **We have 51 industry pages, not 31.** Each industry can have up to three near-duplicate pages:
+   - `/seo-services/local-seo/local-seo-<industry>/`: 20 pages. Indexable, linked from the Local SEO page, **missing from sitemap.xml**.
+   - `/aeo-services/<industry>/`: 21 pages.
+   - `/ppc-advertising/ppc-for-<industry>/`: 10 pages.
 
-## 2. How each page was judged
+   All three sets are AI-templated. Together they produced **3 clicks in 6 months**. Three thin pages per industry, each competing with the others, is the pattern Shawn spotted.
+2. **Several of these industries have no demand from businesses looking for an agency.** "aeo for plumbers", "ai seo for dentists" and every "aeo for <industry>" term show no measurable search volume in Canada or the US. The garage door industry gets about 140 searches a month across all its agency terms in all of Canada; dermatology about 100; towing about 70.
+3. **The industries where we have real case studies mostly have no page at all.** We have strong, numbers-backed case studies for:
+   - **hotels and hospitality**: Executive Hotels, "$3M increased revenue over 15 months"; Liz Moore; Prestons.
+   - **manufacturing and industrial**: Merit Kitchens, "50+ new leads per month"; Euro-Rite; QSD; Can-Four.
+   - **ecommerce**: Golf Ball Planet, "315.9% revenue increase"; MVP.
+   - **law firms**: Thomas & Associates, "354% organic form fills"; Hoogbruin.
+   - **education**: Sprott Shaw; Mujo.
 
-Each page gets 4 checks, in order:
+   The AI-generated set skipped most of these and built pages for garage doors, med spas and vets instead, where we have no case study at all.
+4. **We already had real industry pages, and the migration threw their equity away.** Old WordPress pages still show up in Google:
+   - `/lawyer-seo/`: 2,624 impressions.
+   - `/seo-for-home-service-contractors/`: 1,379.
+   - `/seo-for-education/`: 1,227.
+   - `/seo-hotels-resorts/`: 1,206, at about position 18 for "hotel seo services".
+   - `/seo-for-plumbers`: 668.
+   - `/dentist-seo-services`: 345.
+   - `/seo-for-manufacturing-companies/`: 146.
 
-1. **Audience:** is the page written for a business owner hiring an agency (keep), or does it mostly speak to that business's customers (rewrite or cut)?
-2. **Proof:** do we have a real client, case study or testimonial in this vertical? A page with no proof is a page that can only make claims.
-3. **Demand:** do people search for an agency in this vertical? (Keyword Planner, Canada, agency-intent terms such as "seo for dentists", not consumer terms.)
-4. **Current value:** GSC clicks and impressions. If the page earns anything, it needs a 301 rather than a plain removal.
+   All of them 301 to the generic `/seo-services/` page, which doesn't answer those searches. Pointing them at matching new pages is the cheapest win in this audit.
+5. **Site-wide technical bug:** `https://www.thinkprofits.com/` returns a **302 (temporary)** to the non-www site instead of a 301. Google still shows the www homepage (23,583 impressions in 6 months). This needs fixing regardless of the industry work.
+6. **Recommendation:** collapse 51 pages into **one strong page per industry where we have proof, 9 in total**. Each page covers SEO, AI search and Google Ads for that industry. Everything else becomes a short section on the `/industries/` hub or is dropped. Then redirect every old URL to its closest new page. Details in sections 6 and 7.
 
-Verdicts:
-- **KEEP + REWRITE:** separate indexable page, rewritten by hand.
-- **HUB:** short honest section on `/industries/`, URL 301'd.
-- **CONFIRM:** keep only if Andrew or Shawn can name a real result.
+---
 
-## 3. Page inventory
+## 2. What's on the site today
 
-GSC = 6 months to 2026-10-06, both slash variants combined. Volume = Keyword Planner, Canada, best agency-intent term.
-
-| Vertical | AEO page (impr / clicks) | PPC page (impr / clicks) | Our proof | Best agency-intent demand (CA/mo) | Verdict |
+| Set | Count | In sitemap? | 6-month impressions | Clicks | Notes |
 |---|---|---|---|---|---|
-| Plumbing | 6 / 0 | 67 / 0 | John Sadler, Vision, Butler, Lone Star, McMullen (case studies + live clients) | plumbing seo 70, plumber marketing agency 40, google ads for plumbers 40 | **KEEP + REWRITE** (both) |
-| HVAC | 86 / 1 (pos 7.5) | 77 / 0 | Vision, ProWest, Waywest, CCD Energy | seo for hvac 140, hvac seo 110, hvac marketing 70 | **KEEP + REWRITE** (both) |
-| Dentists | 7 / 0 | 413 / 0 | Tsawwassen Family Dental case study | dental marketing 590, dental seo 480, seo for dentists 260, dental google ads 90 | **KEEP + REWRITE** (both) |
-| Electricians | 1 / 0 | 17 / 0 | PowerUp Electric (client channel) | seo for electricians 70, electrician marketing 40 | **KEEP + REWRITE** (both) |
-| Landscaping | 14 / 0 | 455 / 0 | Arbor Green Tree (client channel); *confirm* Hoogbruin / Ultimate Fence fit | landscaping marketing 70, landscaping marketing agency 40 | **KEEP PPC + REWRITE**; AEO → **HUB** |
-| Home services umbrella | none | none | All of the above | seo for contractors 260, trades marketing 170 | Covered by the hub (see section 5) |
-| Law firms | 29 / 0 | 14 / 0 | *Confirm*: Thomas Associates case study? Magellan Immigration is immigration, not law | lawyer seo 1,000, law firm seo 480, legal seo 320, law firm seo company 320 | **CONFIRM**: biggest demand on the list, but competitive and we need proof |
-| Roofing | 1 / 0 | 47 / 0 | None found | seo for roofers 320, roofing seo 320 | **CONFIRM**: demand is real; without a roofing result → HUB |
-| Cleaning | 15 / 0 | none | Anago of Vancouver case study, Cleaning 4 U (PPC client) | cleaning company seo 10 | **HUB** (feature the Anago case study in the hub section) |
-| Home remodeling | 2 / 0 | none | Merit Kitchens, Euro-Rite Cabinets case studies | renovation marketing 10 | **HUB** (feature both case studies) |
-| Accountants | 64 / 0 | none | None found | marketing for accountants 50 | **HUB** |
-| Moving companies | 86 / 0 | none | None | moving company seo 90 | **HUB** |
-| Restoration | 15 / 0 | none | *Confirm*: Drainage Pro? | restoration seo 10 | **HUB** |
-| Pest control | 3 / 0 | none | None | pest control seo 90 | **HUB** |
-| **Garage door** | 7 / 0 | none | None | garage door seo 10 | **HUB** (Shawn's flag) |
-| **Auto repair** | 17 / 0 | 113 / 1 | None | auto repair marketing 70 | **HUB** (Shawn's flag), both URLs |
-| Med spa | 19 / 1 | 31 / 0 | None | med spa marketing 50 | **HUB**, both URLs |
-| Dermatology | 23 / 0 | none | None | dermatology marketing 20 | **HUB** |
-| Chiropractors | 8 / 0 | none | None | chiropractic marketing 40 | **HUB** |
-| Physiotherapy | 21 / 0 | none | None | physiotherapy marketing 40 | **HUB** |
-| Veterinarians | 26 / 0 | none | None | veterinary marketing 20 | **HUB** |
+| `/seo-services/local-seo/local-seo-<industry>/` | 20 | **No** (linked from the `/seo-services/local-seo/` page, 10 of them) | 2,163 | 0 | Strongest of the three: Butler case study on plumbing, about 1,500–2,700 words. Still templated. |
+| `/aeo-services/<industry>/` | 21 | Yes | 450 | 2 | One template; the body is mostly consumer questions ("garage door won't close"). |
+| `/ppc-advertising/ppc-for-<industry>/` | 10 | Yes | 1,234 | 1 | Landscaping (455) and dentists (413) get the most impressions; positions 36–76. |
+| Old WordPress industry URLs | 9+ | No (301 to generic pages) | about 8,200 | 0 | Real history; now wasted on generic redirect targets. |
 
-`/aeo-services/geo/` (476 impressions) isn't an industry page. It stays and is out of scope here.
+**Copy problems across the templated sets:**
+- **Consumer-facing copy:** AEO pages are mostly homeowner and patient questions.
+- **Unsourced statistics:**
+  - "'Plumber near me' alone gets 368,000 US searches every month."
+  - "converts at almost any offered price."
+- **Overclaims:** "your brand is in its [AI] training and retrieval set".
+- **Risky tactics in the copy:**
+  - "Reddit threads": reads as forum seeding.
+  - "Q&A seeding": reads as manipulating Google Business Profile Q&A.
+- **US wording on a Canadian site:** "attorney", "bar-association rules". In Canada it's lawyers and the Law Society.
+- **Identical blocks on every page:** the same "Related Reading" posts (Lovable canonical QA), unrelated to the industry.
 
-**Reading the volumes:** Keyword Planner rounds low-spend data, so treat 10–90 as "a handful of searches a month in all of Canada". No vertical page on its own will be a big traffic source. The point of a kept page is to convert the few agency searchers who land there and to give AI engines a credible, specific page to cite.
+---
 
-## 4. Open question for Andrew: hub or separate pages?
+## 3. Keyword research: demand by industry
 
-Andrew leaned towards a hub for sales plus separate pages for SEO and AI search. This audit supports a **tiered** version of that:
+Keyword Planner, agency-intent terms only ("seo for X", "X seo company", "X marketing agency", "google ads for X", "X web design", "aeo for X" and so on, 13–14 patterns per synonym). Totals are deduplicated for grouped close variants. Volumes are average monthly searches.
 
-- **Tier 1, separate indexable pages:** only where we have proof **and** measurable agency-intent demand: plumbing, HVAC, dentists, electricians, landscaping (PPC). Roofing and law firms move up only if we can point to a real result.
-- **Tier 2, hub only:** every other vertical gets a short, honest section on `/industries/` (2–4 sentences, plus a linked case study where we have one). No separate URL, so there are no thin pages to look spammy.
-- **Why not separate pages for everything?** 15 of the 21 verticals have no client proof and close to no demand. Rewriting them by hand would take roughly 15 × 2–3 hours for pages with no evidence they'll ever earn a click. That's the opposite of quality over quantity.
-- **Why not hub-only for everything?** For plumbing, HVAC and dental, a dedicated page is what an AI engine or a searcher expects to find, and we have real stories to put on it.
+| Industry | Canada | US | Biggest agency-intent terms (CA / US) | Our proof | We have a page? |
+|---|---|---|---|---|---|
+| **Law firms** | **4,910** | **34,130** | seo for lawyers/attorneys group 1,000 / 3,600 · law firm seo 480 / 4,400 · legal seo 320 / 1,000 · law firm seo company 320 / 480 · seo for personal injury lawyers 320 / 1,300 · law firm web design 260 / 2,400 · law firm marketing 140 / 1,600 | **Strong**: Thomas & Associates (family law, real numbers), Hoogbruin (personal injury, real numbers) | 3 templated pages + old `/lawyer-seo/` |
+| **Dental** | **3,040** | 11,370 | dental marketing 590 / 1,600 · dental seo 480 / 1,300 · seo for dental office 390 / 140 · dental seo services 390 / 1,300 · dental seo agency 260 / 480 · advertising for dentists 210 / 720 · local seo for dentists 170 / 880 · dental google ads 90 / 390 | Medium: Tsawwassen Family Dental (detailed story, **no hard numbers on the page**, confirm metrics) | 3 templated pages + old `/dentist-seo-services` |
+| **Ecommerce** | **2,890** | 15,980 | ecommerce seo services/agency/company 390 / 1,000–1,300 · shopify seo 210 / 1,600 · ecommerce web design 260 / 1,600 · ecommerce marketing 110 / 1,000 | **Strong**: Golf Ball Planet (+315.9% revenue), MVP Athletic | Only `/ecommerce-website-design/` (design, not SEO/PPC) |
+| Small business (generic) | 2,880 | 23,780 | seo for small businesses 590 / 3,600 · small business seo services 720 / 4,400 | Everything | That's what `/seo-services/` is for. Not an industry page. |
+| Real estate | 2,820 | 15,360 | real estate seo / realtor seo 720 / 1,300 · real estate lead generation 320 / 2,900 | **None** | No (not recommended without proof) |
+| **B2B / manufacturing / industrial** | 2,230 + 430 | 15,650 + 4,130 | b2b marketing agency 480 / 5,400 · b2b seo agency 390 / 1,000 · b2b lead generation 170 / 1,900 · manufacturing seo 50 / 390 · manufacturing website design 50 / 590 · industrial marketing 30 / 390 | **Strong**: Merit Kitchens (50+ leads/month), Euro-Rite, QSD, Can-Four, CCD Energy, Catapult ERP; live clients Wiseworth, SPIEDR | Old `/seo-for-manufacturing-companies/` only |
+| **Contractors / home services (umbrella)** | 1,600 | 8,290 | seo for contractors 260 / 590 · contractor seo 260 / 880 · home builder marketing 210 / 320 · trades marketing 170 / 1,300 · contractor web design 90 / 1,000 · seo for general contractors 70 / 170 · seo for construction companies 50 / 480 | Medium–strong: Ultimate Fence, Anago (both thin pages), live clients Jamie Davis Towing, Clearset, PowerUp Electric, Arbor Green, Drainage Pro | Old `/seo-for-home-service-contractors/` (1,379 impressions) |
+| **Hotels & hospitality** | 1,010 | 7,200 | advertising for restaurants 210 / 1,000 · restaurant seo 90 / 390 · marketing for restaurants 90 / 720 · hotel seo 30 / 590 · hospitality marketing agency 30 / 590 · google ads for hotels 40 / 320 | **Strong**: Executive Hotels ($3M revenue), Liz Moore Destination Weddings, Prestons | Old `/seo-hotels-resorts/` (1,206 impressions, position ~18) |
+| **HVAC** | 820 | 7,400 | seo for hvac 140 / 320 · hvac seo 110 / 720 · hvac marketing 70 / 480 · hvac web design 70 / 480 · hvac marketing agency 50 / 880 · hvac lead generation 50 / 880 · plumbing and hvac seo 50 / 480 | **Strong**: Lone Star and Butler (plumbing & heating), live Vision, Waywest, ProWest | 3 templated pages |
+| **Plumbing** | 810 | 5,990 | plumber web design 170 / 480 · advertising for plumbers 110 / 480 · seo for plumbers 70 / 590 · digital marketing for plumbers 50 / 260 · plumber marketing agency 40 / 720 · local seo for plumbers 40 / 590 · google ads for plumbers 40 / 260 | **Strongest**: John Sadler (4x organic traffic), Lone Star (+730% PPC conversions), Butler (150+ calls/month); live Vision, McMullen | 3 templated pages + old `/seo-for-plumbers` |
+| Roofing | 740 | 7,740 | roofer seo 320 / 2,400 · seo for roofing companies 70 / 880 · marketing for roofers 30 / 590 | **None found** | 3 templated pages |
+| Accountants | about 300* | 3,780* | cpa marketing 210 / 1,300 (*mostly affiliate "CPA" marketing, not accountants*) · accounting marketing 50 / 390 · marketing for accountants 50 | None | 2 templated pages |
+| **Education** | about 300* | about 1,500* | seo for educational institutions (GSC shows 140 impressions to our old page) · higher education marketing 110 / 260 · digital marketing for schools 50 / 480 · higher ed marketing agencies 20 / 320 (*"education marketing" is mostly people looking for marketing courses*) | **Strong**: Sprott Shaw College (32+ page-1 placements), Mujo Learning Systems; live AANMC | Old `/seo-for-education/` (1,227 impressions) |
+| Landscaping | 500 | 3,730 | landscaping marketing 70 / 390 · advertising for landscapers 50 / 480 · landscape marketing agency 40 / 260 | Weak: Arbor Green (live client, no case study) | 3 templated pages |
+| Electricians | 410 | 2,940 | advertising for electricians 70 / 320 · seo for electricians / electrician seo 70 / 720 · electrician marketing 40 / 320 | Weak: PowerUp Electric (live client, no case study) | 3 templated pages |
+| Auto repair | 350 | 2,410 | auto repair marketing 70 / 720 · seo for auto repair shops 20 / 320 | None | 3 templated pages |
+| Cleaning | 350 | 2,300 | cleaning advertising 110 / 480 · seo for cleaning companies 10 / 260 | Weak: Anago (101-word case study, no results), Cleaning 4 U (PPC client) | 2 templated pages |
+| Moving | 340 | 2,960 | moving company seo / seo for movers 90 / 1,000 | None | 2 templated pages |
+| Physiotherapy | 310 | 810 | physio marketing 40 · marketing for physiotherapists 40 | None | 2 templated pages |
+| Pest control | 300 | 2,990 | pest control seo 90 / 880 | None | 2 templated pages |
+| Chiropractors | 230 | 2,230 | chiropractic marketing 40 / 480 · chiropractic seo 30 / 480 | None | 2 templated pages |
+| Med spa | 230 | 2,540 | marketing for med spas 50 / 390 | None | 3 templated pages |
+| Restoration | 220 | 910 | seo for restoration companies 20 / 90 | Drainage Pro (*confirm*) | 2 templated pages |
+| Veterinarians | 180 | 1,250 | marketing for veterinarians 20 / 260 | None | 2 templated pages |
+| Immigration | 150 | 880 | marketing for immigration lawyers 30 / 210 | Magellan Immigration (live PPC client) | None |
+| Garage door | 140 | 930 | seo for garage door companies 20 / 140 · garage door advertising 30 / 320 | None | 2 templated pages |
+| Dermatology | 100 | 820 | dermatology marketing 20 / 260 | None | 1 templated page |
+| Kitchens/cabinets, towing, fencing, drain/septic | 30–70 each | under 260 each | Too small to measure | Merit, Euro-Rite, Jamie Davis, Ultimate Fence, Clearset | None |
 
-**Decisions needed from Andrew before Lovable touches anything:**
-1. Approve the tiered model, or choose all-hub or all-separate.
-2. Roofing and law firms: is there a real result we can show? If not, they go to the hub.
-3. Keep the AEO/PPC split per vertical (2 URLs per kept vertical), or merge each kept vertical into one page covering SEO + AEO + PPC? Merging gives fewer, stronger pages but means more redirects. This audit assumes **keep the split for now** because it needs fewer redirects (see the warning below).
+**AI-search terms per industry:** every "aeo for <industry>" and "ai seo for <industry>" term returned **0** in both Canada and the US. Demand for AI search exists at the service level ("generative engine optimization" 590/month in Canada, "answer engine optimization" 320, "ai seo agency" 110), which `/aeo-services/` and `/aeo-services/geo/` already target. **Per-industry AEO pages have no search demand behind them.**
 
-> **Redirect cap warning:** CLIENT.md records that the Encited plan allowed 300 redirects against 672 in use (July 2026), and it isn't confirmed whether Lovable SSR or TanStack now serves real 301s. This plan adds up to 20 redirects. Check how redirects are actually served **before** removing any page (step 0 of the Lovable brief).
+**Per-industry Google Ads terms are small:** for example "google ads for dentists" 90, "google ads for plumbers" 40, "law firm ppc" 70. That's too thin to justify separate PPC pages per industry. Each industry page should cover Google Ads as a section instead.
 
-## 5. Redirect map (only for pages going to the hub)
+---
 
-Rules:
-- AEO URLs go to the hub, because the hub's industry section is the nearest match.
-- PPC URLs go to the PPC service page, because the searcher wanted PPC.
-- Redirect both the slash and no-slash versions.
+## 4. What the ranking pages look like (competitor check)
 
-| From | To |
+Searches: "seo for plumbers canada", "hvac seo canada agency", "dental seo company canada", "law firm seo vancouver", "hotel marketing agency vancouver", "manufacturing seo agency canada". These ran through a US-located search tool, so Canadian results may differ; treat this as a picture of the page types that rank, not exact positions.
+
+- **The format that ranks: one dedicated page per industry per agency.**
+  - Examples: Pilot SEO `/plumber-seo/`, Seologist `/industries/hvac-seo-company.html`, Volt Studios `/industries/hvac-seo/`, L8P `/seo-for-lawyers/`, 1st On The List `/industry/dental-seo/`.
+  - Industry specialists also rank: HVAC SEO Pros, dentistseo.ca, Dental Digital Agency.
+  - Nobody ranking runs a separate SEO + AEO + PPC page for the same industry.
+- **Length and contents:** about 1,200–2,600 words, testimonials and reviews throughout, FAQ schema, and published pricing or a pricing range (Canada Create publishes "from CAD 1,500/month" for dental SEO).
+- **Hospitality and manufacturing** are dominated by specialist agencies and agency directories (Kika, Wallop, Digital Hospitality; Semrush and Clutch agency lists). With Executive Hotels and Merit Kitchens we have proof most generalists can't show.
+- **"law firm seo vancouver"** results are full of Vancouver, **WA** agencies. There's an opening for a page that's clearly Vancouver, **BC** and uses Canadian legal terms (Law Society of BC rules, lawyers not attorneys).
+
+Sources: [Pilot SEO plumber SEO](https://pilotseo.ca/plumber-seo/) · [Seologist SEO for plumbers](https://www.seologist.com/knowledge-sharing/seo-for-plumbers/) · [Seologist HVAC](https://www.seologist.com/industries/hvac-seo-company.html) · [Volt Studios HVAC](https://voltstudios.ca/industries/hvac-seo/) · [HVAC SEO Pros](https://hvacseopros.com/) · [dentistseo.ca](https://dentistseo.ca/) · [Canada Create dental SEO](https://canadacreate.com/dental-seo-services-in-toronto/) · [1st On The List dental SEO](https://www.1stonthelist.ca/industry/dental-seo/) · [L8P SEO for lawyers](https://l8p.ca/digital-marketing-services/seo-for-lawyers/) · [Kika hospitality](https://www.kika.ca/industries/hospitality-hotel-marketing-agency/) · [enoptimize manufacturing SEO](https://enoptimize.ca/manufacturing-seo/)
+
+---
+
+## 5. Our own search history for these topics
+
+Across 6 months of GSC, 1,760 query/page rows combine an industry term with an agency term (27,771 impressions, **0 clicks**). Where Google already associates us with an industry:
+
+| Topic | Strongest signal | Where it lands today |
+|---|---|---|
+| Law firms | "lawyer seo" 337 impressions, "law firm seo" 177, "seo for lawyers" 121; `/lawyer-seo/` 2,624 total | 301 to generic `/seo-services/` |
+| Ecommerce | "ecommerce website designers" 1,710; dozens of ecommerce design terms | `/ecommerce-website-design/` (positions 25–60) |
+| Hotels | "hotel seo services" 322 at **pos 17**, "seo services for hotels" 146 at 19.5, "hotel seo agency" 133 at 18 | `/seo-hotels-resorts/`, which 301s to generic `/seo-services/` |
+| Home services | "seo for home service contractors" 211 at **pos 15**, "home services seo" 146 at 22 | `/seo-for-home-service-contractors/`, which 301s to `/seo-services/` |
+| Education | "seo for educational institutions" 140 at **pos 13**, "seo services for education" 133 | `/seo-for-education/`, which 301s to `/seo-services/` |
+| Plumbing | "plumber seo company" 303, "plumber seo toronto" 204 (via `/seo-company-toronto/`) | City page, not an industry page |
+| Manufacturing | "vancouver industrial seo marketing" 154 | `/seo-company-vancouver/` |
+
+**Reading:** Google ranked our old hotel, home services and education pages on page 2, without them having been touched for a long time. Those industries are where a rebuilt page has the best starting point.
+
+---
+
+## 6. Hub or separate pages? (Andrew's open question, answered with data)
+
+**Recommendation: both, in tiers.** This follows Andrew's lean (hub for sales, separate pages for search), with one change: **one page per industry, not separate SEO and AI-search pages**, because per-industry AI-search terms have no demand (section 3).
+
+**Tier 1: dedicated, indexable industry pages (9)**
+
+Each meets both tests: a real ThinkProfits result **and** measurable agency-intent demand. Each page covers SEO, AI search (AEO/GEO) and Google Ads for that industry.
+
+| # | Page | Why |
+|---|---|---|
+| 1 | **Law firms** | Biggest demand (CA 4,910 / US 34,130); 2 case studies with numbers; old `/lawyer-seo/` history. |
+| 2 | **Plumbing** | Strongest proof (3 case studies, 2 live clients); core client base. |
+| 3 | **HVAC** | Shares the plumbing & heating proof; separate demand ("hvac seo" is its own term, and competitors run separate pages). |
+| 4 | **Dental** | Demand 3,040 in Canada; Tsawwassen case study (add hard numbers). |
+| 5 | **Hotels & hospitality** | Executive Hotels "$3M" is our single biggest published result; old page ranked about 18. |
+| 6 | **Ecommerce** (SEO + Google Ads) | Golf Ball Planet and MVP; demand 2,890. Must not overlap `/ecommerce-website-design/`, which keeps the design terms. |
+| 7 | **Manufacturing & industrial (B2B)** | 6 case studies plus live Wiseworth and SPIEDR; "b2b seo agency" 390 / 1,000. |
+| 8 | **Home services & trades** (umbrella) | "seo for contractors", "trades marketing"; old page ranked about 15. Covers roofing, electrical, landscaping, cleaning, towing, drainage, fencing, garage door, pest control and restoration as short sections, with proof from Ultimate Fence, Anago, Jamie Davis, Clearset, PowerUp and Arbor Green. |
+| 9 | **Education** | Sprott Shaw and Mujo case studies, AANMC live; old page ranked about 13. |
+
+**Tier 2: promote to its own page once we have a case study**
+
+| Industry | Why it isn't Tier 1 yet |
 |---|---|
-| /aeo-services/garage-door/ | /industries/ |
-| /aeo-services/auto-repair/ | /industries/ |
-| /ppc-advertising/ppc-for-auto-repair/ | /ppc-advertising/ |
-| /aeo-services/med-spa/ | /industries/ |
-| /ppc-advertising/ppc-for-med-spa/ | /ppc-advertising/ |
-| /aeo-services/moving-companies/ | /industries/ |
-| /aeo-services/pest-control/ | /industries/ |
-| /aeo-services/restoration/ | /industries/ |
-| /aeo-services/dermatology/ | /industries/ |
-| /aeo-services/chiropractors/ | /industries/ |
-| /aeo-services/physiotherapy/ | /industries/ |
-| /aeo-services/veterinarians/ | /industries/ |
-| /aeo-services/accountants/ | /industries/ |
-| /aeo-services/cleaning/ | /industries/ |
-| /aeo-services/home-remodeling/ | /industries/ |
-| /aeo-services/landscaping/ | /ppc-advertising/ppc-for-landscaping/ (our landscaping page that stays) |
-| /aeo-services/roofing/ + /ppc-advertising/ppc-for-roofing/ | **Only if roofing goes to the hub:** /industries/ and /ppc-advertising/ |
-| /aeo-services/law-firms/ + /ppc-advertising/ppc-for-law-firms/ | **Only if law goes to the hub:** /industries/ and /ppc-advertising/ |
+| Roofing | Demand is real (740 / 7,740) but no client proof. |
+| Electricians | PowerUp is a live client; write their case study first. |
+| Landscaping | Arbor Green is a live client; write their case study first. |
 
-Pre-deletion GSC check: done in section 3. No page in the redirect list has more than 1 click in 6 months, so redirecting carries no meaningful traffic risk. Re-check the week before cut-over in case anything has changed.
+Until then they live as sections on the Home services & trades page.
 
-## 6. Rewrite spec for kept pages (written by hand)
+**Tier 3: hub only, or drop**
 
-Every kept page drops the shared template and is written fresh from the brief below.
+These get no page of their own: auto repair, garage door, moving, pest control, restoration, cleaning, med spa, dermatology, chiropractors, physiotherapy, veterinarians, accountants.
+- Trades go into the Home services & trades umbrella.
+- Health clinics get one short "Healthcare & clinics" section on `/industries/`, pointing to the Dental page and the AANMC experience.
+- Accountants get a single line in the hub's "Professional services" list.
 
-**What each kept page must have:**
-- Written to the **owner** of the business. Customer search phrases may appear only as short, clearly labelled examples ("your customers ask things like…"), never as the bulk of the copy.
-- **One real proof block:** a named client, what we did and a sourced result from GSC/Ads/CallRail. No result → no claim.
-- **Specific to us:** what we actually run for this vertical (e.g. LSA for plumbers, rebate-season campaigns for HVAC), our pricing tier link, and who does the work.
-- **Unique FAQ** built from People Also Ask data for that vertical (see section 7), not the 6 shared questions.
-- **No guarantees** ("get cited in 60–90 days", "rank #1") and no unsourced stats.
-- Internal links: up to the service page (`/aeo-services/` or `/ppc-advertising/`), across to the sibling page for the same vertical, out to the relevant case study and the `/industries/` hub.
-- Remove the generic "Related Reading" block (Lovable canonical QA posts) unless the post is genuinely about that vertical.
-- Format: service-page conversion layout (hero, what we do, proof, process, pricing link, FAQ, CTA), not article prose.
+**Not recommended:** real estate (2,820 / 15,360). Demand is high but we have no proof, and it's a crowded specialist market. Revisit only if Shawn wants to sell into it.
 
-**Keyword targets (Keyword Planner, Canada; intent = commercial, someone hiring an agency):**
+**Why not separate pages for every industry?** For 12 of these industries we have no proof, and demand is roughly 100–350 searches a month across all of Canada. Hand-writing 36 pages for them is the opposite of quality over quantity, and three near-identical pages per industry is what got flagged.
 
-| Page | Primary keyword | Secondary keywords | Notes |
+**Why not hub only?** The ranking pattern (section 4) is one dedicated page per industry. Our own old pages ranked on page 2 for hotels, home services and education. A hub alone gives up law, dental and plumbing, where we have both demand and proof.
+
+---
+
+## 7. URL plan and redirect map
+
+**Proposed URLs:** `/industries/<slug>/` (e.g. `/industries/law-firms/`, `/industries/plumbing/`).
+- Short, consistent, and nested under the hub, which supports the sales-hub and SEO-page split.
+- Fallback if Phase 0 shows the redirect setup can't take about 60 more rules: keep the existing `/seo-services/local-seo/local-seo-<slug>/` URLs for the Tier 1 trades (no new redirects for those) and add only the missing pages.
+
+| New page | Redirect into it (both slash and no-slash versions) |
+|---|---|
+| /industries/law-firms/ | /seo-services/local-seo/local-seo-law-firms/ · /aeo-services/law-firms/ · /ppc-advertising/ppc-for-law-firms/ · /lawyer-seo/ (repoint) |
+| /industries/plumbing/ | /seo-services/local-seo/local-seo-plumbing/ · /aeo-services/plumbing/ · /ppc-advertising/ppc-for-plumbing/ · /seo-for-plumbers (repoint) · /plumbing-seo-company-toronto/ (repoint) |
+| /industries/hvac/ | /seo-services/local-seo/local-seo-hvac/ · /aeo-services/hvac/ · /ppc-advertising/ppc-for-hvac/ |
+| /industries/dental/ | /seo-services/local-seo/local-seo-dentists/ · /aeo-services/dentists/ · /ppc-advertising/ppc-for-dentists/ · /dentist-seo-services (repoint) |
+| /industries/hotels-hospitality/ | /seo-hotels-resorts/ (repoint) |
+| /industries/ecommerce/ | /seo-for-retail (repoint) |
+| /industries/manufacturing-industrial/ | /seo-for-manufacturing-companies/ (repoint) |
+| /industries/home-services/ | /seo-for-home-service-contractors/ (repoint) · local-seo, AEO and PPC pages for roofing, electricians, landscaping, cleaning, garage door, pest control, restoration, home remodeling, moving and auto repair |
+| /industries/education/ | /seo-for-education/ (repoint) |
+| /industries/ (hub) | local-seo and AEO pages for med spa, dermatology, chiropractors, physiotherapy, veterinarians and accountants; /ppc-advertising/ppc-for-med-spa/ |
+
+Count: about 51 templated URLs plus 9 repointed old URLs, roughly 60 rules (about 120 if slash variants need separate rules). **Phase 0 must confirm capacity first.**
+
+**GSC check before removal:** no templated industry URL has more than 1 click in 6 months (section 2), so the traffic risk is negligible. Re-check the week before cut-over.
+
+**Also fix, site-wide:** `www.thinkprofits.com` 302 → **301** to `https://thinkprofits.com/`.
+
+---
+
+## 8. Keyword targets per Tier 1 page
+
+Intent for all of these is **commercial** (a business owner hiring an agency). Volumes are CA / US monthly. The primary keyword goes in the title, H1, first paragraph and URL slug; secondary keywords go in H2s and body copy. Write for Canadian readers (lawyers, Law Society, provinces) and serve US searchers as a secondary market.
+
+| Page | Primary | Secondary | Notes |
 |---|---|---|---|
-| /aeo-services/plumbing/ | seo for plumbers (plumbing seo, 70) | plumber marketing agency (40), plumbing marketing (50) | Angle it as AI search *plus* local SEO for plumbers. "aeo for plumbers" has no measurable volume. |
-| /ppc-advertising/ppc-for-plumbing/ | google ads for plumbers (40) | ppc for plumbers (10), plumbing LSA | Ranks 17.4 now, closest to page 1 of any PPC page. |
-| /aeo-services/hvac/ | seo for hvac (140) | hvac seo (110), hvac marketing agency (50) | Already pos 7.5 and the only AEO page with a click. Rewrite carefully and keep the URL. |
-| /ppc-advertising/ppc-for-hvac/ | hvac marketing (70) | hvac google ads (10), hvac LSA | Low PPC-specific demand. Lean on "marketing". |
-| /aeo-services/dentists/ | seo for dentists (260) | dental seo (480), dental seo company (210), dental marketing company (90) | Highest demand among kept pages. Tsawwassen Family Dental is the proof. |
-| /ppc-advertising/ppc-for-dentists/ | dental google ads (90) | ppc for dentists (30), dental marketing (590) | 413 impressions at pos ~76: Google knows the page but doesn't trust it yet. |
-| /aeo-services/electricians/ | seo for electricians (70) | electrician seo (70), electrician marketing (40) | PowerUp Electric is the proof (confirm permission to name them). |
-| /ppc-advertising/ppc-for-electrician/ | electrician marketing (40) | electrician google ads (10) | |
-| /ppc-advertising/ppc-for-landscaping/ | landscaping marketing (70) | landscaping marketing agency (40), landscaping ppc (10) | Most-seen PPC page (455 impressions), pos ~36. |
-| *If kept:* /aeo-services/law-firms/ | law firm seo (480) | lawyer seo (1,000), legal seo (320), law firm seo company (320) | Very competitive nationally. Only worth it with a real law client story. |
-| *If kept:* /aeo-services/roofing/ | seo for roofers (320) | roofing seo (320), roofing seo company (70) | Same: only with proof. |
+| Law firms | **law firm seo** (480 / 4,400) | seo for lawyers (1,000 / 3,600 group) · legal seo (320 / 1,000) · law firm seo company (320 / 480) · seo for personal injury lawyers (320 / 1,300) · law firm marketing (140 / 1,600) · law firm web design (260 / 2,400) · google ads for lawyers (20) | Proof: Thomas & Associates (family), Hoogbruin (personal injury). Use Law Society of BC advertising rules, not "bar association". |
+| Plumbing | **seo for plumbers** (70 / 590 incl. "plumbing seo") | plumber marketing agency (40 / 720) · local seo for plumbers (40 / 590) · advertising for plumbers (110 / 480) · plumber web design (170 / 480) · google ads for plumbers (40 / 260) · digital marketing for plumbers (50 / 260) | Proof: John Sadler, Lone Star, Butler. Cover Local Services Ads (a common FAQ). |
+| HVAC | **hvac seo** (110 / 720) | seo for hvac (140 / 320) · hvac marketing agency (50 / 880) · hvac lead generation (50 / 880) · hvac marketing (70 / 480) · hvac web design (70 / 480) · plumbing and hvac seo (50 / 480) | Seasonal demand and heat-pump rebate content are good angles. Link to Plumbing. |
+| Dental | **dental seo** (480 / 1,300) | dental marketing (590 / 1,600) · seo for dental office (390 / 140) · dental seo services (390 / 1,300) · dental seo agency (260 / 480) · advertising for dentists (210 / 720) · local seo for dentists (170 / 880) · dental google ads (90 / 390) | Get real numbers for Tsawwassen. Cover the BC College of Oral Health Professionals advertising rules (*confirm the current regulator name and rules*). |
+| Hotels & hospitality | **hotel seo** (30 / 590) | hospitality marketing agency (30 / 590) · hotel marketing (30 / 320) · google ads for hotels (40 / 320) · restaurant seo (90 / 390) · marketing for restaurants (90 / 720) · advertising for restaurants (210 / 1,000) | Small volumes but high value per client. Lead with the Executive Hotels result. |
+| Ecommerce | **ecommerce seo agency** (390 / 1,000) | ecommerce seo services (390 / 1,300) · shopify seo (210 / 1,600) · shopify seo agency (210 / 1,300) · ecommerce marketing (110 / 1,000) · shopify advertising (170 / 720) | Leave "ecommerce web design" terms to `/ecommerce-website-design/` and link across. |
+| Manufacturing & industrial | **b2b seo agency** (390 / 1,000) | b2b marketing agency (480 / 5,400) · manufacturing seo (50 / 390) · industrial marketing (30 / 390) · manufacturing website design (50 / 590) · b2b lead generation (170 / 1,900) | Six case studies to choose from. Name the sub-sectors: cabinetry, industrial supply, staging, energy services. |
+| Home services & trades | **seo for contractors** (260 / 590) | contractor seo (260 / 880) · trades marketing (170 / 1,300) · home services marketing agency (30 / 590) · contractor web design (90 / 1,000) · roofer seo (320 / 2,400) · seo for electricians (70 / 720) · landscaping marketing (70 / 390) · pest control seo (90 / 880) · moving company seo (90 / 1,000) | One H2 section per trade with its own term. Promote a trade to its own page once it has a case study. |
+| Education | **seo for educational institutions** (GSC-proven; Keyword Planner too small to measure) | higher education marketing (110 / 260) · higher ed marketing agencies (20 / 320) · digital marketing for schools (50 / 480) · website design for schools (40 / 480) | Avoid "education marketing" as the main term; those searchers mostly want marketing courses. |
 
-Volumes are Canada-wide monthly averages from Keyword Planner, which rounds low figures. Use them to rank priorities, not as traffic forecasts.
+---
 
-## 7. Still to do
+## 9. FAQ question bank (stand-in for People Also Ask)
 
-- [ ] Andrew decides the section 4 questions.
-- [ ] Pull **People Also Ask** questions for each kept vertical (standing rule). Semrush is out of units, so do it manually in an incognito browser or wait for the top-up.
-- [ ] Confirm how redirects are served now (Encited cap vs Lovable SSR/TanStack).
-- [ ] Get permission to name the clients used as proof on each kept page.
-- [ ] Hand-write the kept pages (Francis), Andrew reviews, then Lovable pastes the final copy in. Lovable doesn't write the copy.
-- [ ] After launch: request indexing for kept pages, and watch GSC for 4–6 weeks for 404s and redirect chains.
-- [ ] Next audit: the 40 city pages (same template risk).
+Google and Bing blocked automated searches, so these questions come from the FAQ sections of the pages that rank (section 4). Questions that come up again and again across industries:
+
+- How much does [industry] SEO cost per month?
+- How long does [industry] SEO take to show results?
+- SEO or Google Ads (or Local Services Ads): which is better for my [business]?
+- How do I get into the Google Map Pack?
+- How many reviews do I need?
+- Does SEO help with ChatGPT and AI answers?
+- Do you work with my competitors? (exclusivity)
+- Do you lock me into a long-term contract? (Our answer: month-to-month, a real differentiator.)
+- Can you help a practice in a smaller town or with several locations?
+- Industry rules: Law Society advertising rules (law), dental regulator advertising rules (dental).
+
+Re-check against real People Also Ask results (Semrush or a manual incognito search) before final copy.
+
+---
+
+## 10. Rules for every Tier 1 page (written by hand)
+
+- **Write to the business owner.** Customer search examples only as short, labelled illustrations.
+- **At least one proof block** with a named client and a result taken from the case study or GSC/Ads data. No result means no claim.
+- **No guarantees** (rankings, "first AI citations in 60–90 days") and no unsourced statistics. Cite every number.
+- **Canadian English and Canadian terms.** Price in CAD; link to our published tiers, not a promised total.
+- **Service-page layout:** hero, what we do (SEO / AI search / Google Ads), proof, process, pricing link, FAQ, CTA. About 1,200–2,000 words, written by hand.
+- **Links:** to `/industries/`, the matching case studies, `/seo-services/`, `/aeo-services/`, `/ppc-advertising/`, and sibling industries where they're relevant (Plumbing ↔ HVAC).
+- **Schema:** Service + FAQPage (real FAQ text only) + BreadcrumbList.
+
+---
+
+## 11. Decisions needed from Andrew
+
+1. Approve the tiered model: 9 dedicated pages, plus the hub, plus everything else removed.
+2. Approve `/industries/<slug>/` URLs, or use the fallback (section 7).
+3. Confirm we can name these clients and show their results publicly: Executive Hotels, Thomas & Associates, Hoogbruin, Golf Ball Planet, Merit Kitchens, Sprott Shaw, John Sadler, Lone Star, Butler, Tsawwassen Family Dental.
+4. Roofing, electricians, landscaping: can we write PowerUp and Arbor Green case studies, or find a roofing result?
+5. Order of work. Suggested: Law firms → Plumbing → HVAC → Dental → Hotels → Manufacturing → Ecommerce → Home services → Education. That puts demand times proof first.
+
+## 12. Next steps
+
+- [ ] Lovable Phase 0 report (inventory and redirect capacity), including the 20 local-seo pages and the old URLs (see the addendum message).
+- [ ] Andrew's decisions (section 11).
+- [ ] Fix the www 302 → 301 (independent; can go now if Andrew agrees).
+- [ ] Repoint the 9 old WordPress redirects as soon as the new pages exist.
+- [ ] Francis hand-writes Tier 1 pages in the order above; Andrew reviews; Lovable pastes the final copy in.
+- [ ] Re-run People Also Ask once Semrush units are topped up.
+- [ ] After launch: request indexing, watch GSC weekly for 6 weeks (404s, redirect chains, cannibalisation between `/industries/ecommerce/` and `/ecommerce-website-design/`).
+- [ ] Separate audit: the 40 city pages (same template risk).
