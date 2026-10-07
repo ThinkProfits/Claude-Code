@@ -6,6 +6,7 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 - [AANMC](aanmc-context.md): GSC access, Oct 2026 click-loss diagnosis, open questions
 - [Jamie Davis Towing](jamie-davis-towing-context.md): site facts, Sept 2026 schema audit, get sign-off before H1/title/city-focus edits
 - [John Sadler Plumbing & Heating](john-sadler-context.md): services, service areas, approvals, Semrush project
+- [Mujo](mujo-context.md): `wp-mujo` MCP test results (2026-10-08): what it can write (Rank Math schema via REST), watch-outs, suspicious plugin flag
 - [SPIEDR](spiedr-context.md): Semrush project 2084675, tracking quirks, internal-linking gaps, `wp-spiedr` MCP
 - [Hotel Conchita](hotel-conchita-prospect.md): cold prospect, Website + Local SEO pitch
 

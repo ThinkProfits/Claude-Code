@@ -42,6 +42,8 @@
 - Courses/teacher platform: **Teachable** at courses.mujo.com ("Mujo Teacher Cloud")
 - Zoho plugin (PageSense removed Dec 2025), Calendly bookings
 - Kinsta bot protection raised to "block automations" (2026-09-30); AI crawlers still allowed
+- **Easy MCP AI** (`wp-mujo` MCP) installed 2026-10-08, authenticating as user 7 (Francis, admin). Tested 2026-10-08: reads work; Rank Math schema/settings writable via `rankmath/v1` REST routes (untested write); post meta not REST-exposed. Details: `memory/mujo-context.md`
+- WP 7.1.3 as of 2026-10-08. Also active: WPCode Lite, Simple Custom CSS and JS, CompressX (WebP/AVIF), Trustindex ("Widgets for Google Reviews")
 
 ## 2. Products: what they sell and don't
 

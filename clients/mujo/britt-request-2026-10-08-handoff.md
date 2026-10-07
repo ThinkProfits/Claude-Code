@@ -19,6 +19,15 @@
 4. If not visible (same issue as Yoast meta on LocalPulse, where meta wasn't REST-exposed for pages): fall back to drafting JSON-LD and pasting it via Rank Math > Schema Generator > Import.
 5. Record what the MCP can and can't do on this site in `CLIENT.md` (stack section) and in a `memory/mujo-context.md` file.
 
+### First-run test results (2026-10-08)
+- [x] Connected to mujo.com (WP 7.1.3, `en-CA`), as user 7 Francis (administrator). Diagnostics: 0 fails, 1 API token.
+- [x] Post meta: `wp_get_post_meta` returns nothing (Rank Math keys not REST-exposed). **But** the Rank Math abilities read SEO meta and schema fine, and `rankmath/v1/updateSchemas` / `updateSettings` are reachable via `wp_rest_write`. So schema and Rank Math settings are likely MCP-writable. The note in section 3 that settings need WP admin may be wrong.
+- [ ] Write test on a draft: not done yet (needs a go-ahead, since it creates content on the live site).
+- [x] Recorded in `CLIENT.md` and `memory/mujo-context.md`.
+- Sample product 27293 (AI Business Analytics): schema `WooCommerceProduct` only; SEO title has `&amp;` and "| Higher Ed | Mujo" (matches the product-name task).
+- **Flag for Andrew:** active plugin "Timeline Event History" (wpdiscover) carries Hello Dolly's description. Possible disguised plugin after the August compromise. Not touched.
+- WP Rocket doesn't exclude `/wp-json/easy-mcp-ai/` from cache (diagnostic warning).
+
 ## 2. Working rules for this job
 
 - **Brittni approves all content and schema changes before they go live.** Draft, show her, then push.
