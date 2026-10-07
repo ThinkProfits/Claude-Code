@@ -14,6 +14,11 @@ Easy MCP AI 2.1.0 on mujo.com. MCP server `wp-mujo` (user scope, HTTP, Bearer ke
 - `wp_rest_write` reaches `rankmath/v1/updateSchemas` (args: `objectType`, `objectID`, `schemas`), `updateMeta`, `updateMetaBulk` and `updateSettings`. So per-post custom schema and Rank Math settings **are** writable via MCP. Untested; try on a draft first.
 - Available Rank Math schema types include `book`, `product`, `course`, `service`, `person`.
 
+**Write test passed (2026-10-08)** on draft product 30423 ("Foundations of Marketing (Texas Edition) ... (Copy)").
+- Call: `wp_rest_write` POST `/rankmath/v1/updateSchemas`, body `{"objectType":"post","objectID":<id>,"schemas":{"new-1":{"@type":"Book","metadata":{"title":"Book","type":"custom","isPrimary":false}, ...fields}}}`. Returns `{"new-1": <meta_id>}`. To update later, key by `"schema-<meta_id>"`.
+- Front end (checked via `wp_create_preview_link` + browser): the Book node renders in Rank Math's `@graph`, and `%url%` resolves.
+- **Side effect:** with a custom schema saved, Rank Math stops showing its default `WooCommerceProduct` type. Price data still comes from a second JSON-LD block, WooCommerce core's own Product (AggregateOffer $59–$398). Its name is double-encoded (`&amp;amp;`). Before rolling Book out, decide how Book and Product relate (e.g. Book linked to the Product via `@id`, or Product + Book as one multi-type node). Then validate in Rich Results Test so the price snippets don't get lost.
+
 **Can't do (or not directly)**
 - `wp_get_post_meta` returns nothing: Rank Math meta keys (`rank_math_schema_*`) aren't REST-registered. Use the Rank Math abilities / `rankmath/v1` routes instead.
 - Products currently carry only the default `WooCommerceProduct` schema, no custom schemas.
