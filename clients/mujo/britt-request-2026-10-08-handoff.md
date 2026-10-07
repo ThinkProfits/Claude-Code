@@ -22,7 +22,7 @@
 ### First-run test results (2026-10-08)
 - [x] Connected to mujo.com (WP 7.1.3, `en-CA`), as user 7 Francis (administrator). Diagnostics: 0 fails, 1 API token.
 - [x] Post meta: `wp_get_post_meta` returns nothing (Rank Math keys not REST-exposed). **But** the Rank Math abilities read SEO meta and schema fine, and `rankmath/v1/updateSchemas` / `updateSettings` are reachable via `wp_rest_write`. So schema and Rank Math settings are likely MCP-writable. The note in section 3 that settings need WP admin may be wrong.
-- [x] Write test on draft product 30423 (Texas Edition copy): Book schema saved through `rankmath/v1/updateSchemas`, and the JSON-LD renders on the preview. **Schema can go in via MCP; no paste-in needed.** Test schema is still on that draft (placeholder values, no ISBN or author). Remove it, or overwrite it with the real data later. Call format: `memory/mujo-context.md`.
+- [x] Write test on draft product 30423 (Texas Edition copy): Book schema saved through `rankmath/v1/updateSchemas`, and the JSON-LD renders on the preview. **Schema can go in via MCP; no paste-in needed.** Francis trashed the test copy afterwards, so no test schema is left on the site. Call format: `memory/mujo-context.md`.
 - Finding: once a custom schema is saved, Rank Math drops its default Product type. Price data stays only in WooCommerce's separate Product block, whose name is double-encoded (`&amp;amp;`). Settle the Book + Product structure before rolling out to the 37 titles.
 - The copy's SEO title is still the non-Texas "Foundations of Marketing Textbook & Courseware | High School".
 - [x] Recorded in `CLIENT.md` and `memory/mujo-context.md`.
