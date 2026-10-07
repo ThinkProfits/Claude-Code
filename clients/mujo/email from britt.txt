@@ -1,0 +1,34 @@
+Hi Andrew, 
+
+I have been spending some time on our site this week and a couple things I would like you & Francis to look into please as part of our SEO hours. Also, could you please also send me a breakdown of where the SEO hours are being spent monthly? 
+
+No Book, Course, or FAQPage schema: Please Add Book (isbn, author, publisher, bookFormat EBook) to textbook pages and FAQPage wherever a visible FAQ is added, through Rank Math's Custom Schema builder.
+
+Fix the zoom lock (accessibility and Lighthouse). The viewport tag includes maximum-scale=1, user-scalable=0, which blocks pinch-to-zoom on phones. Change it to width=device-width, initial-scale=1 in the theme settings or with a small filter in a child theme.
+Remove the stray "was successfully added to your cart" text that renders in page content site-wide.
+
+Shrink the inline CSS: In WP Rocket, go to File Optimization and look at Remove Unused CSS. A 686 KB result means it is keeping almost everything, usually because of an over-broad CSS safelist or Salient's dynamic CSS. Clear the Used CSS, trim the safelist to specific selectors, and regenerate. If the result is still over 150 KB, switch that option to Load CSS Asynchronously and compare in PageSpeed.
+
+Stop lazy-loading the hero photo. The homepage hero is preloaded with high priority but also lazy-loaded through data-lazy-src, so the browser waits for JavaScript before showing it. Add the file name (Jul062023-MujoLearningSystems_0654) to WP Rocket's lazy-load exclusions, and serve it as WebP at no more than 1600 px wide.
+
+Convert images to WebP or AVIF. Turn on image optimization in MyKinsta (CDN settings) or install Imagify or ShortPixel, then bulk-convert the Media Library. 
+
+Move head scripts out of the critical path. jQuery, jQuery Migrate, and the custom menu script (custom-css-js/30075.js) block rendering. In Simple Custom CSS and JS, set that script to load in the footer. Test turning off jQuery Migrate in Salient's performance settings.
+
+The Trustindex widget injects a Product schema describing Mujo the company, with a 5-star rating and the URL mujolearningsystem.kinsta.cloud (a staging domain) also In Trustindex settings, turn off its rich snippet / schema output. Google treats ratings a business shows about itself as self-serving, so they will not earn stars and can trigger a manual review.
+
+Two different Organization entities share the same @id (/#organization): one from Rank Math, one hand-coded with LocalBusiness and Person Keep one. Put the complete details (both addresses, phone, logo, sameAs profiles, founder) in Rank Math under Titles & Meta > Local SEO and delete the hand-coded block.
+
+Hub pages output LocalBusiness as the page type Set the Rank Math schema for these pages to CollectionPage only. A textbook hub is not a local business.
+
+Product names in schema include &amp; and the SEO title suffix ("| Higher Ed | Mujo”) Use the clean product name. Check Rank Math's product schema name variable.
+
+Shop page (/shop/) is set to noindex, its meta description is the template default "Products Archive | Mujo Learning Systems", and its H1 says "All Products". Either keep it noindex on purpose (the textbook hubs rank instead) or give it real copy and index it. Fix the meta and H1 either way.
+
+Curate llms.txt. In Rank Math's llms.txt settings, exclude utility pages and calendar embeds, and add a short intro: who Mujo serves, the five pathways, the number of titles, state approvals, and links to the two audience hubs, the Shop, and the FAQ pages.
+
+
+
+What is the best way for us to do the language tag. We currently have Language tag is en-CA while prices are in USD and most buyers are in the US. Should we consider en-US under Settings > General > Site Language or what is the best way to handle this. 
+
+Let me know if you have any questions. 
