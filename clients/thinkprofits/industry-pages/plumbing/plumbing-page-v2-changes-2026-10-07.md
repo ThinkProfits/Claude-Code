@@ -199,6 +199,11 @@ Edge fade landed in fdcfa7b (0.9 credits).
 - 4925bc6 (1.5 credits): pinned sizes scaled up (years 60px, block 352px). Claude found entries sliced mid-run at that size, and the fade eating into 1906.
 - b90b6b8 (1.2 credits): the slide is now stepped (whole entries, 450ms glide, ~207px of scroll per step) and the fade is removed. Claude verified 5 scroll positions at 1266px: always 4 whole entries (1906–1975 … 2017–Now), no partial entries, no mask. Run 2,072px.
 
+### Message 12: Vision data point + permission check (2026-10-08)
+
+- Permission check: every client named on the page appears on /portfolio/ (Butler, John Sadler, Lone Star and Plugbusters have case-study links; Vision is listed as "Vision Plumbing"). Review names come from the homepage section.
+- Vision stat (GSC, property https://visionplumbingandheating.com/, Canada only): Jul–Sep 2026 vs Jul–Sep 2025, clicks 1,366 vs 991 (+37.8%), impressions +35.2%, average position 39.9 → 24.2. Sent as "Google search clicks from Canada up 38% year over year (July–September 2026 vs. 2025)" with an "Andrew to approve" Confirm tag. US clicks were excluded (mostly non-local blog traffic).
+
 ## Still open before publishing
 
 - **Google reviews:** pull ThinkProfits' real reviews (from the GBP or BrightLocal Reputation Manager) and paste them into the placeholders.
