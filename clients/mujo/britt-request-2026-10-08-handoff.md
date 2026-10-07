@@ -46,6 +46,7 @@ Can likely be done via `wp-mujo` if the meta test passes; otherwise paste-in.
 
 - [ ] **Book schema on textbook pages.** `isbn`, `author`, `publisher`, `bookFormat: EBook` via Rank Math custom schema.
   - **Needs from client:** ISBN per title and format, author names, publisher legal name (Mujo Learning Systems Inc.? confirm).
+  - **Schema drafted 2026-10-08** for the 13 titles that have authors: `clients/mujo/schema/` (one `.html` per title plus `all-titles.html`; regenerate with `build_schema.py` after adding titles to `titles.json`). Not live. Needs Britt's author sign-off, the output method decided (custom schema vs snippet), and a Rich Results Test pass.
   - **Update 2026-10-08:** ISBNs are already in WooCommerce (variant GTINs). Authors are named people on VitalSource, e.g. AI Business Analytics = Katrina Garofalo (publisher "Mujo Learning Systems", print ISBN 9781998671670). Don't use Mujo as author. Pull the rest from VitalSource by ISBN, then have Britt confirm the list.
   - Product list: 13 high school CTE titles + 24 higher ed titles (see CLIENT.md section 2).
 - [ ] **FAQPage schema** only on pages with a visible FAQ. List which pages have one first.
