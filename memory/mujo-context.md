@@ -25,6 +25,11 @@ Easy MCP AI 2.1.0 on mujo.com. MCP server `wp-mujo` (user scope, HTTP, Bearer ke
 - Result: Product snippets (1) and Merchant listings (2) both **valid**. $0 instructor variant passed.
 - Non-critical issues: `audience` with `EducationalAudience` is rejected on Product (removed); variant `description` missing (added); `shippingDetails`, `hasMerchantReturnPolicy`, `validFrom` missing; `aggregateRating`/`review` missing. Don't fake ratings.
 
+**Authors: use named people, not Mujo (checked 2026-10-08)**
+- VitalSource lists named authors. Example: AI Business Analytics, eText ISBN 9781998671663 (print 9781998671670), 1st edition, (c) 2026, author **Katrina Garofalo**, publisher "Mujo Learning Systems".
+- So `author` must be the named person (`Person`), never the Organization. Author names can be pulled per ISBN from `vitalsource.com/search?q=<ISBN>` instead of asking the client. Get Britt to confirm before publishing.
+- VitalSource price ($139) differs from mujo.com ($119) for the same eText ISBN.
+
 **Can't do (or not directly)**
 - `wp_get_post_meta` returns nothing: Rank Math meta keys (`rank_math_schema_*`) aren't REST-registered. Use the Rank Math abilities / `rankmath/v1` routes instead.
 - Products currently carry only the default `WooCommerceProduct` schema, no custom schemas.
