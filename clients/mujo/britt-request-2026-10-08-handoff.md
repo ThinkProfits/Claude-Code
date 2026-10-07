@@ -103,5 +103,6 @@ Can likely be done via `wp-mujo` if the meta test passes; otherwise paste-in.
 
 - ISBNs, author names and publisher legal name for Book schema.
 - Shop page: index or keep noindex?
-- "State approvals" for llms.txt: which states besides Texas, if any?
+- "State approvals" for llms.txt: which states besides Texas, if any? **Francis 2026-10-08: Mujo serves the whole US.** Write "available to schools across the US". Only claim a state approval where one formally exists; Texas Edition titles were *submitted* to IMRA Cycle 2026, not approved yet.
+- Language tag: not a client question. Send our recommendation (en-US, section 6) for Britt to OK.
 - Is the Canada signal (`en-CA`) deliberate for higher ed?
