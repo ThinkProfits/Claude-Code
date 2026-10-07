@@ -19,6 +19,12 @@ Easy MCP AI 2.1.0 on mujo.com. MCP server `wp-mujo` (user scope, HTTP, Bearer ke
 - Front end (checked via `wp_create_preview_link` + browser): the Book node renders in Rank Math's `@graph`, and `%url%` resolves.
 - **Side effect:** with a custom schema saved, Rank Math stops showing its default `WooCommerceProduct` type. Price data still comes from a second JSON-LD block, WooCommerce core's own Product (AggregateOffer $59–$398). Its name is double-encoded (`&amp;amp;`). Before rolling Book out, decide how Book and Product relate (e.g. Book linked to the Product via `@id`, or Product + Book as one multi-type node). Then validate in Rich Results Test so the price snippets don't get lost.
 
+**Book + Product schema test (Rich Results Test, 2026-10-08)**
+- Live product pages output a Rank Math `ProductGroup` with variants, 0 errors. **ISBNs are already stored as each variant's GTIN** (e.g. AI Business Analytics: 9781998671663 student, 9781998671687 instructor).
+- Proposed pattern: keep ProductGroup, type each variant `["Product","Book"]` with `isbn`, `bookFormat`, `publisher` (`@id` to Organization), `inLanguage`. Template: `clients/mujo/schema-test-product-book.html`.
+- Result: Product snippets (1) and Merchant listings (2) both **valid**. $0 instructor variant passed.
+- Non-critical issues: `audience` with `EducationalAudience` is rejected on Product (removed); variant `description` missing (added); `shippingDetails`, `hasMerchantReturnPolicy`, `validFrom` missing; `aggregateRating`/`review` missing. Don't fake ratings.
+
 **Can't do (or not directly)**
 - `wp_get_post_meta` returns nothing: Rank Math meta keys (`rank_math_schema_*`) aren't REST-registered. Use the Rank Math abilities / `rankmath/v1` routes instead.
 - Products currently carry only the default `WooCommerceProduct` schema, no custom schemas.
