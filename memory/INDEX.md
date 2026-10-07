@@ -10,6 +10,7 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 - [Hotel Conchita](hotel-conchita-prospect.md): cold prospect, Website + Local SEO pitch
 
 ## Workflows and tools
+- [Lovable build manager role](lovable-build-manager-role.md): Claude owns briefs, design calls and QA for Lovable page builds; verify, don't relay
 - [GBP brain/body split](gbp-brain-body-split.md): Claude researches and writes, Codex executes via handoff files in `gbp-handoffs/`
 - [GBP audit quota blocked](gbp-audit-quota-blocked.md): gbp-audit MCP is hard-blocked at 0 req/min and needs a Cloud Console fix
 - [Blog automation FAQ/accordion](blog-automation-faq-accordion-architecture.md): Make.com Google Doc to WordPress pipeline design

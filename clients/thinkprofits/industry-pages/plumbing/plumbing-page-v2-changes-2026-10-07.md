@@ -164,6 +164,14 @@ Report back with a short screen recording or 3 screenshots (start, middle, end o
 
 ---
 
+### Message 4: homepage reviews (SENT 2026-10-08, commit 252b024, 2.2 credits)
+
+Replaced the placeholder reviews with the homepage's `SocialProofSection`, reused as-is: 3 reviews (R A, Karen Boykiw, Catapult ERP), "5.0 · 48 Reviews", no review schema. It also brings the "Certified Partners & Platforms" logo strip. Section backgrounds below it were swapped to keep the alternation.
+
+### Message 5: cleaner family section + horizontal timeline (SENT 2026-10-08, commit d387f2b, 2.8 credits)
+
+The intro is now 50/50 and centred, with a plain pull quote under the paragraph and the video plus caption on the right. The scroll-driven panel was replaced by a horizontal scroll-snap timeline: 224px tall, 4 entries per view on desktop, arrows on desktop, swipe on mobile. Watch for: `line-clamp-4` may cut off the long 1996 and 1998 entries.
+
 ## Still open before publishing
 
 - **Google reviews:** pull ThinkProfits' real reviews (from the GBP or BrightLocal Reputation Manager) and paste them into the placeholders.
