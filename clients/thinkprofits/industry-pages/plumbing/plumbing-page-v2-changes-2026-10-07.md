@@ -172,6 +172,26 @@ Replaced the placeholder reviews with the homepage's `SocialProofSection`, reuse
 
 The intro is now 50/50 and centred, with a plain pull quote under the paragraph and the video plus caption on the right. The scroll-driven panel was replaced by a horizontal scroll-snap timeline: 224px tall, 4 entries per view on desktop, arrows on desktop, swipe on mobile. Watch for: `line-clamp-4` may cut off the long 1996 and 1998 entries.
 
+### Message 6: QA correction pass (Claude as build manager, 2026-10-08, edit edt-09959f20)
+
+Claude checked the page itself at 1266px and 375px. Before: 10,239px desktop / 19,116px mobile, with the results section at 1,504 / 2,918px. The pass covered 10 fixes: spacing, centred H2s, duplicate journey numbers, equal results cards with fixed image panels, mobile swipe rows, What's Included in 2 columns with the tools row merged in, wider pricing, timeline scrollbar and clamp, reviews without the reveal or partner strip, and 3 hero badges on mobile. After (verified): 9,111 / 13,266px, no overflow.
+
+### Message 7: round 2 tightening (SENT 2026-10-08)
+
+Hero padding, Why Us in 3 columns, compact results cards, FAQ spacing, mobile swipe for reviews (new `mobileSwipe` prop, homepage unchanged). Target under 8,500px on desktop.
+
+Result (commit 7638681, 2.9 credits): 8,999px desktop / 12,658px mobile. Francis dropped the height target (2026-10-08).
+
+### Message 8: scroll-driven horizontal timeline (SENT 2026-10-08)
+
+Francis wants the timeline to move as the page scrolls, not by arrow clicks, keeping the same horizontal format. On desktop it pins while vertical scroll drives translateX (at most ~1,800px of scroll) with a progress bar, and the arrows are removed. Mobile and reduced-motion users keep the swipe row.
+
+Result (commit 40cc8c2, 3.1 credits), verified by Claude in the browser: pins at top 344px, slides over a 2,045px run (accepted), progress bar fills, next section follows cleanly. Mobile is unchanged (swipe, no pin, no overflow). Desktop page is now ~11,050px. Note: the preview served a stale chunk at first, so add a `?v=` query to force a fresh load.
+
+### Message 9: edge-fade polish on timeline (SENT 2026-10-08)
+
+The left edge sliced letters mid-run, so a 24px fade mask was added to both edges, switched off at the start and end.
+
 ## Still open before publishing
 
 - **Google reviews:** pull ThinkProfits' real reviews (from the GBP or BrightLocal Reputation Manager) and paste them into the placeholders.
