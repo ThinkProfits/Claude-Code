@@ -28,6 +28,8 @@ Easy MCP AI 2.1.0 on mujo.com. MCP server `wp-mujo` (user scope, HTTP, Bearer ke
 **Authors: use named people, not Mujo (checked 2026-10-08)**
 - VitalSource lists named authors. Example: AI Business Analytics, eText ISBN 9781998671663 (print 9781998671670), 1st edition, (c) 2026, author **Katrina Garofalo**, publisher "Mujo Learning Systems".
 - So `author` must be the named person (`Person`), never the Organization. Author names can be pulled per ISBN from `vitalsource.com/search?q=<ISBN>` instead of asking the client. Get Britt to confirm before publishing.
+- Full list: `memory/mujo-textbook-authors.xlsx` (38 titles: 25 higher ed + 13 CTE, not 37). Authors found so far: David Shaw, Katrina Garofalo, Shawn Moore & Adam Wilkins. VitalSource's Cloudflare rate-limits after about 12 quick lookups (429, then 403). Go slowly, one every few seconds.
+- Data flag: IMF-TM (higher ed Influencer Marketing, instructor) GTIN `9781988798285` fails the ISBN check digit. Likely meant `9781998798285`.
 - VitalSource price ($139) differs from mujo.com ($119) for the same eText ISBN.
 
 **Can't do (or not directly)**

@@ -7,6 +7,7 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 - [Jamie Davis Towing](jamie-davis-towing-context.md): site facts, Sept 2026 schema audit, get sign-off before H1/title/city-focus edits
 - [John Sadler Plumbing & Heating](john-sadler-context.md): services, service areas, approvals, Semrush project
 - [Mujo](mujo-context.md): `wp-mujo` MCP test results (2026-10-08): what it can write (Rank Math schema via REST), watch-outs, suspicious plugin flag
+- [Mujo textbook authors + ISBNs (sheet)](mujo-textbook-authors.xlsx): 38 titles, all variant ISBNs, authors from VitalSource (13/38 so far), data flags. Rebuild with `clients/mujo/authors-sheet/build_sheet.py`
 - [SPIEDR](spiedr-context.md): Semrush project 2084675, tracking quirks, internal-linking gaps, `wp-spiedr` MCP
 - [Hotel Conchita](hotel-conchita-prospect.md): cold prospect, Website + Local SEO pitch
 
