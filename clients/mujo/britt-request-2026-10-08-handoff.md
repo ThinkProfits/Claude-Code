@@ -99,6 +99,26 @@ Can likely be done via `wp-mujo` if the meta test passes; otherwise paste-in.
 6. Performance items with Andrew, on staging first.
 7. Reply to Britt: hours breakdown, language tag, estimate.
 
+## 8a. Brittni's answers (Slack, 2026-10-09)
+
+| # | Question | Answer | Action |
+|---|---|---|---|
+| 1 | Adam Wilkins co-author of Strategic Web Design & e-Commerce? | Yes | Add as second `author` in that title's Book schema |
+| 2 | Instructor editions same authors as student? | Yes | Reuse student-edition authors on instructor variants |
+| 3 | Publisher name | **Mujo Learning Systems** (no "Inc.") | Use in all Book schema; consider matching Rank Math org name (Andrew/Britt) |
+| 4 | Invalid ISBN `9781988798285` (HE Influencer Marketing instructor ed.) | Fix | Change GTIN to `9781998798285` in WooCommerce |
+| 5 | AI Marketing Fundamentals (HS): resource e-book / print SKUs swapped | Fix | Swap the two variant product codes |
+| 6 | Resource print $497 on Entrepreneurship Fundamentals and Principles of Business | Should be **$99** | Change both variant prices to $99 |
+| 7 | VitalSource price differs from mujo.com | Intentional | No action; never use VitalSource prices in schema |
+| 8 | Language tag `en-CA` to `en-US` | Yes, **if Andrew concurs** | Ask Andrew, then Settings > General > Site Language |
+
+Status: 4–6 **applied 2026-10-09** via `wp-mujo` (WooCommerce REST), verified on the live pages:
+- 4: variation 27227 (IMF-TM) GTIN `9781988798285` → `9781998798285`.
+- 5: the "swap" wasn't a true swap. Print variant 27149 had no SKU of its own (it showed the parent's `AIMF`), while e-book variant 27150 carried `AIMF-Resource-Print`. Now 27149 = `AIMF-Resource-Print`, 27150 = `AIMF-Resource-1-Year` (matches the EF/POB `-resource-1-year` pattern). Parent stays `AIMF`.
+- 6: variations 27131 (EF-resource-print) and 27124 (POB-resource-print) $497 → $99.
+- WP Rocket had no cached copy of these 4 URLs, so nothing to clear.
+- 8 (language) still waiting on Andrew.
+
 ## 8. Open questions for the client
 
 - ISBNs, author names and publisher legal name for Book schema.
