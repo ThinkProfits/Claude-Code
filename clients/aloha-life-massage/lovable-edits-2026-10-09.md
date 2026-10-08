@@ -38,6 +38,10 @@ Slugs were chosen from Google Keyword Planner US volumes (Semrush API units were
 
 Search intent for all: commercial/local (book a mobile massage). The old `/premium-mobile-massage-therapy-services` redirects to the new VIP URL. Hub cards show "Learn more" links. The nav, the footer and every old `#anchor` link point to the new pages. Two approved blog.ts edits: the sports link, and "evening sessions" changed to "your first day on the island".
 
+## Area tiles linked (commit e69d15c)
+
+The 9 tiles in the "We come to you" section (`AreasGrid.tsx`, on the home page and every service page) now link to `/service-areas/<slug>`. Rows are centred, a "See all service areas" link is added below, and the VIP blurb now says "massage therapists".
+
 ## Pricing source (Acuity, pulled 2026-10-09)
 
 Booking site: https://AlohaLifeMassageAppointmentBooking.as.me/ . Acuity shows prices including Hawaii GET (4.712%). The site shows base prices.
