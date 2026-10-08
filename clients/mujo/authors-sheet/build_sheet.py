@@ -20,10 +20,34 @@ vs = {
  "9781998671137": ("Artificial Intelligence Business Writing, 1st edition", "Katrina Garofalo", "https://www.vitalsource.com/products/artificial-intelligence-business-writing-katrina-garofalo-v9781998671137"),
  "9781998671175": ("User Interface/User Experience Design, 1st edition", "Katrina Garofalo", "https://www.vitalsource.com/products/user-interface-user-experience-design-katrina-garofalo-v9781998671175"),
  "9781988940809": ("Pay-Per-Click Advertising, 1st edition", "David Shaw", "https://www.vitalsource.com/products/pay-per-click-advertising-david-shaw-v9781988940809"),
- "9781988940656": ("Strategic Web Design & e-Commerce, 1st edition", "Shawn Moore & Adam Wilkins", "https://www.vitalsource.com/products/strategic-web-design-and-e-commerce-shawn-moore-amp-adam-wilkins-v9781988940656"),
+ "9781988940656": ("Strategic Web Design & e-Commerce, 1st edition", "Shawn Moore", "https://www.vitalsource.com/products/strategic-web-design-and-e-commerce-shawn-moore-amp-adam-wilkins-v9781988940656"),
+ "9781998798315": ("Public Relations Strategy and Communications, 1st edition", "Emma Hatfield", "https://www.vitalsource.com/products/public-relations-and-crisis-management-emma-hatfield-v9781998798315"),
+ "9781998798001": ("Big Data Analytics and Reporting, 1st edition", "David Shaw", "https://www.vitalsource.com/products/big-data-analytics-reporting-david-shaw-v9781998798001"),
+ "9781988940885": ("Writing Digital Media Content, 1st edition", "Rebecca Saloustros", "https://www.vitalsource.com/products/writing-digital-media-content-student-39-s-manual-rebecca-saloustros-v9781988940885"),
+ "9781988940694": ("Customer Relationship Management Marketing Automation, 1st edition", "Emma Hatfield", "https://www.vitalsource.com/products/customer-relationship-management-marketing-emma-hatfield-v9781988940694"),
+ "9781998798278": ("Influencer Marketing Fundamentals, 1st edition", "David Shaw", "https://www.vitalsource.com/products/influencer-marketing-fundamentals-david-shaw-v9781998798278"),
+ "9781998798155": ("Search Engine Optimization, 4th edition", "David Shaw", "https://www.vitalsource.com/products/search-engine-optimization-david-shaw-v9781998798155"),
+ "9781998671335": ("Social Media Marketing Strategies, 7th edition", "David Shaw", "https://www.vitalsource.com/products/social-media-marketing-strategies-david-shaw-v9781998671335"),
+ "9781998798032": ("Principles of Marketing, 1st edition", "David Shaw, Alex Strauss", "https://www.vitalsource.com/products/principles-of-marketing-david-shaw-v9781998798032"),
+ "9781998798490": ("Digital Marketing Fundamentals, 3rd edition", "Shaw & Wilkins", "https://www.vitalsource.com/products/digital-marketing-fundamentals-shaw-amp-wilkins-v9781998798490"),
+ "9781998671700": ("Prompt Engineering and LLMs, 1st edition", "David Shaw", "https://www.vitalsource.com/products/prompt-engineering-and-llms-david-shaw-v9781998671700"),
+ "9781988940519": ("Website Design Strategy, 1st edition", "Shawn Moore", "https://www.vitalsource.com/products/website-design-strategy-adam-wilkins-v9781988940519"),
+ "9781988940472": ("Online Marketing Fundamentals: High School Edition, 1st edition", "Shawn Moore", "https://www.vitalsource.com/products/online-marketing-fundamentals-adam-wilkins-v9781988940472"),
+ "9781988940496": ("Creating Digital Media Content: High School Edition, 1st edition", "Rebecca Saloustros", "https://www.vitalsource.com/products/writing-online-content-rebecca-saloustros-v9781988940496"),
 }
+# Student eBook ISBNs with no VitalSource listing; every other ISBN for the title was also checked (2026-10-08)
+not_on_vs = {"9781998671588","9781998671625","9781998798988","9781998671304","9781998798650","9781998798520",
+             "9781998798445","9781998671236","9781998798414","9781998671441","9781998671434","9781998671465"}
 notes = {
- "9781988940656": "Second author (Adam Wilkins) read from the VitalSource URL; confirm.",
+ "9781988940656": "VitalSource text lists Shawn Moore only, but its URL also names Adam Wilkins. Confirm.",
+ "9781988940519": "VitalSource text lists Shawn Moore, but its URL names Adam Wilkins. Confirm. VitalSource title differs: 'Website Design Strategy'.",
+ "9781988940472": "VitalSource text lists Shawn Moore, but its URL names Adam Wilkins. Confirm.",
+ "9781998798490": "VitalSource gives surnames only ('Shaw & Wilkins'). Probably David Shaw & Adam Wilkins. Confirm full names.",
+ "9781998798032": "Two authors: David Shaw and Alex Strauss (Mujo's President).",
+ "9781998798155": "4th edition (not 1st).",
+ "9781998671335": "7th edition (not 1st).",
+ "9781998798315": "VitalSource URL says 'public-relations-and-crisis-management' (older title?).",
+ "9781988940496": "VitalSource URL says 'writing-online-content' (older title?).",
 }
 title_flags = {
  27226: "Instructor ISBN 9781988798285 fails the ISBN check digit. Likely typo for 9781998798285 (978-1-998... prefix like the rest). Fix the GTIN in WooCommerce.",
@@ -48,7 +72,7 @@ for a,pid,name,url,v in d:
     res_e = next((g for s,g,p,e,f in v if f=="ebook" and e in ("for-instructors","for-teachers-resource")), "")
     res_p = next((g for s,g,p,e,f in v if f=="print" and e=="for-teachers-resource"), "")
     t, au, link = vs.get(stud_e, ("","",""))
-    status = "Found on VitalSource" if au else "Pending lookup (VitalSource rate-limited 2026-10-08)"
+    status = "Found on VitalSource" if au else ("Not on VitalSource (all ISBNs checked). Ask Britt" if stud_e in not_on_vs else "Pending lookup")
     n = "; ".join(x for x in (notes.get(stud_e,""), title_flags.get(pid,"")) if x)
     ws.append([a,pid,name,url,stud_e,stud_p,res_e,res_p,au,t,link,status,"",n])
     r = ws.max_row
@@ -69,7 +93,8 @@ for line in [
  "Sources: ISBNs = GTINs on mujo.com product variants (Rank Math ProductGroup JSON-LD). Authors = VitalSource product pages, looked up by student eBook ISBN.",
  "38 textbook titles on the live shop (25 higher ed, 13 high school CTE). Bundles/programs and unpublished Texas Edition drafts are excluded.",
  "Instructor/teacher-resource ISBNs mostly aren't listed on VitalSource, so authors are looked up by the student eBook ISBN.",
- "Pending rows: VitalSource (Cloudflare) rate-limited after ~12 lookups. Finish slowly (one lookup every few seconds) or have Britt fill in authors.",
+ "12 titles aren't on VitalSource under any of their ISBNs (checked 2026-10-08). Britt to fill in those authors. VitalSource rate-limits fast lookups: go one every ~6 seconds.",
+ "Edition: most are 1st edition, but SEO is 4th, Social Media Marketing Strategies 7th, Digital Marketing Fundamentals 3rd. Use the real edition in schema.",
  "Use in schema: author = Person (named author), publisher = Mujo Learning Systems Inc. Never use Mujo as author. See memory/mujo-context.md.",
  "Britt to confirm column M before any author goes live.",
 ]: ws3.append([line])
