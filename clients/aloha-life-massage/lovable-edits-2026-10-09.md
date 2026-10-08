@@ -16,6 +16,28 @@ Not published. Preview needs a Lovable login.
 | 10 | Footer rebuilt | 5d8a072, e475522 | Columns: Massage, Spa, About, Service Areas, Contact. `id="footer-reviews"` slot ready for the review widget. |
 | — | Excluded areas removed | 5d8a072, e475522 | Wailuku, Kahului, Hana pages removed and redirected to `/service-areas`; "all of Maui" changed to "the island of Maui" |
 
+## Individual massage service pages (same day, second request)
+
+One data file (`src/data/massageServices.ts`) plus one dynamic route (`/massage-services-maui/:slug`) rendered by the existing `FocusedServicePage`. Commits dddbf62, b36545b, 16b8f17. The copy is our rewrite of the live alohalifemassage.com service pages, with their medical claims (depression, immune, detox) left out.
+
+Slugs were chosen from Google Keyword Planner US volumes (Semrush API units were at zero):
+- "lomi lomi massage maui" gets 320/mo vs "lomilomi" at 10, so the slug is `lomi-lomi-massage`.
+- "prenatal massage maui" gets 90/mo vs "pregnancy" at 0, so the slug is `prenatal-massage`. The nav label stays "Pregnancy Massage".
+- Other volumes: deep tissue 320/mo, therapeutic 260/mo, Swedish 70/mo.
+
+| Page | New URL | Live-site URL to 301 at cut-over | Target keyword |
+|---|---|---|---|
+| Deep Tissue | /massage-services-maui/deep-tissue-massage | /services/deep-tissue-mobile-massage/ | deep tissue massage maui |
+| Swedish | /massage-services-maui/swedish-massage | /services/swedish-mobile-massage/ | swedish massage maui |
+| Therapeutic | /massage-services-maui/therapeutic-massage | /services/therapeutic-mobile-massage/ | therapeutic massage maui |
+| Lomi Lomi | /massage-services-maui/lomi-lomi-massage | /services/lomilomi-mobile-massage/ | lomi lomi massage maui |
+| Sports | /massage-services-maui/sports-massage | /services/sports-mobile-massage/ | sports massage maui |
+| Hot Stone | /massage-services-maui/hot-stone-massage | /services/hot-stones-mobile-massage/ | hot stone massage maui |
+| Prenatal | /massage-services-maui/prenatal-massage | (none) | prenatal massage maui |
+| Premium VIP | /massage-services-maui/premium-vip | /services/premium-mobile-massage-therapy-services/ | — |
+
+Search intent for all: commercial/local (book a mobile massage). The old `/premium-mobile-massage-therapy-services` redirects to the new VIP URL. Hub cards show "Learn more" links. The nav, the footer and every old `#anchor` link point to the new pages. Two approved blog.ts edits: the sports link, and "evening sessions" changed to "your first day on the island".
+
 ## Pricing source (Acuity, pulled 2026-10-09)
 
 Booking site: https://AlohaLifeMassageAppointmentBooking.as.me/ . Acuity shows prices including Hawaii GET (4.712%). The site shows base prices.
