@@ -19,7 +19,7 @@ git commit -m "<what changed, in plain words>"
 git push
 ```
 
-A background job also syncs every 30 minutes on Francis's PC. Still push yourself so teammates and cloud sessions see the work right away. Never commit secrets (API keys, OAuth `client_secret*.json`, `token.json`, `google-ads.yaml`). `.gitignore` blocks the usual names, so check before forcing anything.
+A background job also syncs every 30 minutes on Francis's PC (once a day on other devices, see SETUP-NEW-DEVICE.md). Still push yourself so teammates and cloud sessions see the work right away. Never commit secrets (API keys, OAuth `client_secret*.json`, `token.json`, `google-ads.yaml`). `.gitignore` blocks the usual names, so check before forcing anything.
 
 ## Memory
 

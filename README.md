@@ -16,6 +16,8 @@ claude
 
 Each session pulls the latest changes on start (`.claude/settings.json`) and pushes when the task is done (CLAUDE.md rule).
 
+**Setting up another PC?** Follow [SETUP-NEW-DEVICE.md](SETUP-NEW-DEVICE.md) for the full walkthrough, including a once-a-day auto-sync.
+
 **Optional auto-sync (Windows):** catches edits made outside Claude. Run once, then it syncs every 30 minutes:
 
 ```
