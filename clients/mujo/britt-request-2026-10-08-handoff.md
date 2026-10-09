@@ -123,7 +123,15 @@ Status: 4–6 **applied 2026-10-09** via `wp-mujo` (WooCommerce REST), verified 
 
 All 38 titles now have confirmed authors: `clients/mujo/authors-sheet/authors-final.json` (product ID, title, URL, authors, source). Team overrides of VitalSource: Digital Marketing Fundamentals = Shawn Moore only; Website & E-commerce Strategy (VitalSource "Website Design Strategy") = Shawn Moore & Adam Wilkins. Publisher in schema changed to "Mujo Learning Systems" (no Inc.) and the 13 drafted titles rebuilt.
 
-Next: extend `schema/build_schema.py` to the other 12 higher-ed titles (same 2-variant pattern) and the 13 high-school CTE titles (6 variants each: 1/3/6-year eBook, print, resource eBook, resource print), then Rich Results Test and decide the output method.
+**Schema drafted for all 38 titles (2026-10-10)** in `clients/mujo/schema/` (one `.html` per title + `all-titles.html`, 128 variants). Not live.
+- Rebuild any time: `python -I refresh_titles.py` (pulls live prices/ISBNs/variants from the product pages into `titles.json`), then `python -I build_schema.py`. Book titles, editions and clean descriptions live in `BOOKS` in `refresh_titles.py`.
+- Every variant is `["Product","Book"]` with ISBN, author(s), publisher (`@id` of the site Organization), format (EBook/Paperback), price and offer URL. Full-size images (no 150px thumbnails). Higher-ed editions from VitalSource (SEO 4th, Social Media Marketing Strategies 7th, Digital Marketing Fundamentals 3rd, rest 1st); HS editions omitted (unknown).
+- **Rich Results Test, 2026-10-10** (Principles of Business HS + SEO HE as code): 10 valid items, Product snippets 2 valid, Merchant listings 8 valid, **0 errors**. Non-critical only: variant `description` (added since), `shippingDetails`, `hasMerchantReturnPolicy`, `validFrom`. Shipping/returns need Mujo's policy (digital delivery via VitalSource; print shipping?) and are better set once site-wide.
+- The 1/3/6-year eBook variants share one ISBN (as in WooCommerce). Valid, but each SKU differs.
+- Organization node is no longer repeated in the snippet (Rank Math already outputs it). Rank Math's org `name` is still "Mujo Learning Systems Inc.": change to "Mujo Learning Systems" (keep legalName "Inc.") in the Organization merge task.
+- Image oddities flagged in notes: EF and POB student print use the TM cover; IME teacher print uses the SM cover.
+
+**Next:** decide the output method. Rank Math custom schema per product replaces Rank Math's default ProductGroup (37 manual entries, or via `rankmath/v1/updateSchemas` through `wp-mujo`), or one small snippet (WPCode is installed) that adds Book/author/publisher fields to Rank Math's existing ProductGroup variants for all products at once. Snippet = one place to maintain, prices stay in sync with WooCommerce automatically. Needs Andrew's OK either way.
 
 ## 8. Open questions for the client
 

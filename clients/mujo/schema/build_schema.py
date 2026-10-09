@@ -20,7 +20,8 @@ def variant(t, v):
     node = {
         "@type": ["Product", "Book"],
         "@id": f"{t['url']}#{v['sku'].replace(' ', '-')}",
-        "name": f"{t['book']} – {v['label']}",
+        "name": f"{t['book']} - {v['label']}",
+        "description": f"{v['label']} of {t['book']}, published by Mujo Learning Systems.",
         "sku": v["sku"],
         "gtin13": v["isbn"],
         "isbn": v["isbn"],
