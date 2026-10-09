@@ -128,7 +128,7 @@ Status: 4–6 **applied 2026-10-09** via `wp-mujo` (WooCommerce REST), verified 
 - 5: the "swap" wasn't a true swap. Print variant 27149 had no SKU of its own (it showed the parent's `AIMF`), while e-book variant 27150 carried `AIMF-Resource-Print`. Now 27149 = `AIMF-Resource-Print`, 27150 = `AIMF-Resource-1-Year` (matches the EF/POB `-resource-1-year` pattern). Parent stays `AIMF`.
 - 6: variations 27131 (EF-resource-print) and 27124 (POB-resource-print) $497 → $99.
 - WP Rocket had no cached copy of these 4 URLs, so nothing to clear.
-- 8 (language) still waiting on Andrew.
+- 8 (language): Andrew approved 2026-10-10. **Switched to English (US)** via `wp-mujo` (`/wp/v2/settings` `language: ""`; sending `"en_US"` is silently ignored because WordPress stores US English as an empty WPLANG). Fresh renders verified: `<html lang="en-US">`, Rank Math `inLanguage` en-US, `og:locale` en_US. WP Rocket's cached pages still show en-CA until the cache is cleared or expires.
 
 ## 8b. Authors complete (2026-10-09)
 
