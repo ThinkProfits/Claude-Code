@@ -3,7 +3,7 @@
 > **Status:** Partial, 2026-10-09. Prepared by Francis (with Claude).
 > **Why:** The monthly GA report (Sept 8 to Oct 5) showed traffic down about 43% month over month (3.0K active users). The 404 page was the #2 most-viewed page, with 149 views and a 90% bounce rate.
 > **Context:** Google's September spam update was still rolling out. Hold any conclusions about lost rankings until it settles.
-> **Still open:** the GA4 404 breakdown and the Search Console "Not found (404)" export. See "Not done yet" below.
+> **Answer:** the 404 views were bots hitting old WordPress URLs, and those URLs already 301 correctly. The traffic drop is unengaged Direct traffic falling away; real traffic is roughly flat. Details are in the GA4 section below.
 
 ## Sources (all pulled 2026-10-09)
 
@@ -59,13 +59,44 @@ How the site handles URLs that don't exist:
 
 Clicks barely moved, so the 3.0K-user decline is mostly coming from somewhere other than organic search.
 
+## GA4 404 breakdown (added 2026-10-09, property `properties/253466203`)
+
+Filtered on page title "Page Not Found | ThinkProfits.com", 2026-09-08 to 2026-10-05: **123 views** across 81 different paths. No single bad link is behind it.
+
+**The 404 hits look like bots, not people:**
+
+- **Source:** 117 of 123 views came from (direct) / (none) with no referrer. The only real referrers were chatgpt.com (2), wiseworth.com (2), johnsadler.ca (1) and search.google.com (1).
+- **Device and visitor type:** 115 of 123 on desktop, and 117 from new users.
+- **Countries:** United States (43), Singapore (36), Vietnam, China and the Philippines.
+- **Timing:** views came in bursts. There were 28 on Sep 8 and 57 between Sep 16 and 19. From Sep 24 onward, almost none (1–2 a day at most).
+- **Paths:**
+  - Mostly old WordPress URLs, for example:
+    - `/almost-everything`
+    - `/case-studies/lone-star-plumbing-heating`
+    - `/cloud-services`
+    - `/plumber-marketing`
+    - `/blog?category=...`
+    - `/careers/...`
+    - `/our-team`
+  - Plus vulnerability probes, for example `/@fs/proc/1/environ` and `/__debug__`.
+
+**The 404s are already fixed.** All 14 top paths I re-checked now return a 301 to the right new page. The bursts stop around Sep 23–24, which fits redirects added around then. **No new 301s are needed from this data.** The one exception is the `/pcc-agency-abbotsford/` typo above.
+
+**The 43% traffic drop is mostly bot traffic leaving, not real visitors.** Active users by channel, Aug 11–Sep 7 compared with Sep 8–Oct 5:
+
+| Channel | Active users | Engaged sessions |
+|---|---|---|
+| Direct | 4,976 → 2,858 | 217 → 206 |
+| Organic Search | 132 → 123 | 95 → 84 |
+| Referral | 45 → 38 | 45 → 38 |
+| AI Assistant | 15 → 20 | 11 → 17 |
+| Email | 9 → 7 | 7 → 5 |
+
+The whole drop is in Direct, and engaged sessions there held steady. Fewer than 5% of Direct "users" engage, which suggests bot or spam traffic. Real, engaged traffic is roughly flat, and AI Assistant traffic is up. Consider a GA4 bot or internal-traffic filter so monthly reports aren't inflated by Direct traffic.
+
 ## Not done yet
 
-1. **GA4 404 breakdown.** In GA4, filter on page title = "Page Not Found | ThinkProfits.com", then break it down by:
-   - Page path + query string (which URL is broken)
-   - Session source / medium (where the traffic comes from)
-
-   Plan: connect GA4 so this can be pulled directly.
+1. ~~GA4 404 breakdown~~: done, see above. GA4 is now connected to Claude Code through the `ga4` MCP server (`mcp-servers/ga4/`).
 2. **Search Console "Not found (404)" report and the pages linking to those URLs.** The Search Console API doesn't provide this report. Export it from the Search Console UI under Pages → Not found (404).
 3. **Semrush Site Audit for broken internal links.** Blocked on 2026-10-09: the account doesn't have enough Semrush API units. Rerun once units are added.
 

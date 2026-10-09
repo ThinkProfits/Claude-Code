@@ -32,7 +32,7 @@ Save durable ThinkProfits facts (client quirks, approvals, standing rules, tool 
 - **BrightLocal MCP**: local rank tracking, reputation, citations, AI visibility.
 - **Make.com MCP** (`.mcp.json`, `make-token`): blog and GBP publishing scenarios.
 - **gbp-audit MCP**: Google Business Profile audits (see `memory/gbp-audit-quota-blocked.md`).
-- **gsc** and **google-ads-keywords** MCPs: local servers (code in `mcp-servers/`). They run only on a PC where they've been installed and authenticated, **not in claude.ai cloud sessions**.
+- **gsc**, **ga4** and **google-ads-keywords** MCPs: local servers (code in `mcp-servers/`). They run only on a PC where they've been installed and authenticated, **not in claude.ai cloud sessions**.
 - Canva connector installed but not authorized (auth via claude.ai connector settings when needed).
 
 ## Writing standards
@@ -56,7 +56,7 @@ Work openly. Reusable prompts, templates and skills go in this repo (or shared D
 - `gbp-handoffs/week-of-<Monday>/`: weekly GBP handoff `.md` files for Codex. The protocol is `gbp-handoffs/claude-handoff-instructions.md`.
 - `automations/`: Make.com blueprints and automation setup docs.
 - `scheduled-tasks/<name>/SKILL.md`: prompts for recurring routines (blog masterlist, SEO report roadmap, Slack relay, weekly report check).
-- `mcp-servers/`: code for the local gsc, google-ads-keywords and gbp-audit servers. **No credentials.** Each person authenticates their own copy.
+- `mcp-servers/`: code for the local gsc, ga4, google-ads-keywords and gbp-audit servers. **No credentials.** Each person authenticates their own copy.
 - `memory/`: shared facts and standards, indexed in `memory/INDEX.md`.
 - `scripts/tp-sync.ps1`: the pull/commit/push sync used by the background job.
 
