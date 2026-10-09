@@ -53,6 +53,10 @@ Can likely be done via `wp-mujo` if the meta test passes; otherwise paste-in.
 - [ ] **FAQPage schema** only on pages with a visible FAQ. List which pages have one first.
 - [ ] **Hub pages: LocalBusiness to CollectionPage.** A textbook hub is not a local business.
 - [ ] **Duplicate Organization `@id` (`/#organization`).** One from Rank Math, one hand-coded (LocalBusiness + Person).
+  - 2026-10-10: Rank Math Knowledge Graph name changed "Mujo Learning Systems Inc." → **"Mujo Learning Systems"** via `wp-mujo` (legalName "Inc." kept in Additional Info); verified live on homepage and products.
+  - Still in WP admin (no safe MCP route; `rankmath/v1/updateSettings` takes undocumented full payloads): Titles & Meta > Local SEO > phone **+1-888-536-6856** (field empty), add **Instagram** and **Pinterest** to Additional Profiles. Addresses come from the two RM Locations (multiple locations on), so no address edit needed.
+  - Rank Math default schema for Pages is **Service** (`pt_page_default_rich_snippet`), so new pages get Service schema by default. Consider switching the default to None/WebPage.
+  - Hand-coded block removal (71 pages) not started: the first test edit (privacy policy, page 3) was blocked by Claude Code's permission check. Needs explicit go-ahead.
   - Put full details in Rank Math > Titles & Meta > Local SEO: both addresses (Vancouver #602-1388 Homer St; Lahaina #A13-5295 Lower Honoapiilani Rd), phone 1.888.536.6856, logo, sameAs (Facebook, Instagram, LinkedIn, YouTube, X: see CLIENT.md section 10), founder Shawn Moore.
   - Find and delete the hand-coded block (check page content, widgets, theme header/footer, Simple Custom CSS and JS, any snippets plugin).
   - Rank Math settings are **not** reachable via the MCP; needs WP admin (or Claude in Chrome).
