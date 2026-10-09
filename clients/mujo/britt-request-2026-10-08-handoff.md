@@ -71,6 +71,16 @@ Can likely be done via `wp-mujo` if the meta test passes; otherwise paste-in.
 - [ ] **Staging URL sweep.** Search content, meta and options for any other `kinsta.cloud` references.
 - [ ] **Validate** every changed template in Google's Rich Results Test and Schema.org validator; screenshot results for the report.
 
+### Schema/on-page batch, 2026-10-10 (Francis approved items 1–7)
+- **FAQ schema: DONE on 22 pages** (13 HS textbook pages, Florida page, Prompt Engineering, the 5 HE pages whose old FAQ schema was removed, and the HE AI + business hubs). Built from the Q&A visible on each page (Salient toggles; AI for Entrepreneurs uses a carousel). Added as Rank Math custom schema; Rank Math folds FAQPage into the page's WebPage node. Verified live: FAQ count matches visible questions on every page. Schema.org validator on AI Literacy for Healthcare: 0 errors, 0 warnings.
+- **WebPage schema: DONE on 15 more pages** (7 HE textbook pages without FAQ + 8 teacher-resource pages). With the FAQ pages, all 27 pages that had only breadcrumbs now output Organization, WebSite, WebPage.
+- **Texas CTE Funding: DONE.** Its Raw HTML block was a full second graph. Trimmed to GovernmentOrganization (TEA) + Article (merged into Rank Math's Article `#schema-135039`) + FAQPage. Now one Organization. FAQ duplicated on the visible page is still a Britt item.
+- **Shop page meta description: DONE** ("Shop Mujo textbooks and courseware for high school CTE and higher education: digital marketing, AI and business titles in e-book and print."). Still noindex (Britt's call).
+- **Shop H1 "All Products": NOT reachable via MCP.** Comes from Salient's page header for the Shop page (not content, not theme mods). WP admin: edit page "Shop Textbooks" > Salient page header title (suggest "Shop Textbooks & Courseware").
+- **Product schema names: NOT reachable via MCP.** Rank Math's product schema name uses `%seo_title%` (Titles & Meta > Products). WP admin: set it to `%title%`. Also superseded once the Book/ProductGroup schema goes live.
+- **Staging URL sweep: clean.** 0 `kinsta.cloud` references in post content or in the rendered HTML of all 284 sitemap URLs. The only one is inside Trustindex's JS-injected Product schema (fixed by turning off Trustindex rich snippets).
+- **Stray cart text: found.** Salient header cart template `.cart-notification` ("... was successfully added to your cart.") is in every page's HTML but `display:none` until an add-to-cart. Not visible to visitors; text crawlers and AI extractors read it. Fix is a Salient setting or child-theme filter (Andrew), low priority.
+
 ## 4. On-page and indexing
 
 - [ ] **Shop page `/shop/`.** Currently noindex, meta description is the template default "Products Archive | Mujo Learning Systems", H1 "All Products".
