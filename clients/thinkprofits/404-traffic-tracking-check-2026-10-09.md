@@ -129,10 +129,49 @@ Source: Lovable project `12fc0c4c-0a7a-4dbb-ae43-0ad0e1c21a17` ("Thinkprofits Re
 
 No redirect loops found.
 
+## Search Console "Not found (404)" export (added 2026-10-09)
+
+- **Source:** `thinkprofits.com-Coverage-Drilldown-2026-10-09.xlsx`, covering all known pages.
+- **What it contains:** 106 URLs, crawled between Apr 11 and Oct 4. The "Affected pages" count went from 89 to 115 between Sept 14 and 19, then settled at 106. That matches the GA4 404 bursts.
+- **Live check:** on 2026-10-09 I requested each URL on the live site and recorded where it ends up.
+
+| Live result now | URLs |
+|---|---|
+| 301 to a working page | 61 |
+| www URL: 302, then 301 to a working page | 16 |
+| Page now exists (200) | 4 |
+| Still 404 | 25 (5 of them are fine to leave as 404) |
+
+**Redirected but to the wrong page:**
+- 11 of the old `www.thinkprofits.com/blog/...` posts land on `/services/` because of the `/blog/:path+` rule-order bug. Some of them have a matching `/digital-news/` post.
+- Only 1 of the 11 has a live post with the same slug: `/blog/greetings-from-think-profits-annual-conference/` goes to `/services/`, but `/digital-news/greetings-from-think-profits-annual-conference/` exists. The other 10 are posts that were not migrated, so `/services/` or `/digital-news/` is an acceptable destination for them.
+
+**Pages that now exist (no action needed):** these 4 posts were published after Google got a 404 for them:
+- `/digital-news/local-seo-for-trades-2026/`
+- `/digital-news/ai-phone-answering-for-trades/`
+- `/digital-news/holiday-ecommerce-playbook-2026/`
+- `/digital-news/how-to-make-content-quotable-by-ai/`
+
+**Still 404 (25 URLs):**
+- **14 old WordPress month archives** under `/digital-news/YYYY/MM/`, for example `/digital-news/2015/08/` and `/digital-news/2019/06/`. Fix: 301 to `/digital-news/`.
+- **5 old WordPress category pages** under `/digital-news/category/...`, including one `/feed/`. Examples: `inside-think-profits`, `pay-per-click-management`, `manufacturing-and-distribution`, `all-industries`. Fix: 301 to `/digital-news/`.
+- **`/digital-news/page/30/`** (old blog pagination). Fix: 301 to `/digital-news/`.
+- **`/digital-news/testimonial-category/search-engine-optimization/`.** Fix: 301 to `/portfolio/`.
+- **`/seo-services_/local-seo_/local-seo-pest-control`** (crawled Oct 4).
+  - The underscores look like Lovable/TanStack internal route names that got published as a link at some point.
+  - It isn't in the current sitemap or on the local SEO pages now.
+  - Fix: 301 `/seo-services_/local-seo_/:slug` to `/seo-services/local-seo/:slug/`.
+- **Fine to leave as 404:**
+  - `/plumber-marketing-testing/` (test page)
+  - `/tp-admin/` (admin path)
+  - `/wp-content/plugins/salient-portfolio/css/portfolio.css` (old WordPress file)
+
+**"Linked from":** the export doesn't include which pages link to each URL. Almost all of these are old WordPress URLs, so Google most likely knows them from its own crawl history or old external links, not from current internal links. The pest-control URL is the only one worth checking in the Search Console UI (URL → "Referring page").
+
 ## Not done yet
 
 1. ~~GA4 404 breakdown~~: done, see above. GA4 is now connected to Claude Code through the `ga4` MCP server (`mcp-servers/ga4/`).
-2. **Search Console "Not found (404)" report and the pages linking to those URLs.** The Search Console API doesn't provide this report. Export it from the Search Console UI under Pages → Not found (404).
+2. ~~Search Console "Not found (404)" report~~: done, see above. Still open: the "Referring page" for `/seo-services_/local-seo_/local-seo-pest-control` (Search Console UI).
 3. **Semrush Site Audit for broken internal links.** Blocked on 2026-10-09: the account doesn't have enough Semrush API units. Rerun once units are added.
 
 ## Next decisions

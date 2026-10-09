@@ -12,6 +12,7 @@ Check after the change:
 - /blog/case-studies/golf-ball-planet/ should 301 to /case-study/golf-ball-planet/ (today it goes to /services/)
 - /blog/some-unknown-page/ should still 301 to /services/
 - /blog/?category=Digital+Marketing should still 301 to /digital-news/?category=Digital+Marketing
+- /blog/greetings-from-think-profits-annual-conference/ should reach /digital-news/greetings-from-think-profits-annual-conference/ (today it goes to /services/). Add specific rules for any other old /blog/<slug>/ whose post exists in wpBlogPosts under the same slug.
 
 ===== 2. Redirects pointing to pages that don't exist =====
 
@@ -35,6 +36,19 @@ Any rule whose destination is /ecommerce-website-design (no slash) should point 
 - /pcc-agency-abbotsford/ -> /ppc-agency-abbotsford/   (typo URL)
 - /plumber-marketing/plumber-pricing-packages/ -> /seo-services/local-seo/local-seo-plumbing/
 - /plumber-marketing/:path+ -> /seo-services/local-seo/local-seo-plumbing/   (put this after any specific /plumber-marketing/... rules)
+
+Also add these, all 301. They come from Google Search Console's "Not found (404)" list:
+- /digital-news/:year(\d{4})/:path* -> /digital-news/   (old WordPress month archives like /digital-news/2015/08/)
+- /digital-news/category/:path+ -> /digital-news/   (old WordPress category pages, including /feed/)
+- /digital-news/page/:path+ -> /digital-news/   (old blog pagination)
+- /digital-news/testimonial-category/:path+ -> /portfolio/
+- /seo-services_/local-seo_/:slug -> /seo-services/local-seo/:slug/   (underscored internal route names that were published as links)
+
+If the vercel.json parser doesn't support the regex in :year(\d{4}), use /digital-news/:year/:month/ (two segments) instead. Make sure single-segment /digital-news/<slug>/ posts aren't affected.
+
+Also check whether anything in the app still generates links containing "_/" (for example /seo-services_/...). If it does, fix those links.
+
+Leave these as real 404s (no rule): /plumber-marketing-testing/, /tp-admin/, /wp-content/...
 
 ===== 5. Unknown case-study slugs: return a real 404 =====
 
