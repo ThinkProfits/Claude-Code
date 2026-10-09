@@ -1,289 +1,1842 @@
 [
  {
-  "slug": "ai-literacy-healthcare-textbook",
+  "product_id": 30219,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-literacy-healthcare-textbook/",
   "sku": "AILH",
   "book": "AI Literacy for Healthcare",
+  "edition": "1st edition",
   "authors": [
    "David Shaw"
   ],
-  "name": "AI Literacy for Healthcare Textbook & Courseware for Higher Education",
+  "name": "AI Literacy for Healthcare Textbook & Courseware",
   "desc": "Mujo's AI Literacy for Healthcare textbook prepares higher education students to use, evaluate, and govern AI tools in clinical and administrative healthcare settings. Covers AI fundamentals, platform use, ethics, HIPAA compliance, health data interpretation, and prompting.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2026/04/AILH_TM_MOCKUP_COLLAGE.png",
-  "tm": [
-   "AILH-TM",
-   "9781998671878",
-   "https://www.mujo.com/wp-content/uploads/2026/04/AILH_Cover_TM_3D.png-150x150.jpg"
+  "variants": [
+   {
+    "sku": "AILH-TM",
+    "isbn": "9781998671878",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-literacy-healthcare-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/04/AILH_Cover_TM_3D.png-150x150.jpg"
+   },
+   {
+    "sku": "AILH-SM",
+    "isbn": "9781998671892",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-literacy-healthcare-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/04/AILH_Cover_TM_3D.png-150x150.jpg"
+   }
   ],
-  "sm": [
-   "AILH-SM",
-   "9781998671892",
-   "https://www.mujo.com/wp-content/uploads/2026/04/AILH_Cover_TM_3D.png-150x150.jpg"
-  ],
-  "notes": "Live student variant uses the instructor (TM) cover image. Swap for the student cover if one exists."
+  "notes": ""
  },
  {
-  "slug": "ai-business-analytics-textbook",
+  "product_id": 27293,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-business-analytics-textbook/",
   "sku": "AIBAF",
   "book": "Artificial Intelligence Business Analytics",
+  "edition": "1st edition",
   "authors": [
    "Katrina Garofalo"
   ],
   "name": "AI Business Analytics Textbook & Courseware for Higher Education",
   "desc": "Mujo's AI Business Analytics textbook introduces higher education students to big data and AI technologies for collecting, managing, and analyzing business data. Turn data into actionable insights.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2025/01/BAF_TM_MOCKUP_COLLAGE.jpg",
-  "tm": [
-   "AIBAF-TM",
-   "9781998671687",
-   "https://www.mujo.com/wp-content/uploads/2025/01/BAF_Cover_TM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "AIBAF-TM",
+    "isbn": "9781998671687",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-business-analytics-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/BAF_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIBAF-SM",
+    "isbn": "9781998671663",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-business-analytics-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/BAF_Cover_SM_3D-150x150.jpg"
+   }
   ],
-  "sm": [
-   "AIBAF-SM",
-   "9781998671663",
-   "https://www.mujo.com/wp-content/uploads/2025/01/BAF_Cover_SM_3D-150x150.jpg"
-  ],
-  "notes": "Passed Rich Results Test (v1) 2026-10-08."
+  "notes": ""
  },
  {
-  "slug": "ai-project-management-textbook",
+  "product_id": 27289,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-accounting-principles-textbook/",
+  "sku": "AIAP",
+  "book": "Artificial Intelligence Accounting Principles",
+  "edition": "1st edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Artificial Intelligence Accounting Principles Textbook & Courseware for Higher Education",
+  "desc": "Mujo's AI Accounting Principles textbook teaches higher education students how artificial intelligence is transforming accounting practices. Covers AI-powered auditing, automation, data analysis, and ethical considerations.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIAP_TM_MOCKUP_COLLAGE.jpg",
+  "variants": [
+   {
+    "sku": "AIAP-TM",
+    "isbn": "9781998671601",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-accounting-principles-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/07/AIAP_Cover_TM_3D-1-150x150.jpg"
+   },
+   {
+    "sku": "AIAP-SM",
+    "isbn": "9781998671588",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-accounting-principles-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/06/AIAP_Cover_SM_3D-150x150.png"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27286,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-sales-fundamentals-textbook/",
+  "sku": "AISF",
+  "book": "Artificial Intelligence Sales Fundamentals",
+  "edition": "1st edition",
+  "authors": [
+   "Katrina Garofalo"
+  ],
+  "name": "Artificial Intelligence Sales Fundamentals Textbook & Courseware for Higher Education",
+  "desc": "Mujo's AI Sales Fundamentals textbook teaches higher education students to leverage artificial intelligence across the full sales cycle. Covers AI-powered prospecting, CRM automation, and predictive analytics.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/10/AISF_TM_MOCKUP_COLLAGE.jpg",
+  "variants": [
+   {
+    "sku": "AISF-TM",
+    "isbn": "9781998671649",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-sales-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AISF_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AISF-SM",
+    "isbn": "9781998671625",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-sales-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AISF_Cover_SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27283,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-project-management-textbook/",
   "sku": "AIPM",
   "book": "Artificial Intelligence Project Management",
+  "edition": "1st edition",
   "authors": [
    "David Shaw"
   ],
   "name": "Artificial Intelligence Project Management Textbook & Courseware for Higher Education",
   "desc": "In this AI Project Management textbook, students will learn strategies and tactics that leverage AI-powered tools and platforms to more effectively manage projects.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIPM_TM_MOCKUP_COLLAGE.jpg",
-  "tm": [
-   "AIPM-TM",
-   "9781998671038",
-   "https://www.mujo.com/wp-content/uploads/2025/01/AIPM_Cover_TM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "AIPM-TM",
+    "isbn": "9781998671038",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-project-management-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIPM_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIPM-SM",
+    "isbn": "9781998671014",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-project-management-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIPM_Cover_SM_3D-150x150.jpg"
+   }
   ],
-  "sm": [
-   "AIPM-SM",
-   "9781998671014",
-   "https://www.mujo.com/wp-content/uploads/2025/01/AIPM_Cover_SM_3D-150x150.jpg"
-  ],
-  "notes": "Dropped 'Order Now!' from the description."
+  "notes": ""
  },
  {
-  "slug": "artificial-intelligence-literacy-textbook",
+  "product_id": 27278,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/artificial-intelligence-literacy-textbook/",
   "sku": "AIL",
   "book": "Artificial Intelligence Literacy",
+  "edition": "1st edition",
   "authors": [
    "David Shaw"
   ],
   "name": "Artificial Intelligence Literacy Textbook & Courseware for Higher Education",
   "desc": "Build AI literacy with Mujo's higher education AI textbook. Covers prompt engineering, machine learning, LLM providers, data privacy, and real-world applications of AI tools for content creation and analysis.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIL_TM_MOCKUP_COLLAGE.jpg",
-  "tm": [
-   "AIL-TM",
-   "9781998798681",
-   "https://www.mujo.com/wp-content/uploads/2024/10/AIL_Cover_TM_3D-150x150.jpg"
-  ],
-  "sm": [
-   "AIL-SM",
-   "9781998798704",
-   "https://www.mujo.com/wp-content/uploads/2026/06/AIL_Cover_SM_3D-150x150.png"
-  ],
-  "notes": ""
- },
- {
-  "slug": "ai-entrepreneurship-textbook",
-  "sku": "AIE",
-  "book": "Artificial Intelligence for Entrepreneurs",
-  "authors": [
-   "David Shaw"
-  ],
-  "name": "Artificial Intelligence for Entrepreneurs Textbook & Courseware for Higher Education",
-  "desc": "Mujo's AI for Entrepreneurs textbook equips higher education students with skills to leverage artificial intelligence in launching and scaling new ventures. Covers AI tools, strategy, and implementation.",
-  "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIE_TM_MOCKUP_COLLAGE.jpg",
-  "tm": [
-   "AIE-TM",
-   "9781998798766",
-   "https://www.mujo.com/wp-content/uploads/2024/10/AIE_Cover_TM_3D-150x150.jpg"
-  ],
-  "sm": [
-   "AIE-SM",
-   "9781998798780",
-   "https://www.mujo.com/wp-content/uploads/2021/10/AIE_Cover_SM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "AIL-TM",
+    "isbn": "9781998798681",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/artificial-intelligence-literacy-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIL_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIL-SM",
+    "isbn": "9781998798704",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/artificial-intelligence-literacy-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/06/AIL_Cover_SM_3D-150x150.png"
+   }
   ],
   "notes": ""
  },
  {
-  "slug": "ai-business-administration-textbook",
-  "sku": "AIBA",
-  "book": "Artificial Intelligence Business Administration",
-  "authors": [
-   "David Shaw"
-  ],
-  "name": "Artificial Intelligence Business Administration Textbook & Courseware for Higher Education",
-  "desc": "Explore how AI is reshaping business administration with Mujo's higher education textbook. Covers AI-driven decision making, operations management, strategic planning, and organizational leadership.",
-  "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIBA_TM_MOCKUP_COLLAGE-1.jpg",
-  "tm": [
-   "AIBA-TM",
-   "9781998798926",
-   "https://www.mujo.com/wp-content/uploads/2025/01/AIBA_Cover_TM_3D-150x150.jpg"
-  ],
-  "sm": [
-   "AIBA-SM",
-   "9781998798940",
-   "https://www.mujo.com/wp-content/uploads/2025/01/AIBA_Cover_SM_3D-150x150.jpg"
-  ],
-  "notes": ""
- },
- {
-  "slug": "ai-hr-management-textbook",
+  "product_id": 27275,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-hr-management-textbook/",
   "sku": "AIHRM",
   "book": "Artificial Intelligence and Human Resource Management",
+  "edition": "1st edition",
   "authors": [
    "Katrina Garofalo"
   ],
   "name": "Artificial Intelligence for Human Resource Management Textbook & Courseware for Higher Education",
   "desc": "Discover how AI is transforming HR management with Mujo's higher education textbook. Covers AI-powered recruitment, talent management, workforce analytics, and employee engagement strategies.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIHRM_TM_MOCKUP_COLLAGE.jpg",
-  "tm": [
-   "AIHRM-TM",
-   "9781998798841",
-   "https://www.mujo.com/wp-content/uploads/2024/10/AIHRM_Cover_TM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "AIHRM-TM",
+    "isbn": "9781998798841",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-hr-management-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIHRM_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIHRM-SM",
+    "isbn": "9781998798865",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-hr-management-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2021/10/AIHRM_Cover_SM_3D-150x150.jpg"
+   }
   ],
-  "sm": [
-   "AIHRM-SM",
-   "9781998798865",
-   "https://www.mujo.com/wp-content/uploads/2021/10/AIHRM_Cover_SM_3D-150x150.jpg"
-  ],
-  "notes": "VitalSource title is 'Artificial Intelligence and Human Resource Management'; mujo.com says 'for'. Used the VitalSource title for the Book name."
+  "notes": "VitalSource title is 'Artificial Intelligence and Human Resource Management'; mujo.com says 'for'. Used the VitalSource title."
  },
  {
-  "slug": "artificial-intelligence-marketing-textbook",
-  "sku": "AIM",
-  "book": "Artificial Intelligence Marketing",
+  "product_id": 27271,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/",
+  "sku": "AIE",
+  "book": "Artificial Intelligence for Entrepreneurs",
+  "edition": "1st edition",
   "authors": [
    "David Shaw"
   ],
-  "name": "Artificial Intelligence Marketing Textbook & Courseware for Higher Education",
-  "desc": "Explore Mujo's AI Marketing Textbook for higher education students. Learn AI technologies, machine learning, and data analytics for impactful marketing strategies.",
-  "img": "https://www.mujo.com/wp-content/uploads/2026/06/AIM_TM_MOCKUP_COLLAGE.png",
-  "tm": [
-   "AIM-TM",
-   "9781998798247",
-   "https://www.mujo.com/wp-content/uploads/2023/01/AIM_Cover_TM_3D-150x150.jpg"
-  ],
-  "sm": [
-   "AIM-SM",
-   "9781998798230",
-   "https://www.mujo.com/wp-content/uploads/2022/01/AIM_Cover_SM_3D-150x150.jpg"
+  "name": "Artificial Intelligence for Entrepreneurs Textbook & Courseware for Higher Education",
+  "desc": "Mujo's AI for Entrepreneurs textbook equips higher education students with skills to leverage artificial intelligence in launching and scaling new ventures. Covers AI tools, strategy, and implementation.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIE_TM_MOCKUP_COLLAGE.jpg",
+  "variants": [
+   {
+    "sku": "AIE-TM",
+    "isbn": "9781998798766",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/10/AIE_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIE-SM",
+    "isbn": "9781998798780",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2021/10/AIE_Cover_SM_3D-150x150.jpg"
+   }
   ],
   "notes": ""
  },
  {
-  "slug": "generative-ai-for-business-textbook",
-  "sku": "GAIB",
-  "book": "Generative AI for Business",
+  "product_id": 27268,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-business-administration-textbook/",
+  "sku": "AIBA",
+  "book": "Artificial Intelligence Business Administration",
+  "edition": "1st edition",
   "authors": [
    "David Shaw"
   ],
-  "name": "Generative AI for Business Textbook & Courseware for Higher Education",
-  "desc": "Explore generative AI's business applications with Mujo's Gen AI higher education textbook. Covers prompt engineering, AI system implementation, demand forecasting, market research, and ethical AI considerations.",
-  "img": "https://www.mujo.com/wp-content/uploads/2024/10/GAIB_TM_MOCKUP_COLLAGE.jpg",
-  "tm": [
-   "GAIB-TM",
-   "9781998798728",
-   "https://www.mujo.com/wp-content/uploads/2024/10/GAIB_Cover_TM_3D-150x150.jpg"
-  ],
-  "sm": [
-   "GAIB-SM",
-   "9781998798742",
-   "https://www.mujo.com/wp-content/uploads/2021/10/GAIB_Cover_SM_3D-150x150.jpg"
+  "name": "Artificial Intelligence Business Administration Textbook & Courseware for Higher Education",
+  "desc": "Explore how AI is reshaping business administration with Mujo's higher education textbook. Covers AI-driven decision making, operations management, strategic planning, and organizational leadership.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIBA_TM_MOCKUP_COLLAGE-1.jpg",
+  "variants": [
+   {
+    "sku": "AIBA-TM",
+    "isbn": "9781998798926",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-business-administration-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIBA_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIBA-SM",
+    "isbn": "9781998798940",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-business-administration-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIBA_Cover_SM_3D-150x150.jpg"
+   }
   ],
   "notes": ""
  },
  {
-  "slug": "ai-business-writing-textbook",
+  "product_id": 27265,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ai-business-writing-textbook/",
   "sku": "AIBW",
   "book": "Artificial Intelligence Business Writing",
+  "edition": "1st edition",
   "authors": [
    "Katrina Garofalo"
   ],
   "name": "Artificial Intelligence Business Writing Textbook & Courseware for Higher Education",
   "desc": "Mujo's AI Business Writing textbook for university and college students offers a hands-on introduction to business writing using AI-powered tools.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIBW_TM_MOCKUP_COLLAGE.jpg",
-  "tm": [
-   "AIBW-TM",
-   "9781998671151",
-   "https://www.mujo.com/wp-content/uploads/2025/01/AIBW_Cover_TM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "AIBW-TM",
+    "isbn": "9781998671151",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-business-writing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIBW_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIBW-SM",
+    "isbn": "9781998671137",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ai-business-writing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIBW_Cover_SM_3D-150x150.jpg"
+   }
   ],
-  "sm": [
-   "AIBW-SM",
-   "9781998671137",
-   "https://www.mujo.com/wp-content/uploads/2025/01/AIBW_Cover_SM_3D-150x150.jpg"
-  ],
-  "notes": "Dropped 'Order Now!' and fixed 'offers students ... students' wording in the description."
+  "notes": ""
  },
  {
-  "slug": "ui-ux-textbook",
+  "product_id": 27262,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/generative-ai-for-business-textbook/",
+  "sku": "GAIB",
+  "book": "Generative AI for Business",
+  "edition": "1st edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Generative AI for Business Textbook & Courseware for Higher Education",
+  "desc": "Explore generative AI's business applications with Mujo's Gen AI higher education textbook. Covers prompt engineering, AI system implementation, demand forecasting, market research, and ethical AI considerations.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/10/GAIB_TM_MOCKUP_COLLAGE.jpg",
+  "variants": [
+   {
+    "sku": "GAIB-TM",
+    "isbn": "9781998798728",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/generative-ai-for-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/10/GAIB_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "GAIB-SM",
+    "isbn": "9781998798742",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/generative-ai-for-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2021/10/GAIB_Cover_SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27258,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/artificial-intelligence-marketing-textbook/",
+  "sku": "AIM",
+  "book": "Artificial Intelligence Marketing",
+  "edition": "1st edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Artificial Intelligence Marketing Textbook & Courseware for Higher Education",
+  "desc": "Explore Mujo's AI Marketing Textbook for higher education students. Learn AI technologies, machine learning, and data analytics for impactful marketing strategies.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/AIM_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "AIM-TM",
+    "isbn": "9781998798247",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/artificial-intelligence-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/AIM_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "AIM-SM",
+    "isbn": "9781998798230",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/artificial-intelligence-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/AIM_Cover_SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27254,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/ui-ux-textbook/",
   "sku": "UIUX",
   "book": "User Interface/User Experience Design",
+  "edition": "1st edition",
   "authors": [
    "Katrina Garofalo"
   ],
   "name": "User Interface/User Experience Design Textbook & Courseware for Higher Education",
   "desc": "Equip students with essential UI/UX design skills using Mujo's User Interface/User Experience Design textbook. Learn to create and optimize compelling customer experiences.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2026/06/UIUX_TM_MOCKUP_COLLAGE.png",
-  "tm": [
-   "UXUI-TM",
-   "9781998671199",
-   "https://www.mujo.com/wp-content/uploads/2023/01/UXUI_Cover_TM_3D-150x150.jpg"
-  ],
-  "sm": [
-   "UXUI-SM",
-   "9781998671175",
-   "https://www.mujo.com/wp-content/uploads/2022/01/UXUI_Cover_SM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "UXUI-TM",
+    "isbn": "9781998671199",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/ui-ux-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/UXUI_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "UXUI-SM",
+    "isbn": "9781998671175",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/ui-ux-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/UXUI_Cover_SM_3D-150x150.jpg"
+   }
   ],
   "notes": "Group SKU is UIUX but variant SKUs are UXUI. Harmless, but worth tidying in WooCommerce."
  },
  {
-  "slug": "pay-per-click-advertising-textbook",
+  "product_id": 27250,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/pay-per-click-advertising-textbook/",
   "sku": "PPCA",
   "book": "Pay-Per-Click Advertising",
+  "edition": "1st edition",
   "authors": [
    "David Shaw"
   ],
   "name": "Pay-Per-Click Advertising Textbook & Courseware for Higher Education",
   "desc": "Equip students with essential PPC skills using Mujo's advertising textbook. Learn keyword research, platform selection, and optimization.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2026/06/PPCA_TM_MOCKUP_COLLAGE.png",
-  "tm": [
-   "PPCA-TM",
-   "9781988940823",
-   "https://www.mujo.com/wp-content/uploads/2023/01/PPCA_Cover-TM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "PPCA-TM",
+    "isbn": "9781988940823",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/pay-per-click-advertising-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/PPCA_Cover-TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "PPCA-SM",
+    "isbn": "9781988940809",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/pay-per-click-advertising-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/PPCA_Cover-SM_3D-150x150.jpg"
+   }
   ],
-  "sm": [
-   "PPCA-SM",
-   "9781988940809",
-   "https://www.mujo.com/wp-content/uploads/2022/01/PPCA_Cover-SM_3D-150x150.jpg"
-  ],
-  "notes": "Dropped 'Order now to boost your learning!' from the description."
+  "notes": ""
  },
  {
-  "slug": "strategic-web-design-ecommerce-textbook",
+  "product_id": 27246,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/strategic-web-design-ecommerce-textbook/",
   "sku": "SWDE",
   "book": "Strategic Web Design & e-Commerce",
+  "edition": "1st edition",
   "authors": [
    "Shawn Moore",
    "Adam Wilkins"
   ],
   "name": "Strategic Web Design and E-Commerce Textbook & Courseware for Higher Education",
   "desc": "Equip students with web design and e-commerce skills using Mujo's comprehensive textbook. Learn HTML5, WordPress, and more to build functional websites.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
   "img": "https://www.mujo.com/wp-content/uploads/2026/06/SWDE_TM_MOCKUP_COLLAGE.png",
-  "tm": [
-   "SWDE-TM",
-   "9781988940670",
-   "https://www.mujo.com/wp-content/uploads/2023/01/SWDE_Cover_TM_3D-150x150.jpg"
+  "variants": [
+   {
+    "sku": "SWDE-TM",
+    "isbn": "9781988940670",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/strategic-web-design-ecommerce-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/SWDE_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "SWDE-SM",
+    "isbn": "9781988940656",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/strategic-web-design-ecommerce-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/SWDE_Cover_SM_3D-150x150.jpg"
+   }
   ],
-  "sm": [
-   "SWDE-SM",
-   "9781988940656",
-   "https://www.mujo.com/wp-content/uploads/2022/01/SWDE_Cover_SM_3D-150x150.jpg"
+  "notes": ""
+ },
+ {
+  "product_id": 27242,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/public-relations-strategy-communications-textbook/",
+  "sku": "PRSC",
+  "book": "Public Relations Strategy and Communications",
+  "edition": "1st edition",
+  "authors": [
+   "Emma Hatfield"
   ],
-  "notes": "Co-author Adam Wilkins confirmed by Brittni 2026-10-09."
+  "name": "Public Relations Strategy and Communications Textbook & Courseware for Higher Education",
+  "desc": "Equip students with essential PR skills using Mujo's Public Relations Strategy and Communications textbook. Learn media relations, crisis management, and more.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/PRSC_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "PRSC-TM",
+    "isbn": "9781998798339",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/public-relations-strategy-communications-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/PRSC_Cover-TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "PRSC-SM",
+    "isbn": "9781998798315",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/public-relations-strategy-communications-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/PRSC_Cover-SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27238,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/big-data-analytics-reporting-textbook/",
+  "sku": "BDAR",
+  "book": "Big Data Analytics and Reporting",
+  "edition": "1st edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Big Data Analytics & Reporting Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Big Data Analytics and Reporting textbook for higher education equips students with skills to interpret data, create reports, and develop actionable plans.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/BDAR_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "BDAR-TM",
+    "isbn": "9781988940984",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/big-data-analytics-reporting-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/BDAR_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "BDAR-SM",
+    "isbn": "9781998798001",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/big-data-analytics-reporting-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/BDAR_Cover_SM_3d-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27234,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/writing-digital-media-content-textbook/",
+  "sku": "WDMC",
+  "book": "Writing Digital Media Content",
+  "edition": "1st edition",
+  "authors": [
+   "Rebecca Saloustros"
+  ],
+  "name": "Writing Digital Media Content Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Writing Digital Media Content textbook teaches higher education students writing strategies for websites, PPC ads, email marketing, social media, and more.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/WDMC_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "WDMC-TM",
+    "isbn": "9781988940908",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/writing-digital-media-content-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/WDMC_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "WDMC-SM",
+    "isbn": "9781988940885",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/writing-digital-media-content-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/WDMC_Cover_SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27229,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/crm-marketing-automation-textbook/",
+  "sku": "CRMMA",
+  "book": "Customer Relationship Management Marketing Automation",
+  "edition": "1st edition",
+  "authors": [
+   "Emma Hatfield"
+  ],
+  "name": "CRM Marketing Automation Textbook & Courseware for Higher Education",
+  "desc": "Mujo's CRM Marketing Automation textbook gives higher education students a deep dive into customer relationship management and marketing automation strategies.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/CRMMA_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "CRMMA-TM",
+    "isbn": "9781988940717",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/crm-marketing-automation-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/CRMMA_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "CRMMA-SM",
+    "isbn": "9781988940694",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/crm-marketing-automation-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/CRMMA_Cover_SM_3d-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27226,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/influencer-marketing-fundamentals-textbook/",
+  "sku": "IMF",
+  "book": "Influencer Marketing Fundamentals",
+  "edition": "1st edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Influencer Marketing Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Influencer Marketing Fundamentals textbook teaches higher education students effective influencer strategies for digital marketing.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/09/IMF_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "IMF-TM",
+    "isbn": "9781998798285",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/influencer-marketing-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/IMF_Cover_TM_3D-150x150.png"
+   },
+   {
+    "sku": "IMF-SM",
+    "isbn": "9781998798278",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/influencer-marketing-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/IMF_Cover_SM_3D-150x150.png"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27221,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/search-engine-optimization-textbook/",
+  "sku": "SEOM",
+  "book": "Search Engine Optimization",
+  "edition": "4th edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Search Engine Optimization (SEO) Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Search Engine Optimization textbook equips higher education students with essential SEO and GEO skills. Covers on-page and off-page techniques and industry best practices.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/SEO_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "SEOM-TM",
+    "isbn": "9781998798179",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/search-engine-optimization-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/SEO_Cover-TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "SEOM-SM",
+    "isbn": "9781998798155",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/search-engine-optimization-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/SEO_Cover-SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27217,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/social-media-marketing-strategies-textbook/",
+  "sku": "SMMS",
+  "book": "Social Media Marketing Strategies",
+  "edition": "7th edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Social Media Marketing Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Social Media Marketing Strategies textbook teaches higher education students to leverage the major social platforms for marketing results.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/SMMS_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "SMMS-TM",
+    "isbn": "9781998671359",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/social-media-marketing-strategies-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/SMMS_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "SMMS-SM",
+    "isbn": "9781998671335",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/social-media-marketing-strategies-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/SMMS_Cover-SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27212,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/principles-of-marketing-textbook/",
+  "sku": "POM",
+  "book": "Principles of Marketing",
+  "edition": "1st edition",
+  "authors": [
+   "David Shaw",
+   "Alex Strauss"
+  ],
+  "name": "Principles of Marketing Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Principles of Marketing textbook gives higher education students in-depth marketing knowledge, covering ethics, branding, strategy, and more.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/06/POM_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "POM-TM",
+    "isbn": "9781998798056",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/principles-of-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/POM_Cover-TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "POM-SM",
+    "isbn": "9781998798032",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/principles-of-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/POM_Cover_SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27207,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/digital-marketing-textbook/",
+  "sku": "DMF",
+  "book": "Digital Marketing Fundamentals",
+  "edition": "3rd edition",
+  "authors": [
+   "Shawn Moore"
+  ],
+  "name": "Digital Marketing Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Digital Marketing Fundamentals textbook covers branding, SEO, PPC, email marketing, and more, available in student and instructor editions for higher education.",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2025/04/DMF_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "DMF-Teacher Manual",
+    "isbn": "9781998798476",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/digital-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/01/DMF_Cover_TM_3D-150x150.jpg"
+   },
+   {
+    "sku": "DMF-Student Book",
+    "isbn": "9781998798490",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/digital-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2022/01/DMF_Cover_SM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 30070,
+  "audience": "higher-ed",
+  "url": "https://www.mujo.com/shop/higher-ed/prompt-engineering-llms-textbook/",
+  "sku": "PELLM",
+  "book": "Prompt Engineering and LLMs",
+  "edition": "1st edition",
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Prompt Engineering and LLMs Textbook & Courseware for Higher Education",
+  "desc": "Mujo's Prompt Engineering and LLMs textbook gives higher education students a comprehensive, practical guide to prompt engineering and working with large language models (LLMs).",
+  "category": "Higher Ed Textbooks, eBooks and Courseware for Universities & Colleges",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/01/PELLM_TM_MOCKUP_COLLAGE-1.avif",
+  "variants": [
+   {
+    "sku": "PELLM-Teacher Manual",
+    "isbn": "9781998671724",
+    "label": "Instructor Edition (eBook)",
+    "format": "EBook",
+    "price": "0",
+    "url": "https://www.mujo.com/shop/higher-ed/prompt-engineering-llms-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/PELLM_Cover_TM_3D-1-150x150.png"
+   },
+   {
+    "sku": "PELLM-Student Book",
+    "isbn": "9781998671700",
+    "label": "Student Edition (eBook)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/higher-ed/prompt-engineering-llms-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/05/PELLM_Cover_SM_3D-1-150x150.webp"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27200,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/website-e-commerce-strategy-textbook/",
+  "sku": "WDES",
+  "book": "Website & E-commerce Strategy",
+  "edition": null,
+  "authors": [
+   "Shawn Moore",
+   "Adam Wilkins"
+  ],
+  "name": "Website & E-commerce Strategy Textbook & Courseware",
+  "desc": "Mujo's Website & E-commerce Strategy textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2023/05/WES_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "WES-1-Year",
+    "isbn": "9781988940519",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/website-e-commerce-strategy-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/05/WES_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "WES-3-Year",
+    "isbn": "9781988940519",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/website-e-commerce-strategy-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/05/WES_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "WES-6-Year",
+    "isbn": "9781988940519",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/website-e-commerce-strategy-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/05/WES_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "WES-Print",
+    "isbn": "9781988940526",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/website-e-commerce-strategy-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/05/WES_Cover_SM_3D-150x150.jpg"
+   },
+   {
+    "sku": "WES-Resource-1-Year",
+    "isbn": "9781988940632",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/website-e-commerce-strategy-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/WES_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "WES-Resource-Print",
+    "isbn": "9781988940625",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/website-e-commerce-strategy-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/05/WES_Cover_TM_3D-150x150.jpg"
+   }
+  ],
+  "notes": "VitalSource lists this title as 'Website Design Strategy'."
+ },
+ {
+  "product_id": 27193,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/online-marketing-textbook/",
+  "sku": "OMF",
+  "book": "Online Marketing Fundamentals",
+  "edition": null,
+  "authors": [
+   "Shawn Moore"
+  ],
+  "name": "Online Marketing Fundamentals Textbook & Courseware",
+  "desc": "Mujo's Online Marketing Fundamentals textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/09/OMF_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "OMF-1-Year",
+    "isbn": "9781988940472",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/online-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/OMF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "OMF-3-Year",
+    "isbn": "9781988940472",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/online-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/OMF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "OMF-6-Year",
+    "isbn": "9781988940472",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/online-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/OMF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "OMF-Print",
+    "isbn": "9781988940489",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/online-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/08/OMF_Cover_SM_3D-150x150.png"
+   },
+   {
+    "sku": "OMF-Resource-1-Year",
+    "isbn": "9781988940571",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/online-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/OMF_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "OMF-Resource-Print",
+    "isbn": "9781988940564",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/online-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/08/OMF_Cover_TM_3D-150x150.png"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27185,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/foundations-of-marketing-textbook/",
+  "sku": "FOM",
+  "book": "Foundations of Marketing",
+  "edition": null,
+  "authors": [
+   "David Shaw",
+   "Alex Strauss"
+  ],
+  "name": "Foundations of Marketing Textbook & Courseware",
+  "desc": "Mujo's Foundations of Marketing textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/03/FOM_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "FOM-1-Year",
+    "isbn": "9781998798988",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-of-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/03/FOM_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "FOM-3-Year",
+    "isbn": "9781998798988",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-of-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/03/FOM_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "FOM-6-Year",
+    "isbn": "9781998798988",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-of-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/03/FOM_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "FOM-Print",
+    "isbn": "9781998798995",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-of-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/07/FOM_Cover_SM_3D-150x150.jpg"
+   },
+   {
+    "sku": "FOM-Resource-1-Year",
+    "isbn": "9781998798964",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-of-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/FOM_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "FOM-Resource-Print-1",
+    "isbn": "9781998798971",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-of-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/07/FOM_Cover_TM_3D-150x150.png"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27178,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/social-media-marketing-textbook/",
+  "sku": "SMM",
+  "book": "Social Media Marketing",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Social Media Marketing Textbook & Courseware",
+  "desc": "Mujo's Social Media Marketing textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/09/SMM_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "SMM-1-Year",
+    "isbn": "9781998671304",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/social-media-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/SMM_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "SMM-3-Year",
+    "isbn": "9781998671304",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/social-media-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/SMM_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "SMM-6-Year",
+    "isbn": "9781998671304",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/social-media-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/SMM_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "SMM-Print",
+    "isbn": "9781998671311",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/social-media-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/SMM_Cover_SM_3D-150x150.jpg"
+   },
+   {
+    "sku": "SMM-Resource-1-Year",
+    "isbn": "9781998671281",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/social-media-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/SMM_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "SMM-Resource-Print",
+    "isbn": "9781998671298",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/social-media-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/SMM_Cover_TM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27171,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/creating-digital-media-content-textbook/",
+  "sku": "CDMC",
+  "book": "Creating Digital Media Content",
+  "edition": null,
+  "authors": [
+   "Rebecca Saloustros"
+  ],
+  "name": "Creating Digital Media Content Textbook & Courseware",
+  "desc": "Mujo's Creating Digital Media Content textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/09/CDMC_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "CDMC-1-Year",
+    "isbn": "9781988940496",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/creating-digital-media-content-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/CDMC_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "CDMC-3-Year",
+    "isbn": "9781988940496",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/creating-digital-media-content-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/CDMC_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "CDMC-6-Year",
+    "isbn": "9781988940496",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/creating-digital-media-content-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/09/CDMC_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "CDMC-Print",
+    "isbn": "9781988940502",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/creating-digital-media-content-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/09/CDMC_Cover_SM_3D-150x150.jpg"
+   },
+   {
+    "sku": "CDMC-Resource-1-Year",
+    "isbn": "9781988940601",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/creating-digital-media-content-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/CDMC_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "CDMC-Resource-Print",
+    "isbn": "9781988940618",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/creating-digital-media-content-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/09/CDMC_Cover_TM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27164,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/sports-entertainment-marketing-textbook/",
+  "sku": "SEME",
+  "book": "Sports & Entertainment Marketing",
+  "edition": null,
+  "authors": [
+   "Katrina Garofalo"
+  ],
+  "name": "Sports & Entertainment Marketing Textbook & Courseware",
+  "desc": "Mujo's Sports & Entertainment Marketing textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/08/SEME_TM_MOCKUP_COLLAGE.jpg",
+  "variants": [
+   {
+    "sku": "SEME-1-Year",
+    "isbn": "9781998798650",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/sports-entertainment-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/SEME_TM_MOCKUP_COLLAGE-150x150.jpg"
+   },
+   {
+    "sku": "SEME-3-Year",
+    "isbn": "9781998798650",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/sports-entertainment-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/SEME_TM_MOCKUP_COLLAGE-150x150.jpg"
+   },
+   {
+    "sku": "SEME-6-Year",
+    "isbn": "9781998798650",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/sports-entertainment-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/SEME_TM_MOCKUP_COLLAGE-150x150.jpg"
+   },
+   {
+    "sku": "SEME-Print",
+    "isbn": "9781998798643",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/sports-entertainment-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/SEME_Cover_SM_3D-1-150x150.jpg"
+   },
+   {
+    "sku": "SEME-Resource-1-Year",
+    "isbn": "9781998798674",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/sports-entertainment-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/SEME_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "SEME-Resource-Print",
+    "isbn": "9781998798667",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/sports-entertainment-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/SEME_Cover_TM_3D-1-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27155,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/fashion-marketing-textbook/",
+  "sku": "FME",
+  "book": "Fashion Marketing",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Fashion Marketing Textbook & Courseware",
+  "desc": "Mujo's Fashion Marketing textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2024/08/FME_TM_MOCKUP_COLLAGE.jpg",
+  "variants": [
+   {
+    "sku": "FME-1-Year",
+    "isbn": "9781998798520",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/fashion-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/FME_TM_MOCKUP_COLLAGE-150x150.jpg"
+   },
+   {
+    "sku": "FME-3-Year",
+    "isbn": "9781998798520",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/fashion-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/FME_TM_MOCKUP_COLLAGE-150x150.jpg"
+   },
+   {
+    "sku": "FME-6-Year",
+    "isbn": "9781998798520",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/fashion-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/FME_TM_MOCKUP_COLLAGE-150x150.jpg"
+   },
+   {
+    "sku": "FME-Print",
+    "isbn": "9781998798551",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/fashion-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/FME_Cover_SM_3D-150x150.jpg"
+   },
+   {
+    "sku": "FME-Resource-1-Year",
+    "isbn": "9781998798537",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/fashion-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/FME_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "FME-Resource-Print",
+    "isbn": "9781998798544",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/fashion-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2024/08/FME_Cover_TM_3D-150x150.jpg"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27146,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/ai-marketing-textbook/",
+  "sku": "AIMF",
+  "book": "AI Marketing Fundamentals",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "AI Marketing Fundamentals Textbook & Courseware",
+  "desc": "Mujo's AI Marketing Fundamentals textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIMF_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "AIMF-1-Year",
+    "isbn": "9781998798445",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIMF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "AIMF-3-Year",
+    "isbn": "9781998798445",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIMF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "AIMF-6-Year",
+    "isbn": "9781998798445",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/01/AIMF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "AIMF-Print",
+    "isbn": "9781998798469",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/06/AIMF_Cover_SM_3D-150x150.png"
+   },
+   {
+    "sku": "AIMF-Resource-1-Year",
+    "isbn": "9781998798438",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/AIMF_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "AIMF-Resource-Print",
+    "isbn": "9781998798452",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/01/AIMF_Cover_TM_3D-scaled-1-150x150.png"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27139,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/influencer-marketing-textbook/",
+  "sku": "IME",
+  "book": "Influencer Marketing",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Influencer Marketing Textbook & Courseware",
+  "desc": "Mujo's Influencer Marketing textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2025/05/IME_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "IME-1-Year",
+    "isbn": "9781998671236",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/influencer-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/IME_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "IME-3-Year",
+    "isbn": "9781998671236",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/influencer-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/IME_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "IME-6-Year",
+    "isbn": "9781998671236",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/influencer-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/IME_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "IME-Student-Print",
+    "isbn": "9781998671243",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/influencer-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/IME_Cover_SM_3D-150x150.png"
+   },
+   {
+    "sku": "IME-Resource-1-Year",
+    "isbn": "9781998671212",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/influencer-marketing-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2023/10/IME_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "IME-Teacher-Print",
+    "isbn": "9781998671229",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/influencer-marketing-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/IME_Cover_SM_3D-150x150.png"
+   }
+  ],
+  "notes": "Teacher print variant uses the student (SM) cover image on the live site."
+ },
+ {
+  "product_id": 27132,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/foundations-artificial-intelligence-textbook/",
+  "sku": "FAI",
+  "book": "Foundations of Artificial Intelligence",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Foundations of Artificial Intelligence Textbook & Courseware",
+  "desc": "Mujo's Foundations of Artificial Intelligence textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2025/05/FAI_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "FAI-1-Year",
+    "isbn": "9781998798414",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-artificial-intelligence-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/FAI_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "FAI-3-Year",
+    "isbn": "9781998798414",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-artificial-intelligence-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/FAI_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "FAI-6-Year",
+    "isbn": "9781998798414",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-artificial-intelligence-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/FAI_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "FAI-Print",
+    "isbn": "9781998798421",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-artificial-intelligence-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/FAI_Cover_SM_3D-150x150.png"
+   },
+   {
+    "sku": "FAI-Resource-1-Year",
+    "isbn": "9781998798407",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-artificial-intelligence-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/FAI_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "FAI-Resource-Print",
+    "isbn": "9781998798391",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/foundations-artificial-intelligence-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/05/FAI_Cover_TM_3D-150x150.png"
+   }
+  ],
+  "notes": ""
+ },
+ {
+  "product_id": 27125,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/entrepreneurship-fundamentals-textbook/",
+  "sku": "EF",
+  "book": "Entrepreneurship Fundamentals: In An AI World",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Entrepreneurship Fundamentals: In An AI World Textbook & Courseware",
+  "desc": "Mujo's Entrepreneurship Fundamentals: In An AI World textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2025/12/EF_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "EF-1-year",
+    "isbn": "9781998671441",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/entrepreneurship-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/EF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "EF-3-year",
+    "isbn": "9781998671441",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/entrepreneurship-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/EF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "EF-6-year",
+    "isbn": "9781998671441",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/entrepreneurship-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/EF_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "EF-print",
+    "isbn": "9781998671823",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/entrepreneurship-fundamentals-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/11/EF_Cover_TM_3D-150x150.png"
+   },
+   {
+    "sku": "EF-resource-1-year",
+    "isbn": "9781998671472",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/entrepreneurship-fundamentals-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/EF_TM_IPAD-1-150x150.png"
+   },
+   {
+    "sku": "EF-resource-print",
+    "isbn": "9781998671830",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/entrepreneurship-fundamentals-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/11/EF_Cover_TM_3D-150x150.png"
+   }
+  ],
+  "notes": "Student print variant uses the teacher (TM) cover image on the live site."
+ },
+ {
+  "product_id": 27118,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/principles-of-business-textbook/",
+  "sku": "POB",
+  "book": "Principles of Business: In An AI World",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "Principles of Business: In An AI World Textbook & Courseware for High School",
+  "desc": "Mujo's Principles of Business: In An AI World textbook and courseware for high school CTE programs. Available as a student e-book (1-, 3- or 6-year license), a print student textbook, and a teacher resource cloud and manual.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2025/12/POB_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "POB-1-year",
+    "isbn": "9781998671434",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/principles-of-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/POB_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "POB-3-year",
+    "isbn": "9781998671434",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/principles-of-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/POB_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "POB-6-year",
+    "isbn": "9781998671434",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/principles-of-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/POB_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "POB-print",
+    "isbn": "9781998671809",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/principles-of-business-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/POB_Cover_TM_3D-150x150.png"
+   },
+   {
+    "sku": "POB-resource-1-year",
+    "isbn": "9781998671489",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/principles-of-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/POB_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "POB-resource-print",
+    "isbn": "9781998671816",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/principles-of-business-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/POB_Cover_TM_3D-150x150.png"
+   }
+  ],
+  "notes": "Student print variant uses the teacher (TM) cover image on the live site."
+ },
+ {
+  "product_id": 27093,
+  "audience": "high-school",
+  "url": "https://www.mujo.com/shop/high-school-cte/ai-for-business-textbook/",
+  "sku": "AIB",
+  "book": "AI for Business",
+  "edition": null,
+  "authors": [
+   "David Shaw"
+  ],
+  "name": "AI For Business Textbook & Courseware for High School",
+  "desc": "Prepare high school students for an AI-driven workforce. Mujo's AI for Business textbook and courseware includes ready-to-teach lessons, tests, and CTE alignment.",
+  "category": "High School CTE Textbooks & Courseware",
+  "img": "https://www.mujo.com/wp-content/uploads/2026/01/AIB_TM_MOCKUP_COLLAGE.png",
+  "variants": [
+   {
+    "sku": "AIB-student-book-1-year",
+    "isbn": "9781998671465",
+    "label": "Student Textbook (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "59",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-for-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/01/AIB_TM_MOCKUP_COLLAGE-150x150.png"
+   },
+   {
+    "sku": "AIB-student-book-3-year",
+    "isbn": "9781998671465",
+    "label": "Student Textbook (eBook, 3-year license)",
+    "format": "EBook",
+    "price": "119",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-for-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=3-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/AIB_Cover_TM_3D-150x150.png"
+   },
+   {
+    "sku": "AIB-student-book-6-year",
+    "isbn": "9781998671465",
+    "label": "Student Textbook (eBook, 6-year license)",
+    "format": "EBook",
+    "price": "199",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-for-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=6-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/AIB_Cover_TM_3D-150x150.png"
+   },
+   {
+    "sku": "AIB-student-book-print",
+    "isbn": "9781998671854",
+    "label": "Student Textbook (Print)",
+    "format": "Paperback",
+    "price": "158",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-for-business-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-student&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2025/12/AIB_Cover_TM_3D-150x150.png"
+   },
+   {
+    "sku": "AIB-resource-1-year",
+    "isbn": "9781998671458",
+    "label": "Teacher Resource Cloud & Manual (eBook, 1-year license)",
+    "format": "EBook",
+    "price": "398",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-for-business-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=1-year-ebook",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/01/AIB_TM_IPAD-150x150.png"
+   },
+   {
+    "sku": "AIB-resource-print",
+    "isbn": "9781998671861",
+    "label": "Teacher Resource Cloud & Manual (Print)",
+    "format": "Paperback",
+    "price": "99",
+    "url": "https://www.mujo.com/shop/high-school-cte/ai-for-business-textbook/?attribute_pa_book-format=soft-copy-printed&attribute_pa_textbook-edition=for-teachers-resource&attribute_pa_license=print",
+    "img": "https://www.mujo.com/wp-content/uploads/2026/01/AIB_TM_IPAD-150x150.png"
+   }
+  ],
+  "notes": ""
  }
 ]

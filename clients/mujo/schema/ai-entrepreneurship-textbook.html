@@ -4,12 +4,6 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
-      "@id": "https://www.mujo.com/#organization",
-      "name": "Mujo Learning Systems",
-      "url": "https://www.mujo.com"
-    },
-    {
       "@type": "ProductGroup",
       "@id": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/#richSnippet",
       "name": "Artificial Intelligence for Entrepreneurs Textbook & Courseware for Higher Education",
@@ -29,48 +23,12 @@
             "Product",
             "Book"
           ],
-          "@id": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/#AIE-SM",
-          "name": "Artificial Intelligence for Entrepreneurs: Student Edition (eBook)",
-          "description": "Student edition of the Artificial Intelligence for Entrepreneurs textbook. Instant digital access via VitalSource.",
-          "sku": "AIE-SM",
-          "gtin13": "9781998798780",
-          "isbn": "9781998798780",
-          "bookFormat": "https://schema.org/EBook",
-          "bookEdition": "1st edition",
-          "inLanguage": "en-US",
-          "author": [
-            {
-              "@type": "Person",
-              "name": "David Shaw"
-            }
-          ],
-          "publisher": {
-            "@id": "https://www.mujo.com/#organization"
-          },
-          "image": "https://www.mujo.com/wp-content/uploads/2021/10/AIE_Cover_SM_3D-150x150.jpg",
-          "offers": {
-            "@type": "Offer",
-            "price": "119",
-            "priceCurrency": "USD",
-            "availability": "https://schema.org/InStock",
-            "itemCondition": "https://schema.org/NewCondition",
-            "priceValidUntil": "2027-12-31",
-            "url": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students"
-          }
-        },
-        {
-          "@type": [
-            "Product",
-            "Book"
-          ],
           "@id": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/#AIE-TM",
           "name": "Artificial Intelligence for Entrepreneurs: Instructor Edition (eBook)",
-          "description": "Instructor edition of the Artificial Intelligence for Entrepreneurs textbook, for adopting faculty. Instant digital access via VitalSource.",
           "sku": "AIE-TM",
           "gtin13": "9781998798766",
           "isbn": "9781998798766",
           "bookFormat": "https://schema.org/EBook",
-          "bookEdition": "1st edition",
           "inLanguage": "en-US",
           "author": [
             {
@@ -90,7 +48,41 @@
             "itemCondition": "https://schema.org/NewCondition",
             "priceValidUntil": "2027-12-31",
             "url": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-instructors"
-          }
+          },
+          "bookEdition": "1st edition"
+        },
+        {
+          "@type": [
+            "Product",
+            "Book"
+          ],
+          "@id": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/#AIE-SM",
+          "name": "Artificial Intelligence for Entrepreneurs: Student Edition (eBook)",
+          "sku": "AIE-SM",
+          "gtin13": "9781998798780",
+          "isbn": "9781998798780",
+          "bookFormat": "https://schema.org/EBook",
+          "inLanguage": "en-US",
+          "author": [
+            {
+              "@type": "Person",
+              "name": "David Shaw"
+            }
+          ],
+          "publisher": {
+            "@id": "https://www.mujo.com/#organization"
+          },
+          "image": "https://www.mujo.com/wp-content/uploads/2021/10/AIE_Cover_SM_3D-150x150.jpg",
+          "offers": {
+            "@type": "Offer",
+            "price": "119",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "itemCondition": "https://schema.org/NewCondition",
+            "priceValidUntil": "2027-12-31",
+            "url": "https://www.mujo.com/shop/higher-ed/ai-entrepreneurship-textbook/?attribute_pa_book-format=electronic-vital-source&attribute_pa_textbook-edition=for-students"
+          },
+          "bookEdition": "1st edition"
         }
       ]
     }
