@@ -94,6 +94,41 @@ Filtered on page title "Page Not Found | ThinkProfits.com", 2026-09-08 to 2026-1
 
 The whole drop is in Direct, and engaged sessions there held steady. Fewer than 5% of Direct "users" engage, which suggests bot or spam traffic. Real, engaged traffic is roughly flat, and AI Assistant traffic is up. Consider a GA4 bot or internal-traffic filter so monthly reports aren't inflated by Direct traffic.
 
+## Lovable redirect map check (added 2026-10-09)
+
+Source: Lovable project `12fc0c4c-0a7a-4dbb-ae43-0ad0e1c21a17` ("Thinkprofits Rebuild - shawn"). I only read the code and changed nothing. I then checked the findings against the live site.
+
+**How redirects work on the site:**
+- The redirect list lives in `vercel.json`: 797 rules, all marked permanent (301).
+- Vercel isn't what applies them. The app's own server code reads the list on every request (`src/lib/redirects.ts`, run from `src/server.ts`).
+- Matching ignores letter case, works with or without a trailing slash, and keeps any query string.
+- When two rules could match, the first one in the list wins.
+- The redirect list was most likely last changed in the Lovable edit "Added missing 404 redirects" on 2026-09-23. That fits the 404 hits stopping around Sept 23–24.
+
+**The 404 URLs from GA4:** 22 of the 24 top 404 paths have a working 301. Two have no rule and still return a 404:
+- `/plumber-marketing/plumber-pricing-packages/`
+- `/pcc-agency-abbotsford/`
+
+**Problems in the redirect map (all confirmed on the live site):**
+
+1. **`/blog/:path+` catches 34 more specific rules.** The `/blog/:path+` catch-all is rule #30 and sends everything to `/services/`. The 34 rules after it for specific `/blog/...` pages never get a chance to run, including:
+   - every `/blog/case-studies/*` and `/blog/testimonial/*` rule
+   - old blog posts that should land on their `/digital-news/` articles
+
+   Example: `/blog/case-studies/golf-ball-planet/` goes to `/services/`, not to the Golf Ball Planet case study. **Fix:** move `/blog/:path+` below the specific `/blog/` rules.
+2. **Redirects that point to case studies that don't exist.** These end on a soft 404 that jumps to `/portfolio/`:
+   - `/case-studies/eurorite-cabinets/` points to `/case-study/eurorite-cabinets/`, but the real slug is `euro-rite-cabinets`.
+   - `/case-studies/plugbusters/` points to `/case-study/plugbusters/`, but there is no Plugbusters case study, even though a hero image for it exists. Search Console shows 13 impressions for `/case-study/plugbusters/`.
+3. **Redirects that point to blog posts that don't exist.** They take two redirects and end on the `/digital-news/` blog index:
+   - `/digital-news/canonicalization/`
+   - `/digital-news/what-is-the-difference-between-google-webmaster-tools-and-analytics/`
+4. **Missing trailing slash.** Three cyber-monday rules point to `/ecommerce-website-design` without the slash, which adds a second redirect.
+5. **www to non-www goes live as a 302, not a 301.** Rule #0 in the redirect list says 301, but the live site answers with a 302. So the www redirect is being applied before the app runs, most likely in the Lovable domain settings or Cloudflare. It also means `www.../our-team` takes two redirects: 302, then 301.
+6. **Weak destinations.** Many old pages land on general hub pages when a closer page exists. Example: `/plumber-marketing/` goes to `/seo-services/` even though `/seo-services/local-seo/local-seo-plumbing/` exists. The `/hosting-services/*` pages go to store.thinkprofits.com.
+7. **Soft 404 for unknown case studies.** An unknown `/case-study/<slug>` returns a 200, then the browser jumps to `/portfolio/` (`<Navigate>` in `src/pages/CaseStudy.tsx`). Unknown `/digital-news/<slug>` pages correctly send a server-side 301.
+
+No redirect loops found.
+
 ## Not done yet
 
 1. ~~GA4 404 breakdown~~: done, see above. GA4 is now connected to Claude Code through the `ga4` MCP server (`mcp-servers/ga4/`).
