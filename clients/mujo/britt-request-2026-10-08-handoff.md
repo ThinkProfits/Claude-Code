@@ -49,6 +49,7 @@ Can likely be done via `wp-mujo` if the meta test passes; otherwise paste-in.
   - **Schema drafted 2026-10-08** for the 13 titles that have authors: `clients/mujo/schema/` (one `.html` per title plus `all-titles.html`; regenerate with `build_schema.py` after adding titles to `titles.json`). Not live. Needs Britt's author sign-off, the output method decided (custom schema vs snippet), and a Rich Results Test pass.
   - **Update 2026-10-08:** ISBNs are already in WooCommerce (variant GTINs). Authors are named people on VitalSource, e.g. AI Business Analytics = Katrina Garofalo (publisher "Mujo Learning Systems", print ISBN 9781998671670). Don't use Mujo as author. Pull the rest from VitalSource by ISBN, then have Britt confirm the list.
   - Product list: 13 high school CTE titles + 24 higher ed titles (see CLIENT.md section 2).
+- **Audit done 2026-10-10** for FAQPage, hub/LocalBusiness and duplicate Organization: [schema-audit-2026-10-10.md](schema-audit-2026-10-10.md). Hand-coded LocalBusiness blocks sit in page content on 71 pages (45 contain ChatGPT `oaicite` leftovers).
 - [ ] **FAQPage schema** only on pages with a visible FAQ. List which pages have one first.
 - [ ] **Hub pages: LocalBusiness to CollectionPage.** A textbook hub is not a local business.
 - [ ] **Duplicate Organization `@id` (`/#organization`).** One from Rank Math, one hand-coded (LocalBusiness + Person).
