@@ -1,0 +1,60 @@
+REDIRECT FIXES: please make only the changes listed below. Don't touch page content, routes, styling or any other redirect rules.
+
+Background: we checked the redirect map against GA4 404 data and the live site. Most old WordPress URLs redirect correctly. The fixes below cover what doesn't. All redirect rules live in vercel.json and are applied by src/lib/redirects.ts (the first matching rule wins).
+
+===== 1. Rule order: /blog/ catch-all shadows the specific /blog/ rules =====
+
+The rule with source "/blog/:path+" (destination /services/) is near the top of redirects[], at about #30. Because the first match wins, every more specific /blog/... rule after it never fires. That includes all /blog/case-studies/*, all /blog/testimonial/*, the old blog posts mapped to /digital-news/... articles, and the wildcard rules "/blog/case-studies/:slug" and "/blog/testimonial/:slug".
+
+Fix: move the "/blog/:path+" rule so it sits AFTER every other rule whose source starts with /blog/. Keep it as the final fallback. Don't change its destination.
+
+Check after the change:
+- /blog/case-studies/golf-ball-planet/ should 301 to /case-study/golf-ball-planet/ (today it goes to /services/)
+- /blog/some-unknown-page/ should still 301 to /services/
+- /blog/?category=Digital+Marketing should still 301 to /digital-news/?category=Digital+Marketing
+
+===== 2. Redirects pointing to pages that don't exist =====
+
+a) Euro-Rite: change the destination of these rules from /case-study/eurorite-cabinets/ to /case-study/euro-rite-cabinets/ (the real slug in src/data/caseStudies.ts):
+   - /case-studies/eurorite-cabinets/
+   - /blog/testimonial/euro-rite-cabinets/
+   - any other rule whose destination is /case-study/eurorite-cabinets/
+
+b) Plugbusters: there's no plugbusters entry in src/data/caseStudies.ts. Change any rule whose destination is /case-study/plugbusters/ so it goes to /portfolio/ instead. Also add a rule: /case-study/plugbusters/ -> /portfolio/. Don't create a Plugbusters case study.
+
+c) Missing blog posts: change these destinations to the live posts:
+   - destination /digital-news/canonicalization/ -> /digital-news/what-is-canonicalization/
+   - destination /digital-news/what-is-the-difference-between-google-webmaster-tools-and-analytics/ -> /digital-news/google-analytics-vs-search-console/
+
+===== 3. Destinations missing the trailing slash (two-hop chains) =====
+
+Any rule whose destination is /ecommerce-website-design (no slash) should point to /ecommerce-website-design/ instead. There are about 3, all cyber-monday or online-store URLs. Do the same for any other internal destination that's missing its trailing slash. External destinations and destinations with a query string or file extension stay as they are.
+
+===== 4. Add missing redirects (301) =====
+
+- /pcc-agency-abbotsford/ -> /ppc-agency-abbotsford/   (typo URL)
+- /plumber-marketing/plumber-pricing-packages/ -> /seo-services/local-seo/local-seo-plumbing/
+- /plumber-marketing/:path+ -> /seo-services/local-seo/local-seo-plumbing/   (put this after any specific /plumber-marketing/... rules)
+
+===== 5. Unknown case-study slugs: return a real 404 =====
+
+Today an unknown /case-study/<slug>/ returns HTTP 200, then src/pages/CaseStudy.tsx bounces the visitor to /portfolio/ on the client side with <Navigate to="/portfolio/" replace />. Google treats that as a soft 404.
+
+Fix: in src/routes/case-study_.$slug.tsx, do what src/routes/digital-news_.$slug.tsx already does. Check the slug in beforeLoad against src/data/caseStudies.ts, and if it isn't found, send a server-side 301 to /portfolio/ (throw redirect({ to: "/portfolio/", statusCode: 301 })). Remove the client-side <Navigate> fallback, or keep it only as a safety net.
+
+Check after the change: curl -I https://thinkprofits.com/case-study/does-not-exist/ returns 301 with Location /portfolio/ (today it returns 200).
+
+===== 6. www -> non-www returns 302, not 301 (please investigate, then report back) =====
+
+Rule #0 in vercel.json (host www.thinkprofits.com -> https://thinkprofits.com/:path*) is set to permanent. But the live site answers https://www.thinkprofits.com/ with a 302. That suggests the www redirect is handled before our app runs, in the Lovable custom-domain settings or in Cloudflare.
+
+Please tell us where that 302 comes from, and whether it can be made a 301 from the Lovable side. If it can't be changed in code, don't work around it. Just report back and we'll change it in the domain or Cloudflare settings.
+
+===== When you're done =====
+
+Reply with:
+- a short list of every rule you changed, added or moved (source -> destination)
+- the results of the checks in sections 1 and 5
+- your answer on section 6
+
+Don't publish until we confirm.
