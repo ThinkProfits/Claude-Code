@@ -55,7 +55,7 @@ def graph(t):
     return {
         "@context": "https://schema.org",
         "@graph": [
-            {"@type": "Organization", "@id": ORG, "name": "Mujo Learning Systems Inc.", "url": "https://www.mujo.com"},
+            {"@type": "Organization", "@id": ORG, "name": "Mujo Learning Systems", "url": "https://www.mujo.com"},
             {
                 "@type": "ProductGroup",
                 "@id": f"{url}#richSnippet",

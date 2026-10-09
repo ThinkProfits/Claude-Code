@@ -268,7 +268,8 @@
   "sku": "SWDE",
   "book": "Strategic Web Design & e-Commerce",
   "authors": [
-   "Shawn Moore"
+   "Shawn Moore",
+   "Adam Wilkins"
   ],
   "name": "Strategic Web Design and E-Commerce Textbook & Courseware for Higher Education",
   "desc": "Equip students with web design and e-commerce skills using Mujo's comprehensive textbook. Learn HTML5, WordPress, and more to build functional websites.",
@@ -283,6 +284,6 @@
    "9781988940656",
    "https://www.mujo.com/wp-content/uploads/2022/01/SWDE_Cover_SM_3D-150x150.jpg"
   ],
-  "notes": "VitalSource text lists Shawn Moore only; its URL also names Adam Wilkins. Confirm whether Adam Wilkins is a co-author."
+  "notes": "Co-author Adam Wilkins confirmed by Brittni 2026-10-09."
  }
 ]

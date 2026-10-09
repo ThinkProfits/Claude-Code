@@ -119,6 +119,12 @@ Status: 4–6 **applied 2026-10-09** via `wp-mujo` (WooCommerce REST), verified 
 - WP Rocket had no cached copy of these 4 URLs, so nothing to clear.
 - 8 (language) still waiting on Andrew.
 
+## 8b. Authors complete (2026-10-09)
+
+All 38 titles now have confirmed authors: `clients/mujo/authors-sheet/authors-final.json` (product ID, title, URL, authors, source). Team overrides of VitalSource: Digital Marketing Fundamentals = Shawn Moore only; Website & E-commerce Strategy (VitalSource "Website Design Strategy") = Shawn Moore & Adam Wilkins. Publisher in schema changed to "Mujo Learning Systems" (no Inc.) and the 13 drafted titles rebuilt.
+
+Next: extend `schema/build_schema.py` to the other 12 higher-ed titles (same 2-variant pattern) and the 13 high-school CTE titles (6 variants each: 1/3/6-year eBook, print, resource eBook, resource print), then Rich Results Test and decide the output method.
+
 ## 8. Open questions for the client
 
 - ISBNs, author names and publisher legal name for Book schema.
