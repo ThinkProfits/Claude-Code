@@ -18,6 +18,8 @@
 
 ## Priority 1: hard-coded CallRail numbers (5 pages) and a wrong number (3 posts)
 
+**Status: DONE 2026-10-14 (Francis, via the wp-vision MCP).** All 8 now show 250-470-9552, including the `tel:` links and a schema ContactPoint on the emergency furnace page. We checked the live pages and confirmed nothing else in the stored content changed. Wording was left as is: the CTA rewording and the "emergency line" phrasing still need Andrew's approval. Originals are backed up in the session scratchpad. Each page also has a WordPress revision.
+
 | Page | Widget | Current | Replacement |
 |---|---|---|---|
 | [/residential/heating-cooling/heat-pump-installation-kelowna/](https://visionplumbingandheating.com/residential/heating-cooling/heat-pump-installation-kelowna/) | Installation process list, `data-id=8b2cea6` (still there after this week's edits) | "…by giving us a call today at [778-760-1221](tel:778-760-1221)." | "…by giving us a call today at [250-470-9552](tel:2504709552)." |
