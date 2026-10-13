@@ -42,6 +42,30 @@ Search intent for all: commercial/local (book a mobile massage). The old `/premi
 
 The 9 tiles in the "We come to you" section (`AreasGrid.tsx`, on the home page and every service page) now link to `/service-areas/<slug>`. Rows are centred, a "See all service areas" link is added below, and the VIP blurb now says "massage therapists".
 
+## Individual facial pages (2026-10-14, commits 6a52731, aa72304)
+
+`src/data/facialServices.ts` + `/facial-services-maui/:slug`, on the same template as the massage pages. Copy is new (the live site has no facial pages), so the "what's included" details are generic. **Dani needs to confirm them.**
+
+| Page | URL | Booking |
+|---|---|---|
+| Classic Facial | /facial-services-maui/classic-facial | "Call to Book" (tel:), because it isn't on Acuity |
+| Hydrating Facial | /facial-services-maui/hydrating-facial | Acuity Skin Care, $149 |
+| Anti-Aging Facial | /facial-services-maui/anti-aging-facial | Acuity Skin Care, $149 |
+| Microneedling | /facial-services-maui/microneedling | Acuity Skin Care, $235 (ProCell microchanneling) |
+
+- `/microneedling-maui` and `/microchanneling-maui` redirect to the new microneedling page. The old page's unverified claims ("medical-grade numbing", "sterile single-use cartridges", "series of 3") were dropped.
+- Keyword Planner, US, monthly: "facial maui" 170 (the hub's term), "microneedling maui" 50, "microchanneling maui" 0, "hydrafacial maui" 40 (not offered). Individual facial terms are about 0.
+- Target keywords: "<facial> maui", "microneedling maui". Search intent: commercial/local.
+
+### Imagery problem (site-wide, open)
+Lovable reviewed every stock image. Only `lanai.jpg` (one table, daytime, no people) meets Dani's rules (no side-by-side couples imagery, no evening/sunset):
+- `couples.jpg`: two guests getting side-by-side facials. **Removed from all uses** (facial hub, home Facial card, one blog). Replaced with lanai.jpg; the file is kept.
+- `signature.jpg`: two massage therapists working side by side at sunset. Breaks both rules.
+- `lanai2.jpg`: two tables side by side.
+- `sunrise.jpg`: reads as sunset.
+- `beachfront.png`: two tables, golden hour.
+These are still used across the home page, the massage, facial and waxing pages, 5 of 7 massage detail pages, 3 of 4 facial detail pages and 9 blogs. Fix: get real daytime Maui photos from Dani (one guest or one table). Don't use AI images of non-Maui places (2026-06-17 rule).
+
 ## Pricing source (Acuity, pulled 2026-10-09)
 
 Booking site: https://AlohaLifeMassageAppointmentBooking.as.me/ . Acuity shows prices including Hawaii GET (4.712%). The site shows base prices.
