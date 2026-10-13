@@ -23,6 +23,7 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 - [Blog topic cannibalization check](blog-topic-cannibalization-check.md): check existing content before pitching topics
 - [People Also Ask research](paa-research-standard.md): always pull PAA questions into research and FAQs
 - [Page-update doc format](page-update-doc-format.md): Current | Replacement side-by-side layout
+- [Page additions merge into existing sections](page-additions-merge-into-existing-sections.md): no near-duplicate sections, keep Why Choose high, don't contradict the page, no em dashes or tracking numbers
 - [Service page vs blog format](service-page-vs-blog-format.md): service pages are scannable conversion layouts
 - [Core pages before niche pages](strategy-core-pages-before-niche.md): low-authority domains fix core pages first
 - [Schema for non-medical therapy practices](schema-type-nonmedical-therapy-practices.md): LocalBusiness + ProfessionalService, not MedicalBusiness

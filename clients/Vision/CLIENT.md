@@ -215,9 +215,10 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - **Never contradict annual maintenance** messaging.
 - **Don't publish full step-by-step checklists** (e.g. the 26-point AC checklist) unless Vision confirms they do every step.
 - **No competitor promotion.**
-- **Tone:** professional; no informal AI tells ("given up on life", one-line "Hold on.") and no em dashes on service pages.
+- **Tone:** professional; no informal AI tells ("given up on life", one-line "Hold on.") and **no em dashes anywhere in new content** (service pages or blogs; "screams AI", feedback 2026-10-14).
 - **Links:** verify every internal URL against the sitemap and live-check government URLs (2026-09-17). Anchor text must match the target page.
-- **Phone:** use 250-470-9552, never a tracking number.
+- **Phone:** use 250-470-9552 (`tel:2504709552`), never a tracking number. CallRail swaps the main number for visitors automatically, and a hard-coded tracking number breaks the swap and skews call metrics (2026-10-14). Known tracking numbers that turned up hard-coded: 778-760-1221, 778-946-6884, 778-402-9661.
+- **Page additions (UX):** fold new content into the existing section on that topic (e.g. new mini-split copy goes in the existing mini-split section) and drop near-duplicates. Never add a second install-process section. Keep "Why Choose" high on the page. New copy must not contradict facts already on the page: heat pump installs are **1 to 3 days** (feedback on the heat pump page, 2026-10-14).
 - **Images:** **no AI images** (credibility risk; one had a Gemini logo). Use the media library, Vision's Drive folders or GBP photos, or ask Vision. Setting the featured image already displays it, so don't add it again in the body.
 - **Table styling:** brand colours, black on orange, with legible contrast.
 - **Process:** check the site's past blogs for tone, service areas and cannibalisation before writing; fact-check; re-prompt AI for a review until it stops finding errors; read it yourself before sending (2026-05-09).
@@ -299,6 +300,8 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 | Image folders | `1HdWyL2ZK3-NwGCAWALlCcDmZDU1tJXmI`, `1WTvNiV_dUa0rW82lQKgGIubWxq0NN9B0` |
 
 ## 12. Open items
+
+**Sitewide fix list (2026-10-14):** [sitewide-fixes-2026-10-14.md](sitewide-fixes-2026-10-14.md) covers tracking numbers, rebate paperwork, free consultations, em dashes and duplicate sections across all 257 URLs. It replaces the rebate-paperwork and More Rewards items below where they overlap.
 
 **Unanswered Slack threads** (Andrew's bot has followed up repeatedly, as late as 2026-09-29)
 - [ ] Aug 2026 keyword review: confirm Andrew's FINAL LIST (207) is live in Semrush and reply in thread (2026-08-18).
