@@ -3,7 +3,7 @@
 > **Status:** DRAFT v0.1, 2026-10-06. Pending review by Francis.
 > **Sources:** Slack (#johnsadler, #gbp-post-approvals, #thinkprofits-ppc-team), Drive (Client Overview 2026, Client Briefing Sept 2026, contracts, masterlist), Semrush, live site, repo.
 > **Not checked:** Gmail (connector auth error), GSC (403, no agency access), BrightLocal (tool error).
-> **Related files:** [memory/john-sadler-context.md](../../memory/john-sadler-context.md), [brand.md](brand.md), [top-5-pages-to-rewrite.md](top-5-pages-to-rewrite.md).
+> **Related files:** [CARD.md](CARD.md) (status and next step), [brand.md](brand.md), [top-5-pages-to-rewrite.md](top-5-pages-to-rewrite.md).
 > Facts marked *confirm* are unverified. Don't use them client-facing until checked.
 
 ## 1. Client overview

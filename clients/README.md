@@ -1,7 +1,8 @@
 # Client profiles
 
-Each client folder has two reference files:
+Each client folder has these reference files:
 
+- **`CARD.md`** (being rolled out; John Sadler first): a short status card with current status, next step, blockers, last activity and a table of where everything lives. It deliberately holds no rules or history, which stay in CLIENT.md ("one home per fact"). Read it first for "what's the status of X?" questions, and update it when status changes.
 - **`CLIENT.md`:** who the client is and how we work with them. It covers 13 sections: overview, services they do and don't offer, geography, competitors, SEO status, scope, PPC, content rules, priorities, social, working rules and tool IDs, open items, and gaps.
 - **`keywords.md`:** tracked keywords, which keyword goes to which page, PPC keywords and negatives, keyword rules with dates, and opportunities.
 
@@ -17,7 +18,7 @@ All profiles are **DRAFT v0.1, built 2026-10-06/07** from Slack, Drive, Semrush,
 | Aloha Life Massage | [CLIENT.md](aloha-life-massage/CLIENT.md) | [keywords.md](aloha-life-massage/keywords.md) | alohalifemassage.com |
 | Clearset VAC Truck | [CLIENT.md](clearset/CLIENT.md) | [keywords.md](clearset/keywords.md) | clearsetvactruck.ca |
 | Jamie Davis Towing | [CLIENT.md](jamie-davis/CLIENT.md) | [keywords.md](jamie-davis/keywords.md) | jamiedavistowing.com |
-| John Sadler Plumbing & Heating | [CLIENT.md](john-sadler/CLIENT.md) | [keywords.md](john-sadler/keywords.md) | johnsadler.ca |
+| John Sadler Plumbing & Heating ([CARD](john-sadler/CARD.md)) | [CLIENT.md](john-sadler/CLIENT.md) | [keywords.md](john-sadler/keywords.md) | johnsadler.ca |
 | Mujo Learning Systems | [CLIENT.md](mujo/CLIENT.md) | [keywords.md](mujo/keywords.md) | mujo.com |
 | Munro & Crawford | [CLIENT.md](munro-crawford/CLIENT.md) | [keywords.md](munro-crawford/keywords.md) | munrocrawford.ca |
 | MVP Athletic Supplies | [CLIENT.md](mvp/CLIENT.md) | [keywords.md](mvp/keywords.md) | mvpathleticsupplies.com |
