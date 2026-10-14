@@ -211,3 +211,9 @@ Edge fade landed in fdcfa7b (0.9 credits).
 - **Shawn:** sign-off on the family timeline years and the 1998 "12×" wording.
 - **Video:** Sean's video is generic but stays for now. Andrew may ask Sean for a new one later.
 - **Andrew:** hasn't reviewed the FAQs yet.
+
+## Published 2026-10-14
+
+- Live at https://thinkprofits.com/industries/plumbing/ (Lovable commit 8a58473, deployed 2026-10-14). Checked live: 200, indexable, self canonical, FAQPage + Service + BreadcrumbList schema, in sitemap.xml and llms.txt, linked from the /industries/ hub and the Services > Services by Industry submenu. Review tags and the draft banner are removed on the live page.
+- Draft stays at /draft/industries-plumbing/ (noindex, review tags intact) for ongoing review.
+- Still to do: pricing bundles (after Andrew reviews), 301 redirects from the three old plumbing pages (Prompt C in lovable-build-plumbing.txt), and a manual TEST enquiry through the new form.
