@@ -13,10 +13,10 @@
 - Recommended: the MCP should authenticate as a dedicated WP user, not Brittni's or Andrew's account.
 
 ### First-run test (do before any write)
-1. Confirm the server is connected to mujo.com (site info/settings call), not LocalPulse (`wordpress`) or SPIEDR (`wp-spiedr`).
+1. Confirm the server is connected to mujo.com (site info/settings call), not another site's server such as SPIEDR (`wp-spiedr`). Write only through `wp-mujo`.
 2. Pick one textbook page and read its post meta. Check whether Rank Math schema keys (`rank_math_schema_*`, `rank_math_rich_snippet`) are visible.
 3. If visible: test a write on **staging or a draft** first, then verify the front-end JSON-LD output.
-4. If not visible (same issue as Yoast meta on LocalPulse, where meta wasn't REST-exposed for pages): fall back to drafting JSON-LD and pasting it via Rank Math > Schema Generator > Import.
+4. If not visible (SEO plugin meta is often not REST-exposed for pages): fall back to drafting JSON-LD and pasting it via Rank Math > Schema Generator > Import.
 5. Record what the MCP can and can't do on this site in `CLIENT.md` (stack section) and in a `memory/mujo-context.md` file.
 
 ### First-run test results (2026-10-08)
