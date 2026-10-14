@@ -294,6 +294,10 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 
 ## 12. Open items
 
+**From the Weekly Team Check-in (2026-10-13)**
+- [ ] **Keep the waxing content.** Danny has changed her mind and wants it left in place for now. Don't delete it from either site.
+- [ ] When the new site is ready for review, send Shawn the editable link so you're both working on the same version. He will edit it himself.
+
 **Waiting on decisions**
 - [ ] New-site launch plan: domain (alohalifemobilespa.com redirects to the old site today), cut-over date, redirect map, and duplicate-content handling while both run.
 - [ ] Second GBP "Aloha Life Mobile Spa": decided? (Andrew recommended Option 2, 2026-07-08.)

@@ -59,6 +59,14 @@ Published on thinkprofits.com (checked 2026-10-07). These are list prices; real 
 - Bundles appear in channel purposes (e.g. "Plumbing Bundle": SEO Gold 10 h + PPC Silver + 1 blog/month + $249 support).
 - Assumption when quoting: tier pricing above is the starting point; scope, discounts and ad spend change the total. Always present totals as ranges and confirm current rates with Shawn before quoting. Never promise results.
 
+**Web development sales approach (decided at the Weekly Team Check-in, 2026-10-13)**
+- Sell every website build as a bundle. The client picks a website bundle, which sets the core deliverables. Anything beyond the bundle goes through a Schedule J change order.
+- Add a 20% contingency budget in the Schedule J, on top of a minimum start budget. Don't commit to a fixed final price; the work is time-and-materials beyond the bundle.
+- Every bundle states hard in-scope and out-of-scope limits (Andrew). The Zone West build, which was all Schedule J with open-ended billing, ballooned and frustrated the client. Avoid repeating that.
+- Base bundle tiers (Bronze/Silver/Gold) on the scoping questionnaire's variables: number of pages, number of forms, e-commerce in or out, logo in or out. Which variables move a client between tiers is still being worked out.
+- Build flow: client fills in the scoping questionnaire (already vetted by Claude), the questionnaire is loaded into Lovable, and Lovable builds the site. Shawn suggested generating three layout options.
+- Geraldine was sold this way (bundle, plus a Schedule J for the logos).
+
 **Contract templates in Drive:** "Think Profits Client Service Contract" (e.g. Magellan Immigration, PPC Silver + SEO Audit, 2026-03-10; Onguard Solutions 2026), "Web Services Retainer (Time Tracking Contract) 2025", "Success Track" docs (per-client strategy docs, e.g. Vision Mechanical Success Track 2023). No standalone pricing sheet or proposal template was found in Drive search. *Confirm where the master versions live.*
 
 ## 3. Who we serve
@@ -224,7 +232,28 @@ From `clients/*/CLIENT.md` (all DRAFT v0.1, Oct 2026) and the Slack channel list
 - [ ] Pull Semrush competitors and PAA once units are restored.
 - [ ] ThinkProfits blog masterlist tab is mostly inactive since 2024 (2/month quota); the Sept 25 planning run proposed 4 AEO/Wikidata/schema topics awaiting "proceed".
 
+**Plumbing industry page (feedback from the Weekly Team Check-in, 2026-10-13)**
+- [ ] **Pricing:** don't lead with the $399/month PPC tier. Use plumbing bundles starting at about $3,995/month (roughly $4K / $5K / $6K tiers), reusing the old plumber bundle names. Andrew is updating the bundles with the current service deliverables. The page was published on 2026-10-14, so *confirm the live page reflects this.*
+- [ ] **Past clients (Plugbusters® and others):** keep the wording ambiguous, e.g. "we worked with them for years". Don't say the relationship ended, and don't make it sound ongoing.
+- [ ] **"Our story year by year":** this is the Moore family story, not ThinkProfits' story. Shawn is reworking the text.
+- [ ] **Layout:** content feels too tight. Add more breathing room and alternate the section backgrounds (light, then white). There is too much white-on-black text, and the horizontal year scroller is heavy.
+- [ ] **"Map pack":** on the plumber page, say "Google Maps short list". Keep "map pack", which is Google's term, on at least one SEO page with a plain-language explanation.
+- [ ] **Imagery:** replace the video thumbnail (Shawn looks angry in it). Shawn would like an AI-generated vintage photo of his grandfather's blue 1965 Chevy snub-nose van with the family plumbing-and-heating logo, which Shawn must approve. *Confirm the exact business name for the logo before generating; the transcript is unclear.*
+- [ ] **Google Partner:** status is believed active. Andrew will double-check.
+- Shawn is editing the text in Lovable. The draft is reachable from the "Plumbing page draft" footer link while logged into the project.
+- **Idea worth reusing:** per-page "confirm" buttons for client approvals (built in Lovable for this page). Shawn wants this for client sign-offs to cut approval time.
+
+**Sales pipeline (Weekly Team Check-in, 2026-10-13)**
+- [ ] **Towing company prospect:** Andrew is leading the pitch on 2026-10-14 (booked through the website). Talk about the services towing clients use with us. Never share Jamie Davis account specifics.
+- [ ] **Lane:** setup is ready. Waiting on access to the account that already has conversion tracking, then the client's go-ahead to start.
+- [ ] **Geraldine:** bundle sold. This week's focus is AI logo design and the website.
+- [ ] **Dr. Anes:** wants a redevelopment but has little budget. Use the bundle + Schedule J approach (section 2), and don't get pinned to a fixed price.
+- [ ] **Bundles:** review and clean up the website and e-commerce bundle packages after the plumbing bundles are done (whole team).
+- [ ] **Weekly reports:** Francis reviews all of last week's reports, replies to the report bot, and flags urgent client red flags.
+
 **Agency**
+- [ ] Shawn is away until 2026-10-23. His sign-offs are slower until then; meetings that week move to Friday the 23rd or the 27th.
+- [ ] Shawn plans to roll out a Grok-based bot setup (shared marketing and support bots) under the holding company. His instruction is "business as usual", so don't change current Claude workflows until he shares it.
 - [ ] Top up Semrush API units; re-auth Gmail; fix BrightLocal MCP; get GBP API quota raised.
 - [ ] Build profiles for MVP and Mujo; add Semrush IDs for MySaskFarm, Mujo, MVP.
 - [ ] Update stale "TP Lead" channel topics (Brittni) if she's no longer on those accounts.

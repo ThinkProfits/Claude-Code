@@ -10,7 +10,9 @@ updated: 2026-10-14
 
 **Next step:** Get Andrew's OK on the redirect-fix message and send it to Lovable (missing 301s, the soft 404 on case-study URLs, and the www 302 that our GBP link passes through).
 
-**Blocked on:** Andrew: OK on the redirect message, decisions for industry-page Phases 1 to 8, and a review of the plumbing page FAQs and pricing bundles. Shawn: sign-off on the family timeline years and the 1998 "12×" wording. Semrush API units are at zero, which blocks the Site Audit rerun.
+**Also open from the 2026-10-13 team check-in:** make sure the published plumbing page leads with the ~$3,995+/month bundles, not $399 PPC; Andrew is updating the bundle deliverables. Full list: CLIENT.md section 12.
+
+**Blocked on:** Andrew: OK on the redirect message, decisions for industry-page Phases 1 to 8, updated plumbing bundles, and a review of the plumbing page FAQs. Shawn (away until 2026-10-23): text edits on the plumbing page, sign-off on the family timeline years and the 1998 "12×" wording. Semrush API units are at zero, which blocks the Site Audit rerun.
 
 **Last activity:** Plumbing industry page published at /industries/plumbing/ (2026-10-14). GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 
