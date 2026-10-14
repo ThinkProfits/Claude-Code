@@ -233,6 +233,7 @@ From `clients/*/CLIENT.md` (all DRAFT v0.1, Oct 2026) and the Slack channel list
 - [ ] ThinkProfits blog masterlist tab is mostly inactive since 2024 (2/month quota); the Sept 25 planning run proposed 4 AEO/Wikidata/schema topics awaiting "proceed".
 
 **Plumbing industry page (feedback from the Weekly Team Check-in, 2026-10-13)**
+Verbatim instructions for each item: [team-check-in-2026-10-13-francis-tasks.md](team-check-in-2026-10-13-francis-tasks.md).
 - [ ] **Pricing:** don't lead with the $399/month PPC tier. Use plumbing bundles starting at about $3,995/month (roughly $4K / $5K / $6K tiers), reusing the old plumber bundle names. Andrew is updating the bundles with the current service deliverables. The page was published on 2026-10-14, so *confirm the live page reflects this.*
 - [ ] **Past clients (Plugbusters® and others):** keep the wording ambiguous, e.g. "we worked with them for years". Don't say the relationship ended, and don't make it sound ongoing.
 - [ ] **"Our story year by year":** this is the Moore family story, not ThinkProfits' story. Shawn is reworking the text.
@@ -253,7 +254,7 @@ From `clients/*/CLIENT.md` (all DRAFT v0.1, Oct 2026) and the Slack channel list
 
 **Agency**
 - [ ] Shawn is away until 2026-10-23. His sign-offs are slower until then; meetings that week move to Friday the 23rd or the 27th.
-- [ ] Shawn plans to roll out a Grok-based bot setup (shared marketing and support bots) under the holding company. His instruction is "business as usual", so don't change current Claude workflows until he shares it.
+- [ ] Shawn plans to roll out a Grok-based bot setup (shared marketing and support bots) under the holding company. His instruction is "business as usual", so don't change current Claude workflows until he shares it. His exact words, and a check of whether a shared bot hub could be built with Claude artifacts, are in [team-check-in-2026-10-13-francis-tasks.md](team-check-in-2026-10-13-francis-tasks.md) sections 7 and 8.
 - [ ] Top up Semrush API units; re-auth Gmail; fix BrightLocal MCP; get GBP API quota raised.
 - [ ] Build profiles for MVP and Mujo; add Semrush IDs for MySaskFarm, Mujo, MVP.
 - [ ] Update stale "TP Lead" channel topics (Brittni) if she's no longer on those accounts.

@@ -10,7 +10,7 @@ updated: 2026-10-14
 
 **Next step:** Get Andrew's OK on the redirect-fix message and send it to Lovable (missing 301s, the soft 404 on case-study URLs, and the www 302 that our GBP link passes through).
 
-**Also open from the 2026-10-13 team check-in:** make sure the published plumbing page leads with the ~$3,995+/month bundles, not $399 PPC; Andrew is updating the bundle deliverables. Full list: CLIENT.md section 12.
+**Also open from the 2026-10-13 team check-in:** make sure the published plumbing page leads with the ~$3,995+/month bundles, not $399 PPC; Andrew is updating the bundle deliverables. Full list: CLIENT.md section 12; exact instructions in [team-check-in-2026-10-13-francis-tasks.md](team-check-in-2026-10-13-francis-tasks.md).
 
 **Blocked on:** Andrew: OK on the redirect message, decisions for industry-page Phases 1 to 8, updated plumbing bundles, and a review of the plumbing page FAQs. Shawn (away until 2026-10-23): text edits on the plumbing page, sign-off on the family timeline years and the 1998 "12×" wording. Semrush API units are at zero, which blocks the Site Audit rerun.
 
@@ -25,6 +25,7 @@ updated: 2026-10-14
 | Industry page audit and keyword research | [industry-pages-audit-2026-10-07.md](industry-pages-audit-2026-10-07.md) |
 | Lovable brief for the industry page rebuild | [lovable-brief-industry-pages-2026-10-07.md](lovable-brief-industry-pages-2026-10-07.md) |
 | Industry page template and plumbing page files | [industry-pages/](industry-pages/) |
+| 2026-10-13 team check-in: Francis's tasks (verbatim quotes), Grockbot notes, Claude-artifacts feasibility | [team-check-in-2026-10-13-francis-tasks.md](team-check-in-2026-10-13-francis-tasks.md) |
 | 404 spike and traffic drop check | [404-traffic-tracking-check-2026-10-09.md](404-traffic-tracking-check-2026-10-09.md) · reply to Andrew: [andrew-reply-404-traffic-2026-10-09.md](andrew-reply-404-traffic-2026-10-09.md) |
 | Other working files | `lovable-message-*.txt` (Lovable messages), `thinkprofits.com-*.xlsx` (GSC exports), [data/](data/) (blog triage, sitemap, industry research) |
 | GBP handoffs | `gbp-handoffs/week-of-*/gbp-handoff__thinkprofits_vancouver__*` |
