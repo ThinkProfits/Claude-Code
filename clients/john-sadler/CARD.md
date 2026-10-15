@@ -22,6 +22,8 @@ updated: 2026-10-14
 | Keywords, page mapping, keyword rules | [keywords.md](keywords.md) |
 | Brand voice | [brand.md](brand.md) |
 | Page rewrite queue | [top-5-pages-to-rewrite.md](top-5-pages-to-rewrite.md) |
+| AC / heat pump repair research and proposed edits (2026-10-16) | [repair-content-research-2026-10-16.md](repair-content-research-2026-10-16.md) |
+| Scrum 2026-10-15: repair edits OK'd, blog master list | [scrum-2026-10-15.md](scrum-2026-10-15.md) |
 | GBP handoffs | `gbp-handoffs/week-of-*/gbp-handoff__john_sadler_surrey__*` |
 | Semrush | project 2824033 |
 | Slack | #johnsadler · GBP approvals: #gbp-post-approvals |

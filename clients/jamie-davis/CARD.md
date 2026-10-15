@@ -20,6 +20,7 @@ updated: 2026-10-14
 |---|---|
 | Full profile (rules, services, approvals, open items) | [CLIENT.md](CLIENT.md) |
 | Keywords, page mapping, keyword rules | [keywords.md](keywords.md) |
+| Scrum 2026-10-15: new blog-approval manager | [scrum-2026-10-15.md](scrum-2026-10-15.md) |
 | Site structure, schema audit, sign-off rule | [memory/jamie-davis-towing-context.md](../../memory/jamie-davis-towing-context.md) |
 | GBP handoffs (key `jamie_davis_hope`) | `gbp-handoffs/week-of-*/gbp-handoff__jamie_davis_hope__*` |
 | Semrush | project 30290458 |
