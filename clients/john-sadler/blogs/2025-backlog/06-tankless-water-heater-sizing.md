@@ -69,7 +69,7 @@ Picture a two-storey South Surrey home with a family of four. On a school mornin
 
 Now apply the 42°C (75°F) winter rise from Step 2. According to the [Navien NPE-2 series specification sheet](https://www.navieninc.com/downloads/npe-2-quickfacts-en/download), at a 75°F rise the NPE-180A2 delivers about 3.9 GPM (15 L/min), the NPE-210A2 about 4.7 GPM (18 L/min) and the NPE-240A2 about 5.2 GPM (20 L/min).
 
-In this example, only the largest model covers the full peak on the coldest day. The smaller units would still struggle on a January morning, when the second shower would run cooler. If the household often adds a hot laundry load or fills a large soaker tub, two units working together may be the better fit.
+In this example, only the largest model covers the full peak on the coldest day. With a smaller unit, the second shower would run cooler on a January morning. If the household often adds a hot laundry load or fills a large soaker tub, two units working together may be the better fit.
 
 Low-flow showerheads or staggered shower times can bring the size down, which is why we measure instead of assuming.
 
@@ -94,7 +94,7 @@ A whole-home tankless unit can draw close to 200,000 BTU/h at full fire, far mor
 - **Gas line size and length:** pipe diameter, the length of the run from the meter and the other gas appliances on the line all affect how much gas reaches the heater. If the line is too small, a [gas line upgrade by our gas fitting team](https://www.johnsadler.ca/services/gas-fitting/) is part of the quote, not a surprise later.
 - **Venting route:** condensing tankless units vent through plastic pipe to an outside wall or roof, so we confirm a code-compliant path with proper clearances from windows and doors.
 
-An online calculator can't measure your water temperature, check your gas line or spot the ensuite tub you plan to add next year. Our gas work is done under our Technical Safety BC gas licence (LGA0092486), and our team is certified as a Navien Service Specialist (NSS), with factory training on the units we size and install. Learn more about our [Navien installation and service](https://www.johnsadler.ca/services/navien/) or [why we recommend Navien](https://www.johnsadler.ca/blog/why-choose-navien/).
+An online calculator can't measure your water temperature, check your gas line or spot the ensuite tub you plan to add next year. Our gas work is done under our Technical Safety BC gas licence (LGA0092486), and our team is certified as a Navien Service Specialist (NSS). Learn more about our [Navien installation and service](https://www.johnsadler.ca/services/navien/) or [why we recommend Navien](https://www.johnsadler.ca/blog/why-choose-navien/).
 
 Still deciding whether to go tankless at all? Start with [is a tankless water heater right for my home](https://www.johnsadler.ca/blog/tankless-water-heater-right-for-my-home/) and our [conventional vs. tankless water heater comparison](https://www.johnsadler.ca/blog/conventional-vs-tankless-water-heaters/). If you're replacing an older tank, check current eligibility on our [FortisBC rebates page](https://www.johnsadler.ca/fortisbc-rebates/), since programs change often.
 
@@ -144,7 +144,7 @@ A: It depends on the unit's output at your winter temperature rise. A unit deliv
 **Q: Do I need a bigger gas line for a tankless water heater?**
 A: Often, yes. Large tankless units use far more gas than most tanks, so a licensed gas fitter checks your line size and length before installation.
 
-CTA button: Learn more → [BLOG URL]
+CTA button: Learn more, linking to [BLOG URL]
 
 ---
 

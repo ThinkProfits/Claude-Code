@@ -1,4 +1,4 @@
-# 05: How to Get Your Home Heating System Ready for Winter
+**Draft 05 (Sep 2025 slot):** How to Get Your Home Heating System Ready for Winter
 
 **Scope line (editor review only, remove before publishing):** How-to checklist that walks Surrey-area homeowners through winter prep one heating system at a time (gas furnace, boiler/combi/radiant in-floor, heat pump, Navien tankless), then a short "every home" section that links to the existing fall-prep post instead of repeating it.
 
@@ -45,11 +45,11 @@ A gas furnace needs clean airflow, a clear venting path and a yearly safety insp
 
 ### 1. Replace the Filter Before the First Cold Week
 
-A clogged filter is the most common reason a furnace overheats and shuts itself off. Swap it now, then check it monthly through the heating season. Our furnace filter guide explains which type to buy and how often to change it.
+A clogged filter is the most common reason a furnace overheats and shuts itself off. Swap it now, then check it monthly through the heating season and replace it whenever it looks grey and dusty.
 
 ### 2. Do a Test Run
 
-Set the thermostat a few degrees above room temperature and let the furnace run for 15 to 20 minutes. A furnace that starts, stops after a minute or two and repeats is short cycling, which we explain in why a furnace keeps shutting off.
+Set the thermostat a few degrees above room temperature and let the furnace run for 15 to 20 minutes. A furnace that starts, stops after a minute or two and repeats is short cycling, and it's worth getting checked before the cold weather arrives.
 
 ### 3. Check the Outdoor Vent and Condensate Line
 
@@ -57,7 +57,7 @@ High-efficiency furnaces vent through PVC pipes on an outside wall. Make sure le
 
 ### 4. Book the Furnace Tune-Up
 
-A furnace tune-up is where the safety checks happen. In BC, gas appliance work must be done by a licensed gas fitter, and Technical Safety BC recommends annual inspections of gas appliances by a licensed gas contractor. Not sure if yearly is really needed? Read [how often a furnace should be serviced](https://www.johnsadler.ca/blog/furnace-service-frequency/).
+A furnace tune-up is where the safety checks happen. In BC, servicing gas appliances is a job for a licensed gas fitter, and Technical Safety BC recommends annual inspections of gas appliances by a licensed gas contractor. Not sure if yearly is really needed? Read [how often a furnace should be serviced](https://www.johnsadler.ca/blog/furnace-service-frequency/).
 
 ## Boiler, Combi Boiler and Radiant In-Floor Checklist
 
@@ -75,7 +75,7 @@ If a radiator or baseboard is warm at the bottom but cool at the top, there is u
 
 ### 3. Check Zone Valves and Room Thermostats
 
-Turn up each zone's thermostat, one at a time, and confirm that area warms up. A zone that stays cold often has a stuck zone valve or a circulator pump issue. For radiant in-floor systems, our post on radiant floor heating boiler care covers manifolds and floor zones in more detail.
+Turn up each zone's thermostat, one at a time, and confirm that area warms up. A zone that stays cold often has a stuck zone valve or a circulator pump issue. For radiant in-floor systems, check that each floor zone warms up evenly; a cold patch can point to air in the loop or a manifold valve that needs attention.
 
 ### 4. Combi Boilers: Watch Your Hot Water Too
 
@@ -97,7 +97,7 @@ When it is cold and damp, frost can build up on the outdoor coil. According to [
 
 ### 3. Understand Auxiliary and Backup Heat
 
-Air-source heat pumps lose capacity in very cold weather, so most homes have a backup heat source. In an all-electric setup, that is usually electric elements, which your thermostat may show as "AUX." In a dual-fuel home, the furnace takes over below a set outdoor temperature. Our comparison of heating with a heat pump or a furnace covers the trade-offs.
+Air-source heat pumps lose capacity in very cold weather, so most homes have a backup heat source. In an all-electric setup, that is usually electric elements, which your thermostat may show as "AUX." In a dual-fuel home, the furnace takes over below a set outdoor temperature, so both the heat pump and the furnace should be serviced before winter.
 
 ### 4. Change the Filter and Book Annual Service
 
@@ -185,9 +185,9 @@ Not every home runs on a furnace. Our new winter checklist is organised by syste
 
 - **Publish timing:** This is a September 2025 masterlist row being drafted mid-October 2026. Publish as soon as approved; the topic is most useful before the first sustained cold weather and the peak tune-up booking period. Set the publish date to the actual go-live date, not a back-dated September 2025 date.
 - **Schema:** FAQPage (four Q&As above, written link-free and brand-free for schema). Article (BlogPosting). HowTo is optional; the post is a checklist by system rather than a single linear procedure, so FAQPage + Article is enough.
-- **Cannibalization:** Existing posts already cover generic fall prep (/blog/prep-plumbing-heating-for-fall/: hoses, sprinklers, pipe insulation, CO detectors, filters, registers) and furnace tips (/blog/home-furnace-maintenance-tips/, /blog/furnace-maintenance/). This post is differentiated by structuring around each system type the client services. It does not repeat hoses, sprinklers or pipe insulation; it links to /blog/winterize-your-plumbing/ and /blog/prep-plumbing-heating-for-fall/ instead. The furnace section is kept short and links out to /blog/furnace-filter/, /blog/furnace-service-frequency/ and /blog/why-does-my-furnace-keep-shutting-off/ rather than re-covering them.
+- **Cannibalization:** Existing posts already cover generic fall prep (/blog/prep-plumbing-heating-for-fall/: hoses, sprinklers, pipe insulation, CO detectors, filters, registers) and furnace tips (/blog/home-furnace-maintenance-tips/, /blog/furnace-maintenance/). This post is differentiated by structuring around each system type the client services. It does not repeat hoses, sprinklers or pipe insulation; it links to /blog/winterize-your-plumbing/ and /blog/prep-plumbing-heating-for-fall/ instead. The furnace section is kept short and links out to /blog/furnace-service-frequency/ rather than re-covering existing furnace content.
 - **Consolidation recommendation (later):** /blog/furnace-maintenance/ (about 250 words) and /blog/home-furnace-maintenance-tips/ (about 450 words) are thin and overlap each other and this post's furnace section. Consider merging them into one stronger "furnace maintenance checklist" post (target: furnace maintenance checklist, 110/mo) and 301-redirecting the other. Not urgent; revisit after this post is indexed.
-- **Internal links (9 distinct, trimmed from 13 in review on 2026-10-15; removed furnace filter, furnace shutting off, radiant boiler care and heat pump vs furnace blog links):** Original list: /blog/winterize-your-plumbing/, /blog/furnace-filter/, /blog/why-does-my-furnace-keep-shutting-off/, /blog/furnace-service-frequency/, /blog/radiant-floor-heating-boiler-care/, /blog/annual-boiler-service/, /services/heating-cooling/boiler-repair/ (twice: body and CTA), /blog/heating-with-heat-pump-or-furnace/, /services/heating-cooling/heat-pumps/, /services/navien/, /blog/prep-plumbing-heating-for-fall/, /services/heating-cooling/furnace-repair/, /contact-us/. That is above the 5 to 7 target because each system section needs its own deep link; editor may trim /blog/furnace-filter/ or /blog/heating-with-heat-pump-or-furnace/ if it feels link-heavy.
+- **Internal links (9 distinct, trimmed from 13 in review on 2026-10-15; removed furnace filter, furnace shutting off, radiant boiler care and heat pump vs furnace blog links):** Current list: /blog/winterize-your-plumbing/, /blog/furnace-service-frequency/, /blog/annual-boiler-service/, /services/heating-cooling/boiler-repair/ (twice: body and CTA), /services/heating-cooling/heat-pumps/, /services/navien/, /blog/prep-plumbing-heating-for-fall/, /services/heating-cooling/furnace-repair/, /contact-us/. Sentences that referred to the removed posts were rewritten in review on 2026-10-16.
 - **External links (2, both verified loading 2026-10-15):** Natural Resources Canada, Heating and cooling with a heat pump (defrost behaviour, 3-month filter, annual contractor service). Technical Safety BC, Carbon Monoxide Safety (CO alarms every floor and near bedrooms, test monthly, replace every 7 to 10 years, annual gas appliance inspections, rental Gas Safety Regulation requirement). Open both in a new tab with rel="noopener noreferrer".
 - **Verified but not linked:** FortisBC emergency line 1-800-663-9911 (24 hours) or 911, and the stop / go outside / call steps, confirmed on fortisbc.com "Gas leaks and odour" page. Navien annual maintenance guidance (flush heat exchanger; clean water screens, air filter and condensate trap) confirmed on navieninc.com maintenance blog posts.
 - **Omitted or unverifiable:**

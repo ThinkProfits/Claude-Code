@@ -24,9 +24,9 @@ Below are seven upgrades our team installs across South Surrey, White Rock, Clov
 
 ## 1. A Heat Pump or Air Conditioning
 
-Cooling has moved from "nice to have" to something many Lower Mainland buyers expect to see. After the 2021 heat dome and the hot summers since, a home without any cooling can feel like a project to a buyer touring it in July.
+After the 2021 heat dome and the hot summers since, more Lower Mainland buyers are looking for some form of cooling. A home without it can feel like a project to someone touring it in July.
 
-A [heat pump](https://www.johnsadler.ca/services/heating-cooling/heat-pumps/) is often the strongest choice here because it cools in summer and heats efficiently through most of a coastal BC winter. If your home already has a furnace you are happy with, central [air conditioning](https://www.johnsadler.ca/services/heating-cooling/air-conditioning/) is another route. Our guide on choosing between a heat pump and an AC unit explains the differences.
+A [heat pump](https://www.johnsadler.ca/services/heating-cooling/heat-pumps/) is often the strongest choice here because it cools in summer and heats efficiently through most of a coastal BC winter. If your home already has a furnace you are happy with, central [air conditioning](https://www.johnsadler.ca/services/heating-cooling/air-conditioning/) is another route.
 
 **Why buyers care:** Cooling is hard to add right after a move. A home that is comfortable in August takes one item off the buyer's to-do list.
 
@@ -34,7 +34,7 @@ A [heat pump](https://www.johnsadler.ca/services/heating-cooling/heat-pumps/) is
 
 If your furnace is 15 to 20 years old, a buyer's inspector will likely flag it as nearing the end of its life. That note often turns into a price conversation.
 
-Modern high-efficiency gas furnaces burn far less fuel to produce the same heat as older mid-efficiency models. The number to look for is the AFUE rating, and our post on AFUE ratings explained breaks down what those percentages mean in plain terms. Our team handles [furnace installation and replacement](https://www.johnsadler.ca/services/heating-cooling/furnace-installation/) for brands including Lennox, Carrier, Trane and Napoleon.
+Modern high-efficiency gas furnaces burn far less fuel to produce the same heat as older mid-efficiency models. The number to look for is the AFUE rating: the higher the percentage, the more of your gas bill turns into heat. Our team handles [furnace installation and replacement](https://www.johnsadler.ca/services/heating-cooling/furnace-installation/) for brands including Lennox, Carrier, Trane and Napoleon.
 
 **Why buyers care:** A newer furnace with a transferable warranty means the buyer is not budgeting for a replacement in year one.
 
@@ -50,7 +50,7 @@ Replacing it with a modern condensing boiler, or a [combi boiler](https://www.jo
 
 A [tankless water heater](https://www.johnsadler.ca/services/plumbing/tankless-water-heaters/) heats water only when you turn on a tap, so there is no large storage tank to leak and no running out of hot water halfway through a shower. Tankless units also commonly last longer than conventional tanks with regular maintenance.
 
-We are Navien specialists, and Navien tankless units are a popular choice in Surrey homes. We have already written about the resale angle in our post on upgrading to a tankless water heater, so here is the short version.
+As Navien Certified Service Specialists, we install, maintain and repair Navien tankless units across Surrey, White Rock and Langley.
 
 **Why buyers care:** Endless hot water is easy to sell to a family, and a wall-hung unit frees up the space where an old tank used to sit.
 
@@ -66,7 +66,7 @@ It is most practical to add during a renovation when floors are already open, su
 
 ## 6. A Smart Thermostat and Zoning
 
-A smart or programmable thermostat lets the owner set schedules and adjust the temperature from a phone, and some models can help with energy rebate eligibility. Our post comparing different thermostats covers the main types.
+A smart or programmable thermostat lets the owner set schedules and, on many models, adjust the temperature from a phone.
 
 Zoning goes a step further by splitting the home into areas with their own temperature settings, which is handy for two-storey homes where the upstairs runs warm.
 
@@ -87,7 +87,7 @@ Inspectors are not grading how fancy your system is. They check age, condition a
 - **Age of each appliance:** Inspectors read the data plate on the furnace, boiler, water heater and outdoor unit. Anything near the end of its expected life usually gets a note recommending the buyer budget for replacement.
 - **Venting and gas connections:** Corroded vents, improper clearances or older gas connectors are common flags.
 - **Signs of leaks or rust:** Water in a tank's drain pan, rust at the base of a tank or staining around a boiler all suggest a problem is coming.
-- **Permits for past work:** Buyers and their realtors increasingly ask whether gas appliances were installed under permit. More on that next.
+- **Permits for past work:** Buyers and their realtors may ask whether gas appliances were installed under permit. More on that next.
 
 If you are buying rather than selling, our companion post covers the [questions to ask about heating and cooling when purchasing a home](https://www.johnsadler.ca/blog/questions-to-ask-about-heating-cooling-when-purchasing-a-home/).
 
@@ -118,7 +118,7 @@ A heat pump can make a home more attractive to buyers because it provides both h
 
 ### Does air conditioning add value to a home?
 
-Air conditioning has become a common request from buyers in the Lower Mainland since the 2021 heat dome. It can make a home easier to sell, particularly for listings shown during summer. Any effect on price varies by neighbourhood, so ask a local realtor how often comparable homes in your area include cooling.
+Since the 2021 heat dome, more Lower Mainland buyers look for cooling, so air conditioning can make a home easier to sell, particularly for listings shown during summer. Any effect on price varies by neighbourhood, so ask a local realtor how often comparable homes in your area include cooling.
 
 ### Should I replace my furnace before selling my house?
 
@@ -164,7 +164,7 @@ Selling your home soon? Buyers and inspectors spend real time on your furnace, b
 - **Permit wording:** Technical Safety BC's homeowner gas permits page says a permit is "often required" for installing or replacing gas appliances, piping or venting, and that a licensed contractor applies on the homeowner's behalf. Homeowner permits also exist for some owners, so the draft says "generally requires" rather than "always requires a contractor-pulled permit." Surrey is not on the list of municipalities that issue their own gas permits, so Technical Safety BC is the correct body. URL verified 2026-10-15.
 - **Heat pumps:** Draft refers to heat pump installs only, not repairs (repairs are early stage per CLIENT.md).
 - **Rebates:** No amounts; links to /fortisbc-rebates/ with a "confirm current eligibility" line.
-- **Internal links (12 distinct, trimmed from 16 in review on 2026-10-15; removed heat pump vs AC, AFUE, upgrading-to-tankless (it quotes old rebate amounts) and thermostats blog links):** Original list: heat pumps, air conditioning, heat pump vs AC blog, AFUE ratings blog, furnace installation, combi boiler, tankless water heaters, upgrading to tankless blog, radiant in-floor heating, comparing thermostats blog, hot water tank replacement, replace water heater blog, buyer-side questions blog, gas fitting, FortisBC rebates, contact us. Above the 5 to 7 target because each listicle item points to its own service page; trim the blog links first if the editor wants fewer.
+- **Internal links (12 distinct, trimmed from 16 in review on 2026-10-15; removed heat pump vs AC, AFUE, upgrading-to-tankless (it quotes old rebate amounts) and thermostats blog links):** Current list: heat pumps, air conditioning, furnace installation, combi boiler, tankless water heaters, radiant in-floor heating, hot water tank replacement, replace water heater blog, buyer-side questions blog, gas fitting, FortisBC rebates, contact us. Still above the 5 to 7 target because each listicle item points to its own service page. Sentences that referred to the removed posts were rewritten in review on 2026-10-16 so no unlinked 'our post on...' mentions remain.
 - **External links (1):** Technical Safety BC homeowner gas permits page. Open in a new tab (target="_blank" rel="noopener noreferrer").
 - **Schema:** Add BlogPosting/Article schema and FAQPage schema for the five FAQs (answers contain no links or branded language).
 - **PAA sources for FAQ:** "Does a heat pump increase home value," "Does air conditioning add value to a home," "Should I replace my furnace before selling," "Does a tankless water heater add value," plus a paperwork question tied to the permit section.
