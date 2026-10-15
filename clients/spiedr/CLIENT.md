@@ -267,6 +267,9 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 
 ## 12. Open items
 
+**From the Weekly Team Check-in (2026-10-13)**
+- [ ] SPIEDR asked to meet Shawn this week, which doesn't work while he's away (until 2026-10-23). Shawn is following up himself and aims to **close the project for November**, so current projects get established before new work starts. This likely relates to the open question of whether the 2026 Platinum/Gold website contracts were signed. *Confirm with Shawn.*
+
 **Waiting on us**
 - [ ] Post the reply in the 2026-09-07 report thread ([draft](slack-thread-reply-draft.md)). Update its numbers first: "fire ban bc" is now #36, not #25–31.
 - [ ] Ship roadmap Phase 1 internal links (roof sprinkler, Mark-3, fire embers, fire pump systems). Due 1 Oct; no evidence it's done.

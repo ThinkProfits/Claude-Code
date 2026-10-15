@@ -256,6 +256,9 @@ Full detail is in [keywords.md](keywords.md) (2026-10-07).
 
 ## 12. Open items
 
+**From the Weekly Team Check-in (2026-10-13)**
+- [ ] Francis met Brittni on 2026-10-13, about two hours after the check-in, to go over items from his Friday email. The outcome isn't recorded yet, so add it here. Andrew's standing guidance: if put on the spot, it's fine to say "I need to check with Andrew" or "we need to research that". Andrew's notes are in [../thinkprofits/team-check-in-2026-10-13-francis-tasks.md](../thinkprofits/team-check-in-2026-10-13-francis-tasks.md), section 4.
+
 **Security**
 - [ ] **Plaintext credentials in Drive.** "Digital Marketing Password Manager Mujo Learning Systems" (3 copies: `1FblrvpOEQHQI0xu7NkV0Zz93pwhIkRSGRmnPmo0HZ1o`, `1orcB6Husf8A_WacQta3KjOY3qhSLek9JMx346LmwzRs`, `19s4a2OREtsToyKB0i-Nh6uXe8lATtH06`) holds WordPress admin, FTP, cPanel/WHM and Kinsta logins. "Mujo Social Media Usernames and Passwords.docx" (`1xKlgEZRk_nSPXGpYucXo9lA06MBhpH4M`) holds social logins. They're old (2016–2020), but **rotate anything still valid** (especially Kinsta and WP admin after the August breach), move them to the password manager and delete the files. Values not copied here.
 - [ ] Confirm Brittni has a working admin login (reset links gave "access denied", 2026-09-12 to 09-22) and that 2FA is enforced for every admin.

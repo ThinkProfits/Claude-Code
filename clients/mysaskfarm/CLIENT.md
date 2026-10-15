@@ -285,6 +285,9 @@ Full detail is in [keywords.md](keywords.md) (2026-10-07).
 
 ## 12. Open items
 
+**From the Weekly Team Check-in (2026-10-13)**
+- [ ] Work is progressing (Andrew). Shawn suggested Andrew join a client meeting to keep things simple and help set the **pricing structure for the site rebuild**. Book the time with the client; Shawn is away until 2026-10-23.
+
 **Waiting on the client**
 - [ ] Keyword list sign-off (73-keyword approval sheet; chased 2026-08-27).
 - [ ] 6-month blog roadmap approval. *Confirm whether sent.*
