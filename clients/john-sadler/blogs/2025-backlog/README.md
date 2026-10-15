@@ -13,6 +13,17 @@ Shared brief and rules: [_BRIEF.md](_BRIEF.md).
 | 5 | Sep 2025 #1 | How to Get Your Home Heating System Ready for Winter | get heating system ready for winter (AEO) + furnace tune up (1,300) | /blog/heating-system-ready-for-winter/ |
 | 6 | Sep 2025 #2 | What Size Tankless Water Heater Do I Need? | what size tankless water heater do i need (70) | /blog/tankless-water-heater-size/ |
 
+## Google Docs (Drive: John Sadler Plumbing & Heating > Jobs > JSP-2125 Blog Writing > Blogs > 2025), uploaded 2026-10-16
+
+1. [AC Not Blowing Cold Air?](https://docs.google.com/document/d/1uYVT_J0eAl53sy9usc2j8I3krpDU8eAAiy77aWdQz9M/edit)
+2. [How Does a Heat Pump Work?](https://docs.google.com/document/d/1z9q9c9AqyORlq4TrbLm73Nkb9TUM70devYWZQ4DAKzs/edit)
+3. [Heating & Cooling Upgrades That Add Home Value](https://docs.google.com/document/d/1jouaXuRgTN1FtYAec4QksXFLtcFVzPqcW3FMkKMKIRc/edit)
+4. [Hot Water Tank Problems and What to Do About Them](https://docs.google.com/document/d/1naqnECMIbYCFR8p0E_8a8HI_TmuQSh1gEEFhSawH_Wc/edit)
+5. [How to Get Your Home Heating System Ready for Winter](https://docs.google.com/document/d/1QXOJCO_ZIKF5CNIDXoITjiThg9PwJslBkJiFjVY8qhA/edit)
+6. [Tankless Water Heater Size](https://docs.google.com/document/d/1VARWPX6ffx-E5XE3S7Lolx5db47snai90KiA7VxrH_o/edit)
+
+The Google Docs are now the working copies. Edits made there won't sync back to the .md files.
+
 ## Status
 
 Draft, ready for an internal review pass, then Colin (technical facts), then Tina (approval). Nothing is published.

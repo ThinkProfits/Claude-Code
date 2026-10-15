@@ -153,7 +153,7 @@ Yes, a light layer of frost on the outdoor coil is normal in cold, damp weather.
 
 ---
 
-**Image note:** All images must be real John Sadler photos (technicians, vans, real installs). Never use AI-generated images. Four placements are marked above; a fourth can be added near the "Every Home" section (suggested: technician testing a CO alarm, file: carbon-monoxide-alarm-test.jpg, alt: Technician testing a carbon monoxide alarm near a bedroom).
+**Image note:** All images must be real John Sadler photos (technicians, vans, real installs). Never use AI-generated images. Three placements are marked above; a fourth can be added near the "Every Home" section (suggested: technician testing a CO alarm, file: carbon-monoxide-alarm-test.jpg, alt: Technician testing a carbon monoxide alarm near a bedroom).
 
 ---
 

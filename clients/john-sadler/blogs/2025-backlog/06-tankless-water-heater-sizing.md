@@ -16,8 +16,7 @@
 
 # How to Find the Right Tankless Water Heater Size for Your Household
 
-> **Quick Answer (Preformatted block)**
-> What size tankless water heater do I need? Add up the hot water flow of every fixture your household runs at the same time, then choose a unit that can still deliver that flow when it heats your coldest winter water to about 49°C (120°F). For many Surrey family homes running two showers and a dishwasher at once, that points to a large gas condensing unit, once the gas line and venting are confirmed.
+> **Quick Answer (Preformatted block):** What size tankless water heater do I need? Add up the hot water flow of every fixture your household runs at the same time, then choose a unit that can still deliver that flow when it heats your coldest winter water to about 49°C (120°F). For many Surrey family homes running two showers and a dishwasher at once, that points to a large gas condensing unit, once the gas line and venting are confirmed.
 
 A tankless water heater never "runs out" the way a tank does, but it can only heat so much water per minute. Ask for more than that and the last shower of the morning turns lukewarm. So the real question behind "what size tankless water heater do I need" is how much hot water your home uses at its busiest moment, and how much heating that water needs on the coldest day of the year.
 
