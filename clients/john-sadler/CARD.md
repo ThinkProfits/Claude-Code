@@ -12,7 +12,7 @@ updated: 2026-10-14
 
 **Blocked on client:** estimate-fee, response-time and 24/7 answers (holding up the /plumbers-near-me/ rewrite); the AEO add-on is still unsigned.
 
-**Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
+**Last activity:** 2026-10-15: drafted the 6 overdue Jul–Sep 2025 blogs ([blogs/2025-backlog/](blogs/2025-backlog/README.md)), awaiting internal review then Colin/Tina. GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 
 ## Where things live
 

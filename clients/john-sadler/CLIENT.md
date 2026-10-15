@@ -387,7 +387,8 @@ We don't rank at all for "surrey plumbing" (1,300/mo) or "langley plumbing" (880
 - [ ] Rewrite pages 3–5 (furnace-installation, gas-fitting, boiler-repair). The Langley rebuild pilot hasn't started.
 
 **Blog backlog** (2026-09-25)
-- [ ] No September/October rows yet (4 blogs owed). July–September 2025 blogs are still owed.
+- [ ] No September/October rows yet (4 blogs owed). New topics to come from the 2026-10-16 client meeting.
+- [x] July–September 2025 blogs drafted 2026-10-15 (6 posts, `blogs/2025-backlog/`). Still need review, Colin/Tina sign-off and masterlist status updates.
 - [ ] 12 topics are in "Needs PM Review".
 - [ ] 6 stale "With Client" rows and 2 rows "Waiting on info from client".
 - [ ] Reframe r95 AC Maintenance now that AC repair is offered.
