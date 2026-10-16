@@ -23,7 +23,7 @@ updated: 2026-10-14
 | Brand voice | [brand.md](brand.md) |
 | Page rewrite queue | [top-5-pages-to-rewrite.md](top-5-pages-to-rewrite.md) |
 | AC / heat pump repair research and proposed edits (2026-10-16) | [repair-content-research-2026-10-16.md](repair-content-research-2026-10-16.md) |
-| AC / heat pump repair page-update doc (for Andrew, 2026-10-16) | [md](page-update-ac-heat-pump-repair-2026-10-16.md) · [docx](page-update-ac-heat-pump-repair-2026-10-16.docx) |
+| AC / heat pump repair page-update doc (for Andrew, 2026-10-16) | [md](page-update-ac-heat-pump-repair-2026-10-16.md) · [docx](page-update-ac-heat-pump-repair-2026-10-16.docx) · [Google Doc](https://docs.google.com/document/d/1CI7P4LcWfP3sR2F8VkhMbBN4o-T517Ftdo-QpaWwOag/edit) (Drive: Jobs > JSP_2121-SEO Gold) |
 | Scrum 2026-10-15: repair edits OK'd, blog master list | [scrum-2026-10-15.md](scrum-2026-10-15.md) |
 | GBP handoffs | `gbp-handoffs/week-of-*/gbp-handoff__john_sadler_surrey__*` |
 | Semrush | project 2824033 |
