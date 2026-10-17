@@ -3,7 +3,7 @@
 > **Status:** DRAFT v0.1, 2026-10-07. Pending review by Francis.
 > **What this is:** the "who we are / how we work / our own site" reference for any team member or Claude session. It is not a normal client brief. For client work, read the client's own `clients/<client>/CLIENT.md` too.
 > **Sources:** repo (`CLAUDE.md`, `README.md`, `memory/*`, `scheduled-tasks/*`, `automations/*`, `gbp-handoffs/*`, every `clients/*/CLIENT.md`, this folder's `data/` and GSC xlsx), Slack (#tpmarketing, #thinkprofits-ppc-team, #seo, #team-chat, #gbp-post-approvals, #thinkprofits-site-forms, Francis's DM, group DM, channel list), Drive (search for pricing/proposal/contract files), live GSC (`sc-domain:thinkprofits.com`, 90 days to 2026-10-07), live site via curl (2026-10-07).
-> **Not checked:** Semrush (API units balance at zero on 2026-10-07, so no calls), Gmail (connector broken), BrightLocal, Flowlu, Teamwork (no connector).
+> **Not checked:** Semrush (API units balance at zero on 2026-10-07, so no calls), Gmail (connector broken), BrightLocal, Teamwork (no connector).
 > **Related:** [keywords.md](keywords.md), `data/` (blog triage, old sitemap, 2026-08-25 meeting notes, AEO/GEO topic template).
 > Facts marked *confirm* are unverified. Don't use them client-facing until checked.
 
@@ -35,7 +35,7 @@
 - **BrightLocal** (MCP): local rank, reputation, citations, AI visibility.
 - **Make.com** (MCP `make-token`): blog and GBP publishing scenarios.
 - **gbp-audit**, **gsc**, **google-ads-keywords**: local MCP servers (code in `mcp-servers/`), PC-only, not in cloud sessions.
-- **Teamwork** (`thinkprofitscom.teamwork.com`): tasks and time logging per client. **Flowlu**: CRM. **Lovable**: our own site and new client builds. **CallRail**, **Cloudflare**, **Kinsta** (legacy hosting), **Elepass/password manager** for shared logins. Canva connector installed, not authorised.
+- **Teamwork** (`thinkprofitscom.teamwork.com`): tasks and time logging per client. **Lovable**: our own site and new client builds. **CallRail**, **Cloudflare**, **Kinsta** (legacy hosting), **Elepass/password manager** for shared logins. Canva connector installed, not authorised.
 - Search Atlas was trialled and **not recommended** (Andrew, 2026-08-07: inaccurate data and broken features).
 
 ## 2. Services we sell
@@ -269,5 +269,5 @@ Verbatim instructions for each item: [team-check-in-2026-10-13-francis-tasks.md]
 - **Clearset PPC Bronze** caps spend at $1,500 in the contract, but the published Bronze tier caps at $1,000 and actual spend was ~$3.08K/month.
 - **Semrush project 2029236** comes from the brief only; not verified in the repo or via API.
 - **AEO/GEO topics xlsx** (`data/AEO & GEO Blogs and PR Topics.xlsx`, 90 blog + 56 PR topics) is a generic `[Company Name]` template written for a direct-marketing/customer-acquisition company, not for ThinkProfits. Treat it as a reusable reputation/AEO topic template; confirm which client it was built for.
-- **Client status** for the ~18 channel-only clients is unknown; Flowlu (CRM) wasn't checked.
+- **Client status** for the ~18 channel-only clients is unknown.
 - No pricing sheet, proposal template or Success Track template was found in Drive search; contract PDFs exist per client.

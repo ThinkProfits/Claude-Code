@@ -2,7 +2,7 @@
 
 > **Status:** DRAFT v0.1, 2026-10-06. Pending review by Francis.
 > **Sources:** Slack (#aanmc C019H89BB8T, plus "aanmc" search across channels and DMs, 2025-10-06 → 2026-10-06), Drive (Updated Roadmap, Content Audit and Recommendations, Blog Topics sheet, Naturopathic Schools USA draft, Conversion Tracking Jan 2026, Website Audit sheet), Semrush (project 3439424 + domain ranks), GSC (`sc-domain:aanmc.org`, 2026-07-08 → 10-06), live site (aanmc.org, fetched 2026-10-06), repo.
-> **Not checked:** Gmail (connector broken), BrightLocal (tool error, one attempt), Flowlu/Teamwork (not in scope of this run).
+> **Not checked:** Gmail (connector broken), BrightLocal (tool error, one attempt), Teamwork (not in scope of this run).
 > **Related files:** [memory/aanmc-context.md](../../memory/aanmc-context.md) (Oct 2026 click-loss diagnosis and open questions; not duplicated here), [AANMC_Naturopathic-Doctor-Click-Recovery_2026-10.md](AANMC_Naturopathic-Doctor-Click-Recovery_2026-10.md), [keywords.md](keywords.md).
 > Facts marked *confirm* are unverified. Don't use them client-facing until checked.
 
