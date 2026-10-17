@@ -6,7 +6,7 @@ updated: 2026-10-14
 
 # Clearset VAC Truck Services: card
 
-**Status:** Active SEO + Google Ads + GBP posting client. GSC clicks were down 58.4% YoY in August and the investigation asked for on 2026-08-07 has no findings posted. A GBP audit (2026-10-06) found about 450 listed services Clearset doesn't offer; whether the Phase 1 and 2 cleanups have run is unknown, confirm with Andrew/Francis.
+**Status:** Active SEO + Google Ads + GBP posting client. GSC clicks were down 58.4% YoY in August; the 2026-08-07 investigation is done (2026-10-18): 97% of the drop is the RV pumping page, the rest of the site is flat. Reply drafted, not posted. A GBP audit (2026-10-06) found about 450 listed services Clearset doesn't offer; whether the Phase 1 and 2 cleanups have run is unknown, confirm with Andrew/Francis.
 
 **Next step:** Fix the wrong-service content on /services/portable-toilet-rentals/, then review the homepage and every service page for the same mismatch and report back in #clearset.
 
@@ -20,6 +20,7 @@ updated: 2026-10-14
 |---|---|
 | Full profile (rules, services, approvals, open items) | [CLIENT.md](CLIENT.md) |
 | Keywords | [keywords.md](keywords.md) |
+| GSC YoY drop investigation (2026-10-18) + Slack reply draft | [findings](gsc-yoy-drop-investigation-2026-10.md) · [reply draft](slack-reply-gsc-yoy-drop-2026-10.md) |
 | GBP audit (categories, services, description) | [gbp-audit-2026-10-06.md](gbp-audit-2026-10-06.md) |
 | GBP cleanup instructions | [Phase 1](gbp-phase1-instructions.md) · [Phase 2](gbp-phase2-instructions.md) |
 | Portable sanitation page updates (2026-10-06) | [Clearset - Page Updates - Portable Sanitation.docx](<Clearset - Page Updates - Portable Sanitation.docx>) |
