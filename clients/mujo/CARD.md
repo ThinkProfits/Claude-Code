@@ -21,7 +21,7 @@ updated: 2026-10-21
 | Full profile (rules, products, approvals, open items) | [CLIENT.md](CLIENT.md) |
 | Keywords | [keywords.md](keywords.md) |
 | Scrum 2026-10-15: performance review prep (due 2026-10-19) | [scrum-2026-10-15.md](scrum-2026-10-15.md) |
-| SEO performance review, quarter + YoY (written 2026-10-21; meeting being rescheduled) | [performance-review-2026-10.md](performance-review-2026-10.md) · [Google Doc v2](https://docs.google.com/document/d/1D-LQpXaKoSQDs6e2ABt9G3o8fkVhecW0TkobbtgQEgs/edit) in Drive "Mujo Learning Systems Inc." |
+| SEO performance review, quarter + YoY (written 2026-10-21; meeting being rescheduled) | [performance-review-2026-10.md](performance-review-2026-10.md) · [Google Doc v3](https://docs.google.com/document/d/1ozTiVlA8coziLIHHEdGZt_q2aAG38mbq3Im6_JPN-Uo/edit) in Drive "Mujo Learning Systems Inc." |
 | Britt's request: task list and progress | [britt-request-2026-10-08-handoff.md](britt-request-2026-10-08-handoff.md) |
 | Britt's original email | [email from britt.txt](<email from britt.txt>) |
 | Schema audit (FAQ, hubs, Organization) | [schema-audit-2026-10-10.md](schema-audit-2026-10-10.md) |
