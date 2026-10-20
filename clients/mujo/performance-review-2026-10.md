@@ -25,6 +25,7 @@
 **Reading the impressions drop honestly**
 - **YoY:** In September 2025 Google stopped supporting the `&num=100` results parameter, which removed a lot of rank-tracker "impressions" from Search Console and made average position look better across the industry overnight (reported by Search Engine Land and others, mid-September 2025; verify and link the article before this goes to the client). Our own daily data shows it: average position sat around 30 to 45 until 2025-09-10, then dropped to the low teens within days. So last year's impression total and position are inflated and not a fair comparison. Clicks are the trustworthy YoY number.
 - **QoQ:** The previous quarter was the new-site launch. Old shop URLs (separate teacher-copy and student-edition products) were retired or redirected, and their impressions went with them. Some of that is healthy consolidation. Some of it is a real dip on a couple of key pages (see section 3).
+- **Junk impressions on both sides:** the previous quarter included about 10,300 impressions (0 clicks) from templated searches like "influencer marketing equipment for teachers", which have now disappeared. This quarter includes 7,501 impressions (0 clicks) from one meaningless query ("iaijodojo.com business type and classes offered"). Neither reflects real demand.
 
 ---
 
@@ -89,13 +90,73 @@ Rising this quarter vs last: "marketing curriculum high school" (7 clicks, up fr
 
 ---
 
+## 3a. Keyword detail: what moved
+
+**Read this first:** Google hides most individual searches for privacy. The non-brand searches it names account for only 76 of this quarter's 1,673 clicks (brand searches containing "mujo" add 169). So these lists show direction, not totals. Positions are Google's average for that search; lower is better.
+
+**Keywords that improved (same quarter last year → now)**
+
+| Search | Position then | Position now | Impressions now | Clicks then → now |
+|---|---|---|---|---|
+| ai textbooks | 26.6 | 5.3 | 85 | 1 → 4 |
+| ai textbook | 20.8 | 6.9 | 252 | 0 → 1 |
+| artificial intelligence textbook | 22.5 | 6.3 | 274 | 0 → 1 |
+| cte textbooks | 21.3 | 7.3 | 33 | 0 → 2 |
+| ai in business administration | 65.5 | 3.2 | 85 | 0 → 0 |
+| ai writing for business communication | 46.9 | 3.8 | 16 | 0 → 0 |
+| business analytics fundamentals | 37.9 | 6.0 | 23 | 0 → 1 |
+| great ideas for teaching marketing | 44.7 | 8.7 | 58 | 0 → 1 |
+| high school web design curriculum | 11.0 | 5.0 | 33 | 3 → 4 |
+| marketing class in high school | 11.5 | 6.9 | 153 | 1 → 2 |
+| digital marketing for higher education | 67.4 | 29.4 | 45 | 0 → 0 |
+| digital marketing curriculum high school | 1.4 | 1.6 | 51 | 3 → 5 (holding #1–2) |
+
+**Climbing since last quarter**
+
+| Search | Last quarter | Now | Impressions now | Clicks last Q → now |
+|---|---|---|---|---|
+| foundations of marketing | 16.3 | 5.6 | 241 | 1 → 0 |
+| high school marketing textbook | 10.4 | 4.9 | 178 | 1 → 2 |
+| marketing textbook high school | 15.3 | 8.5 | 211 | 1 → 0 |
+| marketing class in high school | 13.2 | 6.9 | 153 | 0 → 2 |
+| high school marketing class curriculum | 19.3 | 15.0 | 249 | 2 → 4 |
+| high school marketing curriculum | 14.8 | 11.6 | 238 | 1 → 4 |
+| marketing curriculum high school | 12.8 | 11.3 | 272 | 2 → 7 (top non-brand search) |
+
+**New searches showing up this quarter** (weren't there last quarter): seo textbook (position 4.6, 345 impressions), seo textbook publisher (3.9), seo lesson plans (5.7), ai school textbook (2.2), ai school books (6.2), instructors manual (7.6), marketing lessons (10.9), social media marketing teaching materials (16.4).
+
+**Keywords that dropped (same quarter last year → now)**
+
+| Search | Position then | Position now | Impressions now | Clicks then → now | Likely cause |
+|---|---|---|---|---|---|
+| digital marketing teacher manual (+ "teacher's" / "teachers" variants) | 1.6–1.9 | 16.6–19.3 | ~740 combined | 0 → 0 | Old teacher-manual product pages were retired in the rebuild; best page now is the higher-ed Digital Marketing shop page (position 9.4) |
+| digital marketing textbook publisher(s) | 2.0–2.6 | 9.7–14.9 | 277 | 0 → 0 | /digital-marketing-textbook-publisher/ no longer the ranking page |
+| social media marketing lesson plans for high school students | 3.5 | 14.1 | 279 | 2 → 0 | Lesson-plan intent not matched by a current page |
+| social media marketing lesson plans | 6.1 | 13.7 | 223 | 0 → 0 | Same |
+| digital marketing lesson plans | 4.3 | 6.8 | 245 | 4 → 0 | Same |
+| high school marketing curriculum | 4.9 | 11.6 | 238 | 9 → 4 | Recovering since last quarter |
+| marketing curriculum high school | 7.0 | 11.3 | 272 | 12 → 7 | Recovering since last quarter |
+| high school marketing class curriculum | 4.1 | 15.0 | 249 | 2 → 4 | Recovering since last quarter |
+| marketing automation syllabus | 8.2 | 29.0 | 24 | 0 → 0 | |
+| big data textbook | 7.6 | 18.8 | 20 | 0 → 0 | |
+| digital marketing essentials textbooks | 6.8 | 15.8 | 98 | 0 → 0 | |
+| social media marketing curriculum high school | 4.5 | not showing | 0 | 3 → 0 | |
+
+**Dipped since last quarter:** "ai textbooks" slipped from 4.3 to 5.3, with clicks down from 9 to 4 and impressions from 232 to 85.
+
+**Gone, and not worth chasing:** broad "SEO book" searches from last year (e.g. "manual seo" 2,452 impressions, "book seo" 1,381), which ranked at positions 60+ and never brought clicks.
+
+**The pattern:** product and AI-textbook searches are much stronger. The losses cluster around **lesson plans, teacher manuals and "publisher"** searches, which old pages used to catch and the new site doesn't have a clear page for. That feeds directly into next step 3.
+
+---
+
 ## 4. Recommended next steps (next 90 days)
 
 Ranked by impact for effort, within the 10 hours/month retainer. Results depend on Google and competitors, so these are targets, not guarantees.
 
 1. **Rewrite the title and meta on "AI for Business" (high school)** and the other high-impression, low-CTR pages. Lowest effort, quickest signal. Measure CTR change after 4 to 6 weeks.
 2. **Roll out the Book schema to all 38 titles.** Drafted and tested; needs Andrew's OK on the method (Rank Math per-product vs one WPCode snippet). Helps Google and AI answer engines understand each title, author, ISBN and format.
-3. **Refresh /high-school/digital-marketing-curriculum/ and /high-school/web-design-curriculum/**: tighten copy around "curriculum", "lesson plans" and "teaching materials", add an FAQ, and link to them from the related blog posts. Target gap: "digital marketing teaching materials" (sitting around position 30) and "digital marketing teacher manual" variants (positions 18 to 20).
+3. **Refresh /high-school/digital-marketing-curriculum/ and /high-school/web-design-curriculum/**: tighten copy around "curriculum", "lesson plans" and "teaching materials", add an FAQ, and link to them from the related blog posts. Target the searches that slipped: "digital marketing teacher manual" variants (were 1.6–1.9, now 16.6–19.3), "social media marketing lesson plans" (were 3.5–6.1, now 13.7–14.1), "digital marketing lesson plans" and "digital marketing textbook publisher". This may need one dedicated lesson-plans / teacher-resources page rather than a refresh alone.
 4. **Two teacher-blog posts per quarter** modelled on the two winners (lesson planning, textbook selection guide). Suggested angles: AI lesson ideas for CTE business classes; how to choose an AI textbook for college business programs. Run the overlap check against existing posts first.
 5. **Settle the open site decisions with Brittni** (these are blocking SEO work):
    - High School / Higher Education wording in every title and H1
