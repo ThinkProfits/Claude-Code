@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- MOCKUP ONLY: RM page template v1 (Corman Park model page). Not for publishing as-is.
+     Built 2026-10-22 from clients/mysaskfarm/rm-page-template-research.md.
+     Yellow "review notes" mark data to verify or input needed from Grant. Toggle them with the bar at the top. -->
+<title>Farmland for Sale: RM of Corman Park No. 344 | MySaskFarm</title>
+<meta name="description" content="Farmland for sale in the RM of Corman Park No. 344 around Saskatoon, Warman and Martensville. Land values, soil, crop yields and listings from a farmer-turned-realtor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@500;600&family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --olive:#545F2F;      /* Elementor kit primary */
+    --olive-dark:#454E26;
+    --tan:#BEAF88;        /* Elementor kit accent */
+    --tan-light:#F4F1E8;
+    --text:#333333;
+    --heading:#212121;
+    --line:#D5D8DC;
+    --link:#545F2F;
+    --note-bg:#FFF6C9;
+    --note-line:#E3C200;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:#fff;color:var(--text);font:400 16px/1.6 "Open Sans",sans-serif}
+  img{max-width:100%;display:block}
+  a{color:var(--link)}
+  .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+
+  /* Review bar (mockup only) */
+  .review-bar{position:sticky;top:0;z-index:50;background:#1f2124;color:#fff;font:500 13px/1.4 "Open Sans",sans-serif;padding:8px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  .review-bar button{font:600 12px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;background:var(--tan);color:#fff;border:0;padding:7px 14px;cursor:pointer}
+  body.hide-notes .note{display:none}
+  .note{background:var(--note-bg);border-left:4px solid var(--note-line);color:#4a4000;font:400 13px/1.5 "Open Sans",sans-serif;padding:8px 12px;margin:10px 0}
+  .note b{font-weight:700}
+  .tbc{background:var(--note-bg);outline:1px dashed var(--note-line)}
+  body.hide-notes .tbc{background:none;outline:0}
+
+  /* Header (matches live site: logo left, Search by RM button + menu) */
+  header.site{padding:18px 0;border-bottom:1px solid #eee}
+  header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px}
+  header.site .logo img{width:130px;height:auto}
+  .nav{display:flex;align-items:center;gap:28px}
+  .nav a{font:500 15px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;color:var(--olive);text-decoration:none}
+  .btn{display:inline-block;font:500 16px/1 "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;background:var(--olive);color:#EFEFEF;padding:12px 30px;text-decoration:none;border:0}
+  .nav a.btn{color:#EFEFEF}
+  .btn:hover{background:var(--olive-dark)}
+  .btn.tan{background:var(--tan);color:#fff}
+  .burger{display:none;width:28px;height:20px;position:relative}
+  .burger span,.burger:before,.burger:after{content:"";position:absolute;left:0;right:0;height:2px;background:var(--olive)}
+  .burger:before{top:0}.burger span{top:9px}.burger:after{bottom:0}
+
+  /* Breadcrumb + H1 (live RM pages: olive DM Sans 65px H1 on white) */
+  .crumbs{font-size:13px;color:#777;padding:22px 0 0}
+  .crumbs a{color:#777;text-decoration:none}
+  h1{font:600 clamp(36px,6vw,58px)/1.1 "DM Sans",sans-serif;color:var(--olive);margin:10px 0 18px}
+  h2{font:600 clamp(28px,3.6vw,38px)/1.2 "DM Sans",sans-serif;color:var(--olive);margin:0 0 16px}
+  h3{font:600 20px/1.3 "DM Sans",sans-serif;color:var(--heading);margin:22px 0 8px}
+  p{margin:0 0 14px;font-family:"DM Sans",sans-serif;font-size:17px}
+  section{padding:48px 0}
+  section.alt{background:var(--tan-light)}
+
+  .lead{font-size:19px;line-height:1.6;max-width:900px;color:#2b2b2b}
+  .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 6px}
+
+  /* Quick facts */
+  .facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:3px solid var(--olive);background:#fff;box-shadow:0 1px 0 var(--line)}
+  .fact{padding:16px 18px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .fact:nth-child(4n){border-right:0}
+  .fact .k{font:500 12px "Montserrat",sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:#7a7a6a}
+  .fact .v{font:600 18px/1.35 "DM Sans",sans-serif;color:var(--heading);margin-top:4px}
+
+  /* Listings (mirrors the live feed cards: photo, name + price over a dark band) */
+  .listings{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .card{position:relative;overflow:hidden;background:#000}
+  .card img{width:100%;aspect-ratio:3/2;object-fit:cover;opacity:.92}
+  .card .band{position:absolute;left:0;right:0;bottom:0;padding:26px 14px 12px;background:linear-gradient(transparent,rgba(0,0,0,.75));color:#fff;display:flex;justify-content:space-between;align-items:flex-end;gap:10px}
+  .card .nm{font:600 14px/1.25 "Roboto",sans-serif;text-transform:uppercase}
+  .card .pr{font:600 15px "Roboto",sans-serif;white-space:nowrap}
+  .card .meta{position:absolute;top:10px;left:10px;background:var(--olive);color:#fff;font:500 11px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;padding:4px 8px}
+  .center{text-align:center;margin-top:24px}
+
+  /* Data tables */
+  table{width:100%;border-collapse:collapse;font-family:"DM Sans",sans-serif;font-size:16px;margin:8px 0 10px;background:#fff}
+  th{background:var(--olive);color:#fff;font:500 13px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;text-align:left;padding:12px 14px}
+  td{padding:11px 14px;border-bottom:1px solid var(--line)}
+  td.num,th.num{text-align:right}
+  .src{font-size:13px;color:#6b6b6b;margin-top:6px}
+  .two{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:start}
+  .callout{background:#fff;border-left:5px solid var(--tan);padding:18px 22px;margin:18px 0}
+  .callout .big{font:700 34px/1.1 "DM Sans",sans-serif;color:var(--olive)}
+
+  /* Grant's take */
+  .grant{display:grid;grid-template-columns:200px 1fr;gap:32px;align-items:start}
+  .grant .photo{aspect-ratio:1/1;background:var(--tan) url("https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_1-1024x683.jpg") center/cover;position:relative}
+  .grant .photo span{position:absolute;inset:auto 0 0 0;background:rgba(0,0,0,.55);color:#fff;font:500 12px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;padding:6px 8px;text-align:center}
+  blockquote{margin:0;font:400 19px/1.65 "DM Sans",sans-serif;color:#2b2b2b;border-left:4px solid var(--olive);padding-left:20px}
+  .sig{font:600 15px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;color:var(--olive);margin-top:14px}
+
+  /* Map */
+  .map iframe{width:100%;height:420px;border:0;display:block}
+
+  /* Seller CTA (olive band, like the live Browse-by-RM block) */
+  .sell{background:var(--olive) url("https://mysaskfarm.com/wp-content/uploads/2023/07/WavyGreenBG.png") center/cover;color:#fff;text-align:center}
+  .sell h2{color:#fff}
+  .sell p{color:#f1f1e8;max-width:760px;margin:0 auto 22px}
+
+  /* FAQ (matches the blog's native accordion: 1px #D5D8DC border, 10px padding) */
+  details{border:1px solid var(--line);margin:0 0 10px;background:#fff}
+  summary{font:500 17px/1.4 "Open Sans",sans-serif;color:#1F2124;padding:14px 44px 14px 16px;cursor:pointer;list-style:none;position:relative}
+  summary::-webkit-details-marker{display:none}
+  summary:after{content:"+";position:absolute;right:16px;top:10px;font:400 26px "Open Sans",sans-serif;color:var(--olive)}
+  details[open] summary:after{content:"–"}
+  details .a{padding:0 16px 14px}
+  details .a p{font-size:16px}
+
+  /* Browse By RMs (copied from the live page pattern) */
+  .rms{background:var(--olive) url("https://mysaskfarm.com/wp-content/uploads/2023/07/WavyGreenBG.png") center/cover;text-align:center}
+  .rms h2{font-family:"Roboto",sans-serif;color:#fff;font-size:clamp(30px,4vw,45px)}
+  .rmgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+  .rm{text-decoration:none;color:#fff}
+  .rm img{aspect-ratio:3/2;object-fit:cover;width:100%}
+  .rm h3{font:400 16px "Roboto",sans-serif;letter-spacing:4px;text-transform:uppercase;color:#fff;margin:12px 0 4px}
+  .rm small{font:400 12px "Open Sans",sans-serif;color:#e2dfcf}
+  .rms .browse{display:block;background:#fff;color:var(--olive);font:500 14px "Montserrat",sans-serif;letter-spacing:2px;text-transform:uppercase;padding:14px;margin-top:26px;text-decoration:none}
+
+  /* Agent box + footer */
+  .agent{display:flex;gap:24px;align-items:center;border:1px solid var(--line);padding:22px;background:#fff}
+  .agent img{width:110px}
+  .agent .who{font:600 20px "DM Sans",sans-serif;color:var(--heading)}
+  .agent .brk{font-size:14px;color:#555}
+  footer.site{background:var(--olive);color:#EFEFEF;padding:40px 0 22px;margin-top:0}
+  footer.site .wrap{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:end}
+  footer.site .logos{display:flex;gap:22px;align-items:center}
+  footer.site .logos img.l{width:110px;filter:brightness(0) invert(1) opacity(.9)}
+  footer.site .logos img.c21{width:110px;filter:brightness(0) invert(1)}
+  footer.site a{color:#EFEFEF;text-decoration:none}
+  footer.site .links{display:flex;gap:22px;justify-content:flex-end;font:500 14px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase}
+  footer.site .copy{grid-column:1/-1;border-top:1px solid rgba(255,255,255,.25);padding-top:14px;font:500 12px "Montserrat",sans-serif;letter-spacing:1px;text-transform:uppercase;text-align:center}
+
+  @media (max-width:900px){
+    .facts{grid-template-columns:repeat(2,1fr)}
+    .fact:nth-child(4n){border-right:1px solid var(--line)}
+    .fact:nth-child(2n){border-right:0}
+    .listings,.rmgrid{grid-template-columns:repeat(2,1fr)}
+    .two{grid-template-columns:1fr;gap:10px}
+  }
+  @media (max-width:640px){
+    .wrap{padding:0 16px}
+    .nav a{display:none}
+    .nav a.btn{display:inline-block}
+    .nav .btn{padding:10px 14px;font-size:13px}
+    .burger{display:block}
+    header.site .logo img{width:96px}
+    .listings,.rmgrid{grid-template-columns:1fr}
+    .grant{grid-template-columns:1fr}
+    .grant .photo{max-width:200px}
+    .agent{flex-direction:column;align-items:flex-start}
+    footer.site .wrap{grid-template-columns:1fr}
+    footer.site .links{justify-content:flex-start;flex-wrap:wrap}
+    section{padding:36px 0}
+    table{font-size:14px}
+    th,td{padding:9px 8px}
+  }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"WebPage","@id":"https://mysaskfarm.com/rm-of-corman-park/#webpage","url":"https://mysaskfarm.com/rm-of-corman-park/",
+     "name":"Farmland for Sale: RM of Corman Park No. 344 | MySaskFarm","inLanguage":"en-CA",
+     "about":{"@id":"https://mysaskfarm.com/rm-of-corman-park/#rm"},
+     "breadcrumb":{"@id":"https://mysaskfarm.com/rm-of-corman-park/#breadcrumb"},
+     "author":{"@id":"https://mysaskfarm.com/#grant"}},
+    {"@type":"AdministrativeArea","@id":"https://mysaskfarm.com/rm-of-corman-park/#rm",
+     "name":"Rural Municipality of Corman Park No. 344","alternateName":["RM of Corman Park","RM 344"],
+     "containedInPlace":{"@type":"AdministrativeArea","name":"Saskatchewan"},
+     "sameAs":["https://www.rmcormanpark.ca/"]},
+    {"@type":"RealEstateAgent","@id":"https://mysaskfarm.com/#grant","name":"Grant Ostapowich – MySaskFarm.com",
+     "url":"https://mysaskfarm.com/","telephone":"+1-306-227-1167",
+     "parentOrganization":{"@type":"Organization","name":"Century 21 Fusion"},
+     "areaServed":[{"@id":"https://mysaskfarm.com/rm-of-corman-park/#rm"},{"@type":"AdministrativeArea","name":"Saskatchewan"}]},
+    {"@type":"BreadcrumbList","@id":"https://mysaskfarm.com/rm-of-corman-park/#breadcrumb","itemListElement":[
+     {"@type":"ListItem","position":1,"name":"Home","item":"https://mysaskfarm.com/"},
+     {"@type":"ListItem","position":2,"name":"Search by RM","item":"https://mysaskfarm.com/rms/"},
+     {"@type":"ListItem","position":3,"name":"RM of Corman Park No. 344"}]},
+    {"@type":"FAQPage","mainEntity":[
+     {"@type":"Question","name":"Is there farmland for sale in the RM of Corman Park?","acceptedAnswer":{"@type":"Answer","text":"Yes. Listings change weekly, so the current list is at the top of this page. On October 22, 2026 it showed 13 land and farm listings in the RM, asking from $699,900 to $5,000,000."}},
+     {"@type":"Question","name":"What does an acre of farmland sell for in Corman Park?","acceptedAnswer":{"@type":"Answer","text":"It depends on soil class, size, access and distance to Saskatoon. Land on the city edge can carry development value on top of its farm value. For a figure on a specific parcel, ask for a free evaluation."}},
+     {"@type":"Question","name":"What soil zone is the RM of Corman Park in?","acceptedAnswer":{"@type":"Answer","text":"Most of the RM sits in Saskatchewan's Dark Brown soil zone."}},
+     {"@type":"Question","name":"How is farmland assessed in Corman Park?","acceptedAnswer":{"@type":"Answer","text":"SAMA sets assessments from a productivity model based on soil and expected wheat yield, revalued every four years. The 2025 revaluation uses a January 1, 2023 base date, so assessed value is usually well below market value."}},
+     {"@type":"Question","name":"How long does farmland take to sell in Corman Park?","acceptedAnswer":{"@type":"Answer","text":"It varies with price, parcel size and season. Winter (November to March) is the busiest time for farmland deals in Saskatchewan."}}
+    ]}
+  ]
+}
+</script>
+</head>
+<body>
+
+<div class="review-bar" role="note">
+  <span><b>MOCKUP</b>: RM page template v1, Corman Park model page. Not live. Yellow notes = data to verify or input needed from Grant.</span>
+  <button type="button" id="toggle">Hide review notes</button>
+</div>
+
+<header class="site">
+  <div class="wrap">
+    <a class="logo" href="https://mysaskfarm.com/"><img src="https://mysaskfarm.com/wp-content/uploads/2026/09/cropped-MySaskFarm-Logo-transparent-bg.png" alt="MySaskFarm.com logo, farmland realtor in Saskatchewan"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#listings">Listings</a>
+      <a href="https://mysaskfarm.com/sell/">Sell</a>
+      <a href="https://mysaskfarm.com/blog/">Blog</a>
+      <a href="https://mysaskfarm.com/contact/">Contact</a>
+      <a class="btn" href="#browse-rms">Search by RM</a>
+      <span class="burger" aria-hidden="true"><span></span></span>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- 1 + 2: H1 and answer-first summary -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="crumbs"><a href="https://mysaskfarm.com/">Home</a> › <a href="#browse-rms">Search by RM</a> › RM of Corman Park No. 344</div>
+      <h1>Farmland for Sale in the RM of Corman Park No. 344</h1>
+      <p class="lead">The RM of Corman Park No. 344 wraps around Saskatoon on every side and covers more than 2,100 km² of grain land, pasture and city-edge parcels near Warman, Martensville, Dalmeny, Langham and Osler. Below are current listings, what land here is selling for, local crop yields, and straight answers from farmer-turned-realtor Grant Ostapowich.</p>
+      <div class="note"><b>Template rule:</b> 40–60 word answer-first summary, unique per RM. It names the RM with its number, says where it is, lists the main towns, describes the land, and names Grant. The area figure is from rmcormanpark.ca ("over 800 square miles (2,100 sq km)").</div>
+      <div class="hero-actions">
+        <a class="btn" href="#listings">See Corman Park listings</a>
+        <a class="btn tan" href="https://mysaskfarm.com/sell/">What's my land worth?</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3: Quick facts -->
+  <section class="alt" style="padding:36px 0">
+    <div class="wrap">
+      <h2 style="font-size:26px;margin-bottom:14px">RM of Corman Park at a glance</h2>
+      <div class="facts">
+        <div class="fact"><div class="k">RM number</div><div class="v">No. 344</div></div>
+        <div class="fact"><div class="k">Area</div><div class="v">2,100+ km² (800+ sq mi)</div></div>
+        <div class="fact"><div class="k">Population (2021)</div><div class="v"><span class="tbc">[2021 Census figure]</span></div></div>
+        <div class="fact"><div class="k">Census division</div><div class="v">Division No. 11</div></div>
+        <div class="fact"><div class="k">Soil zone</div><div class="v"><span class="tbc">Dark Brown</span></div></div>
+        <div class="fact"><div class="k">FCC land-value region</div><div class="v"><span class="tbc">[FCC region]</span></div></div>
+        <div class="fact"><div class="k">Main highways</div><div class="v">11, 12, 14, 16, 5, 7, 41</div></div>
+        <div class="fact"><div class="k">RM office</div><div class="v"><a href="https://www.rmcormanpark.ca/" rel="noopener">rmcormanpark.ca</a></div></div>
+      </div>
+      <div class="note"><b>Verify before publishing:</b> the 2021 population (the live page's 8,568 looks like an older census, so pull it from the StatCan 2021 Census Profile); the soil zone (check SKSIS); which FCC region Corman Park falls in; and the highway list. "Division No. 11" is the Saskatoon census division. Cite StatCan per its Open Licence.</div>
+    </div>
+  </section>
+
+  <!-- 4: Listings feed -->
+  <section id="listings">
+    <div class="wrap">
+      <h2>Farms and land for sale in Corman Park</h2>
+      <p>Listings below update automatically from MLS®. Each shows the asking price. Click any parcel for acres, legal land description and photos.</p>
+      <div class="listings">
+        <div class="card"><span class="meta">157 acres</span><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_3-1024x683.jpg" alt=""><div class="band"><span class="nm">Valley Rd 157 Acres</span><span class="pr">$3,000,000</span></div></div>
+        <div class="card"><span class="meta">Grain land</span><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_2-1024x683.jpg" alt=""><div class="band"><span class="nm">Johnson Land</span><span class="pr">$1,999,900</span></div></div>
+        <div class="card"><span class="meta">160 acres</span><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_7-1024x683.jpg" alt=""><div class="band"><span class="nm">JP Livestock Farm 160 Acres</span><span class="pr">$1,599,900</span></div></div>
+        <div class="card"><span class="meta">Land</span><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_1-1024x683.jpg" alt=""><div class="band"><span class="nm">Klusa Land</span><span class="pr">$1,399,000</span></div></div>
+        <div class="card"><span class="meta">Highway frontage</span><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_5-1024x683.jpg" alt=""><div class="band"><span class="nm">Highway Located Land</span><span class="pr">$1,350,000</span></div></div>
+        <div class="card"><span class="meta">Land</span><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_4-1024x683.jpg" alt=""><div class="band"><span class="nm">Highway #41 Farm Land</span><span class="pr">$849,900</span></div></div>
+      </div>
+      <div class="note"><b>Feed:</b> live MLS® feed, shown here with sample cards from today's listings (stock farm photos). Developer asks: (1) replace "0 BEDS | 0 BATHS | UNKNOWN SQFT" with acres or land type on land listings; (2) remove duplicate listings (Johnson Land shows twice live); (3) filter out acreage/residential if the plugin allows it.</div>
+      <div class="center"><a class="btn" href="https://mysaskfarm.com/listings/">View all Corman Park listings</a></div>
+    </div>
+  </section>
+
+  <!-- 5: Land values -->
+  <section class="alt">
+    <div class="wrap two">
+      <div>
+        <h2>What farmland sells for in Corman Park</h2>
+        <p><strong>Quick answer:</strong> no single number fits the whole RM. Land in Corman Park is priced on two things at once: what it can grow, and how close it sits to Saskatoon. A quarter of good grain land a few miles from the city can carry development value that a similar quarter near the RM's outer edge won't.</p>
+        <p>Across Saskatchewan, farmland values rose <strong>9.4% in 2025</strong>, the 13th straight year of gains, according to Farm Credit Canada's 2025 Farmland Values Report (released March 24, 2026). Growth varied by region, from about 12% in the northeast, northwest and east-central regions to 4.8% in west-central Saskatchewan. Corman Park falls in FCC's <span class="tbc">[region]</span> region.</p>
+        <h3>Assessed value vs. market value</h3>
+        <p>Your SAMA assessment isn't a sale price. SAMA values farmland from a productivity model (soil and expected wheat yield) and revalues every four years. The 2025 revaluation uses a January 1, 2023 base date, so assessments usually trail what land actually sells for, especially after the gains of the last few years.</p>
+        <p>For the provincial picture, read <a href="https://mysaskfarm.com/saskatchewan-farmland-prices/">Saskatchewan farmland prices: still climbing?</a></p>
+      </div>
+      <div>
+        <div class="callout">
+          <div class="k" style="font:500 12px Montserrat,sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:#7a7a6a">Asking prices in the RM today</div>
+          <div class="big">$699,900 – $5,000,000</div>
+          <p style="font-size:15px;margin:6px 0 0">Range of the 13 farm and land listings shown for Corman Park on October 22, 2026. These are asking prices, not sale prices, and parcels range from about 18 to 160+ acres.</p>
+        </div>
+        <div class="callout">
+          <div class="k" style="font:500 12px Montserrat,sans-serif;letter-spacing:1.5px;text-transform:uppercase;color:#7a7a6a">Saskatchewan farmland, 2025</div>
+          <div class="big">+9.4%</div>
+          <p style="font-size:15px;margin:6px 0 0">Source: FCC 2025 Farmland Values Report.</p>
+        </div>
+        <div class="note"><b>Data note:</b> the asking range comes from the live feed and includes some acreage/development parcels, so refresh it at publish time or switch to a per-acre figure. If Grant can share sold $/acre ranges (Comparable Land Sales Database, or his own deals as ranges), this section becomes the strongest one on the page. Don't publish individual CLSD sales (licence limit).</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6: Soil and crops -->
+  <section>
+    <div class="wrap two">
+      <div>
+        <h2>Land, soil and crop yields</h2>
+        <p>Corman Park is mostly <span class="tbc">Dark Brown</span> soil country: solid grain and oilseed land, with lighter and sandier ground along the South Saskatchewan River valley and pasture where the land breaks. Canola, spring wheat, durum, barley, oats and peas are all grown here.</p>
+        <p>Yields swing with moisture. The 2021 drought cut Corman Park canola to 10.7 bu/ac, while 2025 came in at 46.2 bu/ac. That's why the 10-year average says more about the land than any single year.</p>
+        <div class="note"><b>Verify:</b> the river-valley and pasture description is general Saskatoon-area knowledge. Confirm it with Grant and SKSIS soil maps before publishing.</div>
+      </div>
+      <div>
+        <table>
+          <caption style="caption-side:top;text-align:left;font:600 16px 'DM Sans',sans-serif;color:var(--heading);padding-bottom:8px">RM of Corman Park No. 344: crop yields (bu/ac)</caption>
+          <thead><tr><th>Crop</th><th class="num">2025</th><th class="num">10-yr avg<br>2016–2025</th></tr></thead>
+          <tbody>
+            <tr><td>Canola</td><td class="num">46.2</td><td class="num">33.7</td></tr>
+            <tr><td>Spring wheat</td><td class="num">55.2</td><td class="num">39.1</td></tr>
+            <tr><td>Durum</td><td class="num">66.0</td><td class="num">35.4*</td></tr>
+            <tr><td>Barley</td><td class="num">78.7</td><td class="num">55.9</td></tr>
+            <tr><td>Oats</td><td class="num">99.7</td><td class="num">73.6</td></tr>
+            <tr><td>Field peas</td><td class="num">52.8</td><td class="num">36.7</td></tr>
+          </tbody>
+        </table>
+        <div class="src">Source: Government of Saskatchewan, RM Yields data (Ministry of Agriculture / SCIC), dashboard.saskatchewan.ca, accessed October 22, 2026. *Durum average covers 9 years (no 2024 figure).</div>
+        <div class="note"><b>Real data:</b> pulled from the RM Yields CSV for RM 344 today. Read the dashboard's terms of use before publishing. Every other RM page gets the same table from the same file.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7: Grant's take -->
+  <section class="alt">
+    <div class="wrap">
+      <h2>Grant's take on Corman Park</h2>
+      <div class="grant">
+        <div class="photo" role="img" aria-label="Photo of Grant Ostapowich (placeholder)"><span>Grant photo</span></div>
+        <div>
+          <blockquote class="tbc">[100–200 words in Grant's own voice. Example of the kind of thing we're after: "Corman Park is two markets in one. Within about 15 minutes of Saskatoon, buyers are paying for location as much as soil. Further out, it's grain farmers adding quarters next to land they already work, and they look hard at soil class, stones and drainage before anything else…"]</blockquote>
+          <div class="sig">Grant Ostapowich · 30 years farming, 17 years selling farmland</div>
+          <div class="note"><b>Needs Grant (template's 5 questions):</b> (1) What land is typical here and what do buyers ask first? (2) What $/acre range has good land traded at in the last two years? (3) What makes land here sell faster or slower? (4) Any deals or stories you're happy to mention (no names)? (5) What should someone thinking of selling here know? The example text above is ours, not Grant's. Replace it with his answers.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8: Map -->
+  <section class="map">
+    <div class="wrap">
+      <h2>Map of the RM of Corman Park</h2>
+      <p>Corman Park surrounds Saskatoon and reaches roughly from Langham and Osler in the north to Pike Lake and the Beaver Creek area in the south. The RM office publishes an official municipal map at <a href="https://www.rmcormanpark.ca/" rel="noopener">rmcormanpark.ca</a>.</p>
+      <iframe title="Map of the RM of Corman Park No. 344, Saskatchewan" loading="lazy" src="https://maps.google.com/maps?q=Rural%20Municipality%20of%20Corman%20Park%20No.%20344%2C%20Saskatchewan&z=9&output=embed"></iframe>
+      <div class="note"><b>Map:</b> about 390 searches a month for "rm of corman park map". Better option for launch: a My Maps layer with the RM boundary and active listings pinned, or a static map image with alt text. Confirm the north/south reach and Pike Lake with Grant or the RM map.</div>
+    </div>
+  </section>
+
+  <!-- 9: Seller CTA -->
+  <section class="sell">
+    <div class="wrap">
+      <h2>Own land in Corman Park?</h2>
+      <p>Prices near Saskatoon have moved a lot in the last few years, and your assessment probably hasn't kept up. Get a free, no-pressure evaluation of what your land could sell for today from someone who has farmed and sold Saskatchewan land for decades.</p>
+      <a class="btn tan" href="https://mysaskfarm.com/sell/">Get a free land evaluation</a>
+      <div class="note" style="max-width:760px;margin:16px auto 0;text-align:left">Free evaluation ≠ formal appraisal (paid service). Keep the wording separate (CLIENT.md §2).</div>
+    </div>
+  </section>
+
+  <!-- 10: FAQ -->
+  <section>
+    <div class="wrap">
+      <h2>Corman Park farmland: common questions</h2>
+      <details open>
+        <summary>Is there farmland for sale in the RM of Corman Park?</summary>
+        <div class="a"><p>Yes. Listings change weekly, so the current list is <a href="#listings">at the top of this page</a>. On October 22, 2026 it showed 13 land and farm listings in the RM, asking from $699,900 to $5,000,000.</p></div>
+      </details>
+      <details>
+        <summary>What does an acre of farmland sell for in Corman Park?</summary>
+        <div class="a"><p>It depends on soil class, size, access and distance to Saskatoon. Land on the city edge can carry development value on top of its farm value. For a figure on a specific parcel, <a href="https://mysaskfarm.com/sell/">ask for a free evaluation</a>.</p></div>
+      </details>
+      <details>
+        <summary>What soil zone is the RM of Corman Park in?</summary>
+        <div class="a"><p>Most of the RM sits in Saskatchewan's <span class="tbc">Dark Brown</span> soil zone.</p></div>
+      </details>
+      <details>
+        <summary>How is farmland assessed in Corman Park?</summary>
+        <div class="a"><p>SAMA sets assessments from a productivity model based on soil and expected wheat yield, revalued every four years. The 2025 revaluation uses a January 1, 2023 base date, so assessed value is usually well below market value.</p></div>
+      </details>
+      <details>
+        <summary>How long does farmland take to sell in Corman Park?</summary>
+        <div class="a"><p>It varies with price, parcel size and season. Winter (November to March) is the busiest time for farmland deals in Saskatchewan. See <a href="https://mysaskfarm.com/best-time-sell-farmland-saskatchewan/">the best time to sell farmland in Saskatchewan</a>.</p></div>
+      </details>
+      <details>
+        <summary>How do I contact the RM of Corman Park office?</summary>
+        <div class="a"><p>For taxes, permits, zoning and council business, contact the RM directly through <a href="https://www.rmcormanpark.ca/" rel="noopener">rmcormanpark.ca</a>. For buying or selling land, <a href="https://mysaskfarm.com/contact/">contact Grant</a>.</p></div>
+      </details>
+      <div class="note"><b>FAQ source:</b> Google People Also Ask for "farmland for sale rm of corman park" and "rm of corman park" (2026-10-22), plus Grant's top client FAQs. Visible FAQ and FAQPage schema must match word for word.</div>
+    </div>
+  </section>
+
+  <!-- 11: Nearby RMs -->
+  <section class="rms" id="browse-rms">
+    <div class="wrap">
+      <h2>Farmland in nearby RMs</h2>
+      <div class="rmgrid">
+        <a class="rm" href="https://mysaskfarm.com/rm-of-aberdeen/"><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_5-1024x683.jpg" alt="Farmland in the RM of Aberdeen"><h3>Aberdeen No. 373</h3></a>
+        <a class="rm" href="https://mysaskfarm.com/rm-of-dundurn/"><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_4-1024x683.jpg" alt="Farmland in the RM of Dundurn"><h3>Dundurn No. 314</h3></a>
+        <a class="rm" href="#"><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_2-1024x683.jpg" alt="Farmland in the RM of Vanscoy"><h3>Vanscoy No. 345</h3><small>page planned</small></a>
+        <a class="rm" href="#"><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_7-1024x683.jpg" alt="Farmland in the RM of Blucher"><h3>Blucher No. 343</h3><small>page planned</small></a>
+        <a class="rm" href="#"><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_3-1024x683.jpg" alt="Farmland in the RM of Rosthern"><h3>Rosthern No. 403</h3><small>page planned</small></a>
+        <a class="rm" href="#"><img src="https://mysaskfarm.com/wp-content/uploads/2023/08/Farmland_Img_1-1024x683.jpg" alt="Farmland in the RM of Laird"><h3>Laird No. 404</h3><small>page planned</small></a>
+      </div>
+      <a class="browse" href="#">Browse all RMs</a>
+      <div class="note" style="text-align:left">Swap in RMs that actually border Corman Park (check the RM map). Link only to pages that exist. "Browse all RMs" should go to a new RM hub page, not a listings search.</div>
+    </div>
+  </section>
+
+  <!-- 12: Agent box -->
+  <section>
+    <div class="wrap">
+      <div class="agent">
+        <img src="https://mysaskfarm.com/wp-content/uploads/2026/09/cropped-MySaskFarm-Logo-transparent-bg.png" alt="MySaskFarm.com logo">
+        <div>
+          <div class="who">Grant Ostapowich, REALTOR®</div>
+          <p style="margin:4px 0 6px;font-size:16px">Thirty years farming and 17 years selling Saskatchewan farmland. Licensed province-wide, working across Corman Park and the RMs around Saskatoon.</p>
+          <div class="brk">Brokerage: <strong>Century 21 Fusion</strong> · <a href="tel:+13062271167">306-227-1167</a> · <a href="mailto:mysaskhome@gmail.com">mysaskhome@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="note"><b>Compliance:</b> "Century 21 Fusion" is written out as the brokerage here, which addresses the disclosure gap flagged in CLIENT.md §2. Confirm the SREC wording.</div>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div>
+      <div class="logos">
+        <img class="l" src="https://mysaskfarm.com/wp-content/uploads/2026/09/cropped-MySaskFarm-Logo-transparent-bg.png" alt="MySaskFarm.com">
+        <img class="c21" src="https://mysaskfarm.com/wp-content/uploads/2023/07/Century-21-Fusion-1024x240.png" alt="Century 21 Fusion">
+      </div>
+      <p style="color:#EFEFEF;font-size:15px;margin:16px 0 4px">mysaskhome@gmail.com &nbsp;|&nbsp; 306-227-1167</p>
+      <p style="color:#EFEFEF;font-size:15px;margin:0">210-310 Wellman Lane<br>Saskatoon, SK S7T 0J1</p>
+    </div>
+    <div class="links">
+      <a href="https://mysaskfarm.com/listings/">Listings</a><a href="https://mysaskfarm.com/sell/">Sell</a><a href="https://mysaskfarm.com/blog/">Blog</a><a href="https://mysaskfarm.com/contact/">Contact</a>
+    </div>
+    <div class="copy">© 2026 MySaskFarm.com · Grant Ostapowich, Century 21 Fusion · All rights reserved</div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var b=document.getElementById('toggle');
+    b.addEventListener('click',function(){
+      var hidden=document.body.classList.toggle('hide-notes');
+      b.textContent=hidden?'Show review notes':'Hide review notes';
+    });
+  })();
+</script>
+</body>
+</html>

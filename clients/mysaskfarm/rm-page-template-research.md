@@ -46,7 +46,7 @@
   - The Corman Park population figure (8,568, density 4.5/km²) matches older census figures. Check it against the 2021 Census Profile before reusing it.
   - The Tisdale page has no paragraph at all.
 - **Listing feed:**
-  - **Good:** listings are rendered in the page HTML, not an iframe, so Google can crawl them.
+  - **Correction (checked 2026-10-22):** listings are not in the raw HTML. BenchMetrics' JavaScript (`client-includes.benchmetrics.app`, `bnm_featured_listings.js`) injects them in the browser, with photos served from CREA's DDF CDN (`ddfcdn.realtor.ca`). Google can usually render JS, but a server-rendered feed would be safer. See Andrew's feed workstream.
   - **Bad:** the feed shows "0 BEDS | 0 BATHS | UNKNOWN SQFT" on land listings, includes acreages (out of scope), and shows one listing twice ("Johnson Land").
 - **Rest of the page:** a "Browse By RMs" block that links six RMs, plus a contact form. No FAQ, no data, no land values, no map, no seller section beyond a single link, and nothing from Grant.
 - **Internal links:**
