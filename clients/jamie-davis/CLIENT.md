@@ -1,6 +1,6 @@
 # Jamie Davis Towing: client profile
 
-> **Status:** DRAFT v0.1, 2026-10-06. Pending review by Francis.
+> **Status:** DRAFT v0.2, 2026-10-23 (added Andrew's website build rules, client communication notes, Ads competitors, October report and superseded ideas from a full #jamiedavistowing read). Pending review by Francis.
 > **Sources:** Slack (#jamiedavistowing C07TS2LMF9T, #gbp-post-approvals, Francis/Andrew DMs, Blog Masterlist run DMs), Drive (SEO+GEO contract April 2026, PPC change order April 2026, 3-Month SEO Roadmap, Keyword Tracking Research 2026, Wikidata & Wikipedia Questions, PPC Monthlies), Semrush (project metadata only), live site (curl, 2026-10-06), repo.
 > **Not checked:** Gmail (connector broken), GSC (403, no agency permission on `sc-domain:jamiedavistowing.com`), BrightLocal (tool error), Semrush Position Tracking (campaign not found via API; see section 5).
 > **Related files:** [memory/jamie-davis-towing-context.md](../../memory/jamie-davis-towing-context.md) (site structure, Sept 2026 schema audit, sign-off rule), [keywords.md](keywords.md), GBP handoffs in `gbp-handoffs/week-of-*/gbp-handoff__jamie_davis_hope__*`.
@@ -201,6 +201,17 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - **"Heavy duty" means emergency recovery** (cranes, rotators, cliff/ditch recoveries), not just "bigger vehicles".
 - Dropdown menu labels stay short. No keyword padding or "you can rely on".
 - AEO/Wiki copy: factual, sourced, no superlatives.
+- Headings must be specific and search-friendly (e.g. "How Different Types of Tow Trucks Work", not "How each tow truck works"). Give the FAQ section its own proper heading.
+- Link the company name to the homepage, not a service page. Never link to a blog that isn't live yet.
+- Write for the reader first ("what your tow will cost and why"), not around one source like ICBC. Add a caveat that a phone estimate can change if the scene is more complex than described.
+- Link to primary sources (e.g. the ICBC Towing Invoicing and Rates page), not news articles about them.
+- Highway Thru Hell: Sherry approved show branding (2024-12-19), but the client asked for all **merch** to be removed. Don't add merch or shop content.
+
+**Ideas that no longer apply** (don't revive without asking Andrew)
+- **Impound lot info page** (Andrew, 2024-12-17): dropped. They don't run impound or storage (2026-07-10).
+- **"Don't write more blogs until the client replies"** (2026-07-10): replaced on 2026-08-19 by "keep writing the July and August drafts".
+- **"No mention of Highway Thru Hell"** (client, 2024-11-14): replaced by Sherry's approval on 2024-12-19.
+- The final approved blog style may still change once the client (now the new blog manager, see [scrum-2026-10-15.md](scrum-2026-10-15.md)) gives feedback.
 
 **Content plan (Blog Masterlist, Jamie Davis tab)**
 
@@ -247,7 +258,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 ## 11. Working rules and tool IDs
 
 **Approvals**
-- **Any change to a `<title>`, H1, menu label or a page's city focus needs Andrew's sign-off first.** Core pages are live Google Ads landing pages and Ads is performing well (Andrew, 2026-05-29 and 2026-07-04). See the memory file.
+- **Any change to a `<title>`, H1, menu label, a page's city focus or any major content change needs Andrew's sign-off first.** Core pages are live Google Ads landing pages and Ads is performing well (Andrew, 2026-05-29 and 2026-07-04). See the memory file.
 - Content: client approves (via Andrew).
 - GBP: 👍 in #gbp-post-approvals.
 - Wikidata/Wikipedia: Andrew reviews before anything is pushed.
@@ -260,6 +271,20 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - No impound/storage content
 - No em dashes
 - No superlatives in AEO/Wiki content
+
+**Website build rules** (from Andrew, Slack 2024-11 to 2025-01)
+- **Gravity Forms:** add forms with Elementor's **Shortcode widget**, never the Text Editor. The Text Editor version submits but hides the confirmation message and breaks GA4 tracking (#seo, 2025-01-04).
+- **Two header files:** the homepage uses `header.php`, every other page uses `header-2.php`. GA4, GTM and CallRail scripts live in **both**, in the child theme. Never edit the parent theme or remove these scripts, or inner-page tracking stops (2024-11-20, 2025-01-04).
+- **Phone links:** keep the `tel:1.877.869.8440` (dotted) format. GTM call tracking matches on the exact link because locations share overlapping numbers. A dashed-format tag exists as a fallback, but don't introduce new formats.
+- **City pages** show their own local number (see section 1 table). The toll-free number is for sitewide and blog use.
+- **Brand colours:** red `#EB0000` with `#000000` and `#FFFFFF`. Text/background pairs must pass WCAG AA (4.5:1). Footer text is white, not grey.
+- **Form recipients:** `ar@`, `admin@` and `jamie@jamiedavistowing.com`. `brad@` no longer exists.
+
+**Client communication**
+- Sherry needs things explained slowly and in plain language, with no marketing jargon (Brittni, 2024-10-29). Write every client email and report summary that way.
+- Save client work files (blogs, research) in the client's Google Drive folder, not personal drives (Andrew, 2026-05-29).
+
+**Ads competitors** named by the client (2024-11-14): Ben's Towing, Cam's Towing, Classic Towing (Golden); Hope Towing, Mario's (Hope). Reliable Towing is also targeted. Never imply affiliation with any of them in copy.
 
 **Tool IDs**
 
@@ -301,6 +326,15 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - [ ] `/llms.txt` serves the homepage HTML. Add a real llms.txt.
 - [ ] Re-audit schema: the hand-authored LocalBusiness graph wasn't found on 2026-10-06. Rebuild around one `#business` entity with `department`s for satellite locations, and add Wikidata `sameAs` once live.
 - [ ] Commercial page H1 "Fast, Reliable 24/7 Commercial Towing Solutions" doesn't match its title. Propose a fix to Andrew; don't ship it unapproved.
+- [ ] Check whether the hidden login popup and image slider (theme files, invisible H4s on the homepage) were ever removed. Andrew asked Ian on 2025-01-10; no follow-up found.
+- [ ] `/privacy-policy/`: create the page or redirect it (Andrew, 2025-01-04). Status unknown.
+- [ ] Answer branded "still in business?" searches. The October 2026 report shows "is jamie davis towing still in business" (82 clicks) and "what happened to jamie davis towing" (647 impressions). Propose an FAQ or About-page answer to Andrew.
+
+**October 2026 report** (automated review, 2026-10-08)
+- Total key events -15.3% MoM; contact form users -34.8%, Hope map clicks -46.4%. Audit `/contact-us/` and the form event tags.
+- 13 tracked keywords dropped out of the top 10 (7 entered). Semrush visibility up to 18.91%; GSC average position 8.27.
+- Hope GBP down YoY (interactions -16.5%, website clicks -21.2%, calls -18.1%).
+- PPC: cost per conversion CA$38.13 (+35%), Langley conversions -40%. **Call tracking still shows "No data".**
 
 **Ops**
 - [ ] Fix Google Ads call-conversion tracking (0 calls recorded, September report).
