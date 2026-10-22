@@ -18,4 +18,5 @@
 | Slack | #geraldine-hampton-realtor (C0C91R9TR24) |
 | Teamwork (research time) | Task 41366560 |
 | Research draft | [keyword-research-draft-2026-10.md](keyword-research-draft-2026-10.md) |
+| Research spreadsheet | [keyword-research-2026-10.xlsx](keyword-research-2026-10.xlsx); Drive copy: "Geraldine Hampton Realtor Keyword Research (Draft v0.1)" (sheet id 12O5I7XowdSQ6XsFZcGNKCTCrgQNONsGbB1hvc6IRTlE), same folder as the Client Overview |
 | Law practice (separate) | [../estate-options/](../estate-options/) |
