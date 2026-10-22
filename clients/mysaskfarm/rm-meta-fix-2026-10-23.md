@@ -18,3 +18,9 @@ Pages already correct (not touched): /rm-of-aberdeen/, /rm-of-tisdale/, /rm-of-a
 
 ## Log
 - 2026-10-23: values prepared. Waiting for a WordPress admin sign-in (no MCP connection to this site).
+- 2026-10-23: **fix applied and verified live.** Done through the new `wp-mysaskfarm` MCP (Easy MCP AI). Page IDs: Corman Park 521, Dundurn 636, Kindersley 644, Biggar 609, Arlington 573.
+  - How: Easy MCP AI's AIOSEO integration is switched off on this site (wp-admin › Easy MCP AI › Tools › Abilities), so the change went through AIOSEO's own REST route instead: `POST /aioseo/v1/posts-list/load-details-column` to read, then `POST /aioseo/v1/posts-list/update-details-column` with `{postId, title, description}` per page. This is the same call as AIOSEO's inline edit on the Pages list, so it changes only the SEO title and meta description. No page content, slugs or other SEO settings were touched, and the three correct pages (Aberdeen, Tisdale, Antler) were left alone.
+  - Before values read from the site matched the "Before" column on all five pages before writing.
+  - Cache: cleared Elementor CSS and LiteSpeed page cache for the five pages (`wp_clear_cache`, scope posts).
+  - Verification: fetched each live URL (no query string). `<title>`, `<meta name="description">`, `og:title`, `twitter:title` and the AIOSEO WebPage schema `name` all show the "After" values on all five pages.
+  - Side note: each page also carries a second WebPage schema node named "Farmland for Sale in the RM of [Name] No. [###] | MySaskFarm" (not from the AIOSEO title). It already names the right RM on all five pages, so it was left as is.
