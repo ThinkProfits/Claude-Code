@@ -126,6 +126,23 @@ All three: no stock photos of people, no heavy gradients, no dark full-page back
 | 2026-10-23 | Project created: **Estate Options Design Studio** (`69c1b714-db52-47cf-b5b5-0dc70974ab8c`) in Shawn's Lovable, visibility set to workspace_edit so Andrew can open it. Editor: https://lovable.dev/projects/69c1b714-db52-47cf-b5b5-0dc70974ab8c. Built the chooser at `/` plus `/option-1` Classic Counsel, `/option-2` Bold Modern and `/option-3` Warm & Personal. All copy is in `src/content/estate.ts`. | not reported by the API |
 | 2026-10-23 | QA fixes (commit `18d91ec`): transparent PNG logo (made from the site JPG; replace with the "Final Logos.zip" originals before launch), robots.txt `Disallow: /`, invented badge labels removed, bio "meets with clients personally", intestacy FAQ answer corrected. Banned-word scan of `src/` came back clean. | 3.3 |
 
+| 2026-10-23 | Swapped in the **original vector logos** (colour + white SVG) from Drive: Estate Options › Client Assets › Final Logos (`1cZnI4JY2NEjvlog1M35mAog3zs1edo8n`), added by Andrew Oct 22. Re-coloured all 3 options to the logo palette (Francis's request: follow the logo colours). Commit `23975d2`. | 3.2 |
+| 2026-10-23 | Removed an orphaned comment that was breaking styles.css; added a visible border grey. Commit `777dc0b`. | 0.9 |
+
+### Brand palette (taken from the logo SVG; reuse for the full build)
+
+| Token | Hex | Use |
+|---|---|---|
+| brand-blue | `#638FC6` | Logo blue. Fills, wedges, rules, large headings. Text on it must be **black** (6.27:1). Not for small text on white (3.35:1). |
+| brand-red | `#F04937` | Logo red. Small accents only. Not for small text on white (3.68:1). |
+| brand-blue-text | `#35619A` | Darker logo blue for links and buttons with white text (6.31:1) |
+| brand-red-text | `#B92D1C` | Darker logo red for small red text (6.08:1) |
+| black / ink | `#000000` / `#111111` | Logo text colour, body text |
+| white | `#FFFFFF` | Base |
+| neutrals | `#555555` text-2, `#F4F5F7` surface, `#EEF3FA` soft blue, `#D3D8DF` lines | Supporting greys |
+
+Logo placement: the colour SVG goes on white or light backgrounds. The white SVG is only for solid black or `#111111`. Never put either logo on the brand blue or red.
+
 ### Open after QA
 - [ ] Visual check of all 3 options at desktop and 375px. Claude couldn't do this: the preview needs a Lovable login. Lovable's own screenshot check passed.
 - [ ] Sharing: in the Lovable editor, **Share → Share preview** gives a link that needs no account. It expires after 7 days and can have guest comments switched off. Nothing gets published. Source: [Lovable docs: share project](https://docs.lovable.dev/features/share-project.md), [preview](https://docs.lovable.dev/features/projects/preview).
