@@ -123,3 +123,11 @@ All three: no stock photos of people, no heavy gradients, no dark full-page back
 | Date | What | Credits |
 |---|---|---|
 | 2026-10-23 | Brief v1 written | 0 |
+| 2026-10-23 | Project created: **Estate Options Design Studio** (`69c1b714-db52-47cf-b5b5-0dc70974ab8c`) in Shawn's Lovable, visibility set to workspace_edit so Andrew can open it. Editor: https://lovable.dev/projects/69c1b714-db52-47cf-b5b5-0dc70974ab8c. Built the chooser at `/` plus `/option-1` Classic Counsel, `/option-2` Bold Modern and `/option-3` Warm & Personal. All copy is in `src/content/estate.ts`. | not reported by the API |
+| 2026-10-23 | QA fixes (commit `18d91ec`): transparent PNG logo (made from the site JPG; replace with the "Final Logos.zip" originals before launch), robots.txt `Disallow: /`, invented badge labels removed, bio "meets with clients personally", intestacy FAQ answer corrected. Banned-word scan of `src/` came back clean. | 3.3 |
+
+### Open after QA
+- [ ] Visual check of all 3 options at desktop and 375px. Claude couldn't do this: the preview needs a Lovable login. Lovable's own screenshot check passed.
+- [ ] Sharing: in the Lovable editor, **Share → Share preview** gives a link that needs no account. It expires after 7 days and can have guest comments switched off. Nothing gets published. Source: [Lovable docs: share project](https://docs.lovable.dev/features/share-project.md), [preview](https://docs.lovable.dev/features/projects/preview).
+- [ ] The FAQ answers are draft legal copy, so Geraldine reviews them before launch.
+- [ ] Get the original logo files ("Final Logos.zip") into Drive Client Assets.
