@@ -8,6 +8,29 @@
 
 ---
 
+## Status check, 2026-10-23 (Francis's items)
+
+Checked against the repo, Drive and Slack.
+
+**Done**
+- [x] Mujo PHP findings sent to Andrew in a DM (Oct 22). Brittni updated.
+- [x] Mujo performance review doc sent to Andrew (Oct 22).
+- [x] My Sask Farm RM template (Corman Park). Google Doc posted in #mysaskfarm for Grant (Oct 23). HTML mockup is in `clients/mysaskfarm/mockups/`.
+- [x] Monthly blogs drafted (Oct 23) for My Sask Farm (3), Jamie Davis (2), John Sadler (5), Munro & Crawford (2) and SPIEDR (2).
+- [x] Realtor keyword research v0.1 done. The realtor **site build is Andrew's**.
+- [x] Estate Options Lovable demos built (3 options, logo colours applied).
+- [x] Intercambio carousel edit.
+
+**Still open**
+- [ ] **My Sask Farm About page + Selling page rewrites.** No draft found in the repo or Drive. The About page is new, so it goes in a Google Doc. Small wording tweaks to the Selling page can go live.
+- [ ] **Estate Options:** review the 3 options in Lovable, then create the Share preview link for Andrew. The demos were due Oct 23.
+- [ ] **Estate Options:** check the 2 new competitors once Andrew sends them, and answer the "estate sales" keyword question.
+- [ ] **Vision (Brent) trenchless/water mains strategy, due Wed Oct 28.** Not started. Post the research in the Vision Slack, and don't reply to the email.
+- [ ] **Teamwork time:** Intercambio 30 min, both Geraldine sites, My Sask Farm. I can't see Teamwork, so confirm these yourself.
+- [ ] Blogs: send the Oct 23 drafts for approval, or check that they're queued.
+
+---
+
 ## Scrum 2026-10-22 (latest)
 
 Gemini wrote "SaaS farm" for My Sask Farm, "Spider" for SPIEDR, "Monroe" for Munro Crawford, and "Okonagan" for Okanagan.

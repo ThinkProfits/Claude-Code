@@ -80,7 +80,8 @@ def convert(md_path):
         elif s.startswith("|"):
             rows = []
             while i < len(lines) and lines[i].strip().startswith("|"):
-                cells = [c.strip() for c in lines[i].strip().strip("|").split("|")]
+                row = lines[i].strip().strip("|").replace(r"\|", "\uE000")
+                cells = [c.strip().replace("\uE000", "|") for c in row.split("|")]
                 if not all(re.fullmatch(r":?-+:?", c) for c in cells):
                     rows.append(cells)
                 i += 1
@@ -88,11 +89,17 @@ def convert(md_path):
             table.style = "Table Grid"
             for r, cells in enumerate(rows):
                 for c, val in enumerate(cells):
-                    p = table.cell(r, c).paragraphs[0]
-                    add_inline(p, val)
-                    if r == 0:
-                        for run in p.runs:
-                            run.bold = True
+                    cell = table.cell(r, c)
+                    # "<br>" in a cell starts a new paragraph; a leading "- " becomes a bullet
+                    for k, part in enumerate(re.split(r"<br\s*/?>", val)):
+                        p = cell.paragraphs[0] if k == 0 else cell.add_paragraph()
+                        if bm := re.match(r"[-*]\s+(.*)", part.strip()):
+                            p.style = "List Bullet"
+                            part = bm.group(1)
+                        add_inline(p, part.strip())
+                        if r == 0:
+                            for run in p.runs:
+                                run.bold = True
             continue
         elif m := re.match(r"(#{1,4})\s+(.*)", s):
             level = len(m.group(1))
