@@ -19,3 +19,7 @@ Andrew reviews and approves (no client sign-off for blogs). After approval: auth
 - **Nov:** consider consolidating /blog/preparing-for-wildfire-evacuation/ and /blog/prepare-for-evacuation/ into /blog/what-to-do-in-a-wildfire-evacuation/ (301s). Confirm that SPIEDR helps write evacuation plans as part of consulting.
 - **Both:** confirm phone 604-812-3473 for the CTA. The Aug 2025 evacuation post shows 1-800-555-2739 and info@spiedr.com, which look like placeholders.
 - **Keyword data gap:** Semrush had no API units on 2026-10-23, so there was no PAA (phrase_questions) pull. Rerun it when units are back and check the FAQs against it.
+
+## Drive and masterlist (2026-10-26)
+
+The October draft is uploaded to Drive as a Google Doc: [October 2026 draft](https://docs.google.com/document/d/1G-9Ut-A-IhLp-zhTX5qajXOxnz3yUP8WNRWByxiCGZo/edit). It sits in the client's usual blog folder. In the BLOG Masterlist, its row now says "Needs PM Review" and links that doc. If you edit the `.md` here, update the Google Doc too, because they don't sync.

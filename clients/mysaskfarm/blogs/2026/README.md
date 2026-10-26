@@ -17,3 +17,7 @@ Volumes: Google Keyword Planner, Canada, 12-month average to Sep 2026 (Semrush h
 - `[PM TO VERIFY]` in the November post: the 2026 indexed lifetime capital gains exemption amount on canada.ca.
 - Publish in order (Sep, Oct, Nov). Later posts link to earlier ones, and the October post has one link to add once November is live.
 - Slugs follow the live posts' root-level pattern (no `/blog/` prefix).
+
+## Drive and masterlist (2026-10-26)
+
+The October draft is uploaded to Drive as a Google Doc: [October 2026 draft](https://docs.google.com/document/d/12fLVTN5cGe4sIuQxREd-XAEcnLEzkfZu0OGP8M5HTAk/edit). It sits in the client's usual blog folder. In the BLOG Masterlist, its row now says "Needs PM Review" and links that doc. If you edit the `.md` here, update the Google Doc too, because they don't sync.

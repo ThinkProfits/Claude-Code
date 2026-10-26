@@ -10,3 +10,7 @@ Drafted 2026-10-23 from BLOG Masterlist 2024-2026 (Munro tab, rows 31-32), using
 Volumes are from the Google Ads Keyword Planner MCP (Canada), pulled 2026-10-23. Semrush had no API units that day.
 
 Approval flow: Francis → Andrew reviews → client approves → TP publishes (FAQ via Easy Accordion with schema on). Not committed, uploaded to Drive or posted to Slack yet.
+
+## Drive and masterlist (2026-10-26)
+
+The October draft is uploaded to Drive as a Google Doc: [October 2026 draft](https://docs.google.com/document/d/1QmRbzhgiSK_am0n0bGkqAtGfxOuLX8UXBmlbu_Dsy4E/edit). It sits in the client's usual blog folder. In the BLOG Masterlist, its row now says "Needs PM Review" and links that doc. If you edit the `.md` here, update the Google Doc too, because they don't sync.

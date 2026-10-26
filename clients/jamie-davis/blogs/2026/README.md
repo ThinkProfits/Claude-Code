@@ -19,3 +19,7 @@ Volumes: Google Ads Keyword Planner, Canada, 2026-10-23. Semrush was out of API 
 - **Photos:** all image placements need real Jamie Davis Towing photos (never AI or stock). Fresh fleet photos are still outstanding from the client.
 - **No links to unpublished blogs** (CLIENT.md rule). Add cross-links between the August, September, October and November posts once they're live.
 - Run the blog-review-prompt on each draft in a fresh conversation before sending to Andrew.
+
+## Drive and masterlist (2026-10-26)
+
+The October draft is uploaded to Drive as a Google Doc: [October 2026 draft](https://docs.google.com/document/d/1GnkwH-lLRBNkysRBKw2rSSwABQAg6Z3Bbkpb8ifTK6Y/edit). It sits in the client's usual blog folder. In the BLOG Masterlist, its row now says "Needs PM Review" and links that doc. If you edit the `.md` here, update the Google Doc too, because they don't sync.
