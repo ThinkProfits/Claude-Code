@@ -3,9 +3,12 @@
 > **Status:** Internal research, 2026-10-27. This is for Francis and Andrew only and is **not client-facing**. It is part one of the response to Brent's 2026-10-20 email ("Dominate Underground Water Main & Trenchless Replacement Searches Throughout the Okanagan"). Andrew's brief is in #vision-plumbing (2026-10-22). The joint plan for Brent is due Wed 2026-10-28.
 > **Covers:** current visibility, competitors by town, and keywords. Still to do: the roadmap, content recommendations, the in-package vs add-on split, and Andrew's Ads section.
 > **Sources:** GSC `https://visionplumbingandheating.com/` (2026-07-27 to 2026-10-25); Google Ads Keyword Planner (Okanagan towns and BC, last 12 months); live Google results checked in the browser on 2026-10-27; the live trenchless page; [keywords.md](keywords.md); [CLIENT.md](CLIENT.md).
-> **Not available today:**
+> **Not available today** (rechecked later on 2026-10-27, still down):
 > - **Semrush:** the account is out of API units, so there is no fresh rank, competitor or Position Tracking data. Tracked ranks are from the 2026-08-28 snapshot in keywords.md.
 > - **BrightLocal:** the API key is invalid, so there are no geo-grid Maps reports or AI Visibility data.
+> - **gbp-audit MCP:** Google returns a 429 with a quota of 0 requests a minute, so there's no direct GBP audit until the GBP API access request is approved.
+>
+> **Added later on 2026-10-27:** GA4 (property 363625322) works. See the GA4 section under section 2.
 >
 > Live results were checked from outside the Okanagan, with the town name in each query. Treat the map packs as indicative. They are not proximity-accurate grid ranks.
 
@@ -75,6 +78,38 @@ Query: "water line replacement [town]".
 | /prolonging-the-life-of-your-poly-b-pipes/ | 106 | 45.6 |
 
 The 3-page cannibalisation flagged in June (CLIENT.md section 5) is now 7 pages. Fix this before writing a separate "Poly-B underground water service" page, or that page will become the 8th.
+
+### GA4 (added 2026-10-27, same 90 days)
+
+**Property:** `363625322` ("Vision Plumbing Heating Cooling - GA4", account 263235460) is the live one. A second property, `289902360`, is also called "visionplumbingandheating.com" (account "Vision Mechanical"), but it records no data. Worth checking whether that explains the GA4 vs GSC mismatch flagged in CLIENT.md section 12.
+
+**Phone calls are in GA4.** `first_time_phone_call` (748) and `repeat_phone_call` (490) come in with no hostname, which looks like the CallRail integration. They still attribute to landing pages, so page-level call counts are usable.
+
+| Landing page | Sessions (by channel) | First-time calls | Other key events |
+|---|---|---|---|
+| /trenchless-water-main-service/ | 60 (organic 37, direct 14, paid 9) | 5 | 1 repeat call, 3 chats |
+| /trenchless-pipe-repair-explained/ (blog, May 2026) | 12 (organic) | 1 | |
+| /water-leak-detection-kelowna/ | 68 (paid 42, direct 17, organic 8) | 6 | 2 email clicks, 1 chat |
+| /residential/poly-b-plumbing-kelowna/ | 101 (paid 70, direct 16, organic 12) | 7 | 3 chats, 2 email clicks, 1 form, 1 repeat call |
+| Other 5 Poly-B / Kitec pages | about 85 combined | 0–1 each | |
+
+**Where the visitors are** (sessions on these pages): Kelowna 77, West Kelowna 26, Vernon 8, Lake Country 7, Penticton 5. Peachland and Summerland aren't in the top 20. Vancouver (30) and Ashburn (13) are mostly IP geolocation noise and bots.
+
+**What this means**
+- The trenchless page produces about **2 first-time calls a month**, with 3 chats over the quarter. Across all water line, leak and Poly-B pages it's about **6 first-time calls a month**, and many of those will be indoor repipes or leak calls, not service lines. This supports keeping lead expectations modest.
+- These are calls, not booked jobs. Getting to jobs and revenue still needs the CRM.
+- Paid traffic drives most Poly-B and leak detection sessions. Organic drives the trenchless page.
+- West Kelowna is the second-biggest audience even though Vision ranks poorly there. Demand exists, Vision just isn't visible.
+
+### Trenchless blog post missed in the first pass
+
+`/trenchless-pipe-repair-explained/` ("Save Your Driveway: Trenchless Pipe Repair Explained", post 36594, May 2026) didn't come up in the site search for "water line" or "water main". It covers:
+- trenchless vs open trench, with restoration cost ranges ($7,000 to $15,000+)
+- pipe bursting and **CIPP relining described as water main methods**, and "50+ years"
+- warning signs of a failing water main
+- an FAQ, with a typo in one question: "How long do trenschlee pipe repairs take?"
+
+It has the same CIPP and lifespan claims to confirm as the service page (section 5), and the typo needs fixing. The roadmap now refreshes this post instead of writing a new "trenchless vs open trench" blog.
 
 ### Tracked ranks (Semrush snapshot, 2026-08-28)
 

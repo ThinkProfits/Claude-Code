@@ -278,6 +278,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 |---|---|
 | Semrush | Project **11470309**. Campaign `11470309_996566` (Aug 2026 export) and `11470309_4672343` (July 2026 export). *Confirm which is current; the API returned no targets 2026-10-06.* |
 | GSC | `https://visionplumbingandheating.com/` (URL prefix; works). `sc-domain:` returns 403. |
+| GA4 | Property `363625322` (account 263235460, "Vision Plumbing Heating Cooling - GA4"); works through the ga4 MCP. CallRail calls arrive as `first_time_phone_call` / `repeat_phone_call` key events. Property `289902360` (account "Vision Mechanical", also named visionplumbingandheating.com) records no data; don't report from it. (2026-10-27) |
 | Slack | #vision-plumbing C052P7H4FUG. GBP source of truth: #gbp-post-approvals. |
 | GBP automation key | `vision_kelowna` |
 | Make.com | Scenario `6209699` (test, inactive), team 2871706; blog sheet `1pn-1J7PENZD3ZYIwn_s9qZAdfBK2yS9ZcqTJg8bGqU0` (tab "Vision") |
@@ -329,7 +330,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - [ ] BrightLocal: rank tracker not updating (Feb 2026); the MCP still errors. Fix setup.
 - [ ] Decide when to cancel the old Kelowna GBP CallRail number kept during the Feb 2026 swap.
 - [ ] Zero new reviews in August on both GBPs. Check Podium/review requests.
-- [ ] GA4 vs GSC YoY mismatch (July report). Verify the GA4 property and filters.
+- [ ] GA4 vs GSC YoY mismatch (July report). Verify the GA4 property and filters. Live property is 363625322; check the July report wasn't pulled from the empty 289902360 (2026-10-27).
 - [ ] Make.com FAQPage schema update to scenario 6209699 is blocked on connector permissions (handoff file).
 
 **Ops**

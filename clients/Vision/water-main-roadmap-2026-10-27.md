@@ -14,7 +14,8 @@ Vision already ranks #1 organically for the core term in Kelowna, Penticton and 
 Searched the live site for water line, water main and trenchless content:
 - **Only one page targets this topic:** `/trenchless-water-main-service/` (ID 32113).
 - **Related pages:** `/water-leak-detection-kelowna/` (ID 28310); blog `/sewer-line-problems-in-the-okanagan/` (sewer, keep separate).
-- **No blog posts** on water line replacement, cost, materials or leak symptoms. All blog topics below are new.
+- **One blog post already exists** (missed in the first pass, found when GA4 was checked): `/trenchless-pipe-repair-explained/` (ID 36594, May 2026). It covers trenchless vs open trench, restoration cost ranges, methods (including CIPP) and warning signs. It brings in about 4 organic sessions a month and 1 call in 90 days. **No new blog repeats it.** It gets refreshed instead (Phase 1), and the hub's cost and signs sections link to it rather than duplicate it.
+- **No other posts** on water line replacement price, materials, municipal ownership or Poly-B service lines.
 - **Town pages already exist:** West Kelowna (33788), Penticton (33824), Vernon (29642, plus Vernon emergency plumber and water heater pages). **None exist** for Lake Country, Peachland or Summerland.
 - **Poly-B:** 7 pages already compete (research section 2). Nothing new on Poly-B until those are consolidated.
 
@@ -33,6 +34,7 @@ Goal: make the existing page accurate and worth sending traffic to, and get trac
   - Process from first call to restored water
   - Towns served, each linking to its town page
   - FAQ written as direct answers AI tools can lift
+- [ ] Refresh the trenchless blog post (ID 36594) to match: same CIPP and lifespan checks as the page, fix the "trenschlee" typo in the FAQ, and link it to the hub.
 - [ ] Add Service schema with `areaServed` for all 7 towns, and FAQPage schema (through the existing FAQ schema process).
 - [ ] Link to the hub from the plumbing services page, leak detection page, the 3 town pages and the main Poly-B page.
 
@@ -57,7 +59,7 @@ Goal: give every town real evidence that Vision does underground water work ther
 - [ ] Every case study also becomes a GBP post on the GBP closest to the job.
 
 **Cost page (biggest organic gap)**
-- [ ] New page or hub section: trenchless water line replacement cost in the Okanagan. GSC shows about 680 impressions a quarter on cost questions with no matching page. Needs real price ranges and cost drivers from Vision. If Vision won't publish ranges, we write the cost drivers and stop there; no invented numbers.
+- [ ] New page or hub section: trenchless water line replacement cost in the Okanagan. GSC shows about 680 impressions a quarter on cost questions with no matching page. The existing blog post covers *restoration* costs saved; this one covers the *price of the job itself*. Keep them distinct and cross-linked. Needs real price ranges and cost drivers from Vision. If Vision won't publish ranges, we write the cost drivers and stop there; no invented numbers.
 - [ ] Target keyword: trenchless water line replacement cost. Intent: commercial investigation.
 
 **Blogs (from the existing 4 a month, not extra)**
@@ -65,7 +67,7 @@ Goal: give every town real evidence that Vision does underground water work ther
 Candidates, all checked against the site above. Each states its target keyword and intent when briefed.
 1. Signs your main water line is leaking (water main leak; informational, symptom)
 2. Poly-B water service lines in the Okanagan: what to check (poly b water line; informational). Only after Poly-B consolidation, and it must be about the underground line, not indoor repipes.
-3. Trenchless vs open trench water line replacement (trenchless vs traditional; commercial investigation)
+3. ~~Trenchless vs open trench~~ Dropped: `/trenchless-pipe-repair-explained/` already covers it. Refresh that post instead (Phase 1).
 4. Who pays to fix a water line between the street and the house, by municipality (informational). Needs municipal sources checked per town.
 5. Copper vs galvanized vs black poly service lines: how long each lasts (informational)
 

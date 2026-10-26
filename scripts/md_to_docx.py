@@ -5,20 +5,22 @@ Handles headings (#..####), paragraphs, bullet and numbered lists,
 blockquotes, **bold**, *italic*, [links](url) as real hyperlinks,
 horizontal rules and simple pipe tables.
 
-Usage: python scripts/md_to_docx.py draft.md [more.md ...]
-Writes draft.docx next to each input.
+Usage: python scripts/md_to_docx.py [--landscape] draft.md [more.md ...]
+Writes draft.docx next to each input. Use --landscape for wide
+side-by-side tables (page-update docs). `inline code` renders in Consolas.
 """
 import re
 import sys
 from pathlib import Path
 
 from docx import Document
+from docx.enum.section import WD_ORIENT
 from docx.enum.text import WD_COLOR_INDEX
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
-from docx.shared import Pt, RGBColor
+from docx.shared import Inches, Pt, RGBColor
 
-INLINE = re.compile(r"(\*\*[^*]+\*\*|\*[^*\s][^*]*\*|\[[^\]]+\]\([^)]+\))")
+INLINE = re.compile(r"(\*\*[^*]+\*\*|`[^`]+`|\*[^*\s][^*]*\*|\[[^\]]+\]\([^)]+\))")
 
 
 def add_hyperlink(par, text, url):
@@ -55,18 +57,31 @@ def add_inline(par, text):
             par.add_run(piece[2:-2]).bold = True
         elif piece.startswith("[") and "](" in piece:
             label, url = re.match(r"\[([^\]]+)\]\(([^)]+)\)", piece).groups()
-            add_hyperlink(par, label, url)
+            if re.match(r"(https?:|mailto:|tel:)", url):
+                add_hyperlink(par, label, url)
+            else:
+                # Repo-relative links mean nothing outside the repo; keep the text only
+                par.add_run(label)
+        elif piece.startswith("`") and piece.endswith("`") and len(piece) > 2:
+            par.add_run(piece[1:-1]).font.name = "Consolas"
         elif piece.startswith("*") and piece.endswith("*") and len(piece) > 2:
             par.add_run(piece[1:-1]).italic = True
         else:
             par.add_run(piece)
 
 
-def convert(md_path):
+def convert(md_path, landscape=False):
     md_path = Path(md_path)
     doc = Document()
     doc.styles["Normal"].font.name = "Arial"
     doc.styles["Normal"].font.size = Pt(11)
+    if landscape:
+        sec = doc.sections[0]
+        sec.orientation = WD_ORIENT.LANDSCAPE
+        sec.page_width, sec.page_height = sec.page_height, sec.page_width
+        for side in ("left_margin", "right_margin", "top_margin", "bottom_margin"):
+            setattr(sec, side, Inches(0.6))
+        doc.styles["Normal"].font.size = Pt(10)
     lines = md_path.read_text(encoding="utf-8").splitlines()
     i = 0
     while i < len(lines):
@@ -100,6 +115,23 @@ def convert(md_path):
                         if r == 0:
                             for run in p.runs:
                                 run.bold = True
+            # Repeat the header row on each page, and size columns by how much text they hold
+            tr_pr = table.rows[0]._tr.get_or_add_trPr()
+            header = OxmlElement("w:tblHeader")
+            header.set(qn("w:val"), "true")
+            tr_pr.append(header)
+            ncols = len(table.columns)
+            weights = [
+                max(1.0, sum(len(row[c]) for row in rows if c < len(row)) / len(rows)) ** 0.5
+                for c in range(ncols)
+            ]
+            usable = doc.sections[-1].page_width - doc.sections[-1].left_margin - doc.sections[-1].right_margin
+            table.autofit = False
+            for c in range(ncols):
+                width = int(usable * weights[c] / sum(weights))
+                table.columns[c].width = width
+                for row in table.rows:
+                    row.cells[c].width = width
             continue
         elif m := re.match(r"(#{1,4})\s+(.*)", s):
             level = len(m.group(1))
@@ -130,5 +162,7 @@ def convert(md_path):
 
 
 if __name__ == "__main__":
-    for arg in sys.argv[1:]:
-        print(convert(arg))
+    args = sys.argv[1:]
+    landscape = "--landscape" in args
+    for arg in (a for a in args if a != "--landscape"):
+        print(convert(arg, landscape=landscape))

@@ -12,6 +12,7 @@
 • Volume: about 10 searches/month per term across the Okanagan (Keyword Planner); town variants show 0. Bids about $6–44 (BC).
 • Poly-B: 7 Vision pages split about 8.3K impressions at around position 20.
 • "Who / best" searches: one Westbank competitor dominates Maps, Facebook and Yelp; Vision doesn't show.
+• GA4: trenchless page brought ~2 first-time calls/month over the last 90 days (CallRail events in GA4). About 6/month across all water line, leak and Poly-B pages. West Kelowna is the #2 audience even though we barely rank there.
 • Trenchless page claims trenchless *sewer* work and lists CIPP, plus leftover condo / no-heat copy. Needs fixing before more traffic.
 
 *2. Roadmap, 90 days* (`water-main-roadmap-2026-10-27.md`)

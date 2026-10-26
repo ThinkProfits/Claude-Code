@@ -38,7 +38,8 @@ INTERNAL HEADER, DELETE BEFORE SENDING
 | Peachland | Not on page 1 | Not showing |
 
 **Other findings**
-- **Cost questions are going unanswered.** People searching "how much does trenchless water line replacement cost" see Vision's page a few hundred times a quarter, but well down the results, because there's no page that answers the cost question.
+- **Cost questions are only half answered.** People searching "how much does trenchless water line replacement cost" see Vision's page a few hundred times a quarter, but well down the results. Vision's blog explains what trenchless saves on driveway and yard repairs, but no page gives a price range for the job itself.
+- **The trenchless page brings in calls, just not many yet.** Over the last 90 days it brought in about 2 new callers a month, plus a few website chats. There's room to grow, and these numbers are the starting point we'll measure from.
 - **Poly-B searches are split across 7 Vision pages.** They end up competing with each other instead of one strong page ranking well.
 - **When someone asks "who replaces water lines in Kelowna?",** the answers lean on review sites, Facebook groups and Google reviews. Vision has 700+ reviews, but very few of them mention water line work.
 - **The trenchless page needs a cleanup** before we send more traffic to it. It mentions trenchless sewer work, which Vision doesn't offer, and has some copy left over from other pages.
@@ -72,6 +73,7 @@ We looked at who shows up for water line searches in each town.
 
 **First 3 weeks**
 - Clean up the trenchless page: remove the sewer references and leftover copy, and confirm every claim with you (same-day service, 50-year lifespan and so on).
+- Refresh the "Save Your Driveway" trenchless blog post to match, and fix a typo in its FAQ.
 - Turn it into a full guide to water line replacement: warning signs, the methods Vision uses, the pipe materials it replaces, what drives the cost, who owns which part of the line, the process from first call to water back on, the towns served, and an FAQ.
 
 **Weeks 4 to 8**
