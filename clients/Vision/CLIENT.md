@@ -86,9 +86,11 @@
 2. **West Kelowna** (main #2)
 3. Lake Country and surrounding Central Okanagan *confirm order*
 
-**Deprioritised**
-- **Vernon and Penticton:** "they don't care to prioritize ... vernon and penticton right now" (Andrew, 2026-08-18). Vernon has its own GBP (2024) and pages; Penticton has a page.
-- **PPC (2026-08-20):** Penticton and Summerland added as negatives ("can remove if service resumes later"); Peachland and a radius around it removed (spend with no conversions, wildfires). This suggests Penticton/Summerland service is paused. *Confirm with Vision; the live site still advertises both.*
+**Water main / trenchless (from 2026-10-20):** Brent's email ("Dominate Underground Water Main & Trenchless Replacement Searches Throughout the Okanagan") names Kelowna, West Kelowna, Penticton, Vernon, Summerland, Peachland and Lake Country as target markets for this service. For water line work, this supersedes the Vernon/Penticton deprioritisation below and settles the open question of whether Penticton and Summerland are still served. Plan: [water-main-roadmap-2026-10-27.md](water-main-roadmap-2026-10-27.md).
+
+**Deprioritised (other services)**
+- **Vernon and Penticton:** "they don't care to prioritize ... vernon and penticton right now" (Andrew, 2026-08-18). Vernon has its own GBP (2024) and pages; Penticton has a page. *Superseded for water main work (above); confirm with Andrew whether it still holds for HVAC and general plumbing.*
+- **PPC (2026-08-20):** Penticton and Summerland added as negatives ("can remove if service resumes later"); Peachland and a radius around it removed (spend with no conversions, wildfires). *These now conflict with Brent's water main markets. Andrew to decide whether to lift them for water line campaigns only or across the account.*
 
 **Tracked market:** one Semrush location, Kelowna. Vision's keyword sheet is single-location, not 3-location (see [keywords.md](keywords.md), section 1).
 
@@ -314,10 +316,10 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - [ ] Oct 3 promo tasks: blog post with schema, GBP post plus event (Oct 1 – Nov 30), header button link. Status unknown.
 - [ ] FortisBC "Gas Appliance Service Rebate, up to $150" on the homepage. The program ran June 2024 – June 2025 (Slack #seo, 2024-06-22). *Confirm it's still live.*
 - [ ] Homepage copy says "#1 Kelowna Plumber" and "The Best Plumber Kelowna Offers". These are award-backed but unqualified superlatives; flag for client review.
-- [ ] Penticton and Summerland are advertised on the site but negatived in PPC. Confirm service status.
+- [x] Penticton and Summerland service status: still served. Brent's 2026-10-20 email names both as water main markets (see section 3). PPC negatives still to be reviewed by Andrew.
 - [ ] AC installation page "Why Choose" table lists "Rebate paperwork handled", but Vision doesn't handle rebate paperwork (2026-07-17). Fix.
 - [ ] /ac-repair-kelowna/ ranks for furnace repair, HVAC service and AC maintenance terms. Sort out page targeting.
-- [ ] Poly-B cannibalisation (3 pages).
+- [ ] Poly-B cannibalisation: now 7 pages (GSC, 2026-10-27; table in [water-main-research-2026-10-27.md](water-main-research-2026-10-27.md) section 2).
 - [ ] Add the Why Choose section to remaining service pages.
 - [ ] Scrub More Rewards mentions (left the program 2026-07-07).
 - [ ] Watch WP Rocket for side effects (forms, tracking, visuals).

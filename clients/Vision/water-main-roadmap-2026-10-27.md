@@ -53,7 +53,7 @@ Goal: give every town real evidence that Vision does underground water work ther
 
 **Real-job content (the piece competitors don't have)**
 - [ ] Start a case study format: town, pipe material, problem, method, how long, photos, short quote from the homeowner (with permission). One page per notable job, or a running "Recent water line projects" section on the hub.
-- [ ] Target: 1–2 case studies a month, depending on how many jobs Vision does and how reliably techs capture photos (checklist coming separately).
+- [ ] Target: 1–2 case studies a month, depending on how many jobs Vision does and how reliably techs capture photos ([technician checklist](water-line-job-capture-checklist.md)).
 - [ ] Every case study also becomes a GBP post on the GBP closest to the job.
 
 **Cost page (biggest organic gap)**
@@ -147,5 +147,5 @@ No ranking or lead number is promised to Brent. We report these monthly, per tow
 
 - Which Poly-B page should win the consolidation?
 - Does the Vernon GBP join the posting automation?
-- Which pieces fit the current Plumbing Bundle (4 blogs, GBP posts, SEO hours) and which need the AEO add-on? To be settled in the package split.
+- Which pieces fit the current Plumbing Bundle and which need the AEO add-on: see [package split](water-main-package-split-2026-10-27.md) (recommends AEO Bronze).
 - Is Brent's 90-day expectation realistic given the volumes? Suggest framing the first 90 days as "foundation and proof", with Maps and AI movement measured from month 2.
