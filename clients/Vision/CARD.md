@@ -22,7 +22,7 @@ updated: 2026-10-14
 | Keywords and tracking list | [keywords.md](keywords.md) |
 | Sitewide fix list (2026-10-14) | [sitewide-fixes-2026-10-14.md](sitewide-fixes-2026-10-14.md) · [docx](Vision-sitewide-fixes-2026-10-14.docx) |
 | Em dashes in blog posts (63 posts) | [em-dash-blog-list-2026-10-14.md](em-dash-blog-list-2026-10-14.md) · [docx](Vision-em-dash-blog-list-2026-10-14.docx) |
-| Water main / trenchless research for Brent (2026-10-27, plan due 10-28) | [water-main-research-2026-10-27.md](water-main-research-2026-10-27.md) |
+| Water main / trenchless research for Brent (2026-10-27, plan due 10-28) | [water-main-research-2026-10-27.md](water-main-research-2026-10-27.md) · roadmap [water-main-roadmap-2026-10-27.md](water-main-roadmap-2026-10-27.md) |
 | Scrum 2026-10-15: Vernon push, drain cleaning, rankings | [scrum-2026-10-15.md](scrum-2026-10-15.md) |
 | Blog FAQ schema handoff (Make scenario 6209699) | [vision-blog-faq-schema-handoff.md](vision-blog-faq-schema-handoff.md) |
 | How to edit Elementor pages via wp-vision | [memory/vision-wp-mcp-elementor-edits.md](../../memory/vision-wp-mcp-elementor-edits.md) |
