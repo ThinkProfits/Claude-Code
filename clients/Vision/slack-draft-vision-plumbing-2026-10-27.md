@@ -4,7 +4,7 @@
 
 ---
 
-@Andrew Brent's water main / trenchless plan is ready for your review before it goes to him Wednesday. All files are in the TP repo under `clients/Vision/`:
+@Andrew Brent's water main / trenchless plan (plus the Vernon audit) is ready for your review. It's due to him today. All files are in the TP repo under `clients/Vision/`:
 
 *1. Research* (`water-main-research-2026-10-27.md`)
 • Organic: Vision is *#1 for "water line replacement" in Kelowna, Penticton and Vernon*. Weak in West Kelowna and Peachland.
@@ -18,12 +18,12 @@
 *2. Roadmap, 90 days* (`water-main-roadmap-2026-10-27.md`)
 • Weeks 1–3: fix and expand the trenchless page into the hub, GBP services and service areas, tracking set up first.
 • Weeks 4–8: case studies from real jobs, cost page, Poly-B consolidation, 1–2 water line blogs/month.
-• Weeks 6–12: town sections on the existing WK, Vernon and Penticton pages; new LC, Peachland and Summerland pages only once there's a real local job.
+• Weeks 6–12: town sections on the existing WK and Penticton pages (Vernon is covered by the Vernon workstream); new LC, Peachland and Summerland pages only once there's a real local job.
 
 *3. Tech photo/video checklist* (`water-line-job-capture-checklist.md`), ready to hand to Vision's crew.
 
 *4. Package split* (`water-main-package-split-2026-10-27.md`)
-• Foundation work fits the current package, but it eats about a month of SEO hours and moves 1–2 heating blogs/month to water line topics.
+• Foundation work fits the current package, but with Vernon added it's about 2.5–4 months of SEO hours on the ~10 hrs/month assumption, and it moves 1–2 heating blogs/month to water line and Vernon topics.
 • *Recommend adding AEO Bronze* ($995/mo + $1,680 setup, list) for AI tracking, case studies, review site profiles and mentions. Silver as the faster option.
 
 *5. Ads inputs for you* (`water-main-ads-inputs-2026-10-27.md`): ad group themes, sewer negatives, the Penticton/Summerland/Peachland conflict, and the landing page fix needed first.
@@ -43,5 +43,7 @@
 3. OK to swap 1–2 heating blogs a month for Nov–Jan?
 4. Lift the Penticton/Summerland negatives for water line campaigns only, or account-wide?
 5. Are they on Housecall Pro or ServiceM8?
+6. With Vernon added: run it all in sequence, step up to AEO Silver, or quote the Vernon page revamps as a one-off?
+7. OK if I fix the Vernon canonical loop, the expired furnace promo and the /vernon-plumbing/ links now?
 
 *Heads up:* Semrush is out of API units and BrightLocal's API key is invalid, so the town results are live spot checks, not grids. Both need fixing before we can set starting numbers.
