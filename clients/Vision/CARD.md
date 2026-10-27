@@ -32,6 +32,6 @@ updated: 2026-10-14
 | GBP handoffs | `gbp-handoffs/week-of-*/gbp-handoff__vision_kelowna__*` |
 | Semrush | project 11470309 |
 | Slack | #vision-plumbing · GBP approvals: #gbp-post-approvals |
-| Drive | keyword sheet `1wldjAsTudm_KWKUf2F83iGPFf-tuXBzXIUQ-MvbHl08` (main folder not recorded) |
+| Drive | Main folder "Vision Mechanical" `1ZkoFOvQMkH-Nh2_pcKjX7vfkuQKovrka` (shared "anyone with the link can view"). Water main + Vernon plan docs (Google Docs copies of the repo files, 2026-10-27): [2026-10 Water Main + Vernon Plan](https://drive.google.com/drive/folders/1x4VCnSeOk_yyJUe4YtJRzCnt6zPTnnm6), under Jobs > Vison SEO Platinum 02: 2025. Keyword sheet `1wldjAsTudm_KWKUf2F83iGPFf-tuXBzXIUQ-MvbHl08` |
 
 **Before any task, read CLIENT.md sections 8 (content guidelines) and 11 (working rules).** This card only gives status and pointers. It deliberately repeats no rules.
