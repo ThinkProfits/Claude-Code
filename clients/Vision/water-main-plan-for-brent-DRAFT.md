@@ -7,7 +7,7 @@ INTERNAL HEADER, DELETE BEFORE SENDING
 - Before sending: copy into a Google Doc in Vision's Drive folder, then delete this header.
 -->
 
-# Owning underground water line searches across the Okanagan
+# Owning underground water line searches across the Okanagan, and growing in Vernon
 
 **Prepared for:** Brent, Vision Plumbing Heating Cooling
 **Prepared by:** ThinkProfits

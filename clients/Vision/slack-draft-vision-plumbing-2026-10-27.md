@@ -30,6 +30,13 @@
 
 *6. Client-facing draft* (`water-main-plan-for-brent-DRAFT.md`), with a placeholder for your Ads section and prices marked to confirm.
 
+*7. Vernon audit* (`vernon-audit-2026-10-27.md`), all services, merged into the roadmap as workstream B:
+• Vernon GBP has *2 reviews* (pack winners have 250–2,900), sits at a Coldstream address, links to the Kelowna homepage, and carries copies of our Kelowna posts. Who's cross-posting those?
+• The Vernon hub has a *canonical loop* (canonical is /vernon-plumbing/, which 301s back) and is missing from the sitemap. /furnace-repair-vernon/ still shows the June 2025 Fortis promo. I'd fix both now.
+• Organic is up (avg pos 31.5 to 17.6 YoY) but stuck on page 2: 7 clicks a quarter. "plumber vernon" is ~260/mo and split between the hub and the emergency page.
+• Vernon paid traffic went from 315 sessions (LY quarter) to 10. Relevant to your Vernon campaign decision.
+• You said on Oct 14 you'd revamp the Vernon pages. Want me to draft them for your edit?
+
 *Need from you:*
 1. Vision's actual retainer and SEO hours (not on file; I assumed about 10 hrs/month)
 2. Lead with Bronze, or show all 3 options?
