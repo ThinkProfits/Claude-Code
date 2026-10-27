@@ -44,7 +44,7 @@
 2. Lead with Bronze, or show all 3 options?
 3. OK to swap 1–2 heating blogs a month for Nov–Jan?
 4. Lift the Penticton/Summerland negatives for water line campaigns only, or account-wide?
-5. Are they on Housecall Pro or ServiceM8?
+5. Brent mentions Housecall Pro for job tracking, but our file says ServiceM8. Which one are they on now? (Needed for the jobs and revenue reporting he asked for.)
 6. With Vernon added: run it all in sequence, step up to AEO Silver, or quote the Vernon page revamps as a one-off?
 7. OK if I fix the Vernon canonical loop, the expired furnace promo and the /vernon-plumbing/ links now?
 
