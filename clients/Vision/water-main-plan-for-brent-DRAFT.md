@@ -113,9 +113,35 @@ This is the part only Vision can do, and it makes the biggest difference. We've 
 
 **What we need from you:** one person on your team who makes sure each water line job gets its photos and job card. In our experience, it usually drops off after a few weeks without someone owning it.
 
+## Growing in Vernon (from our October 14 meeting)
+
+You asked us to win more of Vernon without taking anything away from Kelowna. We audited everything Vernon across the website, Google Maps, your Vernon Google profile, directories and Google's AI answers. Water line work in Vernon is part of this.
+
+**Where Vernon stands today**
+- **Rankings are climbing.** Vision's Vernon pages moved from around page 4 to page 2 on Google over the past year. Page 2 gets very few clicks, though, so there's real work left.
+- **The Vernon Google profile is holding Vernon back.** It has 2 reviews. The businesses in Vernon's top 3 map spots have between about 250 and 2,900. Google also lists the profile under Coldstream, not Vernon, and its website button sends people to the Kelowna homepage.
+- **Google's AI answers for "best plumber in Vernon" and "best HVAC company in Vernon"** list local companies with lots of reviews on their Google profiles. Vision isn't named yet, and reviews are the main way in.
+- **There are only 4 Vernon pages** (Vernon overview, emergency plumbing, hot water, furnace). One still shows an offer that ended in June 2025, and one has a technical setting that makes it hard for Google to index. We'll fix both right away.
+- **Vision isn't listed for Vernon on the main directories** (Yelp, Yellow Pages, BBB, HomeStars, the Vernon Chamber). A few old "Vision Mechanical" listings are also still online.
+
+**What we'll do**
+1. **Right away:** fix the expired offer, the indexing setting and the profile's website button, and correct a few typos and outdated details on the Vernon pages.
+2. **Vernon Google profile:** posts written for Vernon (not copies of Kelowna posts), the right services listed, and contact details that match everywhere.
+3. **Reviews:** a Vernon-only review link for Vernon customers, through Podium. Reviews need to come from customers who actually used the Vernon location. Sending Kelowna customers to the Vernon profile can get reviews removed, so we'll keep the two separate.
+4. **Rebuild the 4 Vernon pages** with real local content: your Vernon-based team, response times, local homes and projects. We'll also link to them from the rest of the site.
+5. **Then add Vernon pages** for heating and cooling, drain cleaning and water lines, one at a time, starting where Vernon search demand is highest.
+6. **Directory listings for Vernon,** and clean up the old Vision Mechanical listings.
+
+**What we need from you for Vernon**
+- [ ] Is the Coldstream address a location customers can visit, or a team member's home? If it's a home, Google requires the address to be hidden and the profile set up as serving Vernon and the surrounding area.
+- [ ] Confirm the Vernon phone number to show on the Vernon pages.
+- [ ] Is there a travel charge for Vernon, and what's the usual response time? The site currently says different things in different places.
+- [ ] Can we mention your Vernon-based technician and plumber by first name?
+- [ ] The Turtle Mountain water line photos, plus photos of vans or staff at recognisable Vernon spots.
+
 ## 8. Google Ads
 
-*[Andrew's section: ad groups, towns targeted, landing pages and monthly budget as a range with assumptions.]*
+*[Andrew's section: ad groups, towns targeted, landing pages and monthly budget as a range with assumptions. Include the Vernon ad weighting and the separate Vernon campaign decision from Oct 14.]*
 
 ## 9. Tracking and reporting
 

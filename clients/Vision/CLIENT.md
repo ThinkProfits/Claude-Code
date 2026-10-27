@@ -86,10 +86,12 @@
 2. **West Kelowna** (main #2)
 3. Lake Country and surrounding Central Okanagan *confirm order*
 
-**Water main / trenchless (from 2026-10-20):** Brent's email ("Dominate Underground Water Main & Trenchless Replacement Searches Throughout the Okanagan") names Kelowna, West Kelowna, Penticton, Vernon, Summerland, Peachland and Lake Country as target markets for this service. For water line work, this supersedes the Vernon/Penticton deprioritisation below and settles the open question of whether Penticton and Summerland are still served. Plan: [water-main-roadmap-2026-10-27.md](water-main-roadmap-2026-10-27.md).
+**Water main / trenchless (from 2026-10-20):** Brent's email ("Dominate Underground Water Main & Trenchless Replacement Searches Throughout the Okanagan") names Kelowna, West Kelowna, Penticton, Vernon, Summerland, Peachland and Lake Country as target markets for this service. For water line work, this supersedes the Penticton deprioritisation below and settles the open question of whether Penticton and Summerland are still served. Plan: [water-main-roadmap-2026-10-27.md](water-main-roadmap-2026-10-27.md).
 
-**Deprioritised (other services)**
-- **Vernon and Penticton:** "they don't care to prioritize ... vernon and penticton right now" (Andrew, 2026-08-18). Vernon has its own GBP (2024) and pages; Penticton has a page. *Superseded for water main work (above); confirm with Andrew whether it still holds for HVAC and general plumbing.*
+**Vernon expansion (from 2026-10-14):** Brent and Brandi want Vernon market share across all services (an HVAC tech and a plumber live there; about 80k people). Kelowna stays #1; don't rework the whole site or pull effort from Kelowna (client meeting 2026-10-14, scrum 2026-10-15). Audit: [vernon-audit-2026-10-27.md](vernon-audit-2026-10-27.md). This replaces the 2026-08-18 "don't prioritise Vernon" note.
+
+**Deprioritised**
+- **Penticton:** "they don't care to prioritize ... vernon and penticton right now" (Andrew, 2026-08-18). Still holds for general services; Penticton is a water main market only (above). Penticton has a page.
 - **PPC (2026-08-20):** Penticton and Summerland added as negatives ("can remove if service resumes later"); Peachland and a radius around it removed (spend with no conversions, wildfires). *These now conflict with Brent's water main markets. Andrew to decide whether to lift them for water line campaigns only or across the account.*
 
 **Tracked market:** one Semrush location, Kelowna. Vision's keyword sheet is single-location, not 3-location (see [keywords.md](keywords.md), section 1).
@@ -251,7 +253,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 
 - Facebook, X/Twitter, Instagram, YouTube and LinkedIn are linked in the site footer. *Confirm handles.*
 - **Social is managed by the client.** We supply snippets with each blog, and they schedule them.
-- **GBPs:** Kelowna (main, automation key `vision_kelowna`) and **Vernon** (opened 2024; tiny volumes; -26.5% impressions YoY in July). The Vernon GBP isn't in the GBP posting automation. *Confirm whether it should be.*
+- **GBPs:** Kelowna (main, automation key `vision_kelowna`) and **Vernon** (opened 2024; tiny volumes; -26.5% impressions YoY in July). The Vernon GBP isn't in the GBP posting automation, yet its public listing shows the same Kelowna-worded posts as the Kelowna GBP (Oct 13, 2026), so someone is cross-posting. *Confirm who, and switch to Vernon-specific posts.* Vernon GBP facts (2026-10-27): 25 Midland Dr, Coldstream V1B 3B7; (236) 599-6737; 5.0 from 2 reviews; website link goes to the homepage with `utm_campaign=gmb_vernon`. See [vernon-audit-2026-10-27.md](vernon-audit-2026-10-27.md).
 - Apple Maps: claimed Feb 2026; the old Leckie Road listing was marked closed.
 - Home shows have worked for them (ask about Kelowna home shows in December, per 2023 notes).
 
@@ -352,7 +354,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 
 **Conflicts**
 - **Penticton/Summerland:** served per the site; negatived in PPC (2026-08-20); deprioritised for SEO (2026-08-18).
-- **Vernon:** "growing, more important than Penticton" (2023) vs "don't prioritise" (2026-08-18).
+- ~~**Vernon:** "growing, more important than Penticton" (2023) vs "don't prioritise" (2026-08-18).~~ Resolved 2026-10-14: Vernon is an expansion market (section 3).
 - **Rebate paperwork:** Andrew says Vision doesn't handle it (2026-07-17), but his own AC install page edit lists "Rebate paperwork handled".
 - **Sump pump:** the client said to drop it (2026-04-15), but Francis's Aug add-list proposed "sump pump installation kelowna". Andrew's final list correctly omits it.
 - **HRV/ventilation:** excluded (2026-04-15), but Francis's add-list proposed "hrv installation kelowna". Andrew's final list omits it.

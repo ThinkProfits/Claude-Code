@@ -41,6 +41,30 @@ Reprioritising work Vision already pays for. No extra cost, but something else m
 
 **What this means for hours:** Phase 1 alone is about 10–14 hours, so it uses roughly a full month of SEO time in November (on the 10-hour assumption). Phases 2–3 spread across December and January at about 4–6 hours a month. **The trade-off for Brent:** the in-package route works, but other SEO work slows for about a month, and 1–2 blogs a month move off heating during heating season.
 
+### 1b. Vernon expansion (added 2026-10-27, from the [Vernon audit](vernon-audit-2026-10-27.md))
+
+Vernon was already agreed with the client on Oct 14, so most of it is existing scope. But it competes for the same hours as the water main work.
+
+| Work | Rough hours | Fits current package? |
+|---|---|---|
+| Fix-now items (expired promo, canonical loop, link repoint, GBP link, copy fixes) | 3–4 | Yes. Errors on pages we manage |
+| Vernon GBP: NAP alignment, services, Vernon-specific posts (about 2 a month) | 1–2 setup + 1/month | Yes, at that level |
+| Revamp the 4 Vernon pages in the 2026 layout | 12–20 | Yes, as service page rewrites. Andrew committed to it on Oct 14 |
+| Vernon links from the homepage and ~20 service pages | 2 | Yes |
+| Localise 2–4 blogs for Vernon | 0 extra | Yes, from the 4/month quota, shared with the water line topics |
+| New Vernon pages (AC/heat pump, drains, water line) | 4–6 each | Partly. One a month fits; faster needs more hours |
+| Vernon citations and old "Vision Mechanical" cleanup | 4–6 setup | AEO add-on (off-site work) |
+| Vernon review drive | Vision's work; 1 hour our side for the Podium link and wording | Yes |
+
+**What this does to the hours:**
+- On the 10-hour assumption, water main Phase 1 (10–14 hours) plus the Vernon fix-now items and page revamps (15–24 hours) is roughly **2.5 to 4 months of SEO time**, before any other SEO work.
+- Options:
+  1. **Run them in sequence:** fix-now items for both first, then water main Phase 1, then the Vernon revamps. This is the slowest route.
+  2. **Add AEO Silver instead of Bronze,** so the off-site and GBP work moves to AEO hours and frees SEO hours for the page work.
+  3. **Quote the Vernon page revamps as a one-off project** on top of the retainer.
+
+  Recommendation: option 1 for the fix-now items (they're errors, do them now), then let Andrew choose 2 or 3 for the revamps.
+
 ## 2. Needs the AEO add-on (recommended: Bronze)
 
 New kinds of work the current package doesn't cover.
@@ -63,7 +87,7 @@ New kinds of work the current package doesn't cover.
 Everything in Bronze, plus:
 - 2 case studies a month instead of 1
 - New town pages for Lake Country, Peachland and Summerland as soon as there's a real local job for each (roadmap Phase 3)
-- Vernon GBP added to the posting automation, with its own water line posts
+- Vernon GBP posting at full volume (weekly, with water line and Vernon job posts) and Vernon citations; basic Vernon posting is already in the current package (section 1b)
 - More off-site work each month
 
 **Price (list, confirm with Shawn):** Think AEO Silver **$1,895/month + $1,950 one-time setup**.
@@ -97,3 +121,4 @@ All three get the same honest framing: no promised rankings or lead numbers. We 
 3. OK to propose moving 1–2 heating blogs a month to water line topics for Nov–Jan?
 4. Who pays for BrightLocal grid credits?
 5. Andrew said at scrum (2026-10-21) that Brent wants this over "the next 6 to 12 months". Pitch the AEO add-on as 6 months minimum, with a review at 90 days?
+6. With Vernon added, the in-package hours are stretched (section 1b). Run the work in sequence, step up to Silver, or quote the Vernon page revamps as a one-off?
