@@ -176,8 +176,14 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 
 **Approval flow**
 - Francis drafts; **Andrew reviews and approves**; no client sign-off needed for blogs. Andrew sometimes rewrites and hands back "ready to publish".
-- After publishing: set the author to the client's account (admin), add blog categories, and match the "Quick Answer" block styling to /blog/wildfire-insurance-coverage-commercial-properties/ (Andrew, 2025-12-13 and 2026-07-09).
+- After publishing: set the author to the client's account (admin), add blog categories, and match the "Quick Answer" block styling to /blog/wildfire-protection-critical-infrastructure/ (2026-10-28; earlier reference was /blog/wildfire-insurance-coverage-commercial-properties/, Andrew, 2025-12-13 and 2026-07-09). See the publishing checklist below.
 - Watch scheduled dates: one post missed its schedule in Dec 2025.
+
+**Publishing checklist (every blog, before or right after it goes live)** — added 2026-10-28 after the two Sept 2026 posts (wildland-urban-interface-fire-risk, wildfire-readiness-drills-business) went live with all three problems below.
+- **Links:** no `https://www.google.com/url?q=…` redirects. Google Docs wraps every link in one and often splits it into an empty `&nbsp;` anchor plus the real one. Unwrap to the real URL, drop the empty anchor, and decode `%23` back to `#`. Check the live page has zero `google.com/url` links.
+- **Quick Answer:** match /blog/wildfire-protection-critical-infrastructure/ (post 8921). Markup is a one-cell table, then a spacer: `<table><tbody><tr><td><p><b>Quick Answer:</b></p><p>…answer…</p></td></tr></tbody></table><p>&nbsp;</p>`. A plain `<strong>Quick answer:</strong>` paragraph renders unstyled.
+- **FAQs:** never ship the native `<details>` / `<section class="blog-faq">` markup on SPIEDR; it has no schema here. Create an Easy Accordion group in wp-admin (title "FAQ for <post title>", Schema Markup on, first item open), then put `<h2>Frequently Asked Questions: <topic></h2>` followed by `[sp_easyaccordion id="…"]` in the post. The `wp-spiedr` MCP can't create the group: its questions live in `sp_eap_upload_options` post meta, which isn't exposed to the REST API, so a person creates it and pastes back the shortcode. Confirm the live page has an `FAQPage` JSON-LD block with every question. Groups so far: 8815, 8821, 8891, 8925, 8979 (WUI post 8959), 8989 (drills post 8960).
+- Also remove empty headings (the drills post shipped with `<h1></h1>`) and set categories (both Sept 2026 posts were left in Uncategorized).
 
 **Standing rules from Andrew**
 - **Lead with BC and Canada** (2026-06-16). Use BC Wildfire Service, Natural Resources Canada, CIFFC, Canadian Drought Monitor and the BC River Forecast Centre first. US data (NIFC, NIDIS, CPC) is supporting context only.

@@ -43,3 +43,8 @@ Shared `name="blog-faq"` on every `<details>` gives true one-open-at-a-time acco
 **Rollout safety pattern used:** duplicate the live Make scenario into a disabled test copy, run cleanup + accordion conversion against an existing draft, compare against source doc (headings/bold/lists/links/mobile/keyboard nav), only swap into the active scenario after it passes — don't edit the working scenario directly.
 
 See also [[gbp-brain-body-split]] for the related principle of Claude not touching live automation/webhook configs directly.
+
+**Known gaps found 2026-10-28 (SPIEDR Blog Draft Publisher, Make scenario 6209700):**
+- The cleanup chain (modules 14–22) keeps Google Docs' `https://www.google.com/url?q=…&sa=D…` redirect wrappers and the empty `&nbsp;` anchors Docs splits links into. Every internal and source link on the two Sept 2026 SPIEDR posts shipped as a google.com redirect. Unwrapping has to be added to the chain (after body extraction, before attribute stripping).
+- No Quick Answer handling: the doc's "Quick answer:" paragraph goes through as plain text. Clients with a styled Quick Answer block (SPIEDR) need a conversion step.
+- **Per-client FAQ exception:** SPIEDR does not use the native `<details>` accordion. It needs Easy Accordion groups (schema comes from the plugin). The group's questions sit in non-REST post meta (`sp_eap_upload_options`), so neither Make nor the `wp-spiedr` MCP can create one today. See `clients/spiedr/CLIENT.md` section 8 publishing checklist.
