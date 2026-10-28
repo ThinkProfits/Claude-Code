@@ -4,6 +4,8 @@ How to get this repo working on another PC so it stays in sync with GitHub the s
 
 Takes about 10 minutes. You only do this once per device.
 
+**Setting up Claude for a new teammate?** Use [CLAUDE-SETUP-WALKTHROUGH.md](CLAUDE-SETUP-WALKTHROUGH.md) instead. Drag it into Claude Code and Claude walks you through everything in this guide, plus connectors, plugins and the Graphify memory recall hook.
+
 ## 1. Install the basics
 
 - **Git for Windows**: https://git-scm.com/download/win (keep the defaults; it includes Git Credential Manager).
