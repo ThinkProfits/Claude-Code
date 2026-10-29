@@ -281,4 +281,12 @@ FINISH: run a text search across src for the banned words list and fix any hits;
 
 | Date | What | Credits |
 |---|---|---|
-| 2026-10-29 | Brief v1 written; build message sent to Lovable | see below |
+| 2026-10-29 | Brief v1 written; build sent. 5-page site built from option 2, commit `2e9bd634`. Lovable removed the "hundreds of estates" claim and "Simpler". QA by a subagent: all checks passed (routes, noindex, one H1 per page, banned words, REALTOR®, West Side list, fee table, intake form). | 7.2 |
+| 2026-10-29 | Fixes, commit `4b40de20`: executor intro softened ("a lawyer who practises wills and estates exclusively"); ReviewNote added under the options comparison table; mobile menu gets a "Request a meeting" CTA; unused areasIntro removed. Banned-word scan and tests pass. | 1.4 |
+
+### Open before sending to Geraldine
+- [ ] Visual check of the preview, desktop and 375px. Needs a Lovable login; the Lovable agent's own Playwright check passed.
+- [ ] Share preview link (Lovable editor: Share → Share preview, 7-day expiry) for Andrew to send.
+- [ ] Wire both forms (email delivery) before launch.
+- [ ] Blog template (in the Bronze package) not built yet.
+- [ ] Before launch: SHOW_REVIEW_NOTES = false, remove noindex and robots Disallow, LegalService schema, GA4/GSC.
