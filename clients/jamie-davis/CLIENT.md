@@ -207,6 +207,30 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - Link to primary sources (e.g. the ICBC Towing Invoicing and Rates page), not news articles about them.
 - Highway Thru Hell: Sherry approved show branding (2024-12-19), but the client asked for all **merch** to be removed. Don't add merch or shop content.
 
+**WordPress build format** (Andrew, Slack #jamiedavistowing, 2026-10-29)
+- Match the live template on https://www.jamiedavistowing.com/blog/tow-truck-cost-bc/. Easiest way: **duplicate that post** (Andrew also fixed the flatbed post to match).
+- Set the WordPress **post title** field. Don't fake it with an H1 in the body: the title then won't show on the blog index.
+- Select **categories** (Andrew added some; add or refine as needed).
+- **Author = Jamie Davis**, never Francis or Andrew.
+- Featured/body **images from the client's own site** until new photos arrive.
+- Include the **Quick Answer** block near the top.
+- FAQs: **Elementor Toggle widget with FAQ schema enabled**, FAQ titles as **H3**. Not the Advanced Accordion (it can't output FAQ schema).
+
+**Accuracy and drafting rules** (Andrew's review of the Motorcycle Towing, Breakdown Safety, Winter Tire Law and Car Stuck in Snow drafts, 2026-10-29)
+- **Every external fact needs a source, linked on first mention.** No unsourced stats, rules or claims. Several were wrong or invented.
+- **The link must contain the claim, credited to the right publisher and year.** The ICBC stats mixed the 2025 and 2026 releases and included a claim found in neither. Open each source and confirm the exact figure before citing it.
+- **Internal links: full absolute URLs, checked against the live sitemap.** Drafts used malformed `http:///` links and dead paths (`/emergency-towing/`, `/heavy-recovery/`, `/flatbed-towing/`, unpublished blog slugs). Real paths are in [memory/jamie-davis-towing-context.md](../../memory/jamie-davis-towing-context.md).
+- **No unverified client claims.** Cut any service, equipment or phone number that isn't confirmed by the live site or the client, and no invented first-person experience ("every fall we tow…", "what we see on the corridors"). Andrew flagged the phone number as unconfirmed even though it's on the site, so confirm it before using it.
+- **No overstated absolutes.** "Motorcycles require a flatbed" is wrong (a dedicated motorcycle trailer is also correct). "Don't call 911 for a breakdown" is wrong (BC says call 911 if stranded in severe weather). **Don't copy claims from the client's existing posts without checking them.**
+- **Time-sensitive figures** (fines, limits, dates) read "at the time of writing" and point to the official source.
+- **Road-safety specifics must be exact:** Coquihalla limit is 120 km/h (not "100+ km/h"). Staying in the vehicle is almost always safest; stress checking for traffic before stepping out. Mention brake check areas and runaway lanes for mountain routes. Don't invent call boxes or warning-triangle distances.
+- **Winter tire / chain law (most serious errors):** chains are **not** an alternative to winter tires for a vehicle on summer tires. The quarter shows a **caribou**, not a maple leaf. Commercial chain fines differ from the $121 passenger fine. Check route start/end dates on the official regional maps (the Fraser Canyon requirement ends **March 31** and starts at **Laidlaw, not Hope**). Verify commercial chain placement against the official source.
+- **Carbon monoxide:** early symptoms are headache, dizziness, nausea; confusion and drowsiness come later. Tell readers to call 911 **right away**, not "if symptoms don't clear".
+- **Headings vs FAQs:** question-style headings only for the main search queries. FAQs hold short standalone answers. **Never repeat a question in both a heading and the FAQ.** The FAQ is always the **last section**.
+- **Every deliverable includes meta title, meta description (under 155 characters), slug and primary keyword.**
+- Clean output: no stray markup or blockquote indents left in the doc.
+- Car Stuck in Snow was the strongest of the four; use it as the model for tone and structure.
+
 **Ideas that no longer apply** (don't revive without asking Andrew)
 - **Impound lot info page** (Andrew, 2024-12-17): dropped. They don't run impound or storage (2026-07-10).
 - **"Don't write more blogs until the client replies"** (2026-07-10): replaced on 2026-08-19 by "keep writing the July and August drafts".

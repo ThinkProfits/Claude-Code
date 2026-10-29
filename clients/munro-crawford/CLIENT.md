@@ -182,7 +182,12 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - **Hyperlink every service or topic that has a page on the site** (2026-06-16).
 - **External citations link to the exact source page**, not the organisation's homepage (2026-06-16).
 
-**Voice:** friendly, down-to-earth, plain language ("no stuffy legal jargon"). Educational, BC-specific. Canadian spelling. No outcome promises.
+**Voice: professional and polished, not conversational** (client feedback relayed by Andrew, Slack #munrocrawford, 2026-10-28 and 2026-10-29). Plain language is still fine (no stuffy legal jargon), but no casual phrasing. Educational, BC-specific. Canadian spelling. No outcome promises.
+- The client rejected the casual tone of the August, September and October 2026 drafts. Blogs before those were well liked, so model new drafts on posts published before August 2026, not the recent ones.
+- **No informal idioms or chatty asides.** Client example: replace "caught off guard" with a direct statement such as "Most people do not realize that property transfer tax and PTT are entirely different."
+- **No reader-validating openers** that aren't strictly true. Client rejected: "If you've searched for a notary public in Vancouver to handle your will, you're not wrong to start there."
+- **Take a clear position where the firm has one.** On notary vs lawyer for wills, the client wants firm language ("restrictions", "limits", "prohibitions") that makes it clear a notary should not be the first choice. Don't hedge or present both sides as equal.
+- Outcome of that round: BC Property Transfer Tax Exemptions blog approved (August, minor wording edits, ready to publish). Notary vs Lawyer for Your Will in BC **not approved**; Andrew reworked it and sent it back with October's draft (also rewritten for tone).
 
 **Topics to avoid:** co-op law; non-BC law (except Canada-wide tax context); family-law advice beyond estate impact.
 

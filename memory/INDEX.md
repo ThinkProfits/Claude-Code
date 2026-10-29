@@ -22,6 +22,7 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 
 ## Standards (all clients)
 - [Blog topic cannibalization check](blog-topic-cannibalization-check.md): check existing content before pitching topics
+- [Blog fact-check standard](blog-fact-check-standard.md): source and verify every fact, link and client claim; match the tone the client already approved (Andrew, Oct 2026)
 - [People Also Ask research](paa-research-standard.md): always pull PAA questions into research and FAQs
 - [Page-update doc format](page-update-doc-format.md): Current | Replacement side-by-side layout
 - [Page additions merge into existing sections](page-additions-merge-into-existing-sections.md): no near-duplicate sections, keep Why Choose high, don't contradict the page, no em dashes or tracking numbers
