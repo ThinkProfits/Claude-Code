@@ -210,10 +210,10 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 
 **Andrew's standing rules** (2025-11 to 2026-09)
 - **Local first:** Kelowna, West Kelowna and Okanagan specifics. No US programmes, regulators or sources (use NRCan, not DOE). This is the #1 rule.
-- **Length:** 3–5 pages, not 12–16.
+- **Length:** 5 Google Docs pages maximum plus the GBP post (about 1,600 to 1,750 words). Superseded the older "3–5 pages" rule on 2026-10-30.
 - **One Quick Answer block**, at the top, in the established style (match /septic-safe-plumbing-west-kelowna-westside-road-casa-loma/).
 - **FAQs:** factual and unbiased. No brand mentions or internal links in answers. H2 "Frequently Asked Questions" with H3 questions (the Make pipeline depends on this).
-- **CTAs:** "contact us" or "in-home assessment". **No "free consultation/estimate"** and no "no upsells, no pressure".
+- **CTAs:** "contact us" or "get a quote". **No "book an in-home assessment"** (dropped 2026-10-30), **no "free consultation/estimate"**, no "no upsells, no pressure", no "We see your solution" tagline, and no phone numbers or addresses in blog closings or GBP posts.
 - **Rebates:** genericise to "available rebates" with a link to /financing-rebates/ in most blogs. Name FortisBC/CleanBC only where it's the point. Don't say Vision handles rebate paperwork.
 - **Accuracy:** mini-splits are heat pumps; R-454B/R-32 for new systems; furnace/HVAC filters are not standalone air filters; Vision doesn't do generators or ducts.
 - **Never contradict annual maintenance** messaging.
@@ -227,6 +227,22 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - **Table styling:** brand colours, black on orange, with legible contrast.
 - **Process:** check the site's past blogs for tone, service areas and cannibalisation before writing; fact-check; re-prompt AI for a review until it stops finding errors; read it yourself before sending (2026-05-09).
 - PTAC FAQ wording to use: "Do you install PTAC units? No, and they often can't be repaired either. We instead offer upgrades to ductless split systems." (2026-08-22)
+
+**Blog review feedback, 2026-10-30** (boiler repair vs. replacement, boiler installation cost, signs you need repiping, sewer camera inspection; reviewed, edited and sent for approval)
+- **No placeholders.** Never ship `[VISION TO CONFIRM]` gaps. Use real BC benchmarks or averages and state the assumption in the copy ("These ranges reflect current BC market pricing for…"). Vision corrects figures in review. Check Vision's own pages first (the repipe cost range was already on the Poly-B page).
+- **Fact-check Vision's own pages too.** Don't copy claims from Vision's site or competitors without a primary source. Known corrections:
+  - Kelowna is one of seven BC local governments that issue their own gas permits (the draft's TSBC link pointed to the wrong page).
+  - Poly-B was installed from about 1978 into the late 1990s. Vision's Poly-B page has this wrong (open item, section 12).
+  - Don't tie Orangeburg pipe to the Okanagan; no source supports it.
+  - The drain service page promises a "complete assessment", not a "written assessment". Match the page's wording.
+  - A Department of Energy page that no longer exists was linked. Live-check every URL before delivery.
+- **External sources:** Canadian first (NRCan, Health Canada, TSBC, IBC) or Vision's manufacturers (e.g. Navien). US only if no Canadian source exists. Link out only to back a specific statistic or regulation; common safety advice (e.g. CO alarms) needs no citation.
+- **Internal links:** about 10 to 14 per 1,700-word post, at most one per paragraph, each URL once. Prioritise service pages, closely related posts, financing and rebates; cut tangential links. Vernon anchors must include "Vernon" in a descriptive phrase (e.g. "plumbing services in Vernon"); Kelowna and Vernon links can share a sentence. Emergency links go to the main Kelowna emergency page. Every post mentions Kelowna, West Kelowna, Vernon and/or the Okanagan and includes one commercial service link. Check the sitemap for cannibalisation and cross-link sibling posts (e.g. repair vs. replacement and installation cost).
+- **House rules:** Canadian spelling (aluminum, neutralizer, colour). No image placement notes in the copy. Don't imply services Vision doesn't do as standard (e.g. heat loss or load calculations). FAQs short and neutral, in sentence case, with no links or Vision mentions.
+- **Style:** read 2 or 3 recent published Vision blogs first and match them: direct and confident, specific numbers, no hedging ("about", "roughly"), terms explained in brackets on first use. Plain words over trade jargon ("tap water", not "domestic hot water"); explain concepts like combi vs. heat-only boilers. Quick Answer is a paragraph, not bullets. Bullets over tables, as in Vision's published cost guides. Watch for clunky source attributions.
+- **Structure:** one H1, sections as H2, subsections and FAQ questions as H3. Every H1, H2 and H3 carries a target or secondary keyword. Meta block holds only the title tag, meta description, URL slug and target keyword.
+- **GBP post:** 900 to 1,300 characters, scannable label-and-text format, mentions Kelowna, West Kelowna, Vernon and the surrounding Okanagan, and ends with "Read the full guide, then contact us for a quote."
+- **Depth:** cover the "why" behind the decisions homeowners face (e.g. outgrowing a boiler through household growth or new fixtures) and the upgrade options (in-floor heating, combi boilers). Position specialty products accurately: Sedna is ongoing leak protection, not just a stopgap before a repipe.
 
 **Topics to avoid:** trenchless sewer, ventilation/HRV, ductwork, sump pumps, thermostats, generators, sprinkler winterizing, garbage disposals, bathroom fans, DIY guides that push readers away from hiring Vision.
 
@@ -320,6 +336,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - [ ] FortisBC "Gas Appliance Service Rebate, up to $150" on the homepage. The program ran June 2024 – June 2025 (Slack #seo, 2024-06-22). *Confirm it's still live.*
 - [ ] Homepage copy says "#1 Kelowna Plumber" and "The Best Plumber Kelowna Offers". These are award-backed but unqualified superlatives; flag for client review.
 - [x] Penticton and Summerland service status: still served. Brent's 2026-10-20 email names both as water main markets (see section 3). PPC negatives still to be reviewed by Andrew.
+- [ ] Poly-B page: installation dates are wrong. Correct to about 1978 into the late 1990s (blog review, 2026-10-30).
 - [ ] AC installation page "Why Choose" table lists "Rebate paperwork handled", but Vision doesn't handle rebate paperwork (2026-07-17). Fix.
 - [ ] /ac-repair-kelowna/ ranks for furnace repair, HVAC service and AC maintenance terms. Sort out page targeting.
 - [ ] Poly-B cannibalisation: now 7 pages (GSC, 2026-10-27; table in [water-main-research-2026-10-27.md](water-main-research-2026-10-27.md) section 2).

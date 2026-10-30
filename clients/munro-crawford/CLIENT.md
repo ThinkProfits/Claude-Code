@@ -187,7 +187,21 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - **No informal idioms or chatty asides.** Client example: replace "caught off guard" with a direct statement such as "Most people do not realize that property transfer tax and PTT are entirely different."
 - **No reader-validating openers** that aren't strictly true. Client rejected: "If you've searched for a notary public in Vancouver to handle your will, you're not wrong to start there."
 - **Take a clear position where the firm has one.** On notary vs lawyer for wills, the client wants firm language ("restrictions", "limits", "prohibitions") that makes it clear a notary should not be the first choice. Don't hedge or present both sides as equal.
-- Outcome of that round: BC Property Transfer Tax Exemptions blog approved (August, minor wording edits, ready to publish). Notary vs Lawyer for Your Will in BC **not approved**; Andrew reworked it and sent it back with October's draft (also rewritten for tone).
+- Outcome of that round: BC Property Transfer Tax Exemptions blog approved (August, minor wording edits, ready to publish). Notary vs Lawyer for Your Will in BC **not approved**; Andrew reworked it and sent it back with October's draft (also rewritten for tone). Joint Tenancy Risks in BC: revisions requested (idioms "one line on the ledger" and "holding up", an awkward sentence about adding a child to title, and "highly restrictive to reverse").
+
+**Blog tone rules** (consolidated from the three rounds above, 2026-10-30). Apply to every draft:
+- **No idioms, slang or figures of speech.** Say it literally. If a phrase only makes sense as an expression, rewrite it.
+  - Rejected: "trips up", "catches people off guard", "one line on the ledger", "holding up", "squarely accountant-and-lawyer territory", "DIY", "turn on" (rejected as a replacement for the same reason), "never borrowed a cent".
+  - Approved: "Most people do not realize that…", "This affects families who…", "This requires professional advice from an accountant and a lawyer.", "Courts decide these disputes based on…"
+- **Every statement must be literally true.** No rhetorical openers or rapport-building reassurances. If a sentence would not hold up word for word as legal information, cut it.
+- **Clear, direct sentences.** One idea per sentence; lead with the plain fact.
+  - Rejected: "Adding your child with a real ownership interest is, for tax purposes, a gift of part of your property."
+  - Approved: "Adding your child to the title of your home gives them a real ownership interest. For tax purposes, this is considered a gift of part of your property."
+  - No awkward word pairings: "difficult to reverse", not "highly restrictive to reverse".
+- **Firm language about legal limits.** Use "restrictions", "limits", "prohibitions", "cannot", "is not permitted to". Don't soften a restriction to sound friendly. Where a lawyer is the right choice, say so rather than presenting options as equal.
+- **Authoritative without overstating.** No "routinely", "entirely", "severe" or "frequently" without a source. Prefer "can", "may", "is a common cause of".
+- **Formal register.** No contractions ("do not", not "don't"). No casual asides or chatty transitions ("Here's the thing", "Practically speaking"). Second person ("you", "your") is fine for explaining what applies to the reader.
+- **Self-check every sentence before submitting:** Would a lawyer say this in a client letter? Is it literally accurate? Does it contain an expression that only works figuratively? If any answer fails, rewrite.
 
 **Topics to avoid:** co-op law; non-BC law (except Canada-wide tax context); family-law advice beyond estate impact.
 
