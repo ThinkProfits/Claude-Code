@@ -246,3 +246,31 @@ Notes:
 | Date | Change |
 |---|---|
 | 2026-10-29 | Audit written: two passes plus a review of the new About/Blog pages. No fixes applied yet. |
+| 2026-10-30 | Visual check through the Lovable share link (commit `9f1e606e`), at 1440px and 375px, on all 9 routes (including /privacy, /blog and a 404). See section 9. |
+| 2026-10-30 | Fix round sent ([lovable-fix-round-2026-10-30.md](lovable-fix-round-2026-10-30.md)). Lovable commits: `5b1af7de` (full nav moved to the xl breakpoint, hamburger menu below 1280px) and `9f1e606e` (all 35 items). Verified from the diff: every item applied as specified, copy word for word, with no unrequested copy changes. Not verified: test run output, credits used, rendered visual check. |
+
+---
+
+## 9. Visual check (2026-10-30, share link, commit 9f1e606e)
+
+The site was checked in a real browser at 1440px and 375px. Every page loaded.
+
+**Passed**
+- All 9 routes return HTTP 200; the unknown page returns a real 404, and the branded 404 renders.
+- No horizontal scrolling at either width.
+- One H1 on each page; one robots meta tag on each page.
+- Canonical tags are correct.
+- The JSON-LD parses on every page: LegalService, WebSite and FAQPage on Home; Service, BreadcrumbList and FAQPage on each service page; ProfilePage on About; ContactPage on Contact.
+- The desktop header fits 6 nav items, the phone number and the CTA. On mobile, the hamburger menu opens correctly and includes the Request a meeting button.
+- Contact form: picking Wills shows the 5 household questions (7 fields become 12); picking an estate hides them again.
+- The only console errors are the 404s from the deliberate test URL.
+
+**New findings**
+
+| Severity | Page | Issue | Fix |
+|---|---|---|---|
+| M | Executor | At 375px, the "Your options compared" table is cramped: two narrow columns, with rows up to about 8 lines tall. | Below the sm breakpoint, show each row as a stacked card (option as the heading, consideration below it). |
+| L | Wills, Probate | At 375px the H1 wraps to 6 and 5 lines. The first CTA lands at about 685px and 669px, so it's below the fold on short phones (667px tall). | Consider a smaller H1 size on mobile (text-3xl). The H1 copy is approved. |
+| L | Home | In the Wills service card, the tax and trusts note sits below the "About wills & estate planning" link, so it reads after the call to action. | Move the note above the link. |
+| L | Footer | Footer nav and email links are 21px tall. That passes WCAG 2.5.8 through spacing, but it's small for older users. | Add py-1.5 to footer links. |
+| — | Preview only | The "Draft for review" label and the Lovable badge cover the bottom-left corner. | Both disappear at launch. |

@@ -107,3 +107,19 @@ Fix round from our site audit. Please apply everything below. Keep all copy in s
 35. Tests: in review-rules.test.tsx, add a test that fails if any string in src/content contains these banned words (case-insensitive, whole words): specialist, specialize, specialty, expert, best, "peace of mind", easy, simple, simply, stress-free, guarantee, testimonial. Also add a test that "REALTOR" never appears without "®". Make sure all tests pass.
 
 When done, list every file you changed and confirm each numbered item.
+
+---
+
+## Result (2026-10-30)
+
+- **Commits:**
+  - `5b1af7de`: header switches to the hamburger menu below 1280px, so 6 nav items fit.
+  - `9f1e606e`: all 35 items.
+- **Verified against the diff:** all 35 items applied, and the copy matches word for word. No other approved copy changed. Blog is removed from the nav and footer, but the route still exists. /privacy has noindex. The schema has no street address and no geraldinehampton.com. The intake form shows the will questions only when "Wills, powers of attorney & personal directives" is selected.
+- **New tests:** a banned-word check across all content, a REALTOR® check, and a check for the conditional intake fields.
+- **Not verified:**
+  - Whether the tests pass. Lovable's run output wasn't captured.
+  - Credits used.
+  - The rendered look on desktop and at 375px.
+  - The 404 HTTP status.
+- **Known limitation:** the canonical tags, og:image and schema URLs point to https://estateoptions.ca. They resolve only once the site is live on that domain. That's expected, and the pages stay noindex for now.
