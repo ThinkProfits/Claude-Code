@@ -274,3 +274,17 @@ The site was checked in a real browser at 1440px and 375px. Every page loaded.
 | L | Home | In the Wills service card, the tax and trusts note sits below the "About wills & estate planning" link, so it reads after the call to action. | Move the note above the link. |
 | L | Footer | Footer nav and email links are 21px tall. That passes WCAG 2.5.8 through spacing, but it's small for older users. | Add py-1.5 to footer links. |
 | — | Preview only | The "Draft for review" label and the Lovable badge cover the bottom-left corner. | Both disappear at launch. |
+
+**Polish round (2026-10-30, commit `111f7cec`, 1.8 credits for the plan + 2.7 for the build):** all 4 items above were applied.
+- Executor table: stacks into cards below 640px (the stacked copy is aria-hidden; the real table stays available to screen readers).
+- Interior H1: text-3xl on mobile.
+- Home Wills card: the note now sits above the link.
+- Footer links: at least 32px tall.
+
+Checked in the diff: no copy changed. Lovable reports 29 tests passing and its own Playwright checks at 375, 639, 640 and 1280px. The share-preview URL was still serving the previous build at the time of checking, so the new build hasn't been seen in a browser yet.
+
+**About held for phase two (2026-10-30, commit `b12cd745`, 2.2 credits):** Geraldine doesn't want an About page at launch.
+- About is removed from the header, mobile and footer menus; nothing on the site links to /about.
+- The /about route and its content stay in place for phase two, still noindex.
+- Home shows the full two-paragraph bio again, and the "More about Geraldine" link is gone.
+- Added two tests that fail if About is linked from the menus or the 404 page. All 31 tests pass.
