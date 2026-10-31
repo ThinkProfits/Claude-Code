@@ -154,6 +154,11 @@ All 38 titles now have confirmed authors: `clients/mujo/authors-sheet/authors-fi
 
 **Next:** decide the output method. Rank Math custom schema per product replaces Rank Math's default ProductGroup (37 manual entries, or via `rankmath/v1/updateSchemas` through `wp-mujo`), or one small snippet (WPCode is installed) that adds Book/author/publisher fields to Rank Math's existing ProductGroup variants for all products at once. Snippet = one place to maintain, prices stay in sync with WooCommerce automatically. Needs Andrew's OK either way.
 
+**Rollout started 2026-11-01 (method: per-product Rank Math custom schema, chosen by Francis).**
+- Live data refreshed (`refresh_titles.py`): no price, ISBN or variant changes since 2026-10-10. Payloads: `schema/build_rankmath_payloads.py` writes `rankmath-payloads.json` (38 products). Live check: `schema/verify_live.py <product_id>`.
+- **Pilot live on AI Literacy for Healthcare (30219)**, Rank Math schema meta 137388. Book variants, ISBNs and author render correctly in Rank Math's graph.
+- **Blocker:** once a product has a custom schema, WooCommerce core's own JSON-LD comes back (a second `Product` with `&amp;amp;` names, AggregateOffer, plus a second BreadcrumbList). Untouched products (27118, 27293) don't have it. Not an error, but it's a duplicate product entity. Fix needs one PHP line in WPCode (wp-mujo can't create snippets), e.g. `add_filter( 'woocommerce_structured_data_product', '__return_empty_array' );` plus the same for `woocommerce_structured_data_breadcrumblist`. Remaining 37 products are on hold until that's in.
+
 ## 8. Open questions for the client
 
 - ISBNs, author names and publisher legal name for Book schema.
