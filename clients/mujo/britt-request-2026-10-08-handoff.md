@@ -161,7 +161,9 @@ All 38 titles now have confirmed authors: `clients/mujo/authors-sheet/authors-fi
 - **Resolved 2026-11-01:** Francis added WPCode snippet 30513 "Remove WooCommerce schema (Rank Math handles it)" (PHP, Run Everywhere, active) with both filters. Pilot re-checked: duplicate gone.
 - **Rollout DONE 2026-11-01/02: Book schema live on all 38 products.** Rank Math schema meta IDs per product in `schema/pushed-2026-11.csv` (needed to update or remove one later: key the update by `"schema-<meta_id>"`). `schema/verify_live.py` (all products): 38/38 OK, each page has one ProductGroup, every variant typed Product+Book with ISBN and author, no WooCommerce Product block. Output: `schema/verify-2026-11-02.txt`.
 - **Maintenance:** prices and variants are copied into the schema. After any WooCommerce price, ISBN or variant change: `python -I refresh_titles.py`, `python -I build_rankmath_payloads.py`, then re-push that product with its `schema-<meta_id>` key and re-run `verify_live.py`.
-- Not done yet: Google Rich Results Test on the live URLs (only the code-snippet test from 2026-10-10 so far), and Brittni sign-off on the rollout itself (authors were confirmed 2026-10-09).
+- **Cache, 2026-11-02:** Google's first live test still read the old schema from Kinsta's page cache (`x-kinsta-cache: HIT`). Cleared the 38 product URLs with `wp_clear_cache` scope `urls` (Kinsta and WP Rocket each cleared 38; `wp_ability_wp_rocket_clear_url_cache` alone reports "no cache found" here because Kinsta, not WP Rocket, holds the page cache). Plain URLs then 38/38 OK. After any future re-push, clear that product URL the same way.
+- **Rich Results Test (live URL), 2026-11-02, after the cache clear:** AI Business Analytics (HE) 5 valid items, Merchant listings 2 valid, isbn/bookFormat/author detected; Principles of Business (HS) 9 valid items, Merchant listings 6 valid. **0 errors.** Non-critical only: `validFrom`, `shippingDetails`, `hasMerchantReturnPolicy` (need Mujo's shipping/returns policy; better set once site-wide).
+- Not done yet: Brittni sign-off on the rollout itself (authors were confirmed 2026-10-09).
 
 ## 8. Open questions for the client
 
