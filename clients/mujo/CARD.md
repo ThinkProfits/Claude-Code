@@ -1,14 +1,14 @@
 ---
 type: card
 client: mujo
-updated: 2026-10-21
+updated: 2026-11-02
 ---
 
 # Mujo Learning Systems: card
 
-**Status:** SEO retainer (10 hours/month, often overrun by security and dev work); PPC status unconfirmed. Britt's 2026-10-08 schema request is mostly done: hub, FAQ and WebPage schema are live, and Book schema is drafted for all 38 titles but not live.
+**Status:** SEO retainer (10 hours/month, often overrun by security and dev work); PPC status unconfirmed. Britt's 2026-10-08 schema request is mostly done: hub, FAQ and WebPage schema are live, and Book schema is live on all 38 products (2026-11-01/02, per-product Rank Math custom schema plus WPCode snippet 30513 removing WooCommerce's duplicate markup).
 
-**Next step:** Decide how the Book schema goes live (per-product Rank Math custom schema or one WPCode snippet) and get Andrew's OK, then roll it out.
+**Next step:** Run 2-3 live product URLs through Google's Rich Results Test, tell Brittni the Book schema is live, and re-push schema after any WooCommerce price change (steps in the handoff, section 7).
 
 **Blocked on client:** Shop page index or noindex; the product consolidation decision; the HS/HE title and H1 pattern; current proof points and the ADA claim; whether local SEO / GBP is paused or active.
 

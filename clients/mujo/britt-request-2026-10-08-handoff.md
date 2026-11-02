@@ -158,6 +158,10 @@ All 38 titles now have confirmed authors: `clients/mujo/authors-sheet/authors-fi
 - Live data refreshed (`refresh_titles.py`): no price, ISBN or variant changes since 2026-10-10. Payloads: `schema/build_rankmath_payloads.py` writes `rankmath-payloads.json` (38 products). Live check: `schema/verify_live.py <product_id>`.
 - **Pilot live on AI Literacy for Healthcare (30219)**, Rank Math schema meta 137388. Book variants, ISBNs and author render correctly in Rank Math's graph.
 - **Blocker:** once a product has a custom schema, WooCommerce core's own JSON-LD comes back (a second `Product` with `&amp;amp;` names, AggregateOffer, plus a second BreadcrumbList). Untouched products (27118, 27293) don't have it. Not an error, but it's a duplicate product entity. Fix needs one PHP line in WPCode (wp-mujo can't create snippets), e.g. `add_filter( 'woocommerce_structured_data_product', '__return_empty_array' );` plus the same for `woocommerce_structured_data_breadcrumblist`. Remaining 37 products are on hold until that's in.
+- **Resolved 2026-11-01:** Francis added WPCode snippet 30513 "Remove WooCommerce schema (Rank Math handles it)" (PHP, Run Everywhere, active) with both filters. Pilot re-checked: duplicate gone.
+- **Rollout DONE 2026-11-01/02: Book schema live on all 38 products.** Rank Math schema meta IDs per product in `schema/pushed-2026-11.csv` (needed to update or remove one later: key the update by `"schema-<meta_id>"`). `schema/verify_live.py` (all products): 38/38 OK, each page has one ProductGroup, every variant typed Product+Book with ISBN and author, no WooCommerce Product block. Output: `schema/verify-2026-11-02.txt`.
+- **Maintenance:** prices and variants are copied into the schema. After any WooCommerce price, ISBN or variant change: `python -I refresh_titles.py`, `python -I build_rankmath_payloads.py`, then re-push that product with its `schema-<meta_id>` key and re-run `verify_live.py`.
+- Not done yet: Google Rich Results Test on the live URLs (only the code-snippet test from 2026-10-10 so far), and Brittni sign-off on the rollout itself (authors were confirmed 2026-10-09).
 
 ## 8. Open questions for the client
 
