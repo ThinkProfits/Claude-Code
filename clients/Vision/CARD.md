@@ -1,7 +1,7 @@
 ---
 type: card
 client: Vision
-updated: 2026-10-14
+updated: 2026-11-04
 ---
 
 # Vision Plumbing Heating Cooling: card
@@ -9,6 +9,10 @@ updated: 2026-10-14
 **Status:** Active Plumbing Bundle (SEO + PPC, 4 blogs/month). A sitewide fix list from the heat pump page feedback started on 2026-10-14: the phone-number fixes (priority 1) are live, and priorities 2 to 6 are still open.
 
 **Water main + Vernon plan (due 2026-10-28):** all drafts done 2026-10-27 (links below). Vernon audit merged into the roadmap as workstream B. Next: post the Slack draft for Andrew, add his Ads section, confirm prices with Shawn, then move the client draft to a Google Doc for Brent.
+
+**HALO Water Systems (new, 2026-11-03):** Vision is now a certified partner and official dealer for HALO Water Systems. Andrew built [/residential/water-treatment-systems-kelowna/halo-water-systems/](https://visionplumbingandheating.com/residential/water-treatment-systems-kelowna/halo-water-systems/) and is still making a few edits. It's a niche brand page, expected to help mostly with AI answers and brand searches, not broad rankings. Open for Francis: add HALO products to the GBP (HALO 5, H2 Zero Ultimate, CK10, HALO Hybrid, HALO Mini 3) using the [HALO photo folder in Vision's Drive](https://drive.google.com/drive/folders/1Z57KbDzMCXGa9fqjeiUf-x4APSb2kwps), then tell Andrew in #vision-plumbing. Also still to do: link the parent water treatment page to the HALO page. Andrew has the HALO contact if more photos are needed.
+
+**Water main + Vernon plan review:** Andrew hadn't reviewed it yet as of the 2026-11-03 scrum. He'll send comments.
 
 **Next step (sitewide fixes):** Get Andrew's approval on the wording fixes in the sitewide fix list (rebate paperwork, free consultation, install timeline, em dashes, plus the CTA rewording left from priority 1), then make them through the wp-vision MCP.
 
@@ -30,6 +34,7 @@ updated: 2026-10-14
 | Blog FAQ schema handoff (Make scenario 6209699) | [vision-blog-faq-schema-handoff.md](vision-blog-faq-schema-handoff.md) |
 | How to edit Elementor pages via wp-vision | [memory/vision-wp-mcp-elementor-edits.md](../../memory/vision-wp-mcp-elementor-edits.md) |
 | GBP handoffs | `gbp-handoffs/week-of-*/gbp-handoff__vision_kelowna__*` |
+| HALO Water Systems page (2026-11-03) | [live page](https://visionplumbingandheating.com/residential/water-treatment-systems-kelowna/halo-water-systems/) · [HALO product photos (Drive)](https://drive.google.com/drive/folders/1Z57KbDzMCXGa9fqjeiUf-x4APSb2kwps) · [halowater.com/products](https://halowater.com/products/) |
 | Semrush | project 11470309 |
 | Slack | #vision-plumbing · GBP approvals: #gbp-post-approvals |
 | Drive | Main folder "Vision Mechanical" `1ZkoFOvQMkH-Nh2_pcKjX7vfkuQKovrka` (shared "anyone with the link can view"). Water main + Vernon plan docs (Google Docs copies of the repo files, 2026-10-27): [2026-10 Water Main + Vernon Plan](https://drive.google.com/drive/folders/1x4VCnSeOk_yyJUe4YtJRzCnt6zPTnnm6), under Jobs > Vison SEO Platinum 02: 2025. Keyword sheet `1wldjAsTudm_KWKUf2F83iGPFf-tuXBzXIUQ-MvbHl08` |

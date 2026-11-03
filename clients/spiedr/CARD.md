@@ -1,14 +1,14 @@
 ---
 type: card
 client: spiedr
-updated: 2026-10-14
+updated: 2026-11-04
 ---
 
 # SPIEDR: card
 
 **Status:** Active SEO Silver retainer with 1 blog a month and twice-weekly GBP posts. Organic clicks are fading with the end of fire season, and there is no evidence the Q4 fix roadmap (Phase 1 internal links, Phase 2A keyword refresh) has shipped.
 
-**Next step:** Post our reply in the 2026-09-07 report thread (draft ready; update "fire ban bc" to #36 first). Andrew has followed up three times.
+**Next step:** Andrew asked in the report-review thread in #firestorm_spiedr for a look at the internal linking and the Top 3/Top 10 drop-offs that the report flagged ("structural fire protection" fell from #6 to #19, plus "top wildfire sprinkler protection" and "fire protection roof sprinkler system"). Francis replied that it's being taken care of, but the bot was still following up as of 2026-11-03. Post the findings in that thread. Also flagged in the report: GBP shows 0 reviews and 0 call clicks against 1.32K impressions, which looks like a tracking gap.
 
 **Blocked on client:** the real contact email and YouTube handle (needed to clear the schema placeholders); whether the 2026 Platinum and Gold website contracts were signed.
 

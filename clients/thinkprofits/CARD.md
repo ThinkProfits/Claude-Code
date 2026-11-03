@@ -12,6 +12,8 @@ updated: 2026-10-14
 
 **Also open from the 2026-10-13 team check-in:** make sure the published plumbing page leads with the ~$3,995+/month bundles, not $399 PPC; Andrew is updating the bundle deliverables. Full list: CLIENT.md section 12; exact instructions in [team-check-in-2026-10-13-francis-tasks.md](team-check-in-2026-10-13-francis-tasks.md).
 
+**Open from Andrew (Slack DM, bot still following up as of 2026-11-04):** Andrew forwarded an email from Shawn with questions about the TP site and asked Francis to handle it. Find that email, answer it, and reply in the DM.
+
 **Blocked on:** Andrew: OK on the redirect message, decisions for industry-page Phases 1 to 8, updated plumbing bundles, and a review of the plumbing page FAQs. Shawn (away until 2026-10-23): text edits on the plumbing page, sign-off on the family timeline years and the 1998 "12×" wording. Semrush API units are at zero, which blocks the Site Audit rerun.
 
 **Last activity:** Plumbing industry page published at /industries/plumbing/ (2026-10-14). GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).

@@ -14,9 +14,12 @@ All profiles are **DRAFT v0.1, built 2026-10-06/07** from Slack, Drive, Semrush,
 
 | Client | Profile | Keywords | Domain |
 |---|---|---|---|
+| Adaptive, IT company, new 2026-11-03 ([CARD](adaptive/CARD.md)) | not yet | not yet | *to confirm* |
 | AANMC ([CARD](aanmc/CARD.md)) | [CLIENT.md](aanmc/CLIENT.md) | [keywords.md](aanmc/keywords.md) | aanmc.org |
 | Aloha Life Massage ([CARD](aloha-life-massage/CARD.md)) | [CLIENT.md](aloha-life-massage/CLIENT.md) | [keywords.md](aloha-life-massage/keywords.md) | alohalifemassage.com |
 | Clearset VAC Truck ([CARD](clearset/CARD.md)) | [CLIENT.md](clearset/CLIENT.md) | [keywords.md](clearset/keywords.md) | clearsetvactruck.ca |
+| Estate Options (Geraldine Hampton, law) ([CARD](estate-options/CARD.md)) | not yet | not yet | estateoptions.ca *confirm* |
+| Geraldine Hampton REALTOR® ([CARD](geraldine-hampton-realtor/CARD.md)) | not yet | not yet | geraldinehampton.com |
 | Jamie Davis Towing ([CARD](jamie-davis/CARD.md)) | [CLIENT.md](jamie-davis/CLIENT.md) | [keywords.md](jamie-davis/keywords.md) | jamiedavistowing.com |
 | John Sadler Plumbing & Heating ([CARD](john-sadler/CARD.md)) | [CLIENT.md](john-sadler/CLIENT.md) | [keywords.md](john-sadler/keywords.md) | johnsadler.ca |
 | Mujo Learning Systems ([CARD](mujo/CARD.md)) | [CLIENT.md](mujo/CLIENT.md) | [keywords.md](mujo/keywords.md) | mujo.com |
