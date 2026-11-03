@@ -43,3 +43,7 @@ The same email covers the law site too. Those notes are in [../estate-options/cl
 
 - [ ] Pull useful facts from `Pre listing guide 2026 GH.pdf` into the selling copy (she offered). Save the PDF here first.
 - [ ] RE/MAX market share: recommend an FAQ and check the figure and its date in `Market Share 2025 Calgary.pdf` before quoting it.
+
+## Result (2026-11-04)
+
+Lovable applied the round (commit `60f5eb4e`, not published). All 17 tests pass. It checked 7 pages at 4 widths with JavaScript on and off. FAQ schema matches, and no 2019 mediator year remains.

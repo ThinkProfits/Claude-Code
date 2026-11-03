@@ -45,3 +45,9 @@ We made every removal she asked for. These are the ones with a real SEO cost:
 ## Mediator year
 
 Her email says "global change to 'since 2018'". The realtor preview has a comment, "global update: 2018 not 2019", and one law-site comment says "since 2019". The email was sent last (01:14 UTC Nov 2, after the 2019 comment), so we used **2018** on both sites. A ReviewNote on the law site asks her to confirm. Our earlier research had QMed 2019, so the source needs checking.
+
+## Result (2026-11-04)
+
+Lovable applied the round (commit `aa3dfb90`, not published). All 42 tests pass. It checked 9 pages at 4 widths with JavaScript on and off. Spot-checked `executor.ts`: both sections are removed, there are no percentages, and the softened wording is in.
+
+**Accuracy flag from Lovable (raise with Andrew before sending to Geraldine):** the new capacity FAQ says no one can make medical decisions without a court order. Alberta does allow limited medical decisions through [specific decision-making](https://www.alberta.ca/specific-decision-making) when there's no personal directive or guardian. The wording is hers, but it overstates the law. Suggested fix: "Your family may be able to make some limited medical decisions, but for most decisions someone has to apply to the court..." Her timing figures (3 to 5 weeks for a grant, up to 1 year for guardianship, 2.5 years for a court date) are her own practice experience and haven't been checked independently.

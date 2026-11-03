@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | **Status** | Keywords + competitor research APPROVED by Geraldine (2026-10-29). Design Option 2 approved. 5-page draft sent to Geraldine 2026-10-30. Her round-1 feedback arrived 2026-11-01: [client-feedback-2026-11-01.md](client-feedback-2026-11-01.md). |
-| **Next step** | Apply her feedback (fees 7%/3% with the cost explanation in the FAQ, pre-listing guide request form, a recommendation on the RE/MAX market share FAQ) and flag any SEO-costly removals for Andrew. Next version due Fri 2026-11-06. Launch target Nov 15. |
+| **Next step** | Round-1 edits applied in Lovable 2026-11-04 (commit `60f5eb4e`). Still to do: pull facts from the pre-listing guide, recommend the market share FAQ, and get Andrew's review. Original ask: apply her feedback (fees 7%/3% with the cost explanation in the FAQ, pre-listing guide request form, a recommendation on the RE/MAX market share FAQ) and flag any SEO-costly removals for Andrew. Next version due Fri 2026-11-06. Launch target Nov 15. |
 | **Blockers** | Forms are front-end only (no backend yet). Proud-sale story needs Geraldine's permission. GBP video verification fails on the PO box address. |
 | **Last activity** | 2026-11-03: Andrew forwarded Geraldine's feedback (pre-listing guide and market share PDFs attached). More headshots and work photos are coming. Before that, 2026-10-30: 5-page draft built in Lovable (commit b53afbb), not published. Options 1/3 and chooser removed (still in git history). Open question: the "Is it a conflict" FAQ answer now adds a transaction-specific caveat; confirm wording with Geraldine. |
 

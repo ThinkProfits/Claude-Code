@@ -10,7 +10,7 @@ updated: 2026-11-04
 
 **Status:** Full draft site built in Lovable, and the fix round from the 2026-10-29 audit went in on 2026-10-30. Andrew sent both sites to Geraldine for review on 2026-10-30. Her feedback came back on 2026-11-01.
 
-**Next step:** Make the changes in [client-feedback-2026-11-01.md](client-feedback-2026-11-01.md) (no fees, remove legal content per her Lovable comments, mediator year), with an SEO flag list for Andrew. Send the next version by Fri 2026-11-06.
+**Next step:** Round-1 edits are applied in Lovable (2026-11-04, commit `aa3dfb90`). Andrew needs to review the SEO flag list and the capacity-FAQ accuracy flag in [client-feedback-2026-11-01.md](client-feedback-2026-11-01.md). Then send her the next version (due Fri 2026-11-06), with the removed \"options compared\" section as a Word doc.
 
 **Blocked on:** Geraldine: confirm the mediator year (she wrote "since 2018", our copy says QMed 2019). Forms are front-end only (no backend yet).
 
