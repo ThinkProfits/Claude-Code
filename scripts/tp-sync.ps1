@@ -1,5 +1,5 @@
 # Two-way sync between this local clone and GitHub (ThinkProfits/Claude-Code).
-# Run by the Windows task "tp-repo-sync" every 30 minutes; safe to run by hand.
+# Run by the Windows task "tp-repo-sync" once a day (9am, or first startup after); safe to run by hand.
 #   1. pull --rebase --autostash  (bring in teammates' / cloud-session changes)
 #   2. if anything changed locally: add -A, commit "auto-sync <time>", push
 # On a rebase conflict it aborts, logs, and leaves your files alone. Fix it manually
