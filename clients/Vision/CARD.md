@@ -1,7 +1,7 @@
 ---
 type: card
 client: Vision
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Vision Plumbing Heating Cooling: card
@@ -10,7 +10,7 @@ updated: 2026-11-04
 
 **Water main + Vernon plan (due 2026-10-28):** all drafts done 2026-10-27 (links below). Vernon audit merged into the roadmap as workstream B. Next: post the Slack draft for Andrew, add his Ads section, confirm prices with Shawn, then move the client draft to a Google Doc for Brent.
 
-**HALO Water Systems (new, 2026-11-03):** Vision is now a certified partner and official dealer for HALO Water Systems. Andrew built [/residential/water-treatment-systems-kelowna/halo-water-systems/](https://visionplumbingandheating.com/residential/water-treatment-systems-kelowna/halo-water-systems/) and is still making a few edits. It's a niche brand page, expected to help mostly with AI answers and brand searches, not broad rankings. Open for Francis: add HALO products to the GBP (HALO 5, H2 Zero Ultimate, CK10, HALO Hybrid, HALO Mini 3) using the [HALO photo folder in Vision's Drive](https://drive.google.com/drive/folders/1Z57KbDzMCXGa9fqjeiUf-x4APSb2kwps), then tell Andrew in #vision-plumbing. **2026-11-04:** the parent water treatment page now links to the HALO page (one sentence added to the "Certified Novo Dealer" section, live, Elementor backup in session scratchpad). GBP product entries are drafted in [halo-gbp-products-2026-11-04.md](halo-gbp-products-2026-11-04.md). They're not entered yet: Francis's Google account doesn't manage Vision's profile, and HALO 5 and HALO Hybrid have only logos, no unit photos. Also flagged: the HALO page hard-codes tracking number 778-760-1221. Andrew has the HALO contact if more photos are needed.
+**HALO Water Systems (new, 2026-11-03):** Vision is now a certified partner and official dealer for HALO Water Systems. Andrew built [/residential/water-treatment-systems-kelowna/halo-water-systems/](https://visionplumbingandheating.com/residential/water-treatment-systems-kelowna/halo-water-systems/) and is still making a few edits. It's a niche brand page, expected to help mostly with AI answers and brand searches, not broad rankings. Open for Francis: add HALO products to the GBP (HALO 5, H2 Zero Ultimate, CK10, HALO Hybrid, HALO Mini 3) using the [HALO photo folder in Vision's Drive](https://drive.google.com/drive/folders/1Z57KbDzMCXGa9fqjeiUf-x4APSb2kwps), then tell Andrew in #vision-plumbing. **2026-11-04:** the parent water treatment page now links to the HALO page (one sentence added to the "Certified Novo Dealer" section, live, Elementor backup in session scratchpad). GBP product entries are drafted in [halo-gbp-products-2026-11-04.md](halo-gbp-products-2026-11-04.md). **2026-11-05: all 5 HALO products are live on the Kelowna GBP** (Products > category "HALO Water Systems", entered through the seo@thinkprofits.com account, `authuser=4` in Francis's Chrome). Each links to the HALO page, with no price. Photos, squared on white, are in [halo-gbp-photos/](halo-gbp-photos/). HALO 5 and HALO Hybrid use the HALO logos as placeholders: swap them for unit photos when Andrew gets them from his HALO contact. Still to do: tell Andrew in #vision-plumbing. Also flagged: the HALO page hard-codes tracking number 778-760-1221. Andrew has the HALO contact if more photos are needed.
 
 **Water main + Vernon plan review:** Andrew hadn't reviewed it yet as of the 2026-11-03 scrum. He'll send comments.
 

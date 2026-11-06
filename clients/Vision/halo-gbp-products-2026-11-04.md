@@ -2,7 +2,7 @@
 type: deliverable
 client: Vision
 created: 2026-11-04
-status: ready to enter in GBP (needs Vision GBP access)
+status: live on GBP 2026-11-05 (HALO 5 and Hybrid use logo placeholders)
 ---
 
 # HALO products for Vision's Google Business Profile
