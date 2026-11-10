@@ -2,6 +2,8 @@
 
 Drafts for the overdue 2026 masterlist slots (BLOG Masterlist 2024-2026, John Sadler tab). Shared brief and rules: [../2025-backlog/_BRIEF.md](../2025-backlog/_BRIEF.md). Several writers share this folder: append new rows, don't overwrite.
 
+Each post's `.md`/`.docx` and Google Doc are client facing (title tag, meta, slug, keywords/intent and the post only). Scope lines, masterlist rows, image notes, GBP/social posts and implementation notes live in `internal-notes/` (split out and stripped from the Google Docs on 2026-11-10).
+
 Nothing here is published. Flow: PM review, then Colin (technical facts), then Tina (approval).
 
 | Slot | Title | Primary keyword (volume) | Slug | Files | Status |

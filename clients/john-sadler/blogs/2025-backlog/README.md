@@ -12,6 +12,12 @@ Shared brief and rules: [_BRIEF.md](_BRIEF.md).
 | 4 | Aug 2025 #2 | Hot Water Tank Problems and What to Do About Them | hot water tank problems (90) + hot water tank leaking (880) | /blog/hot-water-tank-problems/ |
 | 5 | Sep 2025 #1 | How to Get Your Home Heating System Ready for Winter | get heating system ready for winter (AEO) + furnace tune up (1,300) | /blog/heating-system-ready-for-winter/ |
 | 6 | Sep 2025 #2 | What Size Tankless Water Heater Do I Need? | what size tankless water heater do i need (70) | /blog/tankless-water-heater-size/ |
+| 7 | Jun 2025 #2 (row 38, added 2026-11-10) | Frozen AC Coil? How to Fix It in Surrey, BC | frozen ac coil (210) + ac freezing up (210) | /blog/frozen-ac-coil/ |
+| 8 | Apr 2025 #2 (row 32, added 2026-11-10) | AC Not Turning On? What to Check in Surrey, BC | ac not turning on (390) + ac won't turn on (170) | /blog/ac-not-turning-on/ |
+
+## File layout (since 2026-11-10)
+
+Each post has two files. `NN-slug.md` / `.docx` and the Google Doc are **client facing**: title tag, meta, slug, keywords/intent and the post only. Everything internal (scope line, masterlist row, image note, GBP post, Facebook/Instagram posts, implementation notes) lives in `internal-notes/NN-slug-notes.md` and is never pasted into the Google Doc. All 8 Google Docs were stripped of those sections on 2026-11-10.
 
 ## Google Docs (Drive: John Sadler Plumbing & Heating > Jobs > JSP-2125 Blog Writing > Blogs > 2025), uploaded 2026-10-16
 
@@ -21,10 +27,15 @@ Shared brief and rules: [_BRIEF.md](_BRIEF.md).
 4. [Hot Water Tank Problems and What to Do About Them](https://docs.google.com/document/d/1naqnECMIbYCFR8p0E_8a8HI_TmuQSh1gEEFhSawH_Wc/edit)
 5. [How to Get Your Home Heating System Ready for Winter](https://docs.google.com/document/d/1QXOJCO_ZIKF5CNIDXoITjiThg9PwJslBkJiFjVY8qhA/edit)
 6. [Tankless Water Heater Size](https://docs.google.com/document/d/1VARWPX6ffx-E5XE3S7Lolx5db47snai90KiA7VxrH_o/edit)
+7. [Frozen AC Coil?](https://docs.google.com/document/d/1cgQfHHb5q6XkAB9y6MpjS-KG40oCS9Bxh6dctncFdzM/edit) (uploaded 2026-11-10 from markdown)
+8. [AC Not Turning On?](https://docs.google.com/document/d/1DLymrLGGYPsF0jfvuh7exMofO37mfzhDoe3k92ZZruA/edit) (uploaded 2026-11-10 from markdown)
 
 The Google Docs are now the working copies. Edits made there won't sync back to the .md files.
 
 ## Status
+
+Masterlist rows 32, 38, 40, 41, 43, 44, 46 and 47 set to "Needs PM Review" with the Google Doc link in column I on 2026-11-10.
+
 
 Draft, ready for an internal review pass, then Colin (technical facts), then Tina (approval). Nothing is published.
 
@@ -36,6 +47,9 @@ Draft, ready for an internal review pass, then Colin (technical facts), then Tin
 - **#5 Winter prep:** publish as soon as it's approved, since the topic is seasonal now.
 - **#6 Tankless sizing:** check the Navien NPE-2 75°F flow figures against the spec PDF table.
 - **All posts:** use real John Sadler photos only. Put the Quick Answer in the Preformatted block. Add FAQPage schema at implementation.
+
+- **#7 Frozen AC coil:** same AC/heat pump page blocker as #1. Publish after #1 (it links to it). In #1, link section 6 to #7 and consider dropping #1's thaw-time FAQ to avoid overlap. Best window April–May 2027.
+- **#8 AC not turning on:** same AC/heat pump page blocker. Publish after #1 (it links to it); add a link from #1's breaker section to #8. Best window March–April 2027.
 
 ## Existing-content check (done 2026-10-15 against the post sitemap)
 

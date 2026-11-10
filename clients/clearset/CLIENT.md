@@ -337,7 +337,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 
 **Waiting on the client / confirm**
 - [ ] Current prices (toilets $140 vs $165 live; grease trap figures).
-- [ ] Which phone to publish. The site shows (778) 825-1032 and (778) 652-6317; the blog draft uses (778) 907-9875.
+- [x] Which phone to publish. Resolved by Andrew in #clearset (2025-11-22, thread from 2025-11-06): put the main untracked number **(778) 825-1032** in page and blog copy and in citations. CallRail's website pool swaps it for a tracking number on the live site, so never hard-code a pool number. The blog draft's (778) 907-9875 is a pool number: change it to (778) 825-1032.
 - [ ] Current portable toilet service area.
 - [ ] Well cleaning: add as a service or not?
 - [ ] Whether blogs and AEO are in scope. Approval of the first blog draft.
@@ -364,7 +364,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - **Toilet price:** $140 (client, 2025-09) vs $165/month (live page).
 - **Toilet service area:** client list (2025-03, no Abbotsford/Chilliwack/Squamish) vs the live page (lists Abbotsford, Chilliwack, Squamish).
 - **Toilet add-ons:** removed April 2025, but the live page has an "Optional Outhouse Add-ons & Portable Toilet Unit Types" section.
-- **Phones:** three different numbers in use (CallRail adds more). Citations should use (778) 825-1032.
+- **Phones:** CallRail since 2025-11-06, all forwarding to the main number (778) 825-1032. Website pool (dynamic swap): (778) 652-6317, (778) 655-4208, (778) 907-9875, (778) 400-6421. GBP tracking: (778) 655-1265. Google Ads: (778) 724-1612. Copy and citations use (778) 825-1032 (Andrew, 2025-11-22). A number seen on the live site, such as "Call Us Now! (778) 400-6421", is a swapped pool number, not the one to write into content.
 - **Repair language:** the homepage H3 says "Leach Field Repair", while the client refers repairs out. The blog draft targets "septic repair" signs but funnels to pumping (acceptable, but its title and keyword lean on repair).
 - **Abbotsford:** in the service area and Ads cities, and a call source, but not in the toilet area.
 - **Success Track** still lists the old domain and "all of BC". It's out of date.

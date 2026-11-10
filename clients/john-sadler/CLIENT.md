@@ -383,12 +383,13 @@ We don't rank at all for "surrey plumbing" (1,300/mo) or "langley plumbing" (880
 
 **Live site fixes**
 - [ ] The AC/heat pump pages still say "installs only / refer repairs elsewhere".
+  - Checked live 2026-11-10: the AC page was edited 2026-11-09 (by someone outside the agency workflow; the 2026-10-16 page-update doc was never touched). Only its FAQ changed, to "Yes! john Sadler Plumbing & Heating offers AC repairs, maintenance, and tune-ups...". The H1, meta, the "Why \"installs only\" is the right call for AC" H2 and "we'll point you to a trusted local repair contractor" are still live, so the page now contradicts itself. The heat pump page is unchanged (last modified 2026-08-19) and its FAQ still says "No... installs new heat pump systems only. We do not offer heat pump repair or maintenance."
 - [ ] The footer lists Abbotsford and shows "© 2025".
 - [ ] Rewrite pages 3–5 (furnace-installation, gas-fitting, boiler-repair). The Langley rebuild pilot hasn't started.
 
 **Blog backlog** (2026-09-25)
 - [ ] No September/October rows yet (4 blogs owed). New topics to come from the 2026-10-16 client meeting.
-- [x] July–September 2025 blogs drafted 2026-10-15 (6 posts, `blogs/2025-backlog/`). Still need review, Colin/Tina sign-off and masterlist status updates.
+- [x] July–September 2025 blogs drafted 2026-10-15 (6 posts, `blogs/2025-backlog/`). Apr 2025 #2 (AC not turning on) and Jun 2025 #2 (frozen AC coils) added 2026-11-10. Masterlist set to Needs PM Review 2026-11-10; still need review and Colin/Tina sign-off.
 - [ ] 12 topics are in "Needs PM Review".
 - [ ] 6 stale "With Client" rows and 2 rows "Waiting on info from client".
 - [ ] Reframe r95 AC Maintenance now that AC repair is offered.

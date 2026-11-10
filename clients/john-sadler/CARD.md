@@ -1,18 +1,20 @@
 ---
 type: card
 client: john-sadler
-updated: 2026-10-14
+updated: 2026-11-10
 ---
 
 # John Sadler Plumbing & Heating: card
 
 **Status:** Active retainer (SEO + PPC + GBP). Organic is in a sustained decline (GSC clicks -56% YoY in Sept). The 2026-09-15 audit fixes are not live yet.
 
+**AC/heat pump update (2026-11-10):** the AC page FAQ now says they repair ACs (edited 2026-11-09), but the body, H1 and "installs only" H2 still say they don't. The heat pump page still says installs only everywhere. See CLIENT.md open items.
+
 **Next step:** Get Tina/Colin approval to remove the "installs only / refer repairs elsewhere" copy from the AC and heat pump pages. Repair keyword work is blocked until that copy is gone.
 
 **Blocked on client:** estimate-fee, response-time and 24/7 answers (holding up the /plumbers-near-me/ rewrite); the AEO add-on is still unsigned.
 
-**Last activity:** 2026-10-15: drafted the 6 overdue Jul–Sep 2025 blogs ([blogs/2025-backlog/](blogs/2025-backlog/README.md)), awaiting internal review then Colin/Tina. GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
+**Last activity:** 2026-11-10: drafted Apr 2025 #2 "Why Won't My AC Turn On?" (`08-ac-not-turning-on`) and Jun 2025 #2 "How to Fix Frozen AC Coils?" (`blogs/2025-backlog/07-frozen-ac-coil`), and set masterlist rows 32 and 38–47 to Needs PM Review with Google Doc links. Earlier, 2026-10-15: drafted the 6 overdue Jul–Sep 2025 blogs ([blogs/2025-backlog/](blogs/2025-backlog/README.md)), awaiting internal review then Colin/Tina. GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 
 ## Where things live
 

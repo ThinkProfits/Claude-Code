@@ -10,7 +10,7 @@ updated: 2026-10-14
 
 **Next step:** Fix the wrong-service content on /services/portable-toilet-rentals/, then review the homepage and every service page for the same mismatch and report back in #clearset.
 
-**Blocked on client:** current prices (toilets $140 vs $165), which phone number to publish, the current portable toilet service area, whether well cleaning is a service, whether blogs and AEO are in scope (plus approval of the first blog draft), and real photos for GBP posts.
+**Blocked on client:** current prices (toilets $140 vs $165), the current portable toilet service area, whether well cleaning is a service, whether blogs and AEO are in scope (plus approval of the first blog draft), and real photos for GBP posts.
 
 **Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12); GBP Phase 2 cleanup instructions written 2026-10-07.
 

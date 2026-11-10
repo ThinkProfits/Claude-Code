@@ -45,7 +45,7 @@ Confirm or ask for the following. If client project instructions are available i
 - **Word count target** (default 1,200–2,000 words = 3–5 pages)
 - **2–3 existing blogs from the client's site (URLs) to study for tone**
 - **4–7 internal pages from the client's site available for linking**
-- **Required deliverables** (default: blog + GBP post + social posts)
+- **Required deliverables** (default: client-facing blog file + internal notes file with GBP post and social posts)
 - **Client project instructions** (attached or pasted)
 
 If critical inputs are missing (topic, primary keyword, country/service area), ask before proceeding. Do not invent values.
@@ -82,7 +82,7 @@ These override every other instruction. Violating any of them means the draft wi
 ### Scope adherence
 
 - Deliver exactly what the brief asked for. If the brief says "multi-brand listicle of the quietest ACs," include 4+ brands with comparable depth, not a single-brand deep dive. If the brief says "how-to," write a how-to. If the brief says "comparison," write a comparison.
-- State the post type and what it will cover in one sentence at the very top of the draft (above the H1) so the editor can verify scope at a glance. Note that this line is for editor review and should be removed before publishing.
+- State the post type and what it will cover in one sentence at the top of the **internal notes file** (see Required Deliverables) so the editor can verify scope at a glance. Never put this scope line in the client-facing draft.
 
 ### Tone: no AI-voice tells
 
@@ -208,6 +208,7 @@ Target: 1–2 per post, regardless of length. Use the second only when a second 
 - File names: hyphenated, descriptive, keyword-inclusive (e.g., `furnace-repair-kelowna.jpg`)
 - Alt text: under 125 characters, one clear sentence describing the image. Include keyword or location naturally if it fits. Never stuff multiple keywords.
 - Provide image **placement suggestions** in the draft (description + alt text + suggested filename), not the actual images.
+- Image-sourcing rules (e.g. "real client photos only, never AI") go in the internal notes file, not in the client-facing draft.
 
 ## FAQ Quality
 
@@ -218,16 +219,27 @@ Target: 1–2 per post, regardless of length. Use the second only when a second 
 
 ## Required Deliverables
 
-The draft must include all of the following, in this order:
+Every post produces **two files**. The draft is client facing (it goes into the client's Google Doc for review), so it must contain nothing written for the editor or the agency.
 
-1. **Scope confirmation line**: one sentence stating the post type and what it covers (above the H1, for editor review only; note that it should be removed before publishing)
-2. **Title tag** with character count
-3. **Meta description** with character count
-4. **URL slug**
-5. **Full blog post**: H1 through CTA, FAQ if included, with image placement notes
-6. **GBP post**: 2–3 sentences, 1,500 characters max, includes a CTA. Tied to blog topic. Primary keyword used naturally.
-7. **Social posts**: at least one for each platform the client uses (default: Facebook + Instagram). 1–3 sentences each. Includes a placeholder for the blog URL, at least one hashtag, no emojis unless the client's existing posts use them.
-8. **Implementation notes**: schema recommendations (one line per type), publish-date note, any flagged cannibalization or duplicate-content issues, any unverifiable claims removed during research.
+### File 1: client-facing draft (`NN-slug.md`, uploaded as the Google Doc)
+
+In this order, and nothing else:
+
+1. **Title tag** with character count
+2. **Meta description** with character count
+3. **URL slug**
+4. **Primary + secondary keywords and search intent**
+5. **Full blog post**: H1 through CTA, FAQ if included, with inline image placement notes (`[IMAGE: description | alt: ... | file: ...]`)
+
+Do NOT put any of these in the client-facing draft: a scope line or "editor only" note, a masterlist row / draft number / drafted-on line, an image-sourcing note ("all images must be real photos..."), the GBP post, social posts, or implementation notes.
+
+### File 2: internal notes (`internal-notes/NN-slug-notes.md`, stays in the repo, never uploaded to the client doc)
+
+1. **Scope confirmation line**: one sentence stating the post type and what it covers, plus the masterlist row it fills
+2. **Image note**: sourcing rules (e.g. real client photos only, never AI) and any extra placement ideas
+3. **GBP post**: 2–3 sentences, 1,500 characters max, includes a CTA. Tied to blog topic. Primary keyword used naturally.
+4. **Social posts**: at least one for each platform the client uses (default: Facebook + Instagram). 1–3 sentences each. Includes a placeholder for the blog URL, at least one hashtag, no emojis unless the client's existing posts use them.
+5. **Implementation notes**: schema recommendations (one line per type), publish-date note, blockers, any flagged cannibalization or duplicate-content issues, any unverifiable claims removed during research, items for the client's technical reviewer to confirm.
 
 ## Self-Check Before Outputting
 
@@ -268,9 +280,9 @@ Run this checklist on the draft. If anything fails, fix it before outputting.
 - [ ] Cannibalization check completed
 
 **Deliverables**
-- [ ] Blog + GBP post + social posts all included
+- [ ] Client-facing draft holds only title tag, meta, slug, keywords/intent and the post (no scope line, masterlist row, image note, GBP, social or implementation notes)
+- [ ] Internal notes file has scope line, image note, GBP post, social posts and implementation notes
 - [ ] No JSON-LD or schema in the draft
-- [ ] Implementation notes section at the bottom
 
 ## After Drafting: Recommend Review
 
