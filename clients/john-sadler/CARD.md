@@ -10,7 +10,9 @@ updated: 2026-11-11
 
 **AC/heat pump update (2026-11-11):** Andrew rebuilt both the AC and heat pump pages on 2026-11-09 with full repair copy, so those two pages are no longer installs-only. The parent hub /services/heating-cooling/ still says "We do not: repair or service air conditioners or heat pumps" and "Why install-only". The page-update doc for the hub is ready for Andrew: [md](page-update-heating-cooling-hub-2026-11-11.md) · [docx](page-update-heating-cooling-hub-2026-11-11.docx). It also flags a pasted ChatGPT citation link to barrieheatingcooling.ca, which should be removed now.
 
-**Next step:** Wait for Andrew's write-up of the 2026-11-10 client meeting (he asked us to hold edits until then). Then fix the heating-cooling hub and work through the crawl's high-priority list.
+**Live edits (2026-11-11):** Andrew's hold is lifted (Francis confirmed). The heating-cooling hub doc is now live on /services/heating-cooling/ (barrie link removed, AC/heat pump repair copy fixed, install-only H1 removed) and checked live. Only the Yoast meta description is still to do (the MCP can't write it). Progress log: [HANDOFF-live-page-edits-2026-11-11.md](HANDOFF-live-page-edits-2026-11-11.md).
+
+**Next step:** Page 2, /services/plumbing/hot-water-tanks/, waits on Francis's approval. Then work through the rest of the handoff queue.
 
 **Blocked on client:** estimate-fee, response-time and 24/7 answers (holding up the /plumbers-near-me/ rewrite); the AEO add-on is still unsigned.
 
