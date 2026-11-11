@@ -1,0 +1,4 @@
+API
+wpmcp_9332d497513c93fd7e7a8c821bfe09a804ac7d247e780ede14d2b6bcde8767ab
+
+https://clearsetvactruck.ca/wp-json/easy-mcp-ai/v1/mcp

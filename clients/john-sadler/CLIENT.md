@@ -80,7 +80,9 @@
 12. Murrayville
 13. North Delta
 
-**Not served:** **Abbotsford** ("No longer serving"). The live footer still lists it and needs fixing.
+**Not served:** **Abbotsford** ("No longer serving"). The live footer still lists it and needs fixing, and so do 3 service pages ("We proudly serve: ... Maple Ridge | Abbotsford"). *Confirm whether Maple Ridge is served.*
+
+**Semrush tracking (2026-11-10):** Andrew deleted the unused BC-wide position-tracking list (the one holding the Abbotsford keywords). The 3 local lists remain.
 
 **Tracked markets**
 - **Surrey** is the strongest.
@@ -382,7 +384,8 @@ We don't rank at all for "surrey plumbing" (1,300/mo) or "langley plumbing" (880
 - [ ] Get an answer on whether the client removed TP as GBP manager/owner (asked 2025-11-29; no reply).
 
 **Live site fixes**
-- [ ] The AC/heat pump pages still say "installs only / refer repairs elsewhere".
+- [ ] The /services/heating-cooling/ hub still says "We do not: repair or service air conditioners or heat pumps" and "Why install-only for AC and heat pumps". A draft fix is in [site-crawl-2026-11-11.md](site-crawl-2026-11-11.md).
+  - **Superseded 2026-11-11:** Andrew rebuilt the AC and heat pump pages on 2026-11-09 (confirmed at the 2026-11-10 check-in). Both now carry full repair copy. Check their new price ranges and brand claims (see the crawl file). The note below is kept for history.
   - Checked live 2026-11-10: the AC page was edited 2026-11-09 (by someone outside the agency workflow; the 2026-10-16 page-update doc was never touched). Only its FAQ changed, to "Yes! john Sadler Plumbing & Heating offers AC repairs, maintenance, and tune-ups...". The H1, meta, the "Why \"installs only\" is the right call for AC" H2 and "we'll point you to a trusted local repair contractor" are still live, so the page now contradicts itself. The heat pump page is unchanged (last modified 2026-08-19) and its FAQ still says "No... installs new heat pump systems only. We do not offer heat pump repair or maintenance."
 - [ ] The footer lists Abbotsford and shows "© 2025".
 - [ ] Rewrite pages 3–5 (furnace-installation, gas-fitting, boiler-repair). The Langley rebuild pilot hasn't started.

@@ -19,8 +19,10 @@ updated: 2026-10-14
 | What | Where |
 |---|---|
 | Full profile (rules, services, approvals, open items) | [CLIENT.md](CLIENT.md) |
+| Site changes 2026-11-11: "all over BC" removed sitewide, local modifiers added to 10 service-page H1s | [site-changes-2026-11-11-service-area-and-h1s.md](site-changes-2026-11-11-service-area-and-h1s.md) |
 | Keywords | [keywords.md](keywords.md) |
 | GSC YoY drop investigation (2026-10-18) + Slack reply draft | [findings](gsc-yoy-drop-investigation-2026-10.md) · [reply draft](slack-reply-gsc-yoy-drop-2026-10.md) |
+| Phone number / CallRail audit of the whole site (2026-11-10). **Fixed 2026-11-11 except the sitewide head schema (needs wp-admin), swap test passes on all 28 pages** | [phone-number-audit-2026-11-10.md](phone-number-audit-2026-11-10.md) |
 | GBP audit (categories, services, description) | [gbp-audit-2026-10-06.md](gbp-audit-2026-10-06.md) |
 | GBP cleanup instructions | [Phase 1](gbp-phase1-instructions.md) · [Phase 2](gbp-phase2-instructions.md) |
 | Portable sanitation page updates (2026-10-06) | [Clearset - Page Updates - Portable Sanitation.docx](<Clearset - Page Updates - Portable Sanitation.docx>) |
