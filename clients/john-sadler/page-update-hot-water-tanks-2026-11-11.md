@@ -1,6 +1,6 @@
 # John Sadler Plumbing & Heating: Hot Water Tank Repair page update
 
-**Prepared:** 2026-11-11 by Francis Marc Uy. **Applied live 2026-11-11** with Francis's approval, after Andrew lifted his hold on site edits. The meta description is still pending (see Implementation Notes).
+**Prepared:** 2026-11-11 by Francis Marc Uy. **Applied live 2026-11-11** with Francis's approval, after Andrew lifted his hold on site edits. The meta description was applied the same day.
 
 **Why:** This page broke several content rules: "over 45 years" and "over 50 years", unconfirmed 24/7 and emergency claims, "free quote", repair prices, Abbotsford and Maple Ridge in the service area, out-of-scope services in the shared Why Choose block, em dashes, and a non-CallRail phone link.
 
@@ -17,7 +17,7 @@
 | Section (live tag and heading) | Current Content | Replacement Content |
 |---|---|---|
 | **SEO title (meta)** | Hot Water Tank Repairs & Maintenance \| John Sadler | **Keep Section** |
-| **Meta description** | Hot water tank repairs & maintenance in the GVA & Lower Mainland. Reliable service by licensed plumbers & gas fitters since 1976. | Hot water tank repair and maintenance in Surrey, White Rock and Langley. Licensed plumbers and gas fitters with 50 years in the Lower Mainland. Book today. **(Pending: see Implementation Notes)** |
+| **Meta description** | Hot water tank repairs & maintenance in the GVA & Lower Mainland. Reliable service by licensed plumbers & gas fitters since 1976. | Hot water tank repair and maintenance in Surrey, White Rock and Langley. Licensed plumbers and gas fitters with 50 years in the Lower Mainland. Book today. (Applied 2026-11-11) |
 | **H2: Fast & Reliable Hot Water Tank Service Since 1976** | Fast & Reliable Hot Water Tank Service Since 1976 / intro paragraph | **Keep Section** |
 | **Call button** | Call Us Today: 1-(604)531-4355 (link `tel:1-(604)531-4355`) | Call Us Today: 1-(604)531-4355 (link `tel:+16045314355`) |
 | **H2: Need a Different Hot Water Service?** | Three links (installation, tankless, Navien) | **Keep Section** |
@@ -45,7 +45,7 @@
 
 ## Implementation Notes
 
-- **Meta description pending:** Easy MCP AI can't write Yoast fields until the **Yoast SEO** integration is switched on (wp-admin › Easy MCP AI › Tools). Francis is enabling it.
+- **Meta description:** applied 2026-11-11 once the Yoast SEO integration was switched on in Easy MCP AI. Checked in the live page source.
 - **Item 7 bullet:** the list wrapper now has `list-style: none` (not removed) because the page has other `</li></ul>` closers that a literal edit can't tell apart.
 - **Not changed, flag for the next pass (outside the approved table):**
   - The JSON-LD schema block (base64 raw content at the bottom of the page) still says "24/7 emergency line", gives "$150 to $450" prices, lists Abbotsford and Maple Ridge in `areaServed`, and repeats the old FAQ answers. The schema and the visible FAQs now disagree. It needs a decode, edit and re-encode.
