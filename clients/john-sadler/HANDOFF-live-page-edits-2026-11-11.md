@@ -83,7 +83,7 @@ For each page, pull the live copy, draft small fixes, show Francis, apply, verif
 | Page | Status | Date | Notes |
 |---|---|---|---|
 | /services/heating-cooling/ | **Done, verified live** (except meta description) | 2026-11-11 | Francis confirmed Andrew's hold lifted and approved all hub-doc edits in chat. Barrie chip removed first. Rollback: revision 8559 (pre-edit, 2026-09-11). Kinsta cache cleared. Live check: no barrie link, single H1, all phone links `tel:+16045314355`, no em dashes, no free estimate/emergency/same-day wording. **Meta description NOT changed:** `_yoast_wpseo_metadesc` isn't REST-writable and Easy MCP AI's Yoast integration is switched off. To fix: turn on the "Yoast SEO" integration (`wp_yoast_update_post_seo`) in wp-admin under Easy MCP AI › Tools, or edit it by hand in Yoast. An empty `[bt_bb_text][/bt_bb_text]` was left where the install-only section was (harmless). |
-| /services/plumbing/hot-water-tanks/ | Proposed, not approved | 2026-11-11 | |
+| /services/plumbing/hot-water-tanks/ | **Done, verified live** (except meta description) | 2026-11-11 | Francis approved rows 1–12 including row 9 (prices removed). Rollback: revision 8580. Kinsta cache cleared. Live check: all 7 phone links `tel:+16045314355`, one H1, no 24/7, free quote, prices, Maple Ridge or "over 45/50" wording. Doc: [page-update-hot-water-tanks-2026-11-11.md](page-update-hot-water-tanks-2026-11-11.md). Meta waits on the Yoast integration being switched on (Francis). Flagged for later: the JSON-LD schema still has 24/7, prices and Abbotsford; the button tooltip says "GIVE ME FREE QUOTE"; item 5 has an en dash. |
 
 ## Notes for whoever continues
 

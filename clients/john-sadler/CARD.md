@@ -12,7 +12,7 @@ updated: 2026-11-11
 
 **Live edits (2026-11-11):** Andrew's hold is lifted (Francis confirmed). The heating-cooling hub doc is now live on /services/heating-cooling/ (barrie link removed, AC/heat pump repair copy fixed, install-only H1 removed) and checked live. Only the Yoast meta description is still to do (the MCP can't write it). Progress log: [HANDOFF-live-page-edits-2026-11-11.md](HANDOFF-live-page-edits-2026-11-11.md).
 
-**Next step:** Page 2, /services/plumbing/hot-water-tanks/, waits on Francis's approval. Then work through the rest of the handoff queue.
+**Next step:** Page 2 (hot-water-tanks) is also live and verified. Set both Yoast meta descriptions once the integration is on, then continue the handoff queue (shared-block pages next).
 
 **Blocked on client:** estimate-fee, response-time and 24/7 answers (holding up the /plumbers-near-me/ rewrite); the AEO add-on is still unsigned.
 
