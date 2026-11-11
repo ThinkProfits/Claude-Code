@@ -12,7 +12,7 @@ updated: 2026-11-11
 
 **Live edits (2026-11-11):** Andrew's hold is lifted (Francis confirmed). The heating-cooling hub doc is now live on /services/heating-cooling/ (barrie link removed, AC/heat pump repair copy fixed, install-only H1 removed) and checked live. The Yoast meta descriptions are also live. Progress log: [HANDOFF-live-page-edits-2026-11-11.md](HANDOFF-live-page-edits-2026-11-11.md).
 
-**Next step:** Page 2 (hot-water-tanks) is also live and verified, and both meta descriptions are set. Page 3 (hot-water-tanks-installs-replacement) is live too (2026-11-12). Page 4 (tankless-water-heaters) is live too, and its barrie link is removed. Next: /tankless-water-heater-repair/ and /boiler-repair/, which both still carry the barrie competitor link.
+**Next step:** Page 2 (hot-water-tanks) is also live and verified, and both meta descriptions are set. Page 3 (hot-water-tanks-installs-replacement) is live too (2026-11-12). Page 4 (tankless-water-heaters) is live too, and its barrie link is removed. Page 5 (tankless-water-heater-repair) is live too, and its barrie link is removed. Next: /boiler-installs-replacement/, then /boiler-repair/, which still carries the barrie competitor link.
 
 **Blocked on client:** estimate-fee, response-time and 24/7 answers (holding up the /plumbers-near-me/ rewrite); the AEO add-on is still unsigned.
 
