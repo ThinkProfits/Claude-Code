@@ -144,6 +144,7 @@
 - Check GSC indexing monthly and refresh stuck posts (2025-11-29).
 - Poly-B cannibalisation: 3 pages compete (/poly-b-piping-or-kitec-piping/, /residential/poly-b-plumbing-kelowna/, /poly-b-replacement-kelowna-insurance-risk/) (June 2026 report).
 - The site briefly went down on 2026-09-15; it came back within minutes.
+- It went down again on 2026-10-13 (504, about 23:22–23:31 UTC) while two Claude sessions were editing through the `wp-vision` MCP at once. Cause, site checks and fixes: [mcp-outage-investigation-2026-11-12.md](mcp-outage-investigation-2026-11-12.md). Rule: one MCP session per site at a time, and pace Elementor writes.
 - Elementor FAQ accordions must have **"Enable FAQ Schema"** turned on (2025-11-27, 2025-12-20).
 
 ### Keywords

@@ -16,4 +16,6 @@ The `wp-vision` MCP server (Easy MCP AI, connected 2026-10-14) gives administrat
 
 **Limits:** the server rate-limits after roughly 30 quick calls (error -32003), so space calls about 4 seconds apart in scripts. There's no `wp_rest_delete` tool, so Elementor's sitewide `DELETE /elementor/v1/cache` route can't be called. WP Rocket tools exist (`wp_rocket_clear_url_cache`), but their instructions require an explicit user confirmation first.
 
+**Outage risk:** on 2026-10-13 the site returned a 504 for about 10 minutes while two sessions used `wp-vision` at once (Elementor rewrites plus a full-site schema crawl). Run only one MCP session against Vision at a time, space Elementor writes 20–30 s apart, and stop if a response takes more than 5 s. Details: `clients/Vision/mcp-outage-investigation-2026-11-12.md`. Related: [[john-sadler-wp-mcp-edits]].
+
 Approval rules still apply: wording changes need Andrew's check (see `clients/Vision/CLIENT.md`). Related: [[page-additions-merge-into-existing-sections]].
