@@ -13,13 +13,28 @@
 
 - The sitemap (`page-sitemap.xml`, 2026-11-13) lists 28 pages: the homepage, services, city pages and legal pages. `post-sitemap.xml` is empty. **The site has no published blog posts**, so no existing post overlaps these topics.
 - The only blog so far is the unpublished draft "5 Warning Signs You Need Septic Repair" (Sept 2026). Topic 1 below stays clear of it by covering routine maintenance, not warning signs.
+- WordPress (checked 2026-11-13, all statuses): 4 posts, all drafts from 2022. Three are lorem-ipsum placeholders ("Blog 1–3") and one is a "Test" post. No real post content. The warning-signs draft is not in WordPress.
 - Overlaps with service pages are listed under each topic, with the angle that keeps the blog from competing with the page.
+
+### GSC cannibalization check (2026-11-13)
+
+Search Console, query + page, 2026-08-13 to 2026-11-10, for each topic's keyword stems. This shows which URL Google already ranks for each query.
+
+| Topic | What GSC shows | Risk |
+|---|---|---|
+| 1. How often to pump | No "how often" queries at all. "septic maintenance near me / coquitlam / port coquitlam" go to the homepage (GBP link) and the Port Coquitlam city page. | **Low**, but only if the blog targets the "how often" questions. The "septic maintenance + city / near me" queries are local service searches and belong to the city pages. |
+| 2. Pumping cost | "septic tank cleaning price" goes to /services/septic-tank-cleaning/ (pos 11). "septic tank pumping near me prices" goes to the Burnaby city page (pos 71). Price queries are already split across two pages. | **Medium.** A cost blog would be a third URL for the same queries. |
+| 3. RV dump station | Every RV query is a service search ("mobile rv pumping service" pos 4, "rv septic tank pumping" pos 8.7), all on /services/trailers-and-rvs-pumping/. No "dump station" queries. | **Low.** Different intent, as long as the blog doesn't target "mobile RV pump-out". |
+| 4. What is hydrovac | No "what is" queries. The hydrovac page ranks for cost-per-hour queries (pos 7.5–10) and "daylighting hydrovac" (pos 30). | **Low**, if the blog stays off pricing. |
+
+**Existing overlap found (not caused by these topics):** "hydrovac services vancouver" shows the homepage at pos 12.5 and the hydrovac page at pos 43.7. The homepage is outranking its own service page. That should be fixed in the hydrovac page work anyway, and topic 4's internal links will help.
 
 ## Recommended topics
 
 ### 1. How often should you pump your septic tank? A BC homeowner's maintenance guide
-- **Target keyword:** septic tank maintenance (590/mo BC; Keyword Planner groups it with "septic system maintenance", "septic tank care" and "maintaining septic tank")
-- **Supporting:** how often should a septic tank be pumped (and about 10 variants at 20–40/mo each), septic maintenance near me (260), septic drain field maintenance (30), septic tank filter cleaning (20)
+- **Target keyword:** how often should a septic tank be pumped (about 10 variants at 20–40/mo each). Changed after the GSC check: the "how often" questions have no ranking page yet, so the blog takes them cleanly.
+- **Supporting:** septic tank maintenance (590/mo BC; grouped with "septic system maintenance", "septic tank care" and "maintaining septic tank"), septic drain field maintenance (30), septic tank filter cleaning (20). GSC also shows "septic system filter maintenance" at 181 impressions on the homepage, so the filter section is worth keeping.
+- **Keep out of the blog:** "septic maintenance near me" (260) and "septic maintenance + city". They're local service searches that the homepage and Port Coquitlam page already rank for.
 - **Search intent:** informational, from homeowners planning ahead
 - **Why it helps:** it's the biggest informational cluster we found. Readers who own a septic system will need a pump-out, and the post funnels them to the septic hub.
 - **Overlap watch:** /services/septic-system-maintenance/ already lists "septic system maintenance" as a secondary keyword. Keep the blog as a how-to guide (schedule, household size, what to avoid) and link to that page and the hub for the service itself.
@@ -30,6 +45,7 @@
 - **Supporting:** price to pump septic tank (50), septic tank pumping rates (50), septic tank pumping prices (20), septic system pumping cost (20), cost for pumping a septic tank (20)
 - **Search intent:** commercial. These readers are close to booking.
 - **Why it helps:** together the variants are close to the volume of topic 1, competition is LOW, and cost searchers convert well. It also backs up the hub's weak "septic tank pumping" rankings.
+- **Cannibalization (medium):** price queries already land on /services/septic-tank-cleaning/ and the Burnaby city page. If this goes ahead, make the blog *the* price page: link both pages to it with cost-focused anchor text, and keep price wording off the city pages. The other option is to put a pricing section on /services/septic-tank-cleaning/ and drop this topic.
 - **Blocker:** **prices must be confirmed with Sean before drafting.** The last figure we had was $530 starting (2025-09), and the content rules say not to quote prices until they're reconfirmed. If Sean won't publish a figure, write it around cost factors (tank size, access, distance, how overdue the pump-out is) and invite readers to call for a quote.
 
 ### 3. RV dump station or mobile pump-out? Emptying your RV tanks in Metro Vancouver
@@ -53,7 +69,7 @@
 | Septic-safe toilet paper / what not to flush | 170 | Good volume, but it's product-led and ad-heavy (HIGH competition) with weak lead intent. Could become an FAQ section in topic 1. |
 | Signs your septic tank is full | 10 | Overlaps the existing warning-signs draft |
 | Grease trap cleaning frequency | 10 | Low volume. Better aimed at restaurants via GBP and the service page. |
-| Hydro jetting vs snaking | 10 | Low volume, and plumbers dominate that search |
+| Hydro jetting vs snaking | 10 | Low volume, plumbers dominate that search, and it would compete with /services/hydro-flushing/ (GSC shows "hydro jetting" queries there) |
 | Holding tank vs septic tank | 10 | Low volume. Could be a later post. |
 
 Anything about potable water, septic inspection, septic or drain field repair and Alberta is excluded under the standing keyword rules.
@@ -61,7 +77,7 @@ Anything about potable water, septic inspection, septic or drain field repair an
 ## Suggested pick for the two blogs
 
 1. **Topic 1:** biggest cluster, lowest risk, supports the septic hub.
-2. **Topic 2** if Sean confirms prices. If not, **Topic 3**, which targets the RV loss directly.
+2. **Topic 3** (RV): it targets the RV loss directly and has low cannibalization risk. **Topic 2** only if Sean confirms prices *and* we agree the blog becomes the price page (see its cannibalization note).
 
 ## Before drafting
 
