@@ -1,6 +1,6 @@
 # Slack follow-up draft: November report items (2026-11-19)
 
-Thread: #firestorm_spiedr (C01928K8M0F), thread ts `1793991764.756459`. **Not posted. Needs Francis's OK before posting.**
+Thread: #firestorm_spiedr (C01928K8M0F), thread ts `1793991764.756459`. **Posted 2026-11-19** with Francis's OK: https://thinkprofitscom.slack.com/archives/C01928K8M0F/p1795040251320219?thread_ts=1793991764.756459&cid=C01928K8M0F
 
 ---
 
