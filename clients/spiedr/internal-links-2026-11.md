@@ -82,7 +82,7 @@ Homepage and WPBakery pages store some links inside encoded `vc_btn` / raw block
 **Redirect swaps (section B), 2026-11-19:**
 - `/services/consulting/` → `/services/wildfire-consulting/`: done on 5243 (homepage), 5807 (/services/), 8698 (2), 8724 (2), 8695 (2), 8583 (2), 7720, 7705, 7690, 7609, 7421 (2), 7387, 7348 (2).
 - `/equipment-rentals/` → `/fighting-equipment-rentals/`: done on 5243, 8698, 8695, 7609, 7531, 5809. Re-scan found none left.
-- `/training/` → `/wildfire-fighting-training/`: done on 8698, 8684, 8583, 7720, 7690, 7609, 7387, 8695, 5809, 5807, 7597, 7531. **Still to do:** 7237 (`"/training/"`) and the homepage 5243 (`'/training/'` and `"/training/"`). The `wp-spiedr` rate limit stopped these; rerun the same literal replacements.
+- `/training/` → `/wildfire-fighting-training/`: done on 8698, 8684, 8583, 7720, 7690, 7609, 7387, 8695, 5809, 5807, 7597, 7531, 7237 and 5243. The `wp-spiedr` rate limit paused the last three for a few minutes. A live homepage check showed no old consulting, rentals or training hrefs left.
 
 **Live re-scan (public REST, pages + posts with in-content href to target):**
 
