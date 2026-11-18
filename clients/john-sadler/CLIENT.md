@@ -137,6 +137,9 @@
   - White Rock: 28 up / 38 down
 - August was the bright spot: Surrey visibility rose to 18.90% (+4.24), with #1s for gas fitter and radiant terms.
 
+**Monthly report trend** (automated reviews in #johnsadler)
+- November 2026 (October data, review posted 2026-11-11): GA4 key events 132 (+34.7% MoM, +2.3% YoY; Display = 25.8% of key events); organic key events +18% MoM, -42.8% YoY; GSC clicks 248 (-15.1% MoM, -63.6% YoY), CTR 0.2% on 148.5K impressions; organic sessions -10.3% MoM, -49.3% YoY. Tracked visibility Surrey 4.51% (+0.95), Langley 1.79% (-1.21; willowbrookplumbing.ca 14.55%), White Rock 2.29% (-1.24; opplumbingandheating.ca 25.16%). Ranking deltas unreliable (sections disagree, many keywords without history); treated as new baseline. Francis replied 2026-11-19, SEO only ([thread reply](https://thinkprofitscom.slack.com/archives/C019H8FNN9H/p1795043747338409?thread_ts=1794268753.591129&cid=C019H8FNN9H)).
+
 **Market snapshot, early 2026**
 
 | Market | Visibility | Avg position | Keywords in top 10 |

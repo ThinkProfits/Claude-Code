@@ -1,7 +1,7 @@
 ---
 type: card
 client: aloha-life-massage
-updated: 2026-10-14
+updated: 2026-11-19
 ---
 
 # Aloha Life Massage: card
@@ -11,6 +11,8 @@ updated: 2026-10-14
 **Next step:** Settle the new-site launch plan: domain (alohalifemobilespa.com still redirects to the old site), cut-over date, full 301 map and duplicate-content handling while both sites run.
 
 **Blocked on client:** Dani to confirm the "what's included" details on the new facial pages, and to supply real daytime Maui photos (one guest or one table) to replace the stock images that break her imagery rules.
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #aloha-life-massage has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** Facial service pages and the site-wide imagery problem logged 2026-10-14 (lovable-edits-2026-10-09.md). No GBP handoffs (not on the GBP pipeline).
 

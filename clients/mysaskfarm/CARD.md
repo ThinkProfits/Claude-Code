@@ -1,7 +1,7 @@
 ---
 type: card
 client: mysaskfarm
-updated: 2026-10-14
+updated: 2026-11-19
 ---
 
 # MySaskFarm.com: card
@@ -11,6 +11,8 @@ updated: 2026-10-14
 **Next step:** Write the September and October catch-up blogs Andrew asked for on 2026-10-06 (candidates: capital gains on inherited farmland; "How much is farmland worth in my RM?"), ahead of the Nov-Mar peak season.
 
 **Blocked on client:** keyword sign-off (73-keyword sheet, chased 2026-08-27); About Us questionnaire answers (sent 2026-08-18); hi-res logo; cPanel/phpMyAdmin invite; GA4 access; which address is the NAP of record.
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #mysaskfarm has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** /saskatchewan-farmland-prices/ and /best-time-sell-farmland-saskatchewan/ published (around 2026-10-01 to 10-06). No GBP handoffs on file.
 

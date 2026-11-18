@@ -1,7 +1,7 @@
 ---
 type: card
 client: aanmc
-updated: 2026-10-14
+updated: 2026-11-19
 ---
 
 # AANMC (Association of Accredited Naturopathic Medical Colleges): card
@@ -11,6 +11,8 @@ updated: 2026-10-14
 **Next step:** Audit GA4 key events and GTM firing to explain the traffic-up, leads-down gap before blaming content (CLIENT.md priority 1).
 
 **Blocked on client:** answers to the click-recovery open questions (ND medical reviewer, newer salary data, spelling); approval of the March 2026 page rewrites and the July 2026 Content Audit; UWS status.
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #aanmc has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** CLIENT.md and keywords.md added 2026-10-06; click-recovery deliverable written 2026-10-02. No GBP handoffs (not on the GBP pipeline).
 

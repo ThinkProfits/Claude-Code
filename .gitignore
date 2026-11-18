@@ -29,3 +29,6 @@ scripts/logs/
 
 # Personal Claude settings
 .claude/settings.local.json
+
+# Plaintext MCP/API tokens dropped into client folders (live copies are in ~/.claude.json)
+clients/*/api.txt

@@ -1,7 +1,7 @@
 ---
 type: card
 client: mvp
-updated: 2026-10-14
+updated: 2026-11-19
 ---
 
 # MVP Athletic Supplies: card
@@ -11,6 +11,8 @@ updated: 2026-10-14
 **Next step:** Clear the September content backlog: get the agreed heading plus 1-2 sentence intro onto the collection pages (live descriptions are empty) and draft the /pages/lacrosse-equipment and /pages/lacrosse-sticks rewrites as Google Docs.
 
 **Blocked on client:** Nothing recorded. Shopify login failed on 2026-09-16 and the SEO Silver upsell outcome is unknown; confirm with Andrew/Francis whether either sits with MVP.
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #mvp has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12). Homepage rewrite draft doc created 2026-10-07, pending Francis review.
 

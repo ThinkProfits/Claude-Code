@@ -1,7 +1,7 @@
 ---
 type: card
 client: Vision
-updated: 2026-11-05
+updated: 2026-11-19
 ---
 
 # Vision Plumbing Heating Cooling: card
@@ -17,6 +17,8 @@ updated: 2026-11-05
 **Next step (sitewide fixes):** Get Andrew's approval on the wording fixes in the sitewide fix list (rebate paperwork, free consultation, install timeline, em dashes, plus the CTA rewording left from priority 1), then make them through the wp-vision MCP.
 
 **Blocked on client:** IAQ comparison-table details and pricing-range corrections. (Penticton and Summerland are still served, per Brent's 2026-10-20 email.)
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #vision-plumbing has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** Hard-coded tracking numbers replaced on 8 pages and posts (2026-10-14). GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 

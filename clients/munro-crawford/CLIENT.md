@@ -93,6 +93,9 @@
 - June 2026: GSC clicks +7.7% MoM, +212% YoY.
 - July 2026: sessions +128% YoY, GSC clicks +168% YoY, key events +12% MoM; sessions -8.8% MoM.
 
+**Monthly report trend** (automated reviews in #munrocrawford)
+- November 2026 (October data, review posted 2026-11-11): GA4 key events 74 (+17.5% MoM, +27.6% YoY); GSC clicks 1.71K (-0.1% MoM, +52.1% YoY) on 152.48K impressions (+131.5% YoY); CTR 1.1% (-34.3% YoY). Tracked Vancouver visibility 18.80% (-7.30), avg position 48.30, 26 keywords down vs 11 up, 14 out of the top 100 (incl. Oct 1 top-10s: estate litigation kerrisdale, wills lawyer west side, estate planning lawyers kitsilano, estate administration vancouver). westcoastwills.com leads at 28.49%. GBP call clicks 29 (-45.3% YoY), directions 53 (-44.2% YoY). Francis replied 2026-11-19, SEO only ([thread reply](https://thinkprofitscom.slack.com/archives/C019AAP51U6/p1795043744996069?thread_ts=1794260945.604579&cid=C019AAP51U6); an earlier version with Ads lines was deleted).
+
 **GSC, live** (`sc-domain:munrocrawford.ca`, 2026-07-09 to 2026-10-07)
 - Traffic is **blog-led**. Top pages by clicks:
 
@@ -114,7 +117,7 @@
 **Schema and on-page (live, 2026-10-07)**
 - LegalService + Organization schema on the home, about, contact and team pages. The homepage carries **two LegalService blocks** (likely duplicate). FAQPage on the homepage.
 - **Person schema for all 6 staff is live on /our-team/** (requested 2026-07; Francis confirmed done).
-- **The fake "London, UK / 10 Firs Avenue, Muswell Hill / hello@lawyers.com" template block is still in the global footer** on every page checked. Francis listed it for removal in July 2026; Andrew fixed wrong homepage contact info on 2026-07-25 but this block survived.
+- ~~The fake "London, UK / 10 Firs Avenue, Muswell Hill / hello@lawyers.com" template block in the global footer~~: **gone** (live check 2026-11-19 of the homepage and a blog post; Yew Street NAP present). Who removed it isn't recorded.
 - The contact page still has COVID-19 remote-service copy.
 - `http://munrocrawford.ca/` answered 200 without redirecting to https in a curl check. *Confirm the https redirect.*
 
@@ -277,7 +280,7 @@ Full detail is in [keywords.md](keywords.md) (2026-10-06).
 - [ ] Sign-off on homepage "best lawyer near me" / "5/5 rated" / "Expert advice" wording against LSBC rules.
 
 **Live site fixes**
-- [ ] Remove the **London, UK / hello@lawyers.com** footer block (sitewide).
+- [x] Remove the **London, UK / hello@lawyers.com** footer block (sitewide). Gone, checked live 2026-11-19.
 - [ ] Remove "family law and divorce" / "personal injury" from the /our-team/ intro if not offered.
 - [ ] Remove or update the COVID-19 copy on the contact page.
 - [ ] De-duplicate the two LegalService blocks on the homepage.

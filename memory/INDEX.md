@@ -22,6 +22,7 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 - [GSC MCP auth](gsc-mcp-thinkprofits-auth.md): signed in as the agency account; how to re-auth
 
 ## Standards (all clients)
+- [Monthly report replies](monthly-report-reply-standard.md): reply to every monthly report thread with short Done / Next bullets, never just "I'm on it" (Andrew, 2026-11-17)
 - [Blog topic cannibalization check](blog-topic-cannibalization-check.md): check existing content before pitching topics
 - [Blog fact-check standard](blog-fact-check-standard.md): source and verify every fact, link and client claim; match the tone the client already approved (Andrew, Oct 2026)
 - [Client-facing blog drafts](client-facing-blog-drafts.md): draft + Google Doc hold only title/meta/slug/keywords + post; scope, image note, GBP/social, implementation notes go in internal-notes/.

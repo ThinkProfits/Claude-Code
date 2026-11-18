@@ -1,7 +1,7 @@
 ---
 type: card
 client: mujo
-updated: 2026-11-02
+updated: 2026-11-19
 ---
 
 # Mujo Learning Systems: card
@@ -11,6 +11,8 @@ updated: 2026-11-02
 **Next step:** Tell Brittni the Book schema is live (live Rich Results Test passed 2026-11-02, 0 errors), ask for Mujo's shipping/returns policy for the remaining optional fields, and re-push schema after any WooCommerce price change (steps in the handoff, section 7).
 
 **Blocked on client:** Shop page index or noindex; the product consolidation decision; the HS/HE title and H1 pattern; current proof points and the ADA claim; whether local SEO / GBP is paused or active.
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #mujo has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** Schema and on-page batch on 2026-10-10 (hand-coded LocalBusiness removed from 71 pages, CollectionPage on 9 hubs, FAQ schema on 22 pages).
 

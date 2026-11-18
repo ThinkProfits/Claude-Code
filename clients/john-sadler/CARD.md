@@ -1,7 +1,7 @@
 ---
 type: card
 client: john-sadler
-updated: 2026-11-11
+updated: 2026-11-19
 ---
 
 # John Sadler Plumbing & Heating: card
@@ -15,6 +15,8 @@ updated: 2026-11-11
 **Next step:** Page 2 (hot-water-tanks) is also live and verified, and both meta descriptions are set. Page 3 (hot-water-tanks-installs-replacement) is live too (2026-11-12). Page 4 (tankless-water-heaters) is live too, and its barrie link is removed. Page 5 (tankless-water-heater-repair) is live too, and its barrie link is removed. /boiler-repair/ is live too (2026-11-12), so no live page checked has the barrie link any more. /boiler-installs-replacement/ is live too, so all 7 shared-block pages are done. The sitewide footer is fixed too (Abbotsford and hidden "Plumber" text removed, 2026-11-12). The "50 years" batch is live too (22 pages and posts). Left: 3 base64 raw blocks (AC and heat pump "50+ years", Langley schema), handled with the schema pass. The "free estimate" batch is live too (8 pages and posts). Left: schema blocks, plus the expired Navien promo blog (needs a decision). Superlatives are done too (8 pages and posts; the leftover "barrie" text on the homepage is removed, so none is left on the site). Schema pass under way: the spam sameAs block (354 junk URLs) is disabled on 34 pages and posts; 40 blog posts are left, paused because the site kept going offline under the writes (2026-11-12). Next: Kinsta checks the server, then finish Phase 1 slowly, then Phases 2 and 3 (see the handoff log).
 
 **Blocked on client:** estimate-fee, response-time and 24/7 answers (holding up the /plumbers-near-me/ rewrite); the AEO add-on is still unsigned.
+
+**November report reply:** posted 2026-11-19, SEO only ([thread reply](https://thinkprofitscom.slack.com/archives/C019H8FNN9H/p1795043747338409?thread_ts=1794268753.591129&cid=C019H8FNN9H)). Numbers in CLIENT.md "Monthly report trend". Added next: White Rock and Langley service pages vs local competitors (Dec).
 
 **Last activity:** 2026-11-11: logged the 2026-11-10 check-in ([checkin-2026-11-10.md](checkin-2026-11-10.md)) and ran a full-site crawl plus a GA4 review ([site-crawl-2026-11-11.md](site-crawl-2026-11-11.md)). 2026-11-10: drafted Apr 2025 #2 "Why Won't My AC Turn On?" (`08-ac-not-turning-on`) and Jun 2025 #2 "How to Fix Frozen AC Coils?" (`blogs/2025-backlog/07-frozen-ac-coil`), and set masterlist rows 32 and 38–47 to Needs PM Review with Google Doc links. Earlier, 2026-10-15: drafted the 6 overdue Jul–Sep 2025 blogs ([blogs/2025-backlog/](blogs/2025-backlog/README.md)), awaiting internal review then Colin/Tina. GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 

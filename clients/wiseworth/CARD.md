@@ -1,7 +1,7 @@
 ---
 type: card
 client: wiseworth
-updated: 2026-10-14
+updated: 2026-11-19
 ---
 
 # Wiseworth Canada Industries: card
@@ -11,6 +11,8 @@ updated: 2026-10-14
 **Next step:** Start Month 1 of the 2026-09-05 audit roadmap (404s, orphans, metas, titles, H1s), beginning with title and meta rewrites on the product hubs.
 
 **Blocked on client:** Product copy for the thin system-component, controls and blower pages.
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #wiseworth has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 

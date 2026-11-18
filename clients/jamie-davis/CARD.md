@@ -1,7 +1,7 @@
 ---
 type: card
 client: jamie-davis
-updated: 2026-10-14
+updated: 2026-11-19
 ---
 
 # Jamie Davis Towing: card
@@ -11,6 +11,8 @@ updated: 2026-10-14
 **Next step:** Get the blog live: publish the approved blogs and link the blog in navigation. Separately, the proposed fix for the commercial page H1 is still waiting on Andrew's sign-off.
 
 **Blocked on client:** approval of the May/June blogs (with client since June) and the Jul to Dec topics; Wiki intake answers; the current Hope address; fresh fleet and yard photos.
+
+**November report reply (2026-11-19):** the automated review (Oct data) in #jamiedavistowing has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
 
 **Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 
