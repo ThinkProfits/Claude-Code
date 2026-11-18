@@ -1,7 +1,7 @@
 ---
 type: card
 client: thinkprofits
-updated: 2026-10-14
+updated: 2026-11-18
 ---
 
 # ThinkProfits (our own account): card

@@ -1,0 +1,129 @@
+NEW PAGE: /digital-marketing-agency-vancouver/. Please make only the changes listed below. Don't touch other page content, routes, styling or redirect rules.
+
+Background: Shawn asked for a standalone, answer-first "digital marketing agency in Vancouver" page, built in the same shape as /seo-company-vancouver/. Today /digital-marketing-agency-vancouver/ returns a 301 to /seo-company-vancouver/ (checked with curl on 2026-11-18).
+
+Target keyword: digital marketing agency vancouver (secondary: best digital marketing agency vancouver, marketing agency vancouver)
+Search intent: commercial investigation (comparing agencies before contacting one)
+
+===== 1. Remove the old redirect =====
+
+In vercel.json (applied by src/lib/redirects.ts), remove the rule whose source is /digital-marketing-agency-vancouver/ (destination /seo-company-vancouver/). Don't change any other rule, including /vancouver-digital-marketing-agency/ -> /services/.
+
+Check after the change: curl -I https://thinkprofits.com/digital-marketing-agency-vancouver/ returns 200, not 301.
+
+===== 2. Create the page =====
+
+- Route: /digital-marketing-agency-vancouver/ (trailing slash, like the other service pages).
+- Use the same template, components and layout as /seo-company-vancouver/: the "Last updated / Reviewed by" line, the checkmark proof row, the CTA buttons, the pricing table style and the office block.
+- Self-referencing canonical. Add the URL to the sitemap.
+- Structured data: reuse the pattern /seo-company-vancouver/ already outputs (Organization/LocalBusiness details, BreadcrumbList), plus FAQPage for the FAQ section below. Don't add AggregateRating or review markup.
+- Breadcrumb: Home / Services / Digital Marketing Agency Vancouver.
+- Internal links: add a link to this page from the homepage services area and from /services/, with the anchor text "digital marketing agency in Vancouver". Don't change the homepage URL used by our Google Business Profile.
+
+Meta title: Vancouver Digital Marketing Agency Since 1996 | ThinkProfits
+Meta description: Vancouver's longest-running digital marketing agency. AI search, SEO, PPC and web design for BC businesses. SEO plans from $995/mo. No long-term contracts.
+
+===== 3. Page copy (use exactly; H-tags as marked) =====
+
+H1: Vancouver Digital Marketing Agency: AI, SEO, PPC & Web, Since 1996
+
+Last updated: [publish date] · Reviewed by Shawn Moore, Founder & CEO
+
+H2: Who is the best digital marketing agency in Vancouver?
+
+There isn't one digital marketing agency in Vancouver that's the right fit for every company. The right partner depends on your size, your budget, and whether you need SEO, ads, a lead-generating website, or all of it under one roof.
+
+ThinkProfits is Vancouver's longest-running digital marketing agency, based downtown at 1388 Homer St #602 since 1996. We're a strong option for established businesses doing $3M+ a year in BC, Canada, and the USA that want AI search (AEO and GEO), SEO, PPC, and lead-gen web design on month-to-month terms, with published pricing, no long-term contracts, and accounts you own.
+
+Proof row (checkmarks):
+- Vancouver digital marketing since 1996
+- 5.0★ on Google (48 reviews)
+- 3,500+ clients served across Canada and the USA
+- Google Partner · No long-term contracts
+
+CTAs: Call (604) 638-1188 · Schedule a free consult (https://calendar.app.google/3mqjagmN1FVCbFTK9) · Contact our Vancouver office (/contact/)
+
+H2: What a Vancouver digital marketing agency should do
+
+A digital marketing agency in this market should be able to get you found in Google, the Map Pack, and AI answers, turn that attention into calls and form fills, and show you the numbers in language a business owner can use. That means SEO and AI search, paid search when you need leads sooner, a website built to convert, and reporting that ties activity to inbound calls, booked jobs, or online sales, not vanity traffic.
+
+That's the work we do, from one team, on Pacific hours.
+
+H2: Our digital marketing services in Vancouver
+
+Six disciplines. One strategic team.
+
+- SEO & AI search optimization: Technical SEO, local SEO and Google Business Profile, content, link building, plus AEO and GEO so ChatGPT, Perplexity, and Google AI Overviews can quote, cite, and recommend you. (link "SEO" to /seo-company-vancouver/)
+- PPC / Google Ads: Search, shopping, display, remarketing, and Meta ads, month-to-month. You keep ownership of your ad account. (link to /ppc-agency-vancouver/)
+- Lead-gen and eCommerce websites: Sites engineered for calls, quote requests, and sales on Shopify, WooCommerce, or a custom build.
+- Content development: Pages and articles written to rank, convert, and earn citations in AI answers.
+- Digital marketing strategy & fractional management: A plan around your revenue goals, or senior help that sits alongside your team.
+- Reporting dashboards: SEO, PPC, and analytics in one view, written so a non-marketer can see what's working.
+
+We work with companies across Greater Vancouver and further afield in BC, Canada, and the USA. A large part of that work is trades and home services (plumbing, HVAC, electrical, roofing, and related contractors) as well as professional firms and eCommerce brands.
+
+H2: Proof, not vanity metrics
+
+We don't chase traffic for its own sake. We set targets around leads, bookings, jobs, or online sales, and we publish the work.
+
+- John Sadler Plumbing & Heating (link /case-study/john-sadler-plumbing-heating/): a website redesign plus SEO, PPC, and related marketing. Organic traffic grew 4x in under six months, with a 400% increase in top-3 rankings over 12 months and 55 new top-10 rankings.
+- Thomas & Associates Law Firm (link /case-study/thomas-associates/): a Vancouver family law firm. Organic search form fills increased 354%, organic visitors 40%, and Google Ads form fills 300%.
+
+You always keep ownership and control of your logins, website, domains, analytics, and ad campaigns. We will never lock you out or charge you for access.
+
+H2: Published pricing, month to month
+
+We publish our pricing. There are no long-term contracts. If the work is good, clients stay.
+
+Think SEO programs, in Canadian dollars:
+
+| Plan | Monthly fee | One-time setup |
+| Think SEO Bronze | $995/mo | $1,680 |
+| Think SEO Silver | $1,895/mo | $1,950 |
+| Think SEO Gold | $3,495/mo | $3,040 |
+| Think SEO Platinum | $4,995/mo | $3,800 |
+
+Full plan details are on our SEO services page (link /seo-services/). Vancouver PPC management is also month-to-month, with published fees on our PPC agency in Vancouver page (link /ppc-agency-vancouver/); ad spend is separate, and you keep the account.
+
+H2: How to choose a digital marketing agency in Vancouver
+
+If you're comparing agencies, look for four things the serious lists already look for:
+
+1. A real local team. Ask where the people on your account actually sit. Our office is at 1388 Homer St #602, Vancouver, BC V6B 6A7, Monday–Friday, 9:00am–5:00pm Pacific.
+2. Reviews you can read. We're 5.0★ from 48 Google reviews. Read them, then ask for a reference in your industry.
+3. Published work, not just claims. Ask for a named client result, a case study, and who will run the account.
+4. Terms that don't trap you. Month-to-month, published pricing, and accounts in your name.
+
+The right shortlist depends on your situation. If you want a downtown Vancouver team that has been doing this since 1996, with AI search, SEO, PPC, and lead-gen web design under one roof, talk to us.
+
+H2: Digital marketing in Vancouver: common questions
+
+H3: How much does a digital marketing agency in Vancouver cost?
+It depends on the services and how competitive your market is. Our Think SEO programs run from $995/mo to $4,995/mo plus a one-time setup fee, and PPC management is priced separately from your ad spend. Both are month-to-month.
+
+H3: Do I have to sign a long-term contract?
+No. All our programs are month-to-month. You keep ownership of your website, domains, analytics, and ad accounts, so you can leave at any time without losing access.
+
+H3: Can one agency handle SEO, AI search, PPC, and my website?
+Yes. We run SEO, AEO and GEO, Google Ads and Meta ads, lead-gen web design, content, and reporting from one team in downtown Vancouver.
+
+H3: Do you only work with Vancouver businesses?
+No. We're based in Vancouver and work with companies across BC, Canada, and the USA, with a large share of trades and home services clients.
+
+H2: Our Vancouver office
+
+ThinkProfits.com Inc.
+1388 Homer St #602, Vancouver, BC V6B 6A7
+Local: (604) 638-1188
+Toll-free: 1-877-597-7888
+Hours: Monday–Friday, 9:00am–5:00pm Pacific
+View our Google Business Profile · Get a free consultation (/contact/)
+
+Vancouver's longest-running digital marketing agency. AI search, SEO, PPC, and web design for companies generating $3M+ annually. Since 1996.
+
+===== 4. Checks after publishing =====
+
+- curl -I https://thinkprofits.com/digital-marketing-agency-vancouver/ returns 200 with a self canonical.
+- /seo-company-vancouver/ and /vancouver-digital-marketing-agency/ behave exactly as before.
+- The page appears in /sitemap.xml.
+- The FAQPage JSON-LD validates in Google's Rich Results Test.
