@@ -105,7 +105,7 @@
 - June 2026 (May data): 2 key events (-87.5% YoY), organic sessions -64.1% YoY, Singapore = 49% of users (likely bots), GSC clicks -70.1% YoY.
 - August 2026 (July data): sessions +42.4% MoM, GSC clicks +115% MoM, but key events -50% MoM. Review mentions a "Maui campaign", which looks like an error in the automated review.
 - September 2026 (August data): GSC clicks +9.7% MoM / +37.1% YoY, CTR +18%, visibility +4.35 pts; new #1s for "wildland fire structure protection", "portable fire pumps for sale", "structure protection unit trailer". GBP shows 0 reviews / 0 call clicks.
-- No October report in Slack yet (September's arrived on the 7th).
+- November 2026 (October data, review posted 2026-11-10): GSC clicks 198 (-1% MoM, -16.5% YoY), organic sessions 344 (-2.1% MoM), total users -27.1% YoY, tracked BC visibility 6.89% (-6.82), avg position 56.96, 10 keywords out of the top 20, key events 5 (-61.5% YoY, undercounted: reCAPTCHA form outage fixed Oct 23). waspwildfire.com +2.65. GSC shows mostly seasonal; real slips on fire service trailers, equipment rentals, wildfire consulting. Francis replied 2026-11-19 with done/next ([thread reply](https://thinkprofitscom.slack.com/archives/C01928K8M0F/p1795021542087579?thread_ts=1793991764.756459&cid=C01928K8M0F)).
 
 **Ranking review and roadmap** (summaries; full detail in the linked files)
 - [Sept 2026 ranking & internal-linking review](spiedr-sept-2026-ranking-and-internal-linking-review.md) (2026-09-17): most flagged Top 3/10 losses were a day-1-vs-day-31 reporting artifact. Real declines: "top wildfire sprinkler protection", "fire protection roof sprinkler system", "fire fighting pumps for sale". Three terms moved together on 11–12 Sept (SERP-side). Internal linking is the core problem: /roof-sprinkler-system/ and /fire-embers/ have zero in-content inlinks; 45 of 93 blog posts are orphaned.
@@ -119,7 +119,9 @@
 - Cannibalization: six URLs compete for "wildfire sprinkler system" (best is #11); "controlled burn" splits across three blog URLs.
 - Commercial terms are very low volume in Canada (10–30/mo). Growth lever = authority + AEO + routing blog traffic into product/service pages.
 
-**Indexing:** Andrew found `/services/wildfire-consulting/` missing from the XML sitemaps (2026-09-16). Francis fixed its canonical (it pointed at `/services/consulting/`, which redirected back) and fixed 3 other services-hub URLs; all now in the sitemap (2026-09-17). *Confirm the GSC resubmission and the wider indexing check Andrew asked for.*
+**Indexing:** Andrew found `/services/wildfire-consulting/` missing from the XML sitemaps (2026-09-16). Francis fixed its canonical (it pointed at `/services/consulting/`, which redirected back) and fixed 3 other services-hub URLs; all now in the sitemap (2026-09-17). **GSC URL Inspection 2026-11-19:** `/services/wildfire-consulting/` and `/fighting-equipment-rentals/` both indexed with Google canonical = own URL; `/services/consulting/` shows "Page with redirect". So the October slips on those pages are not an indexing problem. Still ~18 in-content links point at the old `/services/consulting/` and `/equipment-rentals/` 301s (fix list in [internal-links-2026-11.md](internal-links-2026-11.md)). *The wider indexing sweep Andrew asked for is still open.*
+
+**Tracking (GA4 274454704, GTM GTM-MH3WNL2):** contact_form (thank-you page view), pdf_download (click text "Download PDF"), phone_click (tel links) all fire as of 2026-11-19. The site has no mailto links. email_click prepared in GTM workspace 16, unpublished.
 
 **Yoast** (15 most recently modified posts, 2026-10-06): 5 have no focus keyphrase ("na"), including the two September 2026 blogs and "Early Wildfire Detection in BC".
 

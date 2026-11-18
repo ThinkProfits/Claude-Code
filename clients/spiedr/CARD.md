@@ -1,7 +1,7 @@
 ---
 type: card
 client: spiedr
-updated: 2026-11-18
+updated: 2026-11-19
 ---
 
 # SPIEDR: card
@@ -9,7 +9,7 @@ updated: 2026-11-18
 **Status:** Active SEO Silver retainer with 1 blog a month and twice-weekly GBP posts. Organic clicks are fading with the end of fire season, and there is no evidence the Q4 fix roadmap (Phase 1 internal links, Phase 2A keyword refresh) has shipped.
 
 **Next step (checked in Slack 2026-11-17):** The September report thread is closed: Francis replied "this is done" on 2026-11-10. Still open in #firestorm_spiedr, all waiting on Francis:
-- **November report thread (2026-11-07, no reply yet):** tracked BC visibility nearly halved to 6.89% (-6.82), 10 keywords fell out of the top 20, key events fell to 5, and waspwildfire.com is gaining. Needs a read-confirmation reply and a plan. Reply drafted 2026-11-18 from GSC ([slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md)), not posted: mostly seasonal; real slips on fire service trailers, rentals, consulting and sprinkler kits; key events undercounted because of the reCAPTCHA form outage Andrew fixed on Oct 23. Semrush list of keywords that left the top 20 still to pull.
+- **November report thread: replied 2026-11-19** ([reply](https://thinkprofitscom.slack.com/archives/C01928K8M0F/p1795021542087579?thread_ts=1793991764.756459&cid=C01928K8M0F), text in [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md)). Committed next steps (Francis): Phase 1 internal links to trailers, rentals, consulting and sprinkler kits by end of Nov; confirm the Sep 17 URL fixes are indexed (this week); verify contact_form/pdf_download and add phone/email click tracking (Nov); pull the top-20 losers and waspwildfire.com gains once Semrush units return. Work plan: [HANDOFF-nov-report-actions-2026-11-19.md](HANDOFF-nov-report-actions-2026-11-19.md). **Progress 2026-11-19:** indexing confirmed (consulting + rentals indexed, right canonical); contact_form/pdf_download/phone_click verified in GA4; email_click + tighter phone trigger sit unpublished in GTM workspace 16 (needs Preview + publish); internal-link list ready in [internal-links-2026-11.md](internal-links-2026-11.md), **waiting on Francis's OK**; Semrush still out of units. Thread follow-up drafted, not posted: [slack-followup-draft-2026-11-19.md](slack-followup-draft-2026-11-19.md).
 - **Non-indexed pages spike** (Andrew, 2026-10-28): why it happened and whether it matters. Unanswered.
 - **Blog fixes** (Andrew, 2026-10-23, on the wildland-urban-interface and readiness-drills posts): a live check on 2026-11-17 found no google.com/url links left and both posts carry the Easy Accordion FAQ with FAQPage schema. Quick Answer styling was not checked visually. Nobody has replied in the thread yet.
 - **October blog** (approved 2026-10-28): published the same day ("What to Look for When Hiring a Wildfire Mitigation Consultant"), but the live page shows no FAQPage schema. Check the FAQ block, then confirm in the thread.
