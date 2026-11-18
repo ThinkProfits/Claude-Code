@@ -32,7 +32,7 @@ Ship the four next steps Francis committed to in the November report reply, then
 
 ### Progress (2026-11-19, follow-up session)
 
-- [ ] **1. Internal links: list built, waiting on Francis's OK.** 21 new links + ~20 redirect-hop fixes in [internal-links-2026-11.md](internal-links-2026-11.md). Nothing live yet.
+- [x] **1. Internal links live (Francis approved 2026-11-19).** 20 new links + redirect-hop swaps for the old consulting, rentals and training URLs. Log and before/after counts in [internal-links-2026-11.md](internal-links-2026-11.md). Two training swaps were left because of the `wp-spiedr` rate limit (see the log for which).
 - [x] **2. Indexing confirmed.** `/services/wildfire-consulting/`: Submitted and indexed, Google canonical = user canonical, crawled 2026-11-08. Rentals page is `/fighting-equipment-rentals/` (not under /services/): indexed, canonical correct, crawled 2026-11-06. `/services/consulting/` = "Page with redirect" (expected). No reindex request needed.
 - [x] **3. Events verified; GTM change prepared, not published.** GA4 property 274454704, 2026-10-23 to 2026-11-19: contact_form 3, pdf_download 1, phone_click 3 (phone tracking already existed, tag 20). No mailto links on the site. GTM container GTM-MH3WNL2 (`accounts/6004069871/containers/46323771`), new workspace 16 "2026-11 email click + phone trigger fix (ThinkProfits)": added trigger 32 "Email click Trigger" (Click URL starts with mailto:) + tag 33 "GA4 Event - email_click"; changed trigger 19 from "contains tel" to "starts with tel:". **Andrew or Francis: Preview, then publish.**
 - [ ] **4. Blocked: Semrush has no API units** (checked 2026-11-19, every Position Tracking report unavailable). Retry when units return.

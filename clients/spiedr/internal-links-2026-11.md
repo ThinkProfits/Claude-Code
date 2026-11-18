@@ -1,6 +1,6 @@
 # SPIEDR internal links, November 2026 (roadmap Phase 1, November report commitment)
 
-**Status: PROPOSED. Nothing is live yet. Waiting on Francis's OK before any edit on spiedr.com.**
+**Status: LIVE 2026-11-19.** Francis approved in session ("Yes, edit live now"). All edits made through `wp-spiedr` `wp_replace_in_post`, verified by re-fetching the public REST content and spot-checking pages (all 200). See the edit log at the bottom. The list below says 21 new links; the real count is 20 (K3 was dropped).
 
 Built 2026-11-19 from the live REST content of 99 source pages (`/roof-sprinkler-system/`, `/mark-3-pump/` and every `/blog/` post), fetched with a browser User-Agent. Each row wraps a phrase that **already sits in the source sentence** (roadmap rule: edit existing sentences, don't write new copy). Edits go through `wp-spiedr` only, one post at a time, checking the live page after each.
 
@@ -77,6 +77,20 @@ Homepage and WPBakery pages store some links inside encoded `vc_btn` / raw block
 
 ## Edit log
 
-| # | Live? | Date | Checked on live page |
-|---|---|---|---|
-| (fill in after approval) | | | |
+**New links (section A), 2026-11-19: all 20 live.** T1–T6, R1–R6, C1–C6, K1–K2 each returned `replacements_count: 1`. R6 (7705) and C5 (8713) needed the exact stored markup (`<span style="font-weight: 400;">` / `<b>` wrappers); anchors unchanged.
+
+**Redirect swaps (section B), 2026-11-19:**
+- `/services/consulting/` → `/services/wildfire-consulting/`: done on 5243 (homepage), 5807 (/services/), 8698 (2), 8724 (2), 8695 (2), 8583 (2), 7720, 7705, 7690, 7609, 7421 (2), 7387, 7348 (2).
+- `/equipment-rentals/` → `/fighting-equipment-rentals/`: done on 5243, 8698, 8695, 7609, 7531, 5809. Re-scan found none left.
+- `/training/` → `/wildfire-fighting-training/`: done on 8698, 8684, 8583, 7720, 7690, 7609, 7387, 8695, 5809, 5807, 7597, 7531. **Still to do:** 7237 (`"/training/"`) and the homepage 5243 (`'/training/'` and `"/training/"`). The `wp-spiedr` rate limit stopped these; rerun the same literal replacements.
+
+**Live re-scan (public REST, pages + posts with in-content href to target):**
+
+| Target | Before | After |
+|---|---|---|
+| Fire service trailers | 3 | 9 |
+| Equipment rentals | 5 | 17 |
+| Wildfire consulting | 33 | 48 |
+| Sprinkler kits | 14 | 16 |
+
+Spot checks returned 200: `/`, `/roof-sprinkler-system/`, `/mark-3-pump/`, `/blog/bc-wildfire-app/`.
