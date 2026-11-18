@@ -1,14 +1,19 @@
 ---
 type: card
 client: spiedr
-updated: 2026-11-04
+updated: 2026-11-18
 ---
 
 # SPIEDR: card
 
 **Status:** Active SEO Silver retainer with 1 blog a month and twice-weekly GBP posts. Organic clicks are fading with the end of fire season, and there is no evidence the Q4 fix roadmap (Phase 1 internal links, Phase 2A keyword refresh) has shipped.
 
-**Next step:** Andrew asked in the report-review thread in #firestorm_spiedr for a look at the internal linking and the Top 3/Top 10 drop-offs that the report flagged ("structural fire protection" fell from #6 to #19, plus "top wildfire sprinkler protection" and "fire protection roof sprinkler system"). Francis replied that it's being taken care of, but the bot was still following up as of 2026-11-03. Post the findings in that thread. Also flagged in the report: GBP shows 0 reviews and 0 call clicks against 1.32K impressions, which looks like a tracking gap.
+**Next step (checked in Slack 2026-11-17):** The September report thread is closed: Francis replied "this is done" on 2026-11-10. Still open in #firestorm_spiedr, all waiting on Francis:
+- **November report thread (2026-11-07, no reply yet):** tracked BC visibility nearly halved to 6.89% (-6.82), 10 keywords fell out of the top 20, key events fell to 5, and waspwildfire.com is gaining. Needs a read-confirmation reply and a plan. Reply drafted 2026-11-18 from GSC ([slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md)), not posted: mostly seasonal; real slips on fire service trailers, rentals, consulting and sprinkler kits; key events undercounted because of the reCAPTCHA form outage Andrew fixed on Oct 23. Semrush list of keywords that left the top 20 still to pull.
+- **Non-indexed pages spike** (Andrew, 2026-10-28): why it happened and whether it matters. Unanswered.
+- **Blog fixes** (Andrew, 2026-10-23, on the wildland-urban-interface and readiness-drills posts): a live check on 2026-11-17 found no google.com/url links left and both posts carry the Easy Accordion FAQ with FAQPage schema. Quick Answer styling was not checked visually. Nobody has replied in the thread yet.
+- **October blog** (approved 2026-10-28): published the same day ("What to Look for When Hiring a Wildfire Mitigation Consultant"), but the live page shows no FAQPage schema. Check the FAQ block, then confirm in the thread.
+Also from the September report and still unchecked: GBP shows 0 reviews and 0 call clicks against 1.32K impressions, which looks like a tracking gap.
 
 **Blocked on client:** the real contact email and YouTube handle (needed to clear the schema placeholders); whether the 2026 Platinum and Gold website contracts were signed.
 

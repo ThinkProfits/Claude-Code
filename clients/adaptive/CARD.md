@@ -10,7 +10,9 @@ updated: 2026-11-17
 
 **Status:** SEO Silver ($1,895/month + $1,950 setup), started 2026-11-09. BrightLocal Burnaby grid included as an extra. AEO deferred (Ian handles it himself). Google Ads stays with Search Kings.
 
-**Now:** setup checklist in progress (Francis 5 h, Andrew 2 h review). Andrew's target: keyword list and blog topics ready to send Ian by mid-to-end of the week of 2026-11-16. Blog topics are labelled "great for video" or "great for SEO", and each blog gets a YouTube script.
+**Now:** setup checklist in progress (Francis 5 h, Andrew 2 h review). The keyword list, competitor summary and 10 blog topics went to Andrew in #adaptive on 2026-11-17 ([Google Doc](https://docs.google.com/document/d/1Sq9Qa9ZpNCaJxKGCOZmSLCP5pre_hRvzHwWzXGQi6k8/edit)). Waiting on Andrew's review, then one clear keyword recommendation goes to Ian. Blog topics are labelled "great for video" or "great for SEO", and each blog gets a YouTube script.
+
+**Still open from the research:** Semrush Keyword Gap (Canada; vs revotech-networks.com, seatosky.com, yournucleus.ca) and the PAA/Questions pull; BrightLocal Burnaby grid baseline; GSC Burnaby baseline export. Position tracking waits for Ian's approval.
 
 **Hard rules:**
 - Run any change to content, AI connectors or code past Andrew first. Never break their existing code.
@@ -24,12 +26,13 @@ updated: 2026-11-17
 
 **Site:** WordPress / Elementor, Rank Math. About 161 pages (76 near-duplicate city pages).
 
-**Last activity:** 2026-11-17: initial research drafted ([research-2026-11-17-initial.md](research-2026-11-17-initial.md)): GSC baseline, Vancouver keyword list, competitor summary, 10 blog topics. Semrush MCP was out of API units, so gap analysis, keyword difficulty and PAA are still pending.
+**Last activity:** 2026-11-17: initial research ([research-2026-11-17-initial.md](research-2026-11-17-initial.md)) shared with Andrew in #adaptive as a Google Doc. Keyword difficulty was pulled through the Semrush web app (KD 6 to 22 on core terms); the West Vancouver page is cannibalizing the main Vancouver terms.
 
 ## Where things live
 
 | What | Where |
 |---|---|
+| GTM/GA4 tracking handoff | [HANDOFF-gtm-tracking-2026-11-18.md](HANDOFF-gtm-tracking-2026-11-18.md) (audit: [tracking-audit-2026-11-18.md](tracking-audit-2026-11-18.md)) |
 | Andrew's instructions, verbatim | [andrew-instructions-verbatim.md](andrew-instructions-verbatim.md) |
 | Client overview | Drive: [Adaptive Client Overview](https://docs.google.com/document/d/1XvMMTMXkwqdeFgRMp5kliE2tlwXawDDatl63pyNeY3o/edit) |
 | Setup checklist | Drive: [SEO Setup Checklist \| Adaptive](https://docs.google.com/spreadsheets/d/1ep8ZhqAo8ERoui-ItkGnhXAFPrdGWQ-3HLZlDcNRzUI/edit) |

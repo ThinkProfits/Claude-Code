@@ -1,14 +1,19 @@
 ---
 type: card
 client: clearset
-updated: 2026-10-14
+updated: 2026-11-18
 ---
 
 # Clearset VAC Truck Services: card
 
 **Status:** Active SEO + Google Ads + GBP posting client. GSC clicks were down 58.4% YoY in August; the 2026-08-07 investigation is done (2026-10-18): 97% of the drop is the RV pumping page, the rest of the site is flat. Reply drafted, not posted. A GBP audit (2026-10-06) found about 450 listed services Clearset doesn't offer; whether the Phase 1 and 2 cleanups have run is unknown, confirm with Andrew/Francis.
 
-**Next step:** Fix the wrong-service content on /services/portable-toilet-rentals/, then review the homepage and every service page for the same mismatch and report back in #clearset.
+**Next step (checked 2026-11-18):** From the Sean meeting (2026-11-10, [Gemini notes](https://docs.google.com/document/d/1ujhz07rUG4a-wIbOwyji99FMr0abrAx-x16bLcO8tr0/edit)), Andrew handed Francis the blog topics and the new page (#clearset, 2026-11-13).
+- Blog topics: drafted 2026-11-13 ([blog-topics-2026-11.md](blog-topics-2026-11.md)), not yet sent to Andrew. Semrush KD/PAA still to rerun. Sean's customer-question list still to come.
+- New page (Anmore and Belcarra: one combined page or two): not started. Needs keyword research, then a draft.
+- Done from that week: "all over BC" removed and local H1s added (2026-11-11), phone/CallRail fixes (2026-11-11, head schema still needs wp-admin), GSC YoY findings posted to Andrew (2026-11-10).
+- Andrew's own items from the meeting (ad budget, water-section removal, report metric, Gemini ads, city list match) are his. The water hauling page still has the "Are ... water truck delivery services safe?" section (water "undergoes regular inspection"); if that's the section Sean meant, it's still live.
+- Older and still open: wrong-service content on /services/portable-toilet-rentals/.
 
 **Blocked on client:** current prices (toilets $140 vs $165), the current portable toilet service area, whether well cleaning is a service, whether blogs and AEO are in scope (plus approval of the first blog draft), and real photos for GBP posts.
 
