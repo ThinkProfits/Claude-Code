@@ -113,12 +113,12 @@ Checked in Slack 2026-11-19: 12 report reviews (posted 2026-11-10/11), **none re
 | Spiedr | #firestorm_spiedr | 1793991764.756459 | **Posted 2026-11-19**, CLIENT.md trend + CARD updated |
 | Munro & Crawford | #munrocrawford | 1794260945.604579 | **Posted 2026-11-19**, SEO only ([link](https://thinkprofitscom.slack.com/archives/C019AAP51U6/p1795043744996069?thread_ts=1794260945.604579&cid=C019AAP51U6)); first version with Ads lines deleted. CLIENT.md trend + CARD updated |
 | John Sadler | #johnsadler | 1794268753.591129 | **Posted 2026-11-19** ([link](https://thinkprofitscom.slack.com/archives/C019H8FNN9H/p1795043747338409?thread_ts=1794268753.591129&cid=C019H8FNN9H)), CLIENT.md trend + CARD updated |
-| Wiseworth | #wiseworth | 1793991764.957429 | Draft, has [confirm] |
+| Wiseworth | #wiseworth | 1793991764.957429 | **Posted 2026-11-21** ([link](https://thinkprofitscom.slack.com/archives/C019E04B2AZ/p1795194087245909?thread_ts=1793991764.957429&cid=C019E04B2AZ)), CLIENT.md trend + CARD updated |
 | MVP | #mvp | 1793991766.711739 | Draft, has [confirm] |
 | AANMC | #aanmc | 1793988326.908629 | Draft, has [confirm] |
-| Vision | #vision-plumbing | 1793988331.585869 | Draft ready |
+| Vision | #vision-plumbing | 1793988331.585869 | **Posted 2026-11-21**, SEO only ([link](https://thinkprofitscom.slack.com/archives/C052P7H4FUG/p1795194086505199?thread_ts=1793988331.585869&cid=C052P7H4FUG)). CLIENT.md trend + CARD not yet updated |
 | Mujo | #mujo | 1793991784.903429 | Draft, has [confirm]; client in channel |
-| Clearset | #clearset | 1793988332.217269 | Draft ready |
+| Clearset | #clearset | 1793988332.217269 | **Posted 2026-11-21**, SEO only ([link](https://thinkprofitscom.slack.com/archives/C04BXUMV0ES/p1795194089705219?thread_ts=1793988332.217269&cid=C04BXUMV0ES)). CLIENT.md trend + CARD not yet updated |
 | Aloha Life Massage | #aloha-life-massage | 1793991762.316779 | Draft, has [confirm] |
 | Jamie Davis Towing | #jamiedavistowing | 1793988327.315509 | Draft, has [confirm] |
 | MySaskFarm | #mysaskfarm | 1793988324.092899 | Draft, has [confirm] |

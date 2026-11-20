@@ -12,7 +12,7 @@ updated: 2026-11-19
 
 **Blocked on client:** Product copy for the thin system-component, controls and blower pages.
 
-**November report reply (2026-11-19):** the automated review (Oct data) in #wiseworth has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
+**November report reply:** posted 2026-11-21 ([thread reply](https://thinkprofitscom.slack.com/archives/C019E04B2AZ/p1795194087245909?thread_ts=1793991764.957429&cid=C019E04B2AZ)). Numbers in CLIENT.md "Monthly report trend". Next per the reply: title/meta rewrites on low-CTR product hubs, Ingersoll Rand first (Nov); CTA/quote-form check on pages that gained rankings (Dec).
 
 **Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 

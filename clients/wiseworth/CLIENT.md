@@ -106,6 +106,9 @@ From Semrush position tracking 2049406 (2026-10-05):
 - 291 keywords, about 489 estimated monthly traffic
 - Authority Score 18, 256 referring domains, Site Health 88/100
 
+**Monthly report trend** (automated reviews in #wiseworth)
+- November 2026 (October data, review posted 2026-11-10): BC visibility 24.84% (+11.01), 38 keywords up vs 25 down, 20 new top-3 positions; GSC impressions +61.9% YoY but clicks 322 (-0.9% MoM, -28.9% YoY), CTR 1.6% (-56.1% YoY); organic sessions -7.2% MoM, -26.4% YoY; key events 61 (-22.8% MoM, -12.9% YoY), organic key events -30.4% MoM. Direct = 56.4% of sessions at 21.6% engagement (likely bots). Francis replied 2026-11-21, SEO only ([thread reply](https://thinkprofitscom.slack.com/archives/C019E04B2AZ/p1795194087245909?thread_ts=1793991764.957429&cid=C019E04B2AZ)).
+
 **GSC (https://wiseworth.com/, 2026-07-08 to 10-05)**
 - 1,103 clicks, 68.5k impressions, 1.61% CTR, avg position 18.1
 - **About 93% of clicks are branded** ("wiseworth canada", "wiseworth", "wiseworth surrey").

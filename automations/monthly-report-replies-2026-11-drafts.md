@@ -61,7 +61,9 @@ Next:
 
 ---
 
-## 4. Wiseworth — #wiseworth (thread 1793991764.957429)
+## 4. Wiseworth — #wiseworth (thread 1793991764.957429) — POSTED 2026-11-21
+
+[Posted reply](https://thinkprofitscom.slack.com/archives/C019E04B2AZ/p1795194087245909?thread_ts=1793991764.957429&cid=C019E04B2AZ). Posted text: no Done section, no bot-traffic or GA4 bot-filtering lines (Francis's edits).
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: rankings up strongly (BC visibility 24.84%, +11.01, 20 new top-3 positions), but clicks haven't followed: GSC clicks 322 (-28.9% YoY), CTR down to 1.6%, key events 61 (-22.8% MoM).
@@ -102,7 +104,7 @@ Next:
 
 ---
 
-## 7. Vision Plumbing — #vision-plumbing (thread 1793988331.585869)
+## 7. Vision Plumbing — #vision-plumbing (thread 1793988331.585869) — POSTED 2026-11-21 (SEO only: PPC and Ads lines dropped; Water main/Vernon line given Andrew as owner)
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: Kelowna visibility fell to 15.50% (-6.08); 57 keywords left the top 10 and blairmechanical.com gained. GSC clicks steady at 447. GBP is strong (735 reviews, 28 new).
@@ -135,7 +137,7 @@ Next:
 
 ---
 
-## 9. Clearset — #clearset (thread 1793988332.217269)
+## 9. Clearset — #clearset (thread 1793988332.217269) — POSTED 2026-11-21 (SEO only: PPC and Ads lines dropped)
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: tracked rankings up in all three markets (Coquitlam 56.89%, +11.39), but GSC clicks fell to 127 (-55.7% YoY). As posted on Nov 10, most of the YoY loss is the RV pumping page.
