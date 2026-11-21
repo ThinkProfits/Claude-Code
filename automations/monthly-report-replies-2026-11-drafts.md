@@ -76,7 +76,7 @@ Next:
 
 ---
 
-## 5. MVP Athletic — #mvp (thread 1793991766.711739)
+## 5. MVP Athletic — #mvp (thread 1793991766.711739) — POSTED 2026-11-21 (Done section with [confirm] dropped)
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: seasonal dip. GSC clicks 6.97K (-34.6% MoM, +7% YoY) and revenue CA$21.48K (-31% MoM, +20.8% YoY). Vancouver visibility up to 20.38%.
@@ -90,7 +90,7 @@ Next:
 
 ---
 
-## 6. AANMC — #aanmc (thread 1793988326.908629)
+## 6. AANMC — #aanmc (thread 1793988326.908629) — POSTED 2026-11-21 (Done section with [confirm] dropped)
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: still well up YoY (GSC clicks 31.49K, +56.3%), but October softened and key events fell to 582 (-51% YoY) while users are up 42.7%. That gap points at tracking first.
@@ -121,7 +121,7 @@ Next:
 
 ---
 
-## 8. Mujo — #mujo (thread 1793991784.903429) — client (Brittni) is in this channel
+## 8. Mujo — #mujo (thread 1793991784.903429) — client (Brittni) is in this channel — POSTED 2026-11-21 (two [confirm] lines dropped)
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: GSC clicks 439 (-18.2% MoM) and Canada visibility down to 15.95% (-10.62).
@@ -167,7 +167,7 @@ Next:
 
 ---
 
-## 11. Jamie Davis Towing — #jamiedavistowing (thread 1793988327.315509)
+## 11. Jamie Davis Towing — #jamiedavistowing (thread 1793988327.315509) — POSTED 2026-11-21 (SEO only; Done [confirm] dropped)
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: rankings up (BC visibility 22.15%, +4.37; GSC clicks 3.08K, +5.6% MoM) but key events 250 (-20.4% YoY).
@@ -182,7 +182,7 @@ Next:
 
 ---
 
-## 12. MySaskFarm — #mysaskfarm (thread 1793988324.092899)
+## 12. MySaskFarm — #mysaskfarm (thread 1793988324.092899) — POSTED 2026-11-21 (both [confirm] bits dropped)
 
 November report (October data), quick summary. Read the PDF and the review.
 • What stood out: early growth from a small base. Organic sessions 56 (+115%), GSC clicks 18, and 35 keywords now in the top 100 (from 3).

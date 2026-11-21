@@ -1,7 +1,7 @@
 ---
 type: card
 client: Vision
-updated: 2026-11-19
+updated: 2026-11-21
 ---
 
 # Vision Plumbing Heating Cooling: card
@@ -18,7 +18,7 @@ updated: 2026-11-19
 
 **Blocked on client:** IAQ comparison-table details and pricing-range corrections. (Penticton and Summerland are still served, per Brent's 2026-10-20 email.)
 
-**November report reply (2026-11-19):** the automated review (Oct data) in #vision-plumbing has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
+**November report reply:** posted 2026-11-21, SEO only ([thread reply](https://thinkprofitscom.slack.com/archives/C052P7H4FUG/p1795194086505199?thread_ts=1793988331.585869&cid=C052P7H4FUG)). Numbers in CLIENT.md "Monthly reports". Next per the reply: export the top-10/20 losers, group by service and refresh/internally link those pages (Nov-Dec); GSC indexing/cannibalisation check on the service pages that slipped (Nov).
 
 **Last activity:** Hard-coded tracking numbers replaced on 8 pages and posts (2026-10-14). GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 

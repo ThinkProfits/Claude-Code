@@ -111,6 +111,7 @@ Competitor detail for this profile is thin because Semrush couldn't be queried (
 - **June 2026** (2026-07-08): Direct traffic +237% MoM to 72.8% of sessions; GSC clicks -21.8% MoM; slight position loss in both markets.
 - **July 2026** (2026-08-08): GSC clicks +57.8% YoY, avg position 13.73; 26 US keywords in top 3.
 - **August 2026** (2026-09-09): GSC clicks +37.3% MoM / +36.7% YoY, avg position 13.15. US tracking -2.75% visibility (22 down, 12 up); Canada +4.80% (14 up, 11 down).
+- **October 2026** (November report): GSC clicks 439 (-18.2% MoM, -35.9% YoY), impressions 29.75K (-20.6% MoM). Visibility USA 21.86% (-1.39), Canada 15.95% (-10.62; 23 of 33 Canadian keywords down, 13 out of the top 20). GA4 sessions -83.6% MoM is the September spike falling away, not a collapse (GA4 check pending). Revenue $650 (-71.4% MoM). No Ads data in the report. Reply posted 2026-11-21.
 - **GA4 is unreliable.** It shows ~89–90% YoY user drops that GSC contradicts, a June Direct-traffic spike, and **Singapore bot traffic** (about 3,800 users, ~78% of all users, 2026-08-25 to 09-21; 5-second sessions, zero conversions). **Don't quote GA4 YoY to the client until it's cleaned up.**
 
 **Site migration:** a rebuilt site went **live 2026-06-12** (staging merged into live). Francis built the redirect map; Andrew fixed more redirects and built a GA4 404 exploration ("Mujo 404 Review | June 2026"). URL structure changed (e.g. `/digital-marketing-textbooks-for-high-schools/...` became `/high-school/digital-marketing-textbooks/...`).

@@ -1,7 +1,7 @@
 ---
 type: card
 client: clearset
-updated: 2026-11-19
+updated: 2026-11-21
 ---
 
 # Clearset VAC Truck Services: card
@@ -17,7 +17,7 @@ updated: 2026-11-19
 
 **Blocked on client:** current prices (toilets $140 vs $165), the current portable toilet service area, whether well cleaning is a service, whether blogs and AEO are in scope (plus approval of the first blog draft), and real photos for GBP posts.
 
-**November report reply (2026-11-19):** the automated review (Oct data) in #clearset has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
+**November report reply:** posted 2026-11-21, SEO only ([thread reply](https://thinkprofitscom.slack.com/archives/C04BXUMV0ES/p1795194089705219?thread_ts=1793988332.217269&cid=C04BXUMV0ES)). Numbers in CLIENT.md "Monthly report trend". Next steps unchanged: blog topics to Andrew, Anmore/Belcarra page, portable toilet page fix.
 
 **Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12); GBP Phase 2 cleanup instructions written 2026-10-07.
 

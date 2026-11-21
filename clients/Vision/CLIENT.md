@@ -136,6 +136,7 @@
 - **June 2026:** organic sessions -57.6% YoY, GSC clicks +57.1% YoY, GBP call clicks -32% YoY.
 - **July 2026:** GA4 organic +15% MoM; GSC clicks +13% MoM (+66% YoY); tracked visibility 12.70% (-3.09). 21 keywords fell out of the top 3. GA4 vs GSC YoY conflict flagged.
 - **August 2026** (posted 2026-09-09): GSC clicks -13.9% MoM (+60.7% YoY); 73 tracked keywords down vs 54 up; GBP Kelowna impressions +134.4% YoY. **0 new reviews on both GBPs in August.**
+- **October 2026** (November report): Kelowna visibility 15.50% (-6.08); 112 keywords down vs 62 up, 57 out of the top 10 and 64 out of the top 20; blairmechanical.com +8.36. GSC clicks 447 (-2.4% MoM, -3.9% YoY), impressions +53.2% YoY, CTR 0.3%. GA4 sessions -39.1% MoM. Kelowna GBP 735 reviews (28 new). Reply posted 2026-11-21.
 
 **Semrush domain overview (CA, 2026-10-06):** 1,178 organic keywords, ~1,541 estimated monthly organic visits, ~$10.4K estimated traffic value. (Semrush estimates.)
 

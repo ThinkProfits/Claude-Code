@@ -1,7 +1,7 @@
 ---
 type: card
 client: mysaskfarm
-updated: 2026-11-19
+updated: 2026-11-21
 ---
 
 # MySaskFarm.com: card
@@ -12,7 +12,7 @@ updated: 2026-11-19
 
 **Blocked on client:** keyword sign-off (73-keyword sheet, chased 2026-08-27); About Us questionnaire answers (sent 2026-08-18); hi-res logo; cPanel/phpMyAdmin invite; GA4 access; which address is the NAP of record.
 
-**November report reply (2026-11-19):** the automated review (Oct data) in #mysaskfarm has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
+**November report reply:** posted 2026-11-21 ([thread reply](https://thinkprofitscom.slack.com/archives/C0BGPH5JSKT/p1795195554958659?thread_ts=1793988324.092899&cid=C0BGPH5JSKT)). Numbers in CLIENT.md "Monthly report trend". Next per the reply: set up GA4 key events: form, phone, email, listing enquiry (Nov); GA4 bot filters and the junk login paths (Nov); titles/meta and internal links on the Kindersley, Corman Park and Aberdeen RM pages (Dec).
 
 **Last activity:** /saskatchewan-farmland-prices/ and /best-time-sell-farmland-saskatchewan/ published (around 2026-10-01 to 10-06). No GBP handoffs on file.
 

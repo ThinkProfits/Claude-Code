@@ -148,6 +148,7 @@ No paid keywords in any database.
 - 2026-07-09: GSC impressions +204.8% YoY, but key events -22.2% YoY and organic-attributed conversions -33.3% YoY
 - 2026-08-07: sessions +22.1% YoY, key events -26.5% YoY, organic key events -35.9% YoY. More tracked keywords fell than rose (US 58 down / 23 up; Canada 63 / 24).
 - 2026-09-09: organic sessions +53.6% YoY, organic key events -34% YoY, site CTR -44.5% YoY. Visibility up in US (+12.01%) and Canada (+12.64%); US 51 up / 28 down, Canada 57 up / 34 down.
+- 2026-11 (October data): sessions 48.56K (+31.1% YoY); GSC clicks 31.49K (+56.3% YoY, -17.3% MoM), impressions -45.2% MoM. Key events 582 (-29% MoM, -51% YoY) while users +42.7% YoY, so check tracking first. Visibility 53.95% (-16.72), 30 keywords out of the top 3, avg position 8.37; bastyr.edu +10.50. Reply posted 2026-11-21.
 - The growth is consumer-health content. Student-intent pages are flat or down.
 
 **"Naturopathic doctor" click loss:** fully diagnosed in the click-recovery doc and memory (275 → 42 clicks Jul–Sep YoY; cannibalisation across 5+ URLs; local pack; weak metas; AI answers). Don't duplicate here.

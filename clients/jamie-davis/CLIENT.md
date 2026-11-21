@@ -113,6 +113,13 @@ No Semrush competitor pull this session (campaign not reachable via API). Known 
 - AI assistants: 33 sessions (0.7%); ChatGPT +383%, Gemini +300% MoM, **0 conversions**.
 - The Aug 2026 (and July) report PDF couldn't be parsed by the review bot; Francis reviewed manually.
 
+**November 2026 monthly report** (October data, automated review; reply posted 2026-11-21)
+- BC visibility up to 22.15% (+4.37); GSC clicks 3.08K (+5.6% MoM, -25% YoY), avg position 7.91.
+- Key events 250 (-12.9% MoM, -20.4% YoY); organic key events -30.1% YoY despite better rankings.
+- 20 keywords lost from the top 10 and 21 from the top 20 (15 new each).
+- Hope GBP interactions -31.6% YoY (website clicks -36.3%, directions -22.8%).
+- AI assistants: 9 sessions (ChatGPT 8, Gemini 1), -47.1% MoM.
+
 **GSC top queries** (from the "From GSC" tab of the Keyword Tracking Research sheet, pulled ~2026-07-03; live GSC is 403)
 
 | Query | Clicks | Impressions | Avg pos. |

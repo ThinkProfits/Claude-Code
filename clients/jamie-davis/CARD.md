@@ -1,7 +1,7 @@
 ---
 type: card
 client: jamie-davis
-updated: 2026-11-19
+updated: 2026-11-21
 ---
 
 # Jamie Davis Towing: card
@@ -12,7 +12,7 @@ updated: 2026-11-19
 
 **Blocked on client:** approval of the May/June blogs (with client since June) and the Jul to Dec topics; Wiki intake answers; the current Hope address; fresh fleet and yard photos.
 
-**November report reply (2026-11-19):** the automated review (Oct data) in #jamiedavistowing has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
+**November report reply:** posted 2026-11-21, SEO only ([thread reply](https://thinkprofitscom.slack.com/archives/C07TS2LMF9T/p1795194622881419?thread_ts=1793988327.315509&cid=C07TS2LMF9T)). Numbers in CLIENT.md section 5. Next per the reply: refresh/internally link the location and service pages that dropped out of the top 10/20 (Nov-Dec); answer-first FAQ blocks on Langley, Hope and Golden (Dec); more Hope GBP posts and photos. /blog/ status still unconfirmed.
 
 **Last activity:** GBP posts for 2026-10-12 and 2026-10-15 handed off (week-of-2026-10-12).
 

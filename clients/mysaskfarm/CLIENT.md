@@ -132,6 +132,9 @@
 - The two new blogs (published around 2026-10-01 to 10-06) have no GSC data yet.
 - `sc-domain:mysaskfarm.com` returns 403; only the URL-prefix property is accessible. GSC didn't exist at onboarding (Slack 2026-07-22), so data starts around July 2026.
 
+**Monthly report trend** (automated reviews in #mysaskfarm)
+- **October 2026** (November report): organic sessions 56 (+115.4% MoM); GSC clicks 18 (+157.1%) on 1.25K impressions; tracked keywords in the top 100 went from 3 to 35 (34 up, 1 down). Visibility still 0.69% (avg tracked position 80.34), behind sheppardrealty.ca (39.6%) and hammondrealty.ca (31.7%). GA4 shows no key events at all. Direct is 79.4% of sessions (bots: Warsaw, Tehran, /wp-login). Reply posted 2026-11-21.
+
 **On-site status (live, 2026-10-07)**
 - Homepage title "Farmland for Sale in Saskatchewan | MySaskFarm", H1 "Farmland for Sale in Saskatchewan". Already matches the master sheet's primary keyword.
 - Schema present: Organization, WebSite, WebPage, BreadcrumbList, FAQPage. **No RealEstateAgent / Person schema for Grant yet** (Roadmap Month 2 item).

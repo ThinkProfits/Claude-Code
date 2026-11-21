@@ -160,6 +160,7 @@ The Google Ads city customizer sheet (2026-03) also lists Chilliwack, Lions Bay 
 - June 2026: organic = 29.7% of key events (+380% YoY); Port Coquitlam visibility +11.7 pts to 47.44%
 - July 2026: GSC clicks -47.3% YoY, -22.6% MoM. **Andrew asked Francis to investigate the YoY drop (2026-08-07); five follow-ups, no findings posted.**
 - Aug 2026: GSC clicks -26% MoM / -58.4% YoY; Coquitlam visibility -19.47% (13 up / 27 down); Port Moody avg position -6.93; Pitt Meadows the only gain; **zero new GBP reviews**.
+- Oct 2026 (November report): tracked visibility up in all three markets (Pitt Meadows 33.02% +2.46, Coquitlam 56.89% +11.39, Port Coquitlam 42.30% +2.93), but GSC clicks 127 (-24.4% MoM, -55.7% YoY) on 28.78K impressions (-35.1% YoY). Organic key events 22 (-58.3% MoM). Direct is 37.9% of sessions at 21% engagement (likely bots). Most of the YoY loss is the RV pumping page. Reply posted 2026-11-21.
 
 **Technical history**
 - A 3 MB, 20,000 px wide footer/schema logo was crashing GSC's crawler for months; fixed 2025-12-18. Watch for heavy images.

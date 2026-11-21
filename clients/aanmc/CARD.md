@@ -1,7 +1,7 @@
 ---
 type: card
 client: aanmc
-updated: 2026-11-19
+updated: 2026-11-21
 ---
 
 # AANMC (Association of Accredited Naturopathic Medical Colleges): card
@@ -12,7 +12,7 @@ updated: 2026-11-19
 
 **Blocked on client:** answers to the click-recovery open questions (ND medical reviewer, newer salary data, spelling); approval of the March 2026 page rewrites and the July 2026 Content Audit; UWS status.
 
-**November report reply (2026-11-19):** the automated review (Oct data) in #aanmc has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
+**November report reply:** posted 2026-11-21 ([thread reply](https://thinkprofitscom.slack.com/archives/C019H89BB8T/p1795194373120559?thread_ts=1793988326.908629&cid=C019H89BB8T)). Numbers in CLIENT.md "The core problem" list. Next per the reply: GA4 key events YoY audit (this week); refresh pages that lost top-3 spots, starting with "Naturopathic Medicine Degree?" (Nov-Dec); GSC check on the impression drop and AI Overviews (Nov).
 
 **Last activity:** CLIENT.md and keywords.md added 2026-10-06; click-recovery deliverable written 2026-10-02. No GBP handoffs (not on the GBP pipeline).
 

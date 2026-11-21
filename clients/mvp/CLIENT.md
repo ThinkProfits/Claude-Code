@@ -140,6 +140,7 @@ Semrush competitor data couldn't be pulled (units). From the automated report re
 | Jun 2026 | down 10.5% MoM | 18.68% (+8.02) | 48 in Top 3, 101 in Top 10. GA4 organic sessions down 35.5% YoY while organic key events up 21.2% (attribution conflict) |
 | Jul 2026 | — | +1.78 pts | Organic key events down 37.9% MoM / 40.5% YoY. Ecommerce revenue up YoY |
 | Aug 2026 | +14.8% YoY | 18.46% (−2.57) | GA4 organic sessions −16.5% MoM / −34.4% YoY; avg tracked position 28.06; 63 down vs 53 up |
+| Oct 2026 (Nov report) | 6.97K (-34.6% MoM, +7% YoY) | 20.38% (+2.50) | Seasonal dip; revenue CA$21.48K (-31% MoM, +20.8% YoY). GA4 organic sessions -43.5% YoY vs GSC +7%: likely GA4 under-counting. 79 down vs 63 up; key events 201. Reply posted 2026-11-21 |
 
 **GSC (https://www.mvpathleticsupplies.com/, 2026-07-09 to 10-07)**
 - About 30k clicks.

@@ -1,7 +1,7 @@
 ---
 type: card
 client: mujo
-updated: 2026-11-19
+updated: 2026-11-21
 ---
 
 # Mujo Learning Systems: card
@@ -12,7 +12,7 @@ updated: 2026-11-19
 
 **Blocked on client:** Shop page index or noindex; the product consolidation decision; the HS/HE title and H1 pattern; current proof points and the ADA claim; whether local SEO / GBP is paused or active.
 
-**November report reply (2026-11-19):** the automated review (Oct data) in #mujo has no reply yet. Draft written, not posted, needs Francis's OK: [slack-reply-draft-2026-11-report.md](slack-reply-draft-2026-11-report.md). After posting, add the month's numbers to CLIENT.md "Monthly report trend".
+**November report reply:** posted 2026-11-21 ([thread reply](https://thinkprofitscom.slack.com/archives/C019H2Q5HS6/p1795194454168479?thread_ts=1793991784.903429&cid=C019H2Q5HS6)); Brittni is in the channel. Numbers in CLIENT.md "Monthly report reviews". Next per the reply: add the AI and business title keywords for higher ed and high school to Semrush tracking (this week, Brittni's ask); refresh pages behind the Canadian keywords that dropped (Nov-Dec); GA4 Sept vs Oct check by source and landing page (this week).
 
 **Last activity:** Schema and on-page batch on 2026-10-10 (hand-coded LocalBusiness removed from 71 pages, CollectionPage on 9 hubs, FAQ schema on 22 pages).
 
