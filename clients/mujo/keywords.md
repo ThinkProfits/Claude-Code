@@ -4,6 +4,8 @@
 > Sources: GSC `sc-domain:mujo.com` (2026-07-09 to 2026-10-06; queries, pages, countries); Semrush project 2160205 (campaigns call only, 2026-10-07); Slack #mujo automated report reviews (2026-06-26, 07-08, 08-08, 09-09) and Andrew/Francis DMs (2026-06-24, 07-03); Drive: "Mujo_Institution_Keywords_Optimization.xlsx" (`1fnAo8DF3_JHvVMIIPOfTkxmXL6QZrrb6`, 2026-03-18), "Mujo | Local Keyword Research" (`1L9HM18aJ_qOwNEMkhnKWzrTHUMSMe3R7Psyt4AuXm9M`, 2025-02), "Mujo Ads 2025" (`1sFTBfmUtak1c5FbgJs9C2A_FAfnSnMiAAKTsLkk7_Js`, 2025-03); live site and WooCommerce Store API (2026-10-07); [CLIENT.md](CLIENT.md).
 > Reusable: section 4 (keyword rules) is the checklist to run any new tracked, PPC or content keyword against before it goes live.
 
+> **2026-11-21 update:** a full AI + business tracked-keyword proposal (58 keywords, USA and Canada, with the current tracked set audited) is in [keyword-research-2026-11/](keyword-research-2026-11/README.md). It supersedes section 1's "not pulled" note for the AI and business titles.
+
 ## 1. Tracked keywords (Semrush)
 
 **Source:** Semrush Position Tracking, project **2160205** ("Mujo", www). Attempted 2026-10-07.

@@ -1,0 +1,6939 @@
+{
+  "locations": [
+    "geoTargetConstants/2840"
+  ],
+  "language": "languageConstants/1000",
+  "total_ideas": 99,
+  "ideas": [
+    {
+      "keyword": "ai in human resource management",
+      "avg_monthly_searches": 2900,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 12.47,
+      "high_top_of_page_bid": 62.13,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 2400
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 1900
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 4400
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "ai in project management",
+      "avg_monthly_searches": 2900,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "low_top_of_page_bid": 6.84,
+      "high_top_of_page_bid": 30.34,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 2900
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "ai for project management",
+      "avg_monthly_searches": 2900,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "low_top_of_page_bid": 6.84,
+      "high_top_of_page_bid": 30.34,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 2900
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "ai and project management",
+      "avg_monthly_searches": 2900,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "low_top_of_page_bid": 6.84,
+      "high_top_of_page_bid": 30.34,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 2900
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in human resource management",
+      "avg_monthly_searches": 2900,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 12.47,
+      "high_top_of_page_bid": 62.13,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 2400
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 1900
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 4400
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in project management",
+      "avg_monthly_searches": 2900,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "low_top_of_page_bid": 6.84,
+      "high_top_of_page_bid": 30.34,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 2900
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "ai in hrm",
+      "avg_monthly_searches": 2900,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 12.47,
+      "high_top_of_page_bid": 62.13,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 2400
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 1900
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 2400
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 4400
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 2900
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 3600
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "ai project management tools",
+      "avg_monthly_searches": 720,
+      "competition": "LOW",
+      "competition_index": 23,
+      "low_top_of_page_bid": 9.33,
+      "high_top_of_page_bid": 40.9,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 1000
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 1000
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 1000
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 590
+        }
+      ]
+    },
+    {
+      "keyword": "ai tools for project management",
+      "avg_monthly_searches": 720,
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "low_top_of_page_bid": 6.44,
+      "high_top_of_page_bid": 36.65,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 720
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 320
+        }
+      ]
+    },
+    {
+      "keyword": "bi and ai",
+      "avg_monthly_searches": 390,
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "low_top_of_page_bid": 10.36,
+      "high_top_of_page_bid": 48.26,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 140
+        }
+      ]
+    },
+    {
+      "keyword": "ai powered project management tools",
+      "avg_monthly_searches": 320,
+      "competition": "LOW",
+      "competition_index": 26,
+      "low_top_of_page_bid": 13.89,
+      "high_top_of_page_bid": 44.25,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 40
+        }
+      ]
+    },
+    {
+      "keyword": "business analyst ai",
+      "avg_monthly_searches": 320,
+      "competition": "LOW",
+      "competition_index": 33,
+      "low_top_of_page_bid": 6.38,
+      "high_top_of_page_bid": 22.51,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 480
+        }
+      ]
+    },
+    {
+      "keyword": "business analytics and artificial intelligence",
+      "avg_monthly_searches": 320,
+      "competition": "LOW",
+      "competition_index": 26,
+      "low_top_of_page_bid": 8.44,
+      "high_top_of_page_bid": 35.83,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 480
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai for business",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 16,
+      "low_top_of_page_bid": 8.28,
+      "high_top_of_page_bid": 27.11,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 170
+        }
+      ]
+    },
+    {
+      "keyword": "business communication textbook",
+      "avg_monthly_searches": 260,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.8,
+      "high_top_of_page_bid": 7.47,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "ai project management software",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 8,
+      "low_top_of_page_bid": 17.67,
+      "high_top_of_page_bid": 65.11,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 390
+        }
+      ]
+    },
+    {
+      "keyword": "ai for analytics",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 29,
+      "low_top_of_page_bid": 9.93,
+      "high_top_of_page_bid": 25.6,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 210
+        }
+      ]
+    },
+    {
+      "keyword": "book on business communication",
+      "avg_monthly_searches": 260,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.8,
+      "high_top_of_page_bid": 7.47,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "ai business analytics",
+      "avg_monthly_searches": 210,
+      "competition": "LOW",
+      "competition_index": 30,
+      "low_top_of_page_bid": 8.73,
+      "high_top_of_page_bid": 38.1,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 90
+        }
+      ]
+    },
+    {
+      "keyword": "analytics ai",
+      "avg_monthly_searches": 210,
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "low_top_of_page_bid": 12.21,
+      "high_top_of_page_bid": 25.79,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "ai in business analytics",
+      "avg_monthly_searches": 210,
+      "competition": "LOW",
+      "competition_index": 30,
+      "low_top_of_page_bid": 8.73,
+      "high_top_of_page_bid": 38.1,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 90
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence business analytics",
+      "avg_monthly_searches": 210,
+      "competition": "LOW",
+      "competition_index": 30,
+      "low_top_of_page_bid": 8.73,
+      "high_top_of_page_bid": 38.1,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 90
+        }
+      ]
+    },
+    {
+      "keyword": "project management ai tools",
+      "avg_monthly_searches": 170,
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "low_top_of_page_bid": 9.69,
+      "high_top_of_page_bid": 42.31,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 170
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt for project management",
+      "avg_monthly_searches": 170,
+      "competition": "LOW",
+      "competition_index": 23,
+      "low_top_of_page_bid": 6.5,
+      "high_top_of_page_bid": 58.69,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "ai task management",
+      "avg_monthly_searches": 140,
+      "competition": "LOW",
+      "competition_index": 29,
+      "low_top_of_page_bid": 5.73,
+      "high_top_of_page_bid": 24.82,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "wrike ai",
+      "avg_monthly_searches": 140,
+      "competition": "LOW",
+      "competition_index": 11,
+      "low_top_of_page_bid": 0.97,
+      "high_top_of_page_bid": 54.19,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 110
+        }
+      ]
+    },
+    {
+      "keyword": "project management and ai",
+      "avg_monthly_searches": 110,
+      "competition": "MEDIUM",
+      "competition_index": 50,
+      "low_top_of_page_bid": 6.43,
+      "high_top_of_page_bid": 23.66,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 110
+        }
+      ]
+    },
+    {
+      "keyword": "machine learning in business intelligence",
+      "avg_monthly_searches": 110,
+      "competition": "LOW",
+      "competition_index": 9,
+      "low_top_of_page_bid": 11.05,
+      "high_top_of_page_bid": 33.88,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "machine learning and business intelligence",
+      "avg_monthly_searches": 110,
+      "competition": "LOW",
+      "competition_index": 9,
+      "low_top_of_page_bid": 11.05,
+      "high_top_of_page_bid": 33.88,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "business intelligence using machine learning",
+      "avg_monthly_searches": 110,
+      "competition": "LOW",
+      "competition_index": 9,
+      "low_top_of_page_bid": 11.05,
+      "high_top_of_page_bid": 33.88,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "hrm ai",
+      "avg_monthly_searches": 90,
+      "competition": "LOW",
+      "competition_index": 7,
+      "low_top_of_page_bid": 3.84,
+      "high_top_of_page_bid": 17.23,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 40
+        }
+      ]
+    },
+    {
+      "keyword": "37signals basecamp",
+      "avg_monthly_searches": 90,
+      "competition": "LOW",
+      "competition_index": 2,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 110
+        }
+      ]
+    },
+    {
+      "keyword": "ai in accounting course",
+      "avg_monthly_searches": 70,
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "low_top_of_page_bid": 5.63,
+      "high_top_of_page_bid": 19.49,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "project management with ai",
+      "avg_monthly_searches": 70,
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "low_top_of_page_bid": 8.11,
+      "high_top_of_page_bid": 30.21,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "ai and business analytics",
+      "avg_monthly_searches": 70,
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "low_top_of_page_bid": 7.81,
+      "high_top_of_page_bid": 33.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 110
+        }
+      ]
+    },
+    {
+      "keyword": "ai in hr management",
+      "avg_monthly_searches": 50,
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "low_top_of_page_bid": 4.82,
+      "high_top_of_page_bid": 11.38,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "using ai in project management",
+      "avg_monthly_searches": 50,
+      "competition": "MEDIUM",
+      "competition_index": 61,
+      "low_top_of_page_bid": 6.66,
+      "high_top_of_page_bid": 26.38,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 40
+        }
+      ]
+    },
+    {
+      "keyword": "business analytics ai",
+      "avg_monthly_searches": 50,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 11.47,
+      "high_top_of_page_bid": 43.18,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 40
+        }
+      ]
+    },
+    {
+      "keyword": "ai analytics companies",
+      "avg_monthly_searches": 50,
+      "competition": "LOW",
+      "competition_index": 26,
+      "low_top_of_page_bid": 10.81,
+      "high_top_of_page_bid": 27.8,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "ai project planning",
+      "avg_monthly_searches": 40,
+      "competition": "MEDIUM",
+      "competition_index": 44,
+      "low_top_of_page_bid": 7.85,
+      "high_top_of_page_bid": 49.68,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence and business analytics",
+      "avg_monthly_searches": 30,
+      "competition": "LOW",
+      "competition_index": 10,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai business",
+      "avg_monthly_searches": 30,
+      "competition": "LOW",
+      "competition_index": 1,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "ai for human resource management",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 29,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "project management ai software",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "low_top_of_page_bid": 8.14,
+      "high_top_of_page_bid": 60.62,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "ai based project management tools",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 51,
+      "low_top_of_page_bid": 10.31,
+      "high_top_of_page_bid": 45.89,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "ai human resource management",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 63,
+      "low_top_of_page_bid": 10.29,
+      "high_top_of_page_bid": 33.71,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "ai based project management",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 57,
+      "low_top_of_page_bid": 28.74,
+      "high_top_of_page_bid": 57.52,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai predictive analytics examples",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 23,
+      "low_top_of_page_bid": 7.14,
+      "high_top_of_page_bid": 30.9,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in human resource management pdf",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "low_top_of_page_bid": 6.22,
+      "high_top_of_page_bid": 30.09,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "machine learning project management",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 25,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "use of ai in human resource management",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "low_top_of_page_bid": 10.58,
+      "high_top_of_page_bid": 205.45,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "use of ai in hrm",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "low_top_of_page_bid": 10.58,
+      "high_top_of_page_bid": 205.45,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "machine learning in project management",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 25,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "project management machine learning",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 25,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "use of ai in project management",
+      "avg_monthly_searches": 20,
+      "competition": "HIGH",
+      "competition_index": 68,
+      "low_top_of_page_bid": 7.48,
+      "high_top_of_page_bid": 29.26,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "machine learning for project management",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 25,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai driven business intelligence",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 11,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai and human resource management",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 30,
+      "low_top_of_page_bid": 12.11,
+      "high_top_of_page_bid": 21.64,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence and human resource management",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence and project management",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 29,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai and hrm",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "human resource management artificial intelligence",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "low_top_of_page_bid": 15.1,
+      "high_top_of_page_bid": 46.1,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "managing ai projects",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 9.66,
+      "high_top_of_page_bid": 20.59,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "use of artificial intelligence in human resource management",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai and retail industry",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "low_top_of_page_bid": 6.42,
+      "high_top_of_page_bid": 17.3,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "ai hrm",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 52,
+      "low_top_of_page_bid": 12.9,
+      "high_top_of_page_bid": 67.52,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai in agile project management",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "examples of ai in project management",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 28,
+      "low_top_of_page_bid": 4.51,
+      "high_top_of_page_bid": 13.91,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in human resource management ppt",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "human resource management and artificial intelligence",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in hrm",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "project management for ai projects",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "low_top_of_page_bid": 7.17,
+      "high_top_of_page_bid": 24.77,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai and automation in project management",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in project management pdf",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 60,
+      "low_top_of_page_bid": 10.15,
+      "high_top_of_page_bid": 72.95,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "impact of artificial intelligence on project management",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 23,
+      "low_top_of_page_bid": 5.24,
+      "high_top_of_page_bid": 16.63,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "role of ai in human resource management",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 27,
+      "low_top_of_page_bid": 4.18,
+      "high_top_of_page_bid": 14.81,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "hrm and ai",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai in project management case studies",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence and hrm",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "machine learning and project management",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence and automation in project management",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "9780135202258",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai based hrms",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "analytics & ai",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "analytics and ai consultants company",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "application of ai in hrm",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in human resources management",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business and professional communication textbook",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 90,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business communication text book",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "hbr generative ai",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 57,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "intelligent project management",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 7,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "project management for machine learning",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "project management intelligence",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "role of ai in hrm",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 27,
+      "low_top_of_page_bid": 4.18,
+      "high_top_of_page_bid": 14.81,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "role of ai in project management",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "role of artificial intelligence in hrm",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in project management thesis",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in hrm ppt",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in human resource management thesis",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    }
+  ]
+}

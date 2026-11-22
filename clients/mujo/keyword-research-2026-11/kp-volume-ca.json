@@ -1,0 +1,7861 @@
+{
+  "locations": [
+    "geoTargetConstants/2124"
+  ],
+  "results": [
+    {
+      "keyword": "ai textbooks",
+      "avg_monthly_searches": 70,
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "low_top_of_page_bid": 1.74,
+      "high_top_of_page_bid": 5.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ],
+      "close_variants": [
+        "ai textbook"
+      ]
+    },
+    {
+      "keyword": "artificial intelligence textbook",
+      "avg_monthly_searches": 70,
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "low_top_of_page_bid": 1.74,
+      "high_top_of_page_bid": 5.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ],
+      "close_variants": [
+        "artificial intelligence textbooks"
+      ]
+    },
+    {
+      "keyword": "textbooks on artificial intelligence",
+      "avg_monthly_searches": 70,
+      "competition": "MEDIUM",
+      "competition_index": 37,
+      "low_top_of_page_bid": 1.74,
+      "high_top_of_page_bid": 5.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "ai curriculum",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 2.68,
+      "high_top_of_page_bid": 13.48,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ],
+      "close_variants": [
+        "artificial intelligence curriculum"
+      ]
+    },
+    {
+      "keyword": "ai literacy curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai literacy course",
+      "avg_monthly_searches": 90,
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "low_top_of_page_bid": 3.18,
+      "high_top_of_page_bid": 8.8,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 90
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai textbook",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "applied ai for business",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "applied ai diploma",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 60,
+      "low_top_of_page_bid": 2.03,
+      "high_top_of_page_bid": 9.18,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai for business course",
+      "avg_monthly_searches": 70,
+      "competition": "MEDIUM",
+      "competition_index": 55,
+      "low_top_of_page_bid": 5.08,
+      "high_top_of_page_bid": 16.79,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ],
+      "close_variants": [
+        "artificial intelligence for business course"
+      ]
+    },
+    {
+      "keyword": "ai in business course",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 58,
+      "low_top_of_page_bid": 6.49,
+      "high_top_of_page_bid": 17.17,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "ai for business book",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business textbooks",
+      "avg_monthly_searches": 50,
+      "competition": "HIGH",
+      "competition_index": 70,
+      "low_top_of_page_bid": 3.31,
+      "high_top_of_page_bid": 39.39,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "ai lesson plans",
+      "avg_monthly_searches": 40,
+      "competition": "LOW",
+      "competition_index": 27,
+      "low_top_of_page_bid": 1.89,
+      "high_top_of_page_bid": 10.35,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ],
+      "close_variants": [
+        "artificial intelligence lesson plans"
+      ]
+    },
+    {
+      "keyword": "business class curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business education curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "intro to business curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "foundations of artificial intelligence",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "low_top_of_page_bid": 2.39,
+      "high_top_of_page_bid": 9.96,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "foundations of ai",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "low_top_of_page_bid": 2.39,
+      "high_top_of_page_bid": 9.96,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "entrepreneurship curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 9,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "entrepreneurship textbook",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "entrepreneurship lesson plans",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "entrepreneurship fundamentals",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 3,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "principles of business",
+      "avg_monthly_searches": 70,
+      "competition": "LOW",
+      "competition_index": 5,
+      "low_top_of_page_bid": 4.29,
+      "high_top_of_page_bid": 21.81,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "principles of business textbook",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 57,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ],
+      "close_variants": [
+        "business principles textbook"
+      ]
+    },
+    {
+      "keyword": "principles of business class",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "principles of business marketing and finance",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai literacy",
+      "avg_monthly_searches": 390,
+      "competition": "LOW",
+      "competition_index": 9,
+      "low_top_of_page_bid": 2.01,
+      "high_top_of_page_bid": 6.99,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 590
+        }
+      ],
+      "close_variants": [
+        "artificial intelligence literacy"
+      ]
+    },
+    {
+      "keyword": "ai in healthcare course",
+      "avg_monthly_searches": 140,
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "low_top_of_page_bid": 4.44,
+      "high_top_of_page_bid": 22.42,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 170
+        }
+      ]
+    },
+    {
+      "keyword": "ai in healthcare education",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai in nursing education",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 29,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business analytics textbook",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 67,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ],
+      "close_variants": [
+        "business analytics textbooks"
+      ]
+    },
+    {
+      "keyword": "ai business analytics",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business analytics fundamentals",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ],
+      "close_variants": [
+        "fundamentals of business analytics"
+      ]
+    },
+    {
+      "keyword": "business analytics course",
+      "avg_monthly_searches": 170,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 3.09,
+      "high_top_of_page_bid": 10.47,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 170
+        }
+      ]
+    },
+    {
+      "keyword": "business analytics curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai in business analytics",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "accounting principles textbook",
+      "avg_monthly_searches": 50,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "ai in accounting course",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "low_top_of_page_bid": 3.16,
+      "high_top_of_page_bid": 9.65,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence in accounting",
+      "avg_monthly_searches": 1000,
+      "competition": "MEDIUM",
+      "competition_index": 34,
+      "low_top_of_page_bid": 6.92,
+      "high_top_of_page_bid": 41.39,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 1300
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 1600
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 1000
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 1300
+        }
+      ]
+    },
+    {
+      "keyword": "intro to accounting textbook",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 21,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "sales textbook",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 7,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "professional selling textbook",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "project management textbook",
+      "avg_monthly_searches": 210,
+      "competition": "HIGH",
+      "competition_index": 99,
+      "low_top_of_page_bid": 1.72,
+      "high_top_of_page_bid": 9.33,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "ai in project management",
+      "avg_monthly_searches": 480,
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "low_top_of_page_bid": 5.33,
+      "high_top_of_page_bid": 26.03,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 390
+        }
+      ]
+    },
+    {
+      "keyword": "ai in human resource management",
+      "avg_monthly_searches": 390,
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "low_top_of_page_bid": 5.87,
+      "high_top_of_page_bid": 44.82,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 320
+        }
+      ]
+    },
+    {
+      "keyword": "human resource management textbook",
+      "avg_monthly_searches": 30,
+      "competition": "HIGH",
+      "competition_index": 83,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai in hr course",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 50,
+      "low_top_of_page_bid": 3.57,
+      "high_top_of_page_bid": 10.71,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "hr management textbook",
+      "avg_monthly_searches": 30,
+      "competition": "HIGH",
+      "competition_index": 81,
+      "low_top_of_page_bid": 0.26,
+      "high_top_of_page_bid": 4.08,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "ai for hr course",
+      "avg_monthly_searches": 30,
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "low_top_of_page_bid": 2.76,
+      "high_top_of_page_bid": 10.31,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence human resource management",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 77,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai for entrepreneurs",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 5.69,
+      "high_top_of_page_bid": 24.53,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai in business administration",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 29,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business administration textbook",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 21,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "intro to business textbook",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 9,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "introduction to business textbook",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 9,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai business writing",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai for business writing",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 14,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business writing textbook",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business communication textbook",
+      "avg_monthly_searches": 70,
+      "competition": "HIGH",
+      "competition_index": 90,
+      "low_top_of_page_bid": 0.23,
+      "high_top_of_page_bid": 3.42,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "business writing course",
+      "avg_monthly_searches": 170,
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "low_top_of_page_bid": 1.31,
+      "high_top_of_page_bid": 6.56,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai for business",
+      "avg_monthly_searches": 30,
+      "competition": "MEDIUM",
+      "competition_index": 47,
+      "low_top_of_page_bid": 8.05,
+      "high_top_of_page_bid": 34.98,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai course",
+      "avg_monthly_searches": 170,
+      "competition": "MEDIUM",
+      "competition_index": 45,
+      "low_top_of_page_bid": 3.04,
+      "high_top_of_page_bid": 12.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 110
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai in business",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai for business leaders",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 10.09,
+      "high_top_of_page_bid": 40.51,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering course",
+      "avg_monthly_searches": 590,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 1.97,
+      "high_top_of_page_bid": 7.63,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 720
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 480
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering book",
+      "avg_monthly_searches": 30,
+      "competition": "MEDIUM",
+      "competition_index": 50,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "large language model course",
+      "avg_monthly_searches": 30,
+      "competition": "MEDIUM",
+      "competition_index": 52,
+      "low_top_of_page_bid": 2.8,
+      "high_top_of_page_bid": 4.53,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai marketing book",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai in marketing book",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai marketing course",
+      "avg_monthly_searches": 90,
+      "competition": "MEDIUM",
+      "competition_index": 55,
+      "low_top_of_page_bid": 5.96,
+      "high_top_of_page_bid": 16.07,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence marketing",
+      "avg_monthly_searches": 590,
+      "competition": "MEDIUM",
+      "competition_index": 39,
+      "low_top_of_page_bid": 8.09,
+      "high_top_of_page_bid": 35.09,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 720
+        }
+      ]
+    },
+    {
+      "keyword": "marketing ai book",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai textbooks for college",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai textbook for college students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "college ai textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai textbooks for higher education",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai curriculum for higher education",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai curriculum for colleges",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai courses for college students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai course materials",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai courseware",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai literacy textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai literacy for college students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "generative ai textbooks",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai undergraduate textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "introduction to artificial intelligence textbook",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai for non computer science majors",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai textbook for business students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "applied ai for business curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "applied ai certificate",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai for business curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai business curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai for business syllabus",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai business certificate",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai for business textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "artificial intelligence for business textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "business textbooks for college",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [],
+      "close_variants": [
+        "college business textbooks"
+      ]
+    },
+    {
+      "keyword": "college business textbooks",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "business textbook publisher",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "business curriculum for college",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai business textbooks",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai curriculum for high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai curriculum high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "high school ai curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai textbooks for high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai textbook for high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "artificial intelligence high school curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "teaching ai in high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai class for high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai course for high school students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai lesson plans for high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai books for high school students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai school textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "high school ai course",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "cte ai curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai cte pathway",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai literacy for high school students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai literacy curriculum high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "high school business curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "high school business textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [],
+      "close_variants": [
+        "business textbook high school"
+      ]
+    },
+    {
+      "keyword": "business textbook high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "high school business class curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "cte business curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "high school business lesson plans",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [],
+      "close_variants": [
+        "business lesson plans high school"
+      ]
+    },
+    {
+      "keyword": "business lesson plans high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "introduction to business high school curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "foundations of artificial intelligence textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "intro to ai high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "introduction to artificial intelligence high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "artificial intelligence textbook high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai for business high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai for business high school curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in business high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai marketing high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai marketing curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in marketing high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship curriculum high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [],
+      "close_variants": [
+        "high school entrepreneurship curriculum"
+      ]
+    },
+    {
+      "keyword": "high school entrepreneurship curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship textbook high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship books for high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship lesson plans high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship course high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship fundamentals textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "teaching entrepreneurship high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship class curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship 1 curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "texas entrepreneurship curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "principles of business high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "principles of business curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "principles of business textbook high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai literacy book",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai literacy textbook for college",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "artificial intelligence literacy textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai literacy course for college",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in healthcare textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai literacy for healthcare",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai for healthcare professionals course",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 61,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai in healthcare curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "healthcare ai textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai for nursing students",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 36,
+      "low_top_of_page_bid": 2.27,
+      "high_top_of_page_bid": 7.17,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "business analytics with ai",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai accounting textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in accounting textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in accounting book",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai accounting course",
+      "avg_monthly_searches": 30,
+      "competition": "MEDIUM",
+      "competition_index": 51,
+      "low_top_of_page_bid": 2.29,
+      "high_top_of_page_bid": 10.3,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "accounting textbook with ai",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in accounting curriculum",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai sales textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in sales course",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "sales fundamentals textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai for sales training",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai in sales book",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai project management book",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai in project management book",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai project management course",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 52,
+      "low_top_of_page_bid": 2.97,
+      "high_top_of_page_bid": 9.13,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "project management textbook with ai",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai project management textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai hr textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in human resources book",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai for entrepreneurship",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 32,
+      "low_top_of_page_bid": 5.69,
+      "high_top_of_page_bid": 24.53,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence for entrepreneurs",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai entrepreneurship course",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 79,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "ai for entrepreneurs book",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "entrepreneurship textbook college",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai entrepreneurship textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai business administration",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai business administration course",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "business administration ai",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "business communication textbook with ai",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai business communication",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai writing for business",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "generative ai for business book",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "generative ai for business textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "generative ai for business course",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering textbook",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "llm textbook",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 43,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "large language models textbook",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "prompt engineering course for students",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai marketing textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "artificial intelligence marketing textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in marketing textbook",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    },
+    {
+      "keyword": "ai in digital marketing book",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    }
+  ],
+  "no_data": []
+}

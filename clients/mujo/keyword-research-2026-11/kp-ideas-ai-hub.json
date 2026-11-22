@@ -1,0 +1,3518 @@
+{
+  "locations": [
+    "geoTargetConstants/2840"
+  ],
+  "language": "languageConstants/1000",
+  "total_ideas": 51,
+  "ideas": [
+    {
+      "keyword": "ai engineering books",
+      "avg_monthly_searches": 1300,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 1.11,
+      "high_top_of_page_bid": 12.49,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 1300
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 1000
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 1600
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 1000
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 1000
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 1300
+        }
+      ]
+    },
+    {
+      "keyword": "ai textbook",
+      "avg_monthly_searches": 590,
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "low_top_of_page_bid": 3.39,
+      "high_top_of_page_bid": 10.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 590
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence textbook",
+      "avg_monthly_searches": 590,
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "low_top_of_page_bid": 3.39,
+      "high_top_of_page_bid": 10.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 590
+        }
+      ]
+    },
+    {
+      "keyword": "textbook on artificial intelligence",
+      "avg_monthly_searches": 590,
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "low_top_of_page_bid": 3.39,
+      "high_top_of_page_bid": 10.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 590
+        }
+      ]
+    },
+    {
+      "keyword": "ai lesson plans",
+      "avg_monthly_searches": 480,
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "low_top_of_page_bid": 1.95,
+      "high_top_of_page_bid": 7.52,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 880
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 390
+        }
+      ]
+    },
+    {
+      "keyword": "ai lesson planner",
+      "avg_monthly_searches": 480,
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "low_top_of_page_bid": 1.95,
+      "high_top_of_page_bid": 7.52,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 880
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 390
+        }
+      ]
+    },
+    {
+      "keyword": "ai lesson planning",
+      "avg_monthly_searches": 480,
+      "competition": "MEDIUM",
+      "competition_index": 38,
+      "low_top_of_page_bid": 1.95,
+      "high_top_of_page_bid": 7.52,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 880
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 390
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence a modern approach textbook",
+      "avg_monthly_searches": 480,
+      "competition": "MEDIUM",
+      "competition_index": 55,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 880
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "cte teks",
+      "avg_monthly_searches": 480,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 480
+        }
+      ]
+    },
+    {
+      "keyword": "teks cte",
+      "avg_monthly_searches": 480,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 1300
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 480
+        }
+      ]
+    },
+    {
+      "keyword": "lesson plan ai",
+      "avg_monthly_searches": 260,
+      "competition": "HIGH",
+      "competition_index": 70,
+      "low_top_of_page_bid": 1.16,
+      "high_top_of_page_bid": 5.36,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 210
+        }
+      ]
+    },
+    {
+      "keyword": "chat gpt lesson plans",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 33,
+      "low_top_of_page_bid": 0.04,
+      "high_top_of_page_bid": 3.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence lesson plan",
+      "avg_monthly_searches": 260,
+      "competition": "HIGH",
+      "competition_index": 70,
+      "low_top_of_page_bid": 1.16,
+      "high_top_of_page_bid": 5.36,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 210
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt lesson plan",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 33,
+      "low_top_of_page_bid": 0.04,
+      "high_top_of_page_bid": 3.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "chatgpt lesson plans",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 33,
+      "low_top_of_page_bid": 0.04,
+      "high_top_of_page_bid": 3.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence a modern approach by russell & norvig",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 25,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 880
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 720
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "chat gpt lesson plan",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 33,
+      "low_top_of_page_bid": 0.04,
+      "high_top_of_page_bid": 3.58,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 390
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 390
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "russell & norvig ai a modern approach",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 17,
+      "low_top_of_page_bid": 1.0,
+      "high_top_of_page_bid": 7.63,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 210
+        }
+      ]
+    },
+    {
+      "keyword": "russell & norvig artificial intelligence a modern approach",
+      "avg_monthly_searches": 260,
+      "competition": "LOW",
+      "competition_index": 17,
+      "low_top_of_page_bid": 1.0,
+      "high_top_of_page_bid": 7.63,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 590
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 480
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 320
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 210
+        }
+      ]
+    },
+    {
+      "keyword": "cte curriculum",
+      "avg_monthly_searches": 210,
+      "competition": "LOW",
+      "competition_index": 24,
+      "low_top_of_page_bid": 2.58,
+      "high_top_of_page_bid": 7.57,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "career and technical education curriculum",
+      "avg_monthly_searches": 210,
+      "competition": "LOW",
+      "competition_index": 24,
+      "low_top_of_page_bid": 2.58,
+      "high_top_of_page_bid": 7.57,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 210
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 260
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 260
+        }
+      ]
+    },
+    {
+      "keyword": "ai for lesson plans",
+      "avg_monthly_searches": 90,
+      "competition": "MEDIUM",
+      "competition_index": 46,
+      "low_top_of_page_bid": 1.34,
+      "high_top_of_page_bid": 7.57,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 170
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 90
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "ai literacy curriculum",
+      "avg_monthly_searches": 50,
+      "competition": "MEDIUM",
+      "competition_index": 35,
+      "low_top_of_page_bid": 4.23,
+      "high_top_of_page_bid": 11.82,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 110
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 70
+        }
+      ]
+    },
+    {
+      "keyword": "ai generated lesson plans",
+      "avg_monthly_searches": 50,
+      "competition": "MEDIUM",
+      "competition_index": 40,
+      "low_top_of_page_bid": 2.26,
+      "high_top_of_page_bid": 12.34,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 210
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 140
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 40
+        }
+      ]
+    },
+    {
+      "keyword": "introduction to ai book",
+      "avg_monthly_searches": 40,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "low_top_of_page_bid": 2.97,
+      "high_top_of_page_bid": 14.73,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 40
+        }
+      ]
+    },
+    {
+      "keyword": "ai programming books",
+      "avg_monthly_searches": 30,
+      "competition": "MEDIUM",
+      "competition_index": 58,
+      "low_top_of_page_bid": 7.41,
+      "high_top_of_page_bid": 22.01,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "best ai textbook",
+      "avg_monthly_searches": 30,
+      "competition": "HIGH",
+      "competition_index": 78,
+      "low_top_of_page_bid": 3.49,
+      "high_top_of_page_bid": 8.69,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "best textbook for artificial intelligence",
+      "avg_monthly_searches": 30,
+      "competition": "HIGH",
+      "competition_index": 78,
+      "low_top_of_page_bid": 3.49,
+      "high_top_of_page_bid": 8.69,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 50
+        }
+      ]
+    },
+    {
+      "keyword": "best books on ai and machine learning",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "low_top_of_page_bid": 4.09,
+      "high_top_of_page_bid": 14.64,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "best books on machine learning and ai",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 54,
+      "low_top_of_page_bid": 4.09,
+      "high_top_of_page_bid": 14.64,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "best books for ai and machine learning",
+      "avg_monthly_searches": 20,
+      "competition": "MEDIUM",
+      "competition_index": 65,
+      "low_top_of_page_bid": 4.88,
+      "high_top_of_page_bid": 16.22,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "chat gpt for lesson plans",
+      "avg_monthly_searches": 20,
+      "competition": "LOW",
+      "competition_index": 25,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 40
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 30
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 50
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "stuart russell ai textbook",
+      "avg_monthly_searches": 20,
+      "competition": "HIGH",
+      "competition_index": 75,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 70
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "top machine learning books",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 21,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "best ai ml books",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 1,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "best books about ai and machine learning",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "best ai and ml books",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 86,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "cte online curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 42,
+      "low_top_of_page_bid": 3.1,
+      "high_top_of_page_bid": 8.91,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "a textbook of artificial intelligence",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai ay lesson plans",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai integrated lesson plan",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "ai phonics lesson plan",
+      "avg_monthly_searches": 10,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence a textbook",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 71,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "best textbook on artificial intelligence",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 57,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "career technical education curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 57,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "cram101 ai",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "peter norvig ai book",
+      "avg_monthly_searches": 10,
+      "competition": "MEDIUM",
+      "competition_index": 65,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 30
+        }
+      ]
+    },
+    {
+      "keyword": "technical education curriculum",
+      "avg_monthly_searches": 10,
+      "competition": "LOW",
+      "competition_index": 22,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 20
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 20
+        }
+      ]
+    },
+    {
+      "keyword": "the best book for machine learning",
+      "avg_monthly_searches": 10,
+      "competition": "HIGH",
+      "competition_index": 69,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 10
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 10
+        }
+      ]
+    },
+    {
+      "keyword": "artificial intelligence textbook by saroj kaushik",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": "NOVEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2025,
+          "month": "DECEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JANUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "FEBRUARY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MARCH",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "APRIL",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "MAY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JUNE",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "JULY",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "AUGUST",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "SEPTEMBER",
+          "searches": 0
+        },
+        {
+          "year": 2026,
+          "month": "OCTOBER",
+          "searches": 0
+        }
+      ]
+    },
+    {
+      "keyword": "teaching ai in high school",
+      "avg_monthly_searches": 0,
+      "competition": "UNSPECIFIED",
+      "competition_index": 0,
+      "low_top_of_page_bid": 0.0,
+      "high_top_of_page_bid": 0.0,
+      "monthly_searches": []
+    }
+  ]
+}

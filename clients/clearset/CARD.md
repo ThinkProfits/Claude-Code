@@ -35,6 +35,7 @@ updated: 2026-11-21
 | Portable sanitation page updates (2026-10-06) | [Clearset - Page Updates - Portable Sanitation.docx](<Clearset - Page Updates - Portable Sanitation.docx>) |
 | Coquitlam and Pitt Meadows location pages (drafted) | [Clearset - New Pages - Coquitlam and Pitt Meadows.docx](<Clearset - New Pages - Coquitlam and Pitt Meadows.docx>) |
 | First blog draft | [Clearset - Blog - Septic Repair Warning Signs.docx](<Clearset - Blog - Septic Repair Warning Signs.docx>) |
+| Blog revision of Sean's "How High Can a Vacuum Truck Lift?" (2026-11-21; Google Doc in Drive, reply to Andrew drafted) | [Google Doc](https://docs.google.com/document/d/1DeCliABcq1BnGFZMGNUYnD_O1sKFXI_gOeir2PdDD9k/edit) · [docx](<Clearset - Blog - How High Can a Vacuum Truck Lift.docx>) · [Slack draft](slack-reply-draft-2026-11-vacuum-truck-blog.md) · [internal notes](internal-notes/how-high-can-vacuum-truck-lift-notes.md) |
 | GBP handoffs | `gbp-handoffs/week-of-*/gbp-handoff__clearset_port_coquitlam__*` |
 | Semrush | project 10336170 |
 | Slack | #clearset · GBP approvals: #gbp-post-approvals |
