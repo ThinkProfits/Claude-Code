@@ -1,0 +1,362 @@
+=============== POST: 01-answer-first-content-without-faq-dumping.md ===============
+
+**Title tag:** Answer-First Content Without FAQ Dumping | ThinkProfits (55 characters)
+
+**Meta description:** Answer-first content puts the reply where readers and AI search look first. Learn to structure pages so sections stand alone, without bolting on 20 FAQs. (153 characters)
+
+**Slug:** `/digital-news/answer-first-content-without-faq-dumping/`
+
+**Primary keyword:** answer-first content
+
+**Secondary keywords:** answer engine optimization, AEO, AEO content, AI search optimization, FAQ schema, content structure for SEO, inverted pyramid writing, featured snippet optimization
+
+**Search intent:** Informational (how-to). Readers are marketers and business owners who want pages that answer questions cleanly for people, Google and AI tools, without padding them with FAQ blocks.
+
+**Category:** AI
+
+---
+
+# Answer-First Content Without FAQ Dumping: An AEO Guide
+
+> **Quick answer:** Answer-first content puts the direct reply to a page's main question in its opening lines, then makes every section lead with its own answer so it still makes sense when read alone. You do not need 20 FAQs to get there. In our experience, a page with clear, self-contained sections needs three to five genuine follow-up questions, and sometimes none.
+
+[IMAGE: Hero placeholder, ThinkProfits branded graphic | alt: Answer-first content page layout with the answer at the top of each section | file: /images/blog/wp/tp-branded-placeholder.jpg]
+
+A lot of pages we review have the same shape. Four paragraphs of warm-up, a product pitch, and then, near the footer, an accordion of 20 questions that hold the actual answers. Someone decided the page needed to "do AEO," and the FAQ block was the quickest way to tick the box.
+
+Answer-first content fixes the problem at the source: the reply comes first and every section can stand on its own. That helps the person skimming on a phone, and it gives Google and AI tools a clean passage to work with. This guide covers how we structure pages that way, which questions deserve an FAQ, and what to do with the bloated FAQ blocks already on your site. It is about writing and page structure, not markup.
+
+## What answer-first content means
+
+Answer-first content is a page where the most useful sentence comes before the context, not after it. Journalists call it the inverted pyramid. The idea is old; what has changed is how many places now read your page in fragments.
+
+A reader arriving from search wants to confirm, within a few seconds, that they are in the right place. An AI system summarizing a topic may pull one passage from your page and ignore the rest. In both cases, a section that saves its point for the end tends to get skipped.
+
+In practice, that means three rules:
+
+- **The page answers its main question near the top.** If the title asks "How long does a GBP verification take?", the first paragraph gives a timeframe, then explains what changes it.
+- **Each H2 opens with its own answer.** The first sentence under a heading should resolve the heading, so a reader who jumps straight to that section still gets the point.
+- **Context follows the answer.** Caveats, examples and the "it depends" detail come second, where they support the answer instead of delaying it.
+
+We covered the sentence-level side of this in our guide on [how to make content quotable by AI](/digital-news/how-to-make-content-quotable-by-ai/). This post is about the page as a whole.
+
+## Why FAQ dumping became a habit, and why it does not help
+
+FAQ dumping started with a reasonable idea. FAQ markup could once earn expandable rich results in Google, so a long FAQ block looked like extra space in the results. When AI search arrived, many sites added more questions in the hope of being quoted.
+
+Both reasons have weakened. Google has [removed the FAQ rich result](https://developers.google.com/search/updates#removing-faq-rich-result) entirely: its Search Central update log says the feature stopped appearing in Google Search starting May 7, 2026, and the documentation was taken down in June. On the AI side, Google's own guidance on [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features) says there are no special optimizations or schema needed to appear in AI Overviews or AI Mode.
+
+So a 20-question accordion is no longer a shortcut to anything. What it often does instead:
+
+- **It repeats the body.** When half the FAQs restate the H2s, the page gets longer without getting more useful.
+- **It buries original answers.** If the one useful answer sits at question 14 of a collapsed accordion, most visitors will never open it.
+- **It creates maintenance debt.** A price or timeframe that changes in the body but not in the FAQ leaves your page contradicting itself.
+
+## How to structure a page so every section stands alone
+
+A self-contained section is one a reader could land on from a jump link and understand without scrolling up. Here is the structure we use on service pages and guides:
+
+1. **Write the page's one-sentence answer before anything else.** If you cannot state it in one or two sentences, the page is not ready to draft. That sentence becomes the opening of the intro or quick answer block.
+2. **Turn each H2 into a question or a clear claim.** "Pricing" tells a reader nothing. "What a website rebuild costs and what changes the number" tells them what the section resolves, and makes a direct first sentence easier to write.
+3. **Make the first sentence under each H2 the answer.** Read only the first sentence of every section in order. If that skim reads like a sensible summary of the page, the structure works.
+4. **Name the subject in each section instead of saying "it" or "this."** A section that starts "This is why it matters" depends on the paragraph above. "Clean service-area pages matter because..." survives being quoted on its own.
+5. **Put supporting detail in tables and short lists.** Comparisons and specifications scan faster in a table, and they keep the answer sentence short.
+
+The page type still shapes the layout. A service page needs a scannable conversion layout and a blog post can carry more explanation, which we compare in our guide to [service pages, location pages and blog posts](/digital-news/service-page-location-page-blog-post/). The answer-first rule applies to both.
+
+## Which questions deserve an FAQ (and which do not)
+
+A question earns a place in the FAQ when it is real, it is a genuine follow-up to the page's topic, and it does not deserve a full section of its own.
+
+| Question type | Where it belongs | Example |
+|---|---|---|
+| Core question the page exists to answer | The quick answer and intro | The title question of this post |
+| Big subtopic needing steps or a table | Its own H2 | "How do I restructure an existing page?" |
+| Short, real follow-up with a specific answer | FAQ block | "Should a contact page have FAQs?" |
+| Question already answered in the body | Delete it | A reworded copy of an H2 |
+| Question nobody asks, written for keywords | Delete it | "Why is our service the best choice in Vancouver?" |
+
+Where do real questions come from? Your sales calls, contact form submissions, customer emails, reviews, and the search queries in Google Search Console are all better sources than a brainstorm. If you are testing how AI tools answer questions about your business, the prompts in your [AEO prompt testing dataset](/digital-news/aeo-prompt-testing-dataset/) are a good place to spot gaps too.
+
+As a working rule, we aim for three to five FAQs on a typical post and fewer on service pages. That is our house convention, not a Google requirement, and some pages need none at all.
+
+## How to fix a page that already has 20 FAQs
+
+You can fix a bloated FAQ block in an afternoon without rewriting the whole page: move every useful answer to where it belongs and remove the rest.
+
+1. **Export the FAQ list and tag each question.** Mark each one as "core," "section," "follow-up," "duplicate" or "filler" using the table above, which makes the next steps mechanical.
+2. **Promote the core and section questions into the body.** The core answer moves into the intro or quick answer. Section-sized questions become new H2s or get folded into existing ones, with the answer as the first sentence.
+3. **Delete duplicates and filler.** If the body answers it, or no customer has ever asked it, it goes. First check it held no fact found nowhere else on the page.
+4. **Keep three to five follow-ups and tighten them.** Each answer should run two to four sentences with at least one specific detail, such as a timeframe, a step or a named document.
+5. **Check any FAQ markup matches the visible page.** If your site outputs FAQPage structured data from the FAQ block, Google's guidance is that structured data should match the visible text. Removing questions from the page means they should leave the markup too.
+
+If the trimmed page now overlaps heavily with another post on your site, that is a sign to merge rather than keep both. Our walkthrough on [content consolidation without traffic loss](/digital-news/content-consolidation-without-traffic-loss/) covers how to do that safely.
+
+## What this approach will not do on its own
+
+Restructuring a page this way makes it clearer. It does not guarantee a featured snippet, an AI Overview mention or a citation in ChatGPT. Google says plainly on its AI features page that indexing and serving are not guaranteed even when a page meets every requirement.
+
+Answer-first writing also cannot fix a thin page. If the answer itself is generic, putting it first just makes the generic part easier to find. The pages that tend to get used have something specific to say: your actual process, real timeframes and the honest limits of what you offer. Structure gets that material seen; it cannot invent it.
+
+## Frequently asked questions
+
+### Is answer-first content the same as the inverted pyramid?
+
+They share the same core idea: lead with the most important information, then add detail. The difference is scope. The inverted pyramid describes a whole article, while answer-first content applies the rule at every level, so the page, each H2 and each FAQ answer all open with their point.
+
+### Do FAQs still help SEO now that Google removed FAQ rich results?
+
+Google stopped showing FAQ rich results in Search starting May 7, 2026, so FAQ markup no longer earns that visual feature. A short FAQ can still help readers by answering real follow-up questions on the page. Keep it if it answers questions the body does not cover, and cut it if it only repeats the body.
+
+### How long should an answer-first opening be?
+
+We aim for two to three sentences, roughly 40 to 60 words, for a quick answer block. Long enough to give a usable answer with one qualifier, short enough to read in a few seconds on a phone. If it needs a full paragraph of caveats, the page's main question is probably too broad.
+
+### Should service pages have FAQ sections?
+
+Some should, but keep them short. A service page works best with two to four FAQs covering real buying questions, such as timelines, what is included or what you need from the customer. Anything about how the service works belongs in the main body, where a reader comparing options will actually see it.
+
+## Want a second set of eyes on your pages?
+
+Most of this is editing discipline: answer the question, make each section stand alone and keep only the FAQs your customers actually ask. If you want to see where your current pages stand, run them through our [free SEO audit tool](/free-seo-audit-tool/) for a quick technical baseline. For a structured review of how your content reads to people and AI search, our [AEO services](/aeo-services/) and [content writing services](/content-writing-services/) teams can help you plan the rewrite.
+
+**[Book My Free Consultation](/contact/)**
+
+=============== POST: 02-search-terms-vs-keywords-google-ads.md ===============
+
+**Title tag:** Search Terms vs Keywords in Google Ads | ThinkProfits (53 characters)
+
+**Meta description:** Search terms vs keywords in Google Ads: what each one means, how match types connect them, and a weekly routine for cutting wasted spend with negatives. (152 characters)
+
+**Slug:** `search-terms-vs-keywords-google-ads`
+
+**Primary keyword:** search terms vs keywords
+
+**Secondary keywords:** search terms report, google ads search terms report, negative keywords, google ads negative keywords, negative keyword list, keyword match types, google ads match types, phrase match vs exact match
+
+**Search intent:** Informational with a practical how-to slant. Business owners and in-house marketers running Google Ads want to understand why their ads show for searches they never added, and how to control it.
+
+**Category:** PPC
+
+---
+
+# Search Terms vs Keywords in Google Ads: A Waste-Control Guide
+
+> **Quick answer:** In the search terms vs keywords question, a keyword is the word or phrase you add to an ad group, and a search term is what a person actually typed when your ad showed. Your keywords decide which auctions you can enter; the search terms report shows which ones you actually paid for. Reviewing it weekly and adding negatives is the most direct way to stop paying for the wrong clicks.
+
+[IMAGE: ThinkProfits branded placeholder | alt: Google Ads search terms report reviewed beside a keyword list | file: /images/blog/wp/tp-branded-placeholder.jpg]
+
+Plenty of Google Ads accounts have a tidy keyword list and a messy bill. Picture a Vancouver plumber bidding on "emergency plumber Vancouver" and "water heater repair." Open the search terms report and it is common to find clicks from people looking for plumbing apprenticeships, DIY videos or a plumbing supply store in Burnaby. Nobody added those searches. Google matched them anyway, because that is how keyword matching works.
+
+This guide explains search terms vs keywords in plain language: what each one is, how match types connect them, how to read the search terms report each week, and how to use negative keywords without strangling the campaign. If you want the deeper comparison of AI Max against exact and phrase match, we covered that separately in [our AI Max search term matching guide](/digital-news/ai-max-search-term-matching-vs-exact-phrase/). This post is the everyday waste-control routine underneath it.
+
+## Keywords are your instructions; search terms are what happened
+
+A keyword is an instruction you give Google, and a search term is the record of what Google did with it. Google's own definitions are short: a search term is "a word or set of words a person enters when searching," while a keyword is something an advertiser adds to an ad group ([Google Ads Help: About the search terms report](https://support.google.com/google-ads/answer/2472708)).
+
+The gap between the two is where budget goes missing. One keyword can match dozens of search terms, some excellent and some useless. Reading the two side by side is how you find that waste.
+
+| | Keyword | Search term |
+|---|---|---|
+| Who writes it | You (or your agency) | The person searching |
+| Where you see it | Keywords tab, inside an ad group | Search terms report, under Insights and reports |
+| What you control | Wording, match type, bid, which ad group it lives in | Nothing directly; you shape it with match types and negatives |
+
+## How match types decide which search terms you get
+
+Match type is the setting that controls how far Google can stretch a keyword into different search terms. Google's match type documentation lists three, and each wider one captures everything the narrower ones do, plus more.
+
+- **Broad match** (no symbols, and the default): ads can show on searches related to your keyword, which can be worded quite differently from it. It finds the most new search terms and creates the most cleanup work.
+- **Phrase match** ("quotation marks"): ads can show on searches that include the meaning of your keyword, including more specific versions. For service businesses it is often the middle ground.
+- **Exact match** ([square brackets]): ads can show on searches with the same meaning or intent as your keyword. That gives the most control, but "same meaning" still allows close variants, so exact match is not a guarantee of identical wording.
+
+For the phrase match vs exact match debate, the practical point is that neither means "only these words," so every match type needs a search terms review.
+
+## How to read the search terms report each week
+
+The search terms report is where you check whether your keywords are being interpreted the way you intended. In Google Ads, select Campaigns, then open Search terms under Insights and reports. We review it weekly for active lead-gen accounts, and log every change in a [weekly Google Ads change log](/digital-news/weekly-google-ads-change-log/) so results can be traced back to decisions.
+
+Here is the routine we follow:
+
+1. **Set the date range to the last 7 to 14 days and sort by cost.** Expensive irrelevant terms matter more than cheap ones, so start at the top. A term that cost real money every week is a fix; a one-off is a note.
+2. **Turn on the Keyword column.** Google notes this column does not show by default. It tells you which of your keywords triggered each search term, so you know whether the fix is a negative, a match type change or a keyword that belongs in another ad group.
+3. **Read the Match type column.** Google labels each row, for example "Exact match (close variant)" or "Broad match." If most of your waste comes from one broad keyword, tightening that keyword may do more than a long list of negatives.
+4. **Sort each term into one of three buckets.** Good terms that converted or look commercially strong can become keywords of their own. Irrelevant terms become negatives. Unclear terms get watched for another week before anyone acts.
+5. **Check conversions against lead quality, not just volume.** Some search terms produce form fills that never become jobs. If you track lead outcomes, as in our [Google Ads lead quality loop](/digital-news/google-ads-lead-quality-loop/), use that data here.
+
+## What the report does not show you
+
+The search terms report is not a complete list of every search you paid for. Google states that "some search terms that don't have enough query activity are omitted" from the report for privacy reasons.
+
+Search terms insights, a separate view, groups queries into themes and does include terms not shown in the report. According to Google's search terms insights help page, lower-spend queries and those without a clear category are bundled into "other search terms." That bucket tells you the spend exists, but not what the searches were.
+
+What this means in practice:
+
+- **You cannot negative-match what you cannot see.** For hidden queries, your main levers are match type choice, tighter ad group themes and a solid starter list of negatives built before launch.
+- **Treat a growing "other" share as a signal.** If it keeps climbing, broad keywords may be wandering, so test tighter match types in an experiment.
+
+## Using negative keywords without cutting good traffic
+
+Negative keywords tell Google which searches you do not want, and their matching rules differ from regular keywords in ways that catch people out, according to [Google's negative keyword documentation](https://support.google.com/google-ads/answer/2453972).
+
+- **Negative broad match** blocks your ad only when the search contains all of your negative terms, in any order. A negative of "free estimate" will not block "free plumbing quote."
+- **Negative phrase match** blocks searches containing your terms in the same order, even with extra words around them. This is usually the safest choice for clear junk phrases like "plumbing jobs" or "plumber salary."
+- **Negative exact match** blocks only that exact search. When you add a negative straight from the search terms report, Google adds it as negative exact match by default, which is often narrower than you intended.
+- **Negatives do not match close variants.** Google says negatives already account for casing and misspellings, but they will not cover plurals or synonyms, so add the singular, plural and alternative wordings you see in the report yourself.
+
+You can add negatives at the ad group level, the campaign level or through a shared negative keyword list. We keep universal exclusions such as "jobs," "careers," "course" and "DIY" in one list applied to every relevant campaign, and keep campaign-specific negatives local. One caution from Google itself: too many negatives can reduce reach. Before adding one, check it does not block a service you sell.
+
+## When the fix is the keyword, not the negative
+
+If one keyword keeps generating irrelevant terms week after week, adding negatives is treating the symptom. Structural fixes we often make:
+
+- **Split mixed-intent ad groups.** If "furnace repair" and "furnace installation" share an ad group, search terms for one service end up on ads and landing pages for the other. Separate ad groups let the ad match the search.
+- **Promote winning search terms to keywords.** A term that converts reliably deserves its own keyword, bid and ad copy.
+- **Check location before blaming keywords.** Some "irrelevant" clicks are really location problems, such as people searching from outside your service area. Our [Google Ads location targeting guide](/digital-news/google-ads-location-targeting-vancouver/) covers that check.
+- **Separate brand from non-brand.** Brand searches and generic searches behave very differently in the report, which is one reason we recommend [splitting brand and non-brand budgets](/digital-news/brand-nonbrand-google-ads-budget/).
+
+None of these changes guarantees lower costs or more leads. They make the spend easier to read, which makes later decisions better informed.
+
+## Frequently asked questions
+
+### What is the difference between search terms and keywords in Google Ads?
+
+A keyword is what you add to your ad group to tell Google which searches you want to target. A search term is the exact query someone typed before seeing your ad. One keyword can match many different search terms, which is why the search terms report is where you check what you actually paid for.
+
+### How often should I check the Google Ads search terms report?
+
+For an active lead-gen account, we review it weekly and sort by cost over the last 7 to 14 days. New campaigns and broad match campaigns deserve a closer look in their first few weeks; low-spend accounts can move to every two weeks once negatives are stable.
+
+### Why does my ad show for searches I never added as keywords?
+
+Broad and phrase match let Google show your ad on searches related to, or including the meaning of, your keyword. Even exact match covers searches with the same meaning or intent. Negatives and tighter match types narrow that.
+
+### Why are some search terms missing from the report?
+
+Google omits search terms that do not have enough query activity, to protect searcher privacy. Search terms insights includes those queries in its theme groupings, with low-spend queries bundled under "other search terms," but it does not reveal the individual searches.
+
+### Should I use negative exact or negative phrase match?
+
+For multi-word junk phrases such as "plumbing courses," negative phrase match is usually the safer choice, because it blocks that phrase with any extra words around it. For a single word like "jobs," negative broad and negative phrase behave the same way. Negative exact match blocks only that one search, and it is the default when you add a negative from the report, so check the match type before saving.
+
+## Stop paying for searches you never wanted
+
+The search terms vs keywords distinction comes down to intent versus reality. Keywords set your intentions, the search terms report shows what happened, and a weekly review with sensible negatives keeps the two close. Fix structure when the same waste keeps coming back.
+
+If you would like a second set of eyes on your account, our [PPC advertising team](/ppc-advertising/) is happy to talk it through. [Book My Free Consultation](/contact/) for a free 30-minute conversation about how your campaigns are set up and where waste usually hides in accounts like yours.
+
+=============== POST: 03-map-pack-vs-organic-rankings.md ===============
+
+**Title tag:** Map Pack vs Organic Rankings: How Vancouver Leads Arrive (56 characters)
+**Meta description:** Map pack vs organic: what drives each Google result, how to tell which one sends your Vancouver calls and form leads, and what to fix first on each side. (153 characters)
+**Slug:** `/digital-news/map-pack-vs-organic-rankings/`
+**Primary keyword:** map pack vs organic
+**Secondary keywords:** google map pack, local pack, google maps ranking, google 3 pack, local seo vs organic seo, google business profile insights, local search ranking factors, how to rank in google map pack
+**Search intent:** Informational with commercial undertones (local business owners and marketers working out which result type drives their leads and where to invest)
+**Category:** SEO
+
+---
+
+# Map Pack vs Organic Rankings: How Vancouver Leads Arrive
+
+> **Quick answer:** In the map pack vs organic debate, the two are separate result types with separate ranking logic. The map pack ranks Google Business Profiles on relevance, distance and prominence, while organic results rank web pages. Measure each on its own (Business Profile performance, a UTM-tagged profile link and Search Console) before you decide where to spend.
+
+[IMAGE: ThinkProfits branded placeholder | alt: Google search results page showing a local map pack above organic website listings | file: /images/blog/wp/tp-branded-placeholder.jpg]
+
+Search "plumber Burnaby" or "accountant Kitsilano" and Google usually shows two different things on the same page: a block of map listings and, below it, the regular list of websites. Most business owners lump them together as "our Google ranking," which is where the confusion starts. When you look at map pack vs organic results side by side, you are looking at two systems that reward different work and report leads in different places. A business can sit comfortably in the map pack and be invisible in organic results, or the reverse. This post explains what drives each one, how to see which one is actually sending calls and form fills, and what to fix first when one of them is underperforming for a Vancouver business.
+
+## Two result types, two sets of rules
+
+The first thing to settle in any map pack vs organic comparison is what is being ranked. The map pack ranks business profiles, while organic results rank individual web pages, and that changes what you optimize.
+
+Google states that local results are based mainly on three factors: relevance, distance and prominence. Relevance is how well your profile matches the search. Distance is how far your business is from the searcher or the location in the query. Prominence is how well known the business is, which Google ties to things like reviews, ratings and links from other websites. Google is also blunt that there is no way to request or pay for a better local ranking ([Google Business Profile Help: local ranking](https://support.google.com/business/answer/7091)).
+
+Organic results work at the page level. Google is deciding which page best answers the query, so the content, structure and technical health of that page matter, as do the signals pointing at your site overall. The organic list links to websites, not to your profile, so this is where your pages compete.
+
+| | Map pack | Organic results |
+|---|---|---|
+| What ranks | Your Google Business Profile | A specific page on your website |
+| Core signals | Relevance, distance, prominence (Google's stated local factors) | How well the page answers the query, plus site-wide signals |
+| Where proximity matters | Heavily, it shifts by searcher location | Less directly, though local queries still localize |
+| Main lead actions | Calls, directions, website clicks, messages | Form fills and calls from the landing page |
+| Where you measure it | Business Profile performance, UTM-tagged visits in GA4 | Search Console, GA4 landing pages |
+
+## Why distance makes map pack rankings feel unpredictable
+
+Distance is the factor you cannot optimize, and it is why map rankings look different from every phone. A searcher in Mount Pleasant and a searcher in North Vancouver can type the same query and see different businesses in the pack.
+
+This is why a single "we rank third on Google Maps" screenshot proves very little. It shows one location at one moment. To see the real spread, we use a geo-grid scan that checks rankings from many points across the service area; our guide to [reading a local SEO geo-grid report](/digital-news/local-seo-geo-grid-report-vancouver/) walks through how to interpret one without fooling yourself.
+
+In our experience, organic results are less sensitive to the searcher's exact position, so a well-built service page for "bookkeeping Vancouver" tends to hold its place more evenly across the city.
+
+## How to see which one sends calls and forms
+
+Set up measurement before changing anything. Here is the routine we use with clients.
+
+1. **Read Business Profile performance first.** In the profile's Performance section, Google reports calls (taps on the call button), website clicks, direction requests, messages and the search terms people used to find you, across Search and Maps ([Google Business Profile Help: performance](https://support.google.com/business/answer/9918094)). The searches data updates at the start of each month, and performance data is only available for verified profiles.
+2. **Tag the profile's website link with UTM parameters.** Add `utm_source`, `utm_medium` and `utm_campaign` to the website URL on your profile so GA4 can separate profile visits from regular organic visits. Without the tag, those visits typically blend into "google / organic" and the two channels become one number. Keep the values consistent and lowercase, because GA4 treats parameter values as case sensitive. Our post on [UTM parameters and canonicals for local SEO reporting](/digital-news/utm-parameters-canonicals-local-seo-reporting/) has a naming convention you can copy.
+3. **Use Search Console for the organic side.** The Performance report shows which queries and pages earn impressions and clicks for your website. Filter to service and location pages to see whether organic is doing real work or only ranking for your brand name.
+4. **Connect leads to the source.** In GA4, look at form submissions by session source and medium, and compare tagged profile sessions with untagged organic sessions. If calls matter, a call-tracking number on the website helps fill the gap that call-button counts leave.
+
+Once this is running for four to eight weeks, you usually have enough data to see which channel carries your leads.
+
+## What to fix when the map pack is the weak side
+
+If organic pages perform but the profile does not, the work is mostly on the profile and its reputation.
+
+- **Primary category and services:** the primary category is one of the clearest relevance signals you control. Match it to the work that pays the bills, not the broadest label available.
+- **Reviews and replies:** Google says more reviews and positive ratings can help local ranking. Our post on [reviews as local entity signals](/digital-news/reviews-local-entity-signals-vancouver/) explains how reviews feed the signals Google uses to understand a business.
+- **Consistent business facts:** your name, address, phone and hours should match across the profile, website and major directories. Google says complete and accurate information makes a business more likely to show in local results, and contradictions leave both Google and customers guessing which version is right.
+- **Profile activity:** posts, photos and updated services will not overpower distance, but they keep the profile complete and current. Our [guide to Google Business Profile posts](/digital-news/google-business-profile-posts-local-seo/) covers what posts can and cannot do.
+
+Be realistic about distance: an office in Richmond will rarely be a strong pack result for searchers in Coquitlam. That is a job for organic pages and, where it makes sense, paid search.
+
+## What to fix when organic is the weak side
+
+If the profile earns calls but the website barely appears, the problem is usually the pages themselves.
+
+- **One clear page per core service:** a single "Services" page listing everything rarely ranks for any of it. Our breakdown of [service pages vs location pages vs blog posts](/digital-news/service-page-location-page-blog-post/) explains which format fits which query.
+- **Location pages with real substance:** a page for each city you serve only helps if it says something specific about working there. Thin pages that swap the city name tend to compete with each other, which we cover in our post on [city landing page cannibalization](/digital-news/city-landing-page-cannibalization-search-console/).
+- **Technical basics:** pages need to be indexable, fast enough on mobile and linked from the rest of the site. A quick pass with our [free SEO audit tool](/free-seo-audit-tool/) flags the obvious blockers.
+
+Your website also feeds the map pack indirectly, since prominence includes links from other sites. And a weak landing page wastes the clicks your profile worked to earn.
+
+## Deciding where to spend first
+
+The right split in the map pack vs organic question depends on where your leads come from today and what your location allows. A few patterns we see often:
+
+- **Storefront or office businesses serving a tight radius**, such as dental clinics or salons, usually get most of their leads through the pack, so the profile and reviews deserve the first dollar.
+- **Service-area businesses covering Metro Vancouver**, like trades or cleaning companies, need organic pages to reach areas beyond their pin, because distance limits how far the pack travels.
+- **Professional services with longer research cycles**, such as lawyers or accountants, often see organic pages do the persuading even when the first touch was the profile.
+
+None of this guarantees a position in either result. What it does is stop you from fixing the wrong thing. If you want help reading your own numbers, our [local SEO services](/seo-services/local-seo/) cover both the profile and the pages, and our [reporting work](/digital-marketing-reporting/) ties each lead back to where it started.
+
+## Frequently asked questions
+
+### Is the Google map pack the same as organic search?
+
+No. The map pack lists Google Business Profiles and ranks them mainly on relevance, distance and prominence, according to Google. Organic results list web pages. They appear on the same results page, but a business can rank well in one and poorly in the other.
+
+### Does my website affect my map pack ranking?
+
+Indirectly, yes. Google describes prominence partly in terms of links from other websites, and your site is where most of those links point. The page your profile links to also decides whether profile visitors become leads.
+
+### How do I know if a lead came from Google Maps or organic search?
+
+Tag your profile's website link with UTM parameters (at minimum `utm_source`, `utm_medium` and `utm_campaign`) so GA4 reports those visits separately. Then compare form submissions from tagged and untagged sessions. For phone leads, check call-button taps in Business Profile performance and add call tracking on the website.
+
+### Why do I rank in the map pack at my office but not across town?
+
+Distance is one of Google's three main local factors, so the pack changes with the searcher's location. A geo-grid scan shows how far your visibility reaches; beyond that radius, organic service and location pages usually do the work.
+
+### Can I pay Google to rank higher in the map pack?
+
+No. Google states there is no way to request or pay for a better local ranking. Ads are a separate, paid placement and do not change your unpaid map pack position.
+
+## Measure first, then fix
+
+Most Vancouver businesses need both the map pack and organic results doing their part. Start by measuring: read your Business Profile performance, tag the profile link, check Search Console, and match leads to sources for a month or two. Then put effort where the data points, profile and reviews for pack gaps, service and location pages for organic gaps.
+
+Want a second set of eyes on your numbers? Book a free 30-minute consultation and we will talk through how you track leads today and which side looks like the better first investment. Prefer to start on your own? Run your site through our [free SEO audit tool](/free-seo-audit-tool/).
+
+**[Book My Free Consultation](/contact/)**
