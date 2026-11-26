@@ -14,6 +14,8 @@ updated: 2026-11-21
 
 **Water main + Vernon plan review:** Andrew hadn't reviewed it yet as of the 2026-11-03 scrum. He'll send comments.
 
+**Schema cleanup (found 2026-11-26):** 24 posts and pages have hand-pasted JSON-LD with the closed Leckie Rd address, an unknown phone number (778-403-4749) and a `sameAs` list of about 256 spam and competitor URLs. **Removed 2026-11-26** with Francis's OK; details and checks are in [schema-spam-cleanup-2026-11-26.md](schema-spam-cleanup-2026-11-26.md). Still open: the Privacy Policy text still gives the old Leckie Rd mailing address (needs Vision's OK to change), and the 22 URLs still need reindexing requests in Search Console.
+
 **Next step (sitewide fixes):** Get Andrew's approval on the wording fixes in the sitewide fix list (rebate paperwork, free consultation, install timeline, em dashes, plus the CTA rewording left from priority 1), then make them through the wp-vision MCP.
 
 **Blocked on client:** IAQ comparison-table details and pricing-range corrections. (Penticton and Summerland are still served, per Brent's 2026-10-20 email.)

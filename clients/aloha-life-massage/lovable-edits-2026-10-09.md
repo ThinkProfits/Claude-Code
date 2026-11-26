@@ -84,3 +84,15 @@ Booking site: https://AlohaLifeMassageAppointmentBooking.as.me/ . Acuity shows p
 - **7. Turn PPC back on**: needs someone with Google Ads access. No write access from Claude. Conversion tracking has been down about 90% year over year since June 2026, so fix tracking first or the campaign runs blind. Suggested budget US$5–20/day, depending on season and whether tracking is fixed. Keep the Hana/Nahiku/Wailuku/Kahului exclusions and the adult-intent negatives.
 - **11. Footer GBP reviews**: decision is a free widget (e.g. Trustindex). A team member creates the widget account and connects the GBP, then gives the embed code to Lovable to place in `#footer-reviews`. The hard-coded "240+ reviews" stays until then (GBP had 257 in Aug 2026).
 - Valentine's couples blog (`src/data/blog.ts`, slug `couples-massage-maui-valentines-in-room-guide`) still promotes couples and side-by-side massage and a "sunset slot". The wedding blog also says "couples massage the evening before". Needs a decision: rewrite or remove.
+
+## SEO safe fixes from the 2026-11-25 audit (sent 2026-11-25/26)
+
+Source: [new-site-seo-audit-2026-11-25.md](new-site-seo-audit-2026-11-25.md). Only fixes that need no client decision. Each was checked against its diff.
+
+| # | Batch | Commit | Verified |
+|---|---|---|---|
+| 1 | "Therapist" wording sweep: every standalone "therapist(s)" → "massage therapist(s)" / "massage therapists and estheticians" in 13 files. Review quotes, team role titles and "Shiatsu therapist father" left alone. | 9b1ef91 | Yes (diff read; no "massage massage" doubles) |
+| 2 | Schema/head clean-up: static DaySpa JSON-LD removed from index.html; meta keywords removed; favicon type fixed; all aggregateRating + Review markup removed (home, service areas, reviews); ServiceAreas/ServiceAreaDetail now use the shared businessLd; bundles Product → Service; NotFound gets title + noindex; footer tel:+1; optional `modifiedIsoDate` on posts. `noindex, nofollow` kept (pre-launch). Lovable also added AGENTS.md, roadmap.md and a metadata test. | d734235 | Yes |
+| 3 | Titles ≤60 chars (suffix "Aloha Life"), 3 meta descriptions, area H1 → "Mobile Massage in <Area>, Maui", Deep Tissue + Premium hub links, hub durations, "guaranteed" H2 removed, superlatives/area-scope fixes. Homepage H1 NOT changed (Shawn's call). Join Our Team and Retreats titles left long (not in scope). Two blog metaTitles are 61 characters. | fa98f89 | Yes (grep: no "guaranteed", area H1 + hub links present) |
+
+Not done (need decisions D1–D8 in the audit): prerender/SSR, server 301s, domain/NAP, forms, analytics, blog re-import, waxing, retreats.

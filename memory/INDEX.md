@@ -15,6 +15,10 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 
 ## Workflows and tools
 - [Lovable build manager role](lovable-build-manager-role.md): Claude owns briefs, design calls and QA for Lovable page builds; verify, don't relay
+- [From The Man (Grok Bot) inbox](from-the-man/README.md): notes from Francis's Grok Bot manager; at task start merge any new files into memory, then move them to `from-the-man/merged/`
+- [Grok Bot team](grok-bot-team.md): The Man and its bots (incl. Analytics & Search Data, SEO & AI Briefing, Task Tracker), publishing chain, 06:00 PHT daily digest, golden rule ThinkProfits-only, Claude briefs in E:\GrokBot\tasks\open, all-clients takeover is a later plan
+- [ThinkProfits site drafts by Grok](thinkprofits-site-drafts-grok.md): TP-3 blog refresh, TP-12, TP-15 approved but held; TP-9 waits on Shawn/Andrew; live-site rule breaks left for now
+- [ThinkProfits own GBP](thinkprofits-own-gbp.md): GBP Manager posts direct Mon/Wed/Fri, 24 posts approved 2026-11-25, 50 unpriced services, wording rules
 - [GBP brain/body split](gbp-brain-body-split.md): Claude researches and writes, Codex executes via handoff files in `gbp-handoffs/`
 - [GBP audit quota blocked](gbp-audit-quota-blocked.md): gbp-audit MCP is hard-blocked at 0 req/min and needs a Cloud Console fix
 - [Blog automation FAQ/accordion](blog-automation-faq-accordion-architecture.md): Make.com Google Doc to WordPress pipeline design
@@ -22,6 +26,9 @@ Durable facts and team rules, shared by everyone who uses this repo. One fact pe
 - [GSC MCP auth](gsc-mcp-thinkprofits-auth.md): signed in as the agency account; how to re-auth
 
 ## Standards (all clients)
+- [Citations standard](citations-standard.md): free only, Canada first, skip VPN sites, one-try CAPTCHA rule (open question), house NAP format
+- [Review replies are manual](review-replies-manual.md): bots never draft or post GBP review replies
+- [Logins handling](logins-handling.md): francis@ logins for Clearset only, never touch logins_inventory.json, vault only
 - [Monthly report replies](monthly-report-reply-standard.md): reply to every monthly report thread with short Done / Next bullets, never just "I'm on it" (Andrew, 2026-11-17)
 - [Blog topic cannibalization check](blog-topic-cannibalization-check.md): check existing content before pitching topics
 - [Blog fact-check standard](blog-fact-check-standard.md): source and verify every fact, link and client claim; match the tone the client already approved (Andrew, Oct 2026)
